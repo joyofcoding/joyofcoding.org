@@ -1,0 +1,205 @@
+/* Default element styling */
+
+body {
+  margin: 0px;
+  padding: 0px;
+  color: #333;
+}
+
+p {
+  font-weight: 300;
+  letter-spacing: 0.08em;
+}
+
+h1 {
+  font-weight: 300;
+  letter-spacing: 0.08em;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+}
+
+@font-face {
+  font-family: 'HeydingsIcons';
+  src: url('heydings_icons-webfont.eot');
+  src: url('heydings_icons-webfont.eot?#iefix') format('embedded-opentype'),
+       url('heydings_icons-webfont.woff') format('woff'),
+       url('heydings_icons-webfont.ttf') format('truetype'),
+       url('heydings_icons-webfont.svg#heydings_iconsregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+a:link { text-decoration: none; font-weight: bold; color: white; }
+a:hover { text-decoration: none; font-weight: bold; color: white; }
+a:active { text-decoration: none; font-weight: bold; color: white; }
+a:visited { text-decoration: none; font-weight: bold; color: white; }
+
+.container-fluid {
+  padding: 0;
+}
+
+/* Header */
+
+.header {
+  background: #333;
+  padding: 20px 50px;
+  color: white;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header p {
+  margin: 0;
+}
+
+.header .wip {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.header .wip:before {
+  font-family: 'HeydingsIcons';
+  content: 'G';
+  padding-right: 10px;
+  font-size: 24px;
+}
+
+/* Banner */
+
+.banner {
+  padding: 40px;
+}
+
+.banner .logo {
+  text-align: center;
+  min-width: 300px;
+}
+
+.banner .title {
+  padding-top: 30px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.banner .date {
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 10px;
+}
+
+.banner .date:before {
+  font-family: 'HeydingsIcons';
+  content: 'c';
+  padding-right: 10px;
+}
+
+.banner .location {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.banner .location:before {
+  font-family: 'HeydingsIcons';
+  content: 'H';
+  padding-right: 10px;
+}
+
+/* Conference teaser */
+
+.teaser {
+  padding: 20px 50px;
+  padding-top: 40px;
+  background: #333;
+  color: white;
+}
+
+.teaser .icon {
+  float: left;
+  padding-top: 30px;
+}
+
+.teaser abbr {
+  font-family: 'HeydingsIcons';
+  font-size: 70px;
+  font-weight: normal;
+}
+
+.teaser abbr.cometo {
+  color: rgb(174, 94, 114);
+}
+
+.teaser abbr.affordable {
+  color: rgb(98, 135, 159);
+}
+
+.teaser abbr.developers {
+  color: rgb(156, 169, 88);
+}
+
+.teaser p {
+  font-size: 13px;
+  padding-left: 90px;
+  margin-bottom: 20px;
+}
+
+.teaser h2 {
+  padding-left: 90px;
+  margin-top: 0;
+}
+
+/* Venue */
+
+.venue {
+  padding: 40px;
+  text-align: center;
+}
+
+.venue img {
+  border: 1px solid #333;
+  margin-bottom: 20px;
+}
+
+.venue h1 {
+  margin-bottom: 0;
+}
+
+/* Story of the conference */
+
+.story {
+  padding: 40px;
+  background: #333;
+  color: white;
+}
+
+.story h2 {
+  margin-top: 0;
+}
+
+/* Sponsors */
+
+.sponsors {
+  text-align: center;
+  padding: 40px;
+}
+
+/* Footer */
+
+.footer {
+  padding: 30px 40px;
+  background: #333;
+  color: white;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
