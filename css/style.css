@@ -11,6 +11,11 @@ p {
   letter-spacing: 0.08em;
 }
 
+ul li {
+  font-weight: 300;
+  letter-spacing: 0.08em;
+}
+
 h1 {
   font-weight: 300;
   letter-spacing: 0.08em;
@@ -34,10 +39,10 @@ h2 {
   font-style: normal;
 }
 
-a:link { text-decoration: none; font-weight: bold; color: white; }
-a:hover { text-decoration: none; font-weight: bold; color: white; }
-a:active { text-decoration: none; font-weight: bold; color: white; }
-a:visited { text-decoration: none; font-weight: bold; color: white; }
+a:link { text-decoration: none; font-weight: bold; color: #333; }
+a:hover { text-decoration: none; font-weight: bold; color: #333; }
+a:active { text-decoration: none; font-weight: bold; color: #333; }
+a:visited { text-decoration: none; font-weight: bold; color: #333; }
 
 .container-fluid {
   padding: 0;
@@ -156,6 +161,62 @@ a:visited { text-decoration: none; font-weight: bold; color: white; }
   margin-top: 0;
 }
 
+/* Speakers */
+
+.speakers {
+  padding: 0 40px 40px 40px;
+  text-align: center;
+}
+
+.speakers p {
+  font-size: 13px;
+}
+
+.speakers h2 {
+  margin-top: 40px;
+}
+
+.speakers img {
+  margin-top: 40px;
+  border: 1px solid #333;
+}
+
+.speakers .read-more a {
+  display: block;
+  padding-top: 10px;
+}
+
+.speakers .read-less a {
+  display: block;
+  padding-top: 10px;
+}
+
+.speakers .michael {
+  text-align: right;
+}
+
+.speakers .chad {
+  text-align: left;
+}
+
+/* Call for sessions */
+
+.callforsessions {
+  text-align: center;
+  padding: 40px;
+  background: #333;
+  color: white;
+}
+
+.callforsessions a {
+  color: white;
+}
+
+.callforsessions h1 {
+  font-size: 28px;
+  line-height: 28px;
+}
+
 /* Venue */
 
 .venue {
@@ -164,8 +225,8 @@ a:visited { text-decoration: none; font-weight: bold; color: white; }
 }
 
 .venue img {
-  border: 1px solid #333;
   margin-bottom: 20px;
+  border: 1px solid #333;
 }
 
 .venue h1 {
@@ -202,4 +263,20 @@ a:visited { text-decoration: none; font-weight: bold; color: white; }
 
 .footer p {
   margin: 0;
+}
+
+.footer a {
+  color: white;
+}
+
+/* Full callforsessions */
+
+.fullcallforsessions {
+  padding: 40px;
+}
+
+.fullcallforsessions .logo {
+  text-align: center;
+  min-width: 300px;
+  margin-bottom: 20px;
 }
