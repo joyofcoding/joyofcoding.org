@@ -137,16 +137,16 @@ iframe, object, embed {
 
 .banner .proposal {
   position: absolute;
-  top: 70px;
+  top: 130px;
   left: 0;
 }
 
 .banner .proposal a {
-  color: rgb(231, 227, 219);
+  color: #444;
 }
 
 .banner .proposal a:hover {
-  color: #444;
+  color: rgb(231, 227, 219);
 }
 
 .banner .proposal .text {
@@ -185,20 +185,24 @@ iframe, object, embed {
 
 .banner .ticket {
   position: absolute;
-  top: 130px;
+  top: 70px;
   left: 0;
 }
 
+.banner .ticket a {
+  color: rgb(231, 227, 219);
+}
+
 .banner .ticket a:hover {
-  color: rgb(109, 113, 114);
+  color: #444;
 }
 
 .banner .ticket .text {
   text-align: left;
   float: left;
   padding: 0 20px;
-  height: 40px;
-  background-color: rgb(156, 170, 175);
+  height: 60px;
+  background-color: #AE5E72;
 }
 
 .banner .ticket .text p {
@@ -206,18 +210,25 @@ iframe, object, embed {
   font-size: 18px;
   line-height: 18px;
   letter-spacing: 0.1em;
-  margin-top: 10px;
   margin-bottom: 5px;
   font-weight: normal;
+}
+
+.banner .ticket .text p.buy {
+  margin-top: 10px;
+}
+
+.banner .ticket .text p.deadline {
+  font-size: 12px;
 }
 
 .banner .ticket .arrow {
   width: 0; 
 	height: 0;
 	float: left;
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
-  border-left: 20px solid rgb(156, 170, 175);
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 30px solid #AE5E72;
 }
 
 /* Information */
