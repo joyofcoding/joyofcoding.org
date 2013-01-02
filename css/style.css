@@ -135,54 +135,6 @@ iframe, object, embed {
   }
 }
 
-.banner .proposal {
-  position: absolute;
-  top: 130px;
-  left: 0;
-}
-
-.banner .proposal a {
-  color: #444;
-}
-
-.banner .proposal a:hover {
-  color: rgb(231, 227, 219);
-}
-
-.banner .proposal .text {
-  text-align: left;
-  float: left;
-  padding: 0 20px;
-  height: 60px;
-  background-color: rgb(235, 156, 77);
-}
-
-.banner .proposal .text p {
-  font-family: "Monda";
-  font-size: 18px;
-  line-height: 18px;
-  letter-spacing: 0.1em;
-  margin-bottom: 5px;
-  font-weight: normal;
-}
-
-.banner .proposal .text p.submit {
-  margin-top: 10px;
-}
-
-.banner .proposal .text p.deadline {
-  font-size: 12px;
-}
-
-.banner .proposal .arrow {
-  width: 0; 
-	height: 0;
-	float: left;
-  border-top: 30px solid transparent;
-  border-bottom: 30px solid transparent;
-  border-left: 30px solid rgb(235, 156, 77);
-}
-
 .banner .ticket {
   position: absolute;
   top: 70px;
@@ -202,7 +154,7 @@ iframe, object, embed {
   float: left;
   padding: 0 20px;
   height: 60px;
-  background-color: #AE5E72;
+  background-color: rgb(235, 156, 77);
 }
 
 .banner .ticket .text p {
@@ -228,7 +180,7 @@ iframe, object, embed {
 	float: left;
   border-top: 30px solid transparent;
   border-bottom: 30px solid transparent;
-  border-left: 30px solid #AE5E72;
+  border-left: 30px solid rgb(235, 156, 77);
 }
 
 /* Information */
