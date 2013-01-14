@@ -16,7 +16,6 @@ $(document).ready(function() {
         type: 'ajax',
         wrapCSS: 'sessiondetails',
         closeEffect: 'none',
-        fitToView: false,
         maxWidth: '700px',
         padding: 40,
         href: 'sessions/' + clear(this.id) + '.html'
