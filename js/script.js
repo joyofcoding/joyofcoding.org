@@ -9,15 +9,17 @@ $(document).ready(function() {
 		return id.replace('-continued', '');
 	}
 
-  $('#sessiondetails').modal({
-    show: false
-  });
-
 	$('.workshop, .presentation')
 		.css('cursor', 'pointer')
 		.click(function() {
-      $('#sessiondetails .modal-body').load('sessions/' + clear(this.id) + '.html', function() { 
-        $('#sessiondetails').modal('show'); 
+      $.fancybox({
+        type: 'ajax',
+        wrapCSS: 'sessiondetails',
+        closeEffect: 'none',
+        fitToView: false,
+        maxWidth: '700px',
+        padding: 40,
+        href: 'sessions/' + clear(this.id) + '.html'
       });
     })
  		.hover(

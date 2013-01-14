@@ -156,7 +156,7 @@ iframe, object, embed {
 
 @media (max-width: 767px) {
   .banner img {
-    margin-top: 150px;
+    margin-top: 100px;
   }
 }
 
@@ -396,6 +396,7 @@ iframe, object, embed {
 }
 
 .schedule .slots p.title {
+  color: #555;
   font-family: "Monda";
   font-weight: normal;
   font-size: 16px;
@@ -405,22 +406,24 @@ iframe, object, embed {
 
 /* Session detais */
 
-.sessiondetails h2 {
-  margin-top: 20px;
+.sessiondetails h1 {
+  line-height: 36px;
 }
 
 .sessiondetails .speaker img {
   width: 100px;
   float: left;
   margin-top: 3px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .sessiondetails .speaker h3 {
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
-.sessiondetails .speaker p {
-  margin-left: 120px;
+.sessiondetails .fancybox-inner {
+  padding-right: 20px;
 }
 
 /* Venue */
