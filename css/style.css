@@ -40,6 +40,14 @@ h2 {
   letter-spacing: 0.08em;
 }
 
+h3 {
+  font-family: "Monda";
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+}
+
 a:link, a:active, a:visited, a:hover {
   font-family: "Arvo";
   letter-spacing: 0.08em;
@@ -75,6 +83,23 @@ iframe, object, embed {
 .span1 {
   min-height: 1px !important;
   height: 1px;
+}
+
+.modal {
+  width: 720px;
+  margin-left: -360px;
+}
+
+@media (max-width: 767px) {
+  .modal {
+    width: auto;
+    margin-left: 0;
+  }
+}
+
+.modal-body {
+  text-align: left;
+  padding: 40px;
 }
 
 /* Dividers */
@@ -289,6 +314,113 @@ iframe, object, embed {
 
 .speakers .chad {
   text-align: left;
+}
+
+/* Schedule */
+
+.schedule {
+  padding: 40px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .schedule .header {
+    display: none;
+  }
+}
+
+.schedule .slots {
+  overflow: hidden;
+  padding: 0;
+}
+
+@media (max-width: 767px) {
+  .schedule .slots {
+    overflow: visible;
+  }
+}
+
+.schedule .slots .slot {
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+
+@media (max-width: 767px) {
+  .schedule .slots .slot {
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+  }
+}
+
+.schedule .slots .presentation {
+  background-color: rgba(174, 94, 114, 0.1);
+}
+
+.schedule .slots .workshop {
+  background-color: rgba(98, 135, 159, 0.1);
+}
+
+.schedule .slots .continued {
+  margin-top: 0;
+}
+
+@media (max-width: 767px) {
+  .schedule .slots .continued {
+    display: none;
+  }
+}
+
+.schedule .slots .plenary {
+  background-color: rgba(156, 169, 88, 0.1);
+}
+
+.schedule .slots p.time {
+  color: #555;
+  font-family: "Monda";
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+
+  margin-top: 20px;
+}
+
+@media (max-width: 767px) {
+  .schedule .slots p.time {
+    position: absolute;
+    margin-left: 10px;
+  }
+}
+
+.schedule .slots p.title {
+  font-family: "Monda";
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+}
+
+/* Session detais */
+
+.sessiondetails h2 {
+  margin-top: 20px;
+}
+
+.sessiondetails .speaker img {
+  width: 100px;
+  float: left;
+  margin-top: 3px;
+}
+
+.sessiondetails .speaker h3 {
+  margin-top: 20px;
+}
+
+.sessiondetails .speaker p {
+  margin-left: 120px;
 }
 
 /* Venue */
