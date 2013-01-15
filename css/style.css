@@ -4,7 +4,7 @@ body {
   margin: 0px;
   padding: 0px;
   color: rgb(109, 113, 114);
-  
+
   background: url(../img/bgnoise.png) repeat top left;
 }
 
@@ -57,7 +57,7 @@ a:link, a:active, a:visited, a:hover {
   color: #444;
 }
 
-a:hover { 
+a:hover {
   color: rgb(156, 170, 175);
 }
 
@@ -65,7 +65,7 @@ img {
   border: 1px solid rgb(156, 170, 175);
 }
 
-iframe, object, embed { 
+iframe, object, embed {
   border: 1px solid rgb(156, 170, 175);
 }
 
@@ -200,7 +200,7 @@ iframe, object, embed {
 }
 
 .banner .ticket .arrow {
-  width: 0; 
+  width: 0;
 	height: 0;
 	float: left;
   border-top: 30px solid transparent;
@@ -473,13 +473,13 @@ iframe, object, embed {
   text-align: center;
 }
 
-.sponsors img { 
-  border: none; 
+.sponsors img {
+  border: none;
 }
 
-.sponsors a { 
-  color: rgb(156, 170, 175); 
-  font-weight: normal 
+.sponsors a {
+  color: rgb(156, 170, 175);
+  font-weight: normal
 }
 
 .sponsors h2 {
@@ -488,6 +488,28 @@ iframe, object, embed {
 
 .sponsors .silver img {
   max-width: 150px;
+}
+
+/* Press partners */
+
+.press-partners {
+  padding: 40px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.press-partners img {
+  border: none;
+}
+
+.press-partners img.shadow{
+  -moz-box-shadow: 0 0 2px 1px #888;
+  -webkit-box-shadow: 0 0 2px 1px#888;
+  box-shadow: 0 0 2px 1px #888;
+}
+
+.press-partners h2 {
+  margin: 30px 0;
 }
 
 /* Organisation */
