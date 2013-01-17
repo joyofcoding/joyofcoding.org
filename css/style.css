@@ -506,6 +506,11 @@ iframe, object, embed {
   margin-top: 50px;
 }
 
+.sponsors .press img {
+  max-width: 200px;
+  margin-bottom: 30px;
+}
+
 /* Organisation */
 
 .organisation {
