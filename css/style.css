@@ -488,8 +488,19 @@ iframe, object, embed {
   font-weight: normal
 }
 
+.sponsors h1 {
+  margin-bottom: 10px;
+}
+
 .sponsors h2 {
-  margin: 30px 0;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .sponsors h2 {
+    margin-top: 60px;
+  }
 }
 
 .sponsors .silver img {
@@ -500,15 +511,6 @@ iframe, object, embed {
   -moz-box-shadow: 0 0 2px 1px #888;
   -webkit-box-shadow: 0 0 2px 1px#888;
   box-shadow: 0 0 2px 1px #888;
-}
-
-.sponsors .press h2 {
-  margin-top: 50px;
-}
-
-.sponsors .press img {
-  max-width: 200px;
-  margin-bottom: 30px;
 }
 
 /* Organisation */
