@@ -322,31 +322,31 @@ iframe, object, embed {
   text-align: left;
 }
 
-/* Schedule */
+/* Program */
 
-.schedule {
+.program {
   padding: 40px;
   text-align: center;
 }
 
 @media (max-width: 767px) {
-  .schedule .header {
+  .program .header {
     display: none;
   }
 }
 
-.schedule .slots {
+.program .slots {
   overflow: hidden;
   padding: 0;
 }
 
 @media (max-width: 767px) {
-  .schedule .slots {
+  .program .slots {
     overflow: visible;
   }
 }
 
-.schedule .slots .slot {
+.program .slots .slot {
   padding: 10px 20px;
   margin-top: 10px;
   margin-bottom: -99999px;
@@ -354,36 +354,36 @@ iframe, object, embed {
 }
 
 @media (max-width: 767px) {
-  .schedule .slots .slot {
+  .program .slots .slot {
     margin-bottom: 0px;
     padding-bottom: 10px;
     padding-left: 80px;
   }
 }
 
-.schedule .slots .presentation {
+.program .slots .presentation {
   background-color: rgba(174, 94, 114, 0.1);
 }
 
-.schedule .slots .workshop {
+.program .slots .workshop {
   background-color: rgba(98, 135, 159, 0.1);
 }
 
-.schedule .slots .continued {
+.program .slots .continued {
   margin-top: 0;
 }
 
 @media (max-width: 767px) {
-  .schedule .slots .continued {
+  .program .slots .continued {
     display: none;
   }
 }
 
-.schedule .slots .plenary {
+.program .slots .plenary {
   background-color: rgba(156, 169, 88, 0.1);
 }
 
-.schedule .slots p.time {
+.program .slots p.time {
   color: #555;
   font-family: "Monda";
   font-weight: normal;
@@ -395,13 +395,13 @@ iframe, object, embed {
 }
 
 @media (max-width: 767px) {
-  .schedule .slots p.time {
+  .program .slots p.time {
     position: absolute;
     margin-left: 10px;
   }
 }
 
-.schedule .slots p.title {
+.program .slots p.title {
   color: #555;
   font-family: "Monda";
   font-weight: normal;
