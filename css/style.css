@@ -38,6 +38,7 @@ h2 {
   font-size: 20px;
   line-height: 20px;
   letter-spacing: 0.08em;
+  margin-top: 20px;
 }
 
 h3 {
@@ -296,10 +297,6 @@ iframe, object, embed {
   text-align: center;
 }
 
-.speakers h2 {
-  margin-top: 20px;
-}
-
 .speakers img {
   margin-top: 20px;
 }
@@ -447,10 +444,6 @@ iframe, object, embed {
   margin-top: 20px;
 }
 
-.venue h2 {
-  margin-top: 20px;
-}
-
 .venue .maassilo {
   text-align: left;
 }
@@ -469,6 +462,21 @@ iframe, object, embed {
 
 .venue .hotel p {
   padding-left: 120px;
+}
+
+/* Warm-up party */
+
+.party {
+  padding: 40px;
+  text-align: center;
+}
+
+.party img {
+  margin-top: 20px;
+}
+
+.party .invited, .dev {
+  text-align: left;
 }
 
 /* Sponsors */
