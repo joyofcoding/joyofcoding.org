@@ -425,6 +425,10 @@ iframe, object, embed {
   margin-top: 25px;
 }
 
+.sessiondetails .speaker p {
+	min-height: 25px;
+}
+
 .sessiondetails .fancybox-inner {
   padding-right: 20px;
 }
