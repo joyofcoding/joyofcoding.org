@@ -150,15 +150,23 @@ iframe, object, embed {
   padding: 40px;
 }
 
-.banner img {
+.banner img.logo {
   border: none;
   width: 400px;
 }
 
 @media (max-width: 767px) {
-  .banner img {
+  .banner img.logo {
     margin-top: 100px;
   }
+}
+
+.banner img.soldout {
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 26px;
+  width: 250px;
 }
 
 .banner .ticket {
