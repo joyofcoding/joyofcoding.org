@@ -91,13 +91,6 @@ iframe, object, embed {
   margin-left: -360px;
 }
 
-@media (max-width: 767px) {
-  .modal {
-    width: auto;
-    margin-left: 0;
-  }
-}
-
 .modal-body {
   text-align: left;
   padding: 40px;
@@ -153,12 +146,6 @@ iframe, object, embed {
 .banner img.logo {
   border: none;
   width: 400px;
-}
-
-@media (max-width: 767px) {
-  .banner img.logo {
-    margin-top: 100px;
-  }
 }
 
 .banner img.soldout {
@@ -334,21 +321,9 @@ iframe, object, embed {
   text-align: center;
 }
 
-@media (max-width: 767px) {
-  .program .header {
-    display: none;
-  }
-}
-
 .program .slots {
   overflow: hidden;
   padding: 0;
-}
-
-@media (max-width: 767px) {
-  .program .slots {
-    overflow: visible;
-  }
 }
 
 .program .slots .slot {
@@ -356,14 +331,6 @@ iframe, object, embed {
   margin-top: 10px;
   margin-bottom: -99999px;
   padding-bottom: 99999px;
-}
-
-@media (max-width: 767px) {
-  .program .slots .slot {
-    margin-bottom: 0px;
-    padding-bottom: 10px;
-    padding-left: 80px;
-  }
 }
 
 .program .slots .presentation {
@@ -376,12 +343,6 @@ iframe, object, embed {
 
 .program .slots .continued {
   margin-top: 0;
-}
-
-@media (max-width: 767px) {
-  .program .slots .continued {
-    display: none;
-  }
 }
 
 .program .slots .plenary {
@@ -397,13 +358,6 @@ iframe, object, embed {
   letter-spacing: 0.08em;
 
   margin-top: 20px;
-}
-
-@media (max-width: 767px) {
-  .program .slots p.time {
-    position: absolute;
-    margin-left: 10px;
-  }
 }
 
 .program .slots p.title {
@@ -426,7 +380,7 @@ iframe, object, embed {
   float: left;
   margin-top: 3px;
   margin-right: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .sessiondetails .speaker h3 {
@@ -517,12 +471,6 @@ iframe, object, embed {
   margin-bottom: 30px;
 }
 
-@media (max-width: 767px) {
-  .sponsors h2 {
-    margin-top: 60px;
-  }
-}
-
 .sponsors .silver img {
   max-width: 150px;
   max-height: 100px;
@@ -555,4 +503,77 @@ iframe, object, embed {
   border: 1px solid rgb(109, 113, 114);
   width: 75px;
   margin: 10px;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+
+  .filler {
+    display: none !important;
+  }
+
+  .banner img.logo {
+    margin-top: 100px;
+  }
+
+  .teaser {
+    display: none;
+  }
+
+  .speakers {
+    display: none;
+  }
+
+  .party {
+    padding: 30px 10px;
+  }
+
+  .program {
+    padding: 30px 10px;
+  }
+
+  .program .header {
+    display: none;
+  }
+
+  .program .slots {
+    overflow: visible;
+  }
+
+  .program .slots .slot {
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+  }
+
+  .program .slots .continued {
+    display: none;
+  }
+
+  .program .slots p.time {
+    position: absolute;
+    margin-left: 10px;
+  }
+
+  .sessiondetails .fancybox-skin {
+    padding: 10px !important;
+  }
+
+  .sessiondetails .fancybox-inner {
+    padding-right: 10px;
+  }
+
+  .sessiondetails h1 {
+    line-height: 24px;
+    font-size: 20px;
+  }
+
+  .venue {
+    padding: 30px 10px;
+  }
+
+  .sponsors h2 {
+    margin-top: 60px;
+  }
+
 }
