@@ -1,0 +1,162 @@
+/** Default elements */
+
+body {
+  color: white;
+}
+
+h1 {
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+h2 {
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  line-height: 40px;
+}
+
+p {
+  font-weight: 100;
+  letter-spacing: 0.23em;
+  line-height: 22px;
+}
+
+img {
+  width: 100%;
+}
+
+a:link, a:active, a:visited, a:hover {
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+  letter-spacing: 0.23em;
+  line-height: 22px;
+}
+
+a:hover {
+  color: rgb(156, 170, 175);
+}
+
+.block {
+  background-color:rgba(0, 0, 0, 0.8);
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
+.block h1, h2{
+  margin-top: 0px;
+}
+
+
+/** Banner */
+
+.banner {
+  background: url(../img/joyofcoding-1024.jpg) no-repeat left center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  padding: 75px 0;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .banner {
+    background: url(../img/joyofcoding-1600.jpg) no-repeat left center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1600px) {
+  .banner {
+    background: url(../img/joyofcoding-2560.jpg) no-repeat left center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+.banner img.logo {
+  max-width: 400px;
+  -webkit-filter: drop-shadow(0px 0px 50px #000);
+  filter: drop-shadow(0px 0px 50px #000);
+}
+
+.banner .hello h1, h2 {
+  text-shadow: 0 1px 10px rgba(0, 0, 0, .8);
+}
+
+
+/** Speakers */
+
+.speakers {
+  background: black;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.speakers img {
+  margin-top: 10px;
+}
+
+
+/** Location */
+
+.location {
+  background: url(../img/hulstkamp-1024.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  padding: 75px 0;
+}
+
+@media (min-width: 1024px) {
+  .location {
+    background: url(../img/hulstkamp-1600.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1600px) {
+  .location {
+    background: url(../img/hulstkamp-2560.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+
+/** Why */
+
+.why {
+  background: black;
+  padding: 50px 0;
+}
+
+.why .socialmedia a {
+  display: block;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.why .lastyear a {
+  display: block;
+  font-size: 14px;
+}
+
+.why .lastyear a i {
+  margin-right: 20px;
+}
