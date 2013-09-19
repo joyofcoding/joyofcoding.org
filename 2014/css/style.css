@@ -51,7 +51,7 @@ a:hover {
 /** Banner */
 
 .banner {
-  background: url(../img/joyofcoding-1024.jpg) no-repeat left center fixed; 
+  background: url(../img/joyofcoding-1024.jpg) no-repeat left center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -59,6 +59,12 @@ a:hover {
 
   padding: 75px 0;
   text-align: center;
+}
+
+@media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px) {
+  .banner {
+    background-attachment: scroll;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -116,6 +122,12 @@ a:hover {
   background-size: cover;
 
   padding: 75px 0;
+}
+
+@media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px) {
+  .location {
+    background-attachment: scroll;
+  }
 }
 
 @media (min-width: 1024px) {
