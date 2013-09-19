@@ -176,3 +176,19 @@ a:hover {
 .why .lastyear a i {
   margin-right: 20px;
 }
+
+
+/** Sponsors */
+
+.sponsors {
+  background: white;
+  text-align: center;
+  color: black;
+  padding: 50px 0;
+}
+
+.sponsors img {
+  max-width: 200px;
+  max-height: 50px;
+  width: auto;
+}
