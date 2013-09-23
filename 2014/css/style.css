@@ -68,20 +68,6 @@ a:hover {
   text-align: center;
 }
 
-@media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px) {
-  .banner {
-    -webkit-background-size: auto 100%;
-    background-attachment: scroll;
-  }
-}
-
-@media only screen and (orientation: landscape) and (device-width: 320px), (device-width: 768px) {
-  .banner {
-    -webkit-background-size: 100% auto;
-    background-attachment: scroll;
-  }
-}
-
 @media (min-width: 1024px) {
   .banner {
     background: url(../img/joyofcoding-1600.jpg) no-repeat left center fixed;
@@ -99,6 +85,20 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+}
+
+@media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px) {
+  .banner {
+    -webkit-background-size: auto 100%;
+    background-attachment: scroll;
+  }
+}
+
+@media only screen and (orientation: landscape) and (device-width: 320px), (device-width: 768px) {
+  .banner {
+    -webkit-background-size: 100% auto;
+    background-attachment: scroll;
   }
 }
 
@@ -157,20 +157,6 @@ a:hover {
   padding: 75px 0;
 }
 
-@media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px) {
-  .location {
-    -webkit-background-size: auto 100%;
-    background-attachment: scroll;
-  }
-}
-
-@media only screen and (orientation: landscape) and (device-width: 320px), (device-width: 768px) {
-  .location {
-    -webkit-background-size: 100% auto;
-    background-attachment: scroll;
-  }
-}
-
 @media (min-width: 1024px) {
   .location {
     background: url(../img/hulstkamp-1600.jpg) no-repeat center center fixed;
@@ -188,6 +174,20 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+}
+
+@media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px) {
+  .location {
+    -webkit-background-size: auto 100%;
+    background-attachment: scroll;
+  }
+}
+
+@media only screen and (orientation: landscape) and (device-width: 320px), (device-width: 768px) {
+  .location {
+    -webkit-background-size: 100% auto;
+    background-attachment: scroll;
   }
 }
 
