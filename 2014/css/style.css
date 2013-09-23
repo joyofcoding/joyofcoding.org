@@ -70,6 +70,14 @@ a:hover {
 
 @media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px) {
   .banner {
+    -webkit-background-size: auto 100%;
+    background-attachment: scroll;
+  }
+}
+
+@media only screen and (orientation: landscape) and (device-width: 320px), (device-width: 768px) {
+  .banner {
+    -webkit-background-size: 100% auto;
     background-attachment: scroll;
   }
 }
@@ -151,6 +159,14 @@ a:hover {
 
 @media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px) {
   .location {
+    -webkit-background-size: auto 100%;
+    background-attachment: scroll;
+  }
+}
+
+@media only screen and (orientation: landscape) and (device-width: 320px), (device-width: 768px) {
+  .location {
+    -webkit-background-size: 100% auto;
     background-attachment: scroll;
   }
 }
