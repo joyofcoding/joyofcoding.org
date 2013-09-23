@@ -15,6 +15,13 @@ h2 {
   line-height: 40px;
 }
 
+h3 {
+  font-weight: 100;
+  letter-spacing: 0.05em;
+  line-height: 36px;
+  margin-top: 0px;
+}
+
 p {
   font-weight: 100;
   letter-spacing: 0.23em;
@@ -108,7 +115,7 @@ a:hover {
 }
 
 .speakers img {
-  margin-top: 20px;
+  margin: 20px 0;
   max-width: 200px;
   border-radius: 100px;
   -webkit-border-radius: 100px;
@@ -175,6 +182,10 @@ a:hover {
 
 .why .lastyear a i {
   margin-right: 20px;
+}
+
+.why .about {
+  margin-top: 50px;
 }
 
 
