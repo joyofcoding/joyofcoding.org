@@ -22,7 +22,7 @@ h3 {
   margin-top: 0px;
 }
 
-p {
+p, li {
   font-weight: 100;
   letter-spacing: 0.23em;
   line-height: 22px;
@@ -110,6 +110,18 @@ a:hover {
 
 .banner .hello h1, .banner .hello h2 {
   text-shadow: 0 1px 10px rgba(0, 0, 0, .8);
+}
+
+.banner .callforsessions {
+  top: 0;
+  left: 100px;
+  position: absolute;
+}
+
+@media (max-width: 767px) {
+  .banner img.logo {
+    margin-top: 100px;
+  }
 }
 
 
@@ -247,4 +259,55 @@ a:hover {
 
 .sponsors .partners-img {
   margin-bottom: 70px;
+}
+
+
+/** Call for sessions */
+
+.cfs {
+  background: url(../img/coding-1024.jpg) no-repeat left center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  margin-top: 70px;
+}
+
+@media (min-width: 1024px) {
+  .cfs {
+    background: url(../img/coding-1600.jpg) no-repeat left center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1600px) {
+  .cfs {
+    background: url(../img/coding-2560.jpg) no-repeat left center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+@media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px) {
+  .cfs {
+    -webkit-background-size: auto 100%;
+    background-attachment: scroll;
+  }
+}
+
+@media only screen and (orientation: landscape) and (device-width: 320px), (device-width: 768px) {
+  .cfs {
+    -webkit-background-size: 100% auto;
+    background-attachment: scroll;
+  }
+}
+
+.cfs h2 {
+  margin-top: 40px;
 }
