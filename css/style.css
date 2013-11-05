@@ -112,16 +112,34 @@ a:hover {
   text-shadow: 0 1px 10px rgba(0, 0, 0, .8);
 }
 
-.banner .callforsessions {
-  top: 0;
-  left: 100px;
+.banner .actions {
+  top: 50px;
+  left: 0;
   position: absolute;
+}
+
+.banner .actions .block {
+	margin-bottom: 0px;
+	padding: 20px;
+}
+
+.banner .actions .tickets {
+	background-color: rgba(80, 80, 80, 0.8);
 }
 
 @media (max-width: 767px) {
   .banner img.logo {
-    margin-top: 100px;
+    margin-top: 200px;
   }
+
+	.banner .actions {
+		width: 100%;
+		top: 30px;
+	}
+
+	.banner .actions .block {
+		padding: 10px;
+	}
 }
 
 
