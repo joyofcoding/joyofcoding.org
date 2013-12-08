@@ -127,6 +127,10 @@ a:hover {
 	background-color: rgba(80, 80, 80, 0.8);
 }
 
+.banner .actions .tickets p:first-of-type {
+  margin-bottom: 0;
+}
+
 @media (max-width: 767px) {
   .banner img.logo {
     margin-top: 200px;
