@@ -307,6 +307,12 @@ a:hover {
   width: 800px;
 }
 
+@media (max-width: 767px) {
+  .session .modal-dialog {
+    width: 100%;
+  }
+}
+
 .session .modal-header {
   padding: 15px 30px;
 }
