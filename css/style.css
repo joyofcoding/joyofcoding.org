@@ -22,10 +22,17 @@ h3 {
   margin-top: 0px;
 }
 
-p, li {
+h4 {
   font-weight: 100;
-  letter-spacing: 0.23em;
-  line-height: 22px;
+  letter-spacing: 0.05em;
+  line-height: 26px;
+  margin-top: 0px;
+}
+
+p, li {
+  font-family: "Roboto";
+  font-weight: 100;
+  letter-spacing: 0.15em;
 }
 
 img {
@@ -104,8 +111,6 @@ a:hover {
 
 .banner img.logo {
   max-width: 400px;
-  -webkit-filter: drop-shadow(0px 0px 50px #000);
-  filter: drop-shadow(0px 0px 50px #000);
 }
 
 .banner .hello h1, .banner .hello h2 {
@@ -165,17 +170,187 @@ a:hover {
 }
 
 
-/** Schedule */
+/** Program */
 
-.schedule {
-  background: white;
-  text-align: center;
-  padding: 30px 0;
+.program {
+  background: url(../img/coding-1024.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  padding: 75px 0;
+  color: black;
 }
 
-.schedule h3, .schedule p {
-  font-weight: 200;
+@media (min-width: 1024px) {
+  .program {
+    background: url(../img/coding-1600.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1600px) {
+  .program {
+    background: url(../img/coding-2560.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+@media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px) {
+  .program {
+    -webkit-background-size: auto 100%;
+    background-attachment: scroll;
+  }
+}
+
+@media only screen and (orientation: landscape) and (device-width: 320px), (device-width: 768px) {
+  .program {
+    -webkit-background-size: 100% auto;
+    background-attachment: scroll;
+  }
+}
+
+.program p {
+  font-weight: 300;
+}
+
+.program h3, .program h4 {
+  font-weight: 400;
+  line-height: 1;
+}
+
+.program a:link, .program a:active, .program a:visited, .program a:hover {
   color: black;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.program a:hover {
+  color: rgb(156, 170, 175);
+}
+
+.program .slot {
+  padding: 0 15px;
+  overflow: hidden;
+}
+
+.program .tracks {
+  margin-bottom: 20px;
+}
+
+.program .workshop, .program .plenary, .program .presentation, .program .time, .program .keynote, .program .unconference {
+  padding-top: 15px;
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+
+.program .time {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.program .plenary {
+  background-color: rgba(80, 80, 80, 0.95);
+  color: white;
+}
+
+.program .unconference {
+  background-color: rgba(100, 100, 100, 0.95);
+  color: white;
+}
+
+.program .unconference h4 {
+  font-weight: 300;
+}
+
+.program .unconference a:link, .program .unconference a:active, .program .unconference a:visited {
+  color: white;
+}
+
+.program .unconference a:hover {
+  color: rgb(156, 170, 175);
+}
+
+.program .workshop {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.program .presentation {
+  background-color: rgba(220, 220, 220, 0.95);
+}
+
+.program .keynote {
+  background-color: rgba(200, 200, 200, 0.95);
+}
+
+@media (max-width: 767px) {
+  .program .continued {
+    display: none;
+  }
+}
+
+
+/** Session details */
+
+.session {
+  color: black;
+}
+
+.session .modal-dialog {
+  width: 800px;
+}
+
+.session .modal-header {
+  padding: 15px 30px;
+}
+
+.session .modal-body {
+  padding: 30px;
+}
+
+.session .speaker {
+  min-height: 190px;
+}
+
+.session .speaker img {
+  width: 150px;
+  float: left;
+  margin-top: 3px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+
+  border: 1px solid black;
+}
+
+.session .speaker h4 {
+  margin-top: 25px;
+}
+
+.session p {
+  font-weight: 300;
+}
+
+.session a {
+  color: black;
+}
+
+.session h3, .session h4 {
+  font-weight: 400;
+}
+
+
+/** Parties */
+
+.parties {
+  background: black;
+  padding: 50px 0;
 }
 
 
@@ -188,7 +363,7 @@ a:hover {
   -o-background-size: cover;
   background-size: cover;
 
-  padding: 75px 0;
+  padding: 50px 0;
 }
 
 @media (min-width: 1024px) {
@@ -222,6 +397,12 @@ a:hover {
   .location {
     -webkit-background-size: 100% auto;
     background-attachment: scroll;
+  }
+}
+
+@media (max-width: 767px) {
+  .location .pictures {
+    display: none;
   }
 }
 
