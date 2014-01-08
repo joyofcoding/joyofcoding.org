@@ -406,12 +406,6 @@ a:hover {
   }
 }
 
-@media (max-width: 767px) {
-  .location .pictures {
-    display: none;
-  }
-}
-
 
 /** Why */
 
@@ -424,6 +418,16 @@ a:hover {
   display: block;
   font-size: 30px;
   margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+  .why .socialmedia {
+    margin-bottom: 20px;
+  }
+
+  .why .socialmedia a {
+    display: inline;
+  }
 }
 
 .why .socialmedia i.icon-ok {
@@ -442,7 +446,7 @@ a:hover {
 }
 
 .why .about {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 
