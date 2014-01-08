@@ -95,16 +95,9 @@ a:hover {
   }
 }
 
-@media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px) {
+@media only screen (device-width: 320px), (device-width: 768px) {
   .banner {
     -webkit-background-size: auto 100%;
-    background-attachment: scroll;
-  }
-}
-
-@media only screen and (orientation: landscape) and (device-width: 320px), (device-width: 768px) {
-  .banner {
-    -webkit-background-size: 100% auto;
     background-attachment: scroll;
   }
 }
@@ -203,18 +196,16 @@ a:hover {
   }
 }
 
-@media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px) {
+@media only screen and (device-width: 320px), (device-width: 768px) {
   .program {
-    -webkit-background-size: auto 100%;
-    background-attachment: scroll;
+    background: white;
   }
-}
 
-@media only screen and (orientation: landscape) and (device-width: 320px), (device-width: 768px) {
-  .program {
-    -webkit-background-size: 100% auto;
-    background-attachment: scroll;
+  .program .workshop, .program .plenary, .program .presentation, .program .time, .program .keynote, .program .unconference {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
   }
+
 }
 
 .program p {
@@ -392,17 +383,9 @@ a:hover {
   }
 }
 
-@media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px) {
+@media only screen and (device-width: 320px), (device-width: 768px) {
   .location {
-    -webkit-background-size: auto 100%;
-    background-attachment: scroll;
-  }
-}
-
-@media only screen and (orientation: landscape) and (device-width: 320px), (device-width: 768px) {
-  .location {
-    -webkit-background-size: 100% auto;
-    background-attachment: scroll;
+    background: white;
   }
 }
 
