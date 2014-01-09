@@ -162,6 +162,12 @@ a:hover {
   -moz-border-radius: 100px;
 }
 
+@media (max-width: 767px) {
+	.speakers img, .speakers p {
+		display: none;
+	}
+}
+
 
 /** Program */
 
@@ -389,6 +395,12 @@ a:hover {
   }
 }
 
+@media (max-width: 767px) {
+	.location .pictures {
+		display: none;
+	}
+}
+
 
 /** Why */
 
@@ -487,6 +499,12 @@ a:hover {
 .organisation .contactus {
   text-align: center;
   margin-top: 30px;
+}
+
+@media (max-width: 767px) {
+	.organisation .members {
+		display: none;
+	}
 }
 
 
