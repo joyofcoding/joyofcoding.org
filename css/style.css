@@ -356,6 +356,15 @@ a:hover {
   padding: 50px 0;
 }
 
+.parties .issponsoredby {
+  margin-top: 30px;
+}
+
+.parties .issponsoredby img {
+  width: 200px;
+  margin-top: 10px;
+}
+
 
 /** Location */
 
