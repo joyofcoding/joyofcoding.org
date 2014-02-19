@@ -2,10 +2,36 @@
   <div class="modal-content">
     <div class="modal-header">
       <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-      <h3 class="modal-title">Erik Meijer</h3>
+      <h3 class="modal-title">Contravariance is the Dual of Covariance</h3>
     </div>
     <div class="modal-body">
-      <p>To be determined..</p>
+      <p>Every developer that has ever dealt with contra- and
+        covariance in Java or Scala shivers with fear when they have to
+        deal with these concepts in their code. Typically the solution
+        is to click, click, click, click on the
+        'suggested fix' by the IDE until the error messages finally
+        go away. All this panic is for nothing since at runtime all 
+        generics is erased anyway, and for this reason the Dart
+        language made all generic types covariant.</p>
+
+     <p>However, fear no more!</p>
+
+     <p>In this talk we will provide trauma recovery therapy for victims of
+        variance by explaining the concepts from first principles
+        using real world examples such as vending machines and
+        garbage cans. For additional fun, we will throw in
+        side-effects and show how the simplest possible covariant and
+        contra-variant types are nothing more than the primitive
+        collection types Iterator[+T] and Observer[-T]. Add the idea
+        of self-application, Iterator[Iterator[T] c.q.
+        Observer[Observer[T]], on top of that and we arrive at well
+        known types Iterable[+T] and Observable[+T] that we cannot
+        not live without.</p>
+
+     <p>And in case you wondered why Scala uses + for covariance and - for
+        contravariance, and why a contravariant type in a
+        contravariant position becomes a covariant type, well, that
+        is all part of the joy of coding.</p>
 
       <div class="speaker">
       	<h4>Erik Meijer</h4>
