@@ -220,7 +220,7 @@ a:hover {
 
 .program h3, .program h4 {
   font-weight: 400;
-  line-height: 1;
+  line-height: 20px;
 }
 
 .program a:link, .program a:active, .program a:visited, .program a:hover {
