@@ -238,8 +238,16 @@ a:hover {
   overflow: hidden;
 }
 
-.program .tracks {
-  margin-bottom: 20px;
+.program .tracks div {
+  padding-top: 25px;
+  height: 100px;
+
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.program .tracks h4 {
+  font-weight: 300;
 }
 
 .program .workshop, .program .plenary, .program .presentation, .program .time, .program .keynote, .program .unconference {
@@ -254,41 +262,52 @@ a:hover {
 }
 
 .program .plenary {
-  background-color: rgba(80, 80, 80, 0.95);
-  color: white;
+  background-color: rgba(200, 200, 200, 0.95);
 }
 
 .program .unconference {
-  background-color: rgba(100, 100, 100, 0.95);
-  color: white;
-}
-
-.program .unconference h4 {
-  font-weight: 300;
-}
-
-.program .unconference a:link, .program .unconference a:active, .program .unconference a:visited {
-  color: white;
-}
-
-.program .unconference a:hover {
-  color: rgb(156, 170, 175);
+  background-color: rgba(220, 220, 220, 0.95);
 }
 
 .program .workshop {
   background-color: rgba(255, 255, 255, 0.95);
 }
 
+.program .presentation a:link,
+.program .presentation a:active,
+.program .presentation a:visited,
+.program .keynote a:link,
+.program .keynote a:active,
+.program .keynote a:visited {
+  color: white;
+}
+
+.program .presentation a:hover,
+.program .keynote a:hover {
+  color: rgb(156, 170, 175);
+}
+
+.program .presentation h4,
+.program .keynote h3 {
+  font-weight: 300;
+}
+
 .program .presentation {
-  background-color: rgba(220, 220, 220, 0.95);
+  background-color: rgba(100, 100, 100, 0.95);
+  color: white;
 }
 
 .program .keynote {
-  background-color: rgba(200, 200, 200, 0.95);
+  background-color: rgba(80, 80, 80, 0.95);
+  color: white;
 }
 
 @media (max-width: 767px) {
   .program .continued {
+    display: none;
+  }
+
+  .program .tracks {
     display: none;
   }
 }
