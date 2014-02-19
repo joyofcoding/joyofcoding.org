@@ -351,12 +351,13 @@ a:hover {
   border: 1px solid black;
 }
 
-.session .speaker h4 {
+.session h4 {
   margin-top: 25px;
 }
 
 .session p {
   font-weight: 300;
+  letter-spacing: 0.1em;
 }
 
 .session a {
