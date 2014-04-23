@@ -122,10 +122,12 @@ a:hover {
 }
 
 .banner .actions .tickets {
+  text-align: left;
 	background-color: rgba(80, 80, 80, 0.8);
+  padding: 30px;
 }
 
-.banner .actions .tickets p:first-of-type {
+.banner .actions .tickets p {
   margin-bottom: 0;
 }
 
