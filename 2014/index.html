@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Joy of Coding</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A one-day conference that celebrates the art, craft, science but foremost the joy of software development">
+
+    <style type="text/css"></style>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-36101914-1']);
+      _gaq.push(['_setDomainName', 'joyofcoding.org']);
+      _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+
+  <body>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <div class="banner">
+      <div class="actions">
+        <div class="tickets block">
+          <h2>Thank you!</h2>
+          <p>videos <a href="http://www.infoq.com/joy-of-coding-2014/" target="_blank">on InfoQ</a></p>
+          <p>photos <a href="http://www.flickr.com/photos/joyofcoding/sets/72157642055047693/" target="_blank">on Flickr</a></p>
+          <p>slides <a href="https://speakerdeck.com/joyofcoding" target="_blank">on Speaker Deck</a></p>
+        </div>
+      </div>
+
+      <img src="img/logo.png" class="logo">
+      <div class="hello">
+        <h1>We are back!</h1>
+        <h2>Rotterdam (NL)<br>March 7th, 2014</h2>
+      </div>
+    </div>
+
+    <div class="speakers">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-xs-6">
+            <h2>Dan North</h2>
+            <img src="img/speakers/dannorth.jpg">
+            <p>Programmer and organizational change specialist, originator of <b>Behaviour-Driven Development (BDD)</b> and Deliberate Discovery</p>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <h2>Erik Meijer</h2>
+            <img src="img/speakers/erikmeijer.jpg">
+            <p>Computer scientist and entrepreneur, former head of Cloud Team at MS, <b>.NET</b>, Reactive programming and founder of Applied Duality</p>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <h2>Dick Wall</h2>
+            <img src="img/speakers/dickwall.jpg">
+            <p>Veteran Java developer, <b>Scala</b> trainer and consultant at Escalate Software, founder and co-host of the Java Posse</p>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <h2>Avdi Grimm</h2>
+            <img src="img/speakers/avdigrimm.jpg">
+            <p><b>Ruby</b> code hacker, Chief aeronaut at ShipRise, head chef at RubyTapas.com, and a Ruby Rogue</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="program">
+      <div class="container">
+        <div class="row slot tracks">
+          <div class="col-md-2">&nbsp;</div>
+          <div class="col-md-2"><h4>Rotterdam room</h4><p>Workshops</p></div>
+          <div class="col-md-2"><h4>Main hall</h4><p>Unconference</p></div>
+          <div class="col-md-2"><h4>Amsterdam room</h4><p>Workshops</p></div>
+          <div class="col-md-2"><h4>Branderij room</h4><p>Workshops</p></div>
+          <div class="col-md-2"><h4>Stokerij room</h4><p>Presentations</p></div>
+        </div>
+        <div class="row slot">
+          <div class="col-md-2 time"><p>8:30</p></div>
+          <div class="col-md-2 plenary continued">&nbsp;</div>
+          <div class="col-md-8 plenary"><h4>Registration</h4></div>
+        </div>
+        <div class="row slot">
+          <div class="col-md-2 time"><p>9:20 - 9:30</p></div>
+          <div class="col-md-8 presentation continued">&nbsp;</div>
+          <div class="col-md-2 presentation"><h4>Opening</h4></div>
+        </div>
+        <div class="row slot">
+          <div class="col-md-2 time"><p>9:30 - 10:20</p></div>
+          <div class="col-md-8 keynote continued">&nbsp;</div>
+          <div class="col-md-2 keynote"><a data-toggle="modal" href="sessions/dannorth.html" data-target="#session"><h3>Dan North</h3></a></div>
+        </div>
+        <div class="row slot">
+          <div class="col-md-2 time"><p>10:30 - 11:20</p></div>
+          <div class="col-md-2 workshop"><a data-toggle="modal" href="sessions/ianrobinson.html" data-target="#session"><h4>Let Me Graph That For You: An Introduction to Neo4j</h4></a><p>Ian Robinson</p></div>
+          <div class="col-md-2 unconference"><a data-toggle="modal" href="sessions/daanvanberkel.html" data-target="#session"><h4>Come fly with me</h4></a><p>Daan van Berkel</p></div>
+          <div class="col-md-2 workshop"><a data-toggle="modal" href="sessions/erikhooijmeijer.html" data-target="#session"><h4>Hack your own web-app</h4></a><p>Erik Hooijmeijer</p></div>
+          <div class="col-md-2 workshop"><a data-toggle="modal" href="sessions/sebrose.html" data-target="#session"><h4>Mutation testing for fun and profit</h4></a><p>Seb Rose, Markus Schirp and Henry Coles</p></div>
+          <div class="col-md-2 presentation"><a data-toggle="modal" href="sessions/avdigrimm.html" data-target="#session"><h4>MythBashers: An Adventure in Overlooked Technologies</h4></a><p>Avdi Grimm</p></div>
+        </div>
+        <div class="row slot">
+          <div class="col-md-2 time"><p>11:30 - 12:20</p></div>
+          <div class="col-md-2 workshop continued">&nbsp;</div>
+          <div class="col-md-2 unconference continued">&nbsp;</div>
+          <div class="col-md-2 workshop continued">&nbsp;</div>
+          <div class="col-md-2 workshop continued">&nbsp;</div>
+          <div class="col-md-2 presentation"><a data-toggle="modal" href="sessions/tijsvanderstorm.html" data-target="#session"><h4>Who's Afraid of Object Algebras?</h4></a><p>Tijs van der Storm</p></div>
+        </div>
+        <div class="row slot">
+          <div class="col-md-2 time"><p>12:30 - 13:30</p></div>
+          <div class="col-md-2 plenary continued">&nbsp;</div>
+          <div class="col-md-8 plenary"><h4>Lunch</h4></div>
+        </div>
+        <div class="row slot">
+          <div class="col-md-2 time"><p>13:30 - 14:20</p></div>
+          <div class="col-md-8 keynote continued">&nbsp;</div>
+          <div class="col-md-2 keynote"><a data-toggle="modal" href="sessions/erikmeijer.html" data-target="#session"><h3>Erik Meijer</h3></a></div>
+        </div>
+         <div class="row slot">
+          <div class="col-md-2 time"><p>14:30 - 15:20</p></div>
+          <div class="col-md-2 workshop"><a data-toggle="modal" href="sessions/vadimzaytsev.html" data-target="#session"><h4>The Day of the Master</h4></a><p>Vadim Zaytsev</p></div>
+          <div class="col-md-2 unconference"><a data-toggle="modal" href="sessions/daanvanberkel.html" data-target="#session"><h4>Come fly with me</h4></a><p>Daan van Berkel</p></div>
+          <div class="col-md-2 workshop"><a data-toggle="modal" href="sessions/marinaenwillem.html" data-target="#session"><h4>Say what you want not how</h4></a><p>Marina De Vos and Willem van den Ende</p></div>
+          <div class="col-md-2 workshop"><a data-toggle="modal" href="sessions/michelenmatthijs.html" data-target="#session"><h4>An Introduction to Actors and Concurrency</h4></a><p>Michel Rijnders and Matthijs Ooms</p></div>
+          <div class="col-md-2 presentation"><a data-toggle="modal" href="sessions/trishagee.html" data-target="#session"><h4>HTML5/angular.js/ Groovy/Java/ MongoDB all together - what could possibly go wrong?</h4></a><p>Trisha Gee</p></div>
+        </div>
+        <div class="row slot">
+          <div class="col-md-2 time"><p>15:30 - 16:20</p></div>
+          <div class="col-md-2 workshop continued">&nbsp;</div>
+          <div class="col-md-2 unconference continued">&nbsp;</div>
+          <div class="col-md-2 workshop continued">&nbsp;</div>
+          <div class="col-md-2 workshop continued">&nbsp;</div>
+          <div class="col-md-2 presentation"><a data-toggle="modal" href="sessions/ericbouwers.html" data-target="#session"><h4>The scientific programmer</h4></a><p>Eric Bouwers</p></div>
+        </div>
+        <div class="row slot">
+          <div class="col-md-2 time"><p>16:30 - 17:20</p></div>
+          <div class="col-md-8 keynote continued">&nbsp;</div>
+          <div class="col-md-2 keynote"><a data-toggle="modal" href="sessions/dickwall.html" data-target="#session"><h3>Dick Wall</h3></a></div>
+        </div>
+        <div class="row slot">
+          <div class="col-md-2 time"><p>17:30</p></div>
+          <div class="col-md-2 plenary continued">&nbsp;</div>
+          <div class="col-md-8 plenary"><h4>Drinks & snacks, sponsored by GitHub</h4></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="parties">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-md-offset-1">
+            <h2>Warm-up party</h2>
+            <p>On the evening before our conference kicks off you're all welcome to join the warm-up party, organized by our friends from <a href="http://www.meetup.com/010DEV/" target="_blank">010DEV</a>. Just like last year there will be free beer. Sponsored by <a href="http://www.mendix.com" target="_blank">Mendix</a>.</p>
+            <p>Pieter-Joost van de Sande will kick start the evening by introducing Go, the new programming language developed by Google. Our keynote speaker Dick Wall will follow with a talk on courage in software development.</p>
+            <p><a href="http://www.meetup.com/010DEV/events/167350562/" target="_blank">Sign-up for the party here</a></p>
+          </div>
+          <div class="col-md-4 col-md-offset-1">
+            <h2>After-party dinner</h2>
+            <p>So you thought you could just go back home right after the closing keynote? Not on our watch! You can join us and the speakers in an Indonesian restaurant for a lovely meal. This dinner will most probably be followed by a moderate beer consumption gathering in the center of Rotterdam.</p>
+            <p>The price for a complete Indonesian rice table and all of your drinks is 35 euro.</p>
+            <p><a href="http://joyofcoding.fikket.nl/event/after-party-joy-of-coding-2014" target="_blank">Buy your ticket here</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="location">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="block">
+              <h2>Venue</h2>
+              <p>Rotterdam knows the Hulstkamp Gebouw (1892) from their grandfather's stories as a proud landmark on the Noordereiland, which lies in the river Maas. Authentic and grand from the outside, contemporary and stylish inside. The building, one of the 518 national monuments of the city, has survived the history of Rotterdam.</p>
+            </div>
+            <div class="block">
+              <iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="//www.google.com/maps?t=m&amp;q=Hulstkamp+Gebouw&amp;dg=opt&amp;ie=UTF8&amp;hq=Hulstkamp+Gebouw&amp;hnear=&amp;ll=51.919603,4.48122&amp;spn=0.037056,0.051498&amp;z=13&amp;output=embed&iwloc=near"></iframe>
+            </div>
+          </div>
+          <div class="col-md-3 pictures">
+            <div class="block">
+              <img src="img/hulstkamp-buiten.jpg">
+            </div>
+            <div class="block">
+              <img src="img/hulstkamp-zaal.jpg">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="block">
+              <h2>How to get there</h2>
+              <p><b>Car:</b> get your car navigation and enter: Maaskade 120, Rotterdam. You can park in front of the the venue, for free.</p>
+              <p><b>Public transport:</b> travel to Rotterdam central station, take bus line 48 and get off at Koninginnebrug. From there it's only a <a href="https://www.google.com/maps/dir/Rotterdam,+Koninginnebrug,+Nederland/Hulstkamp+Gebouw,+Maaskade+120,+3071+NK+Rotterdam,+Nederland/@51.9126648,4.4920475,17z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x47c4336a22e34973:0xc0bc727f9020011c!2m2!1d4.496383!2d51.91312!1m5!1m1!1s0x47c43368519f48f1:0x5be1b2d23b1bf7da!2m2!1d4.492063!2d51.912681!3e2" target="_blank">small walk to the venue</a>. You can also take bus line 48 from train station Rotterdam Blaak.</p>
+              <p>If you stay at one of our conference hotels you can either walk to the venue or grab a taxi for a couple of euros.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="why">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-1 socialmedia">
+            <a href="http://facebook.com/joyofcoding" target="_blank"><i class="icon-facebook"></i></a>
+            <a href="http://twitter.com/joyofcoding" target="_blank"><i class="icon-twitter"></i></a>
+            <a href="http://lanyrd.com/2014/joyofcoding/" target="_blank"><i class="icon-ok"></i></a>
+          </div>
+          <div class="col-md-6">
+            <h3>A one-day conference that celebrates the art, craft, science but foremost the joy of software development</h3>
+          </div>
+          <div class="col-md-offset-1 col-md-3 lastyear">
+            <h2>2013</h2>
+            <a href="2013" target="_blank"><i class="icon-desktop"></i>website</a>
+            <a href="http://flickr.com/joyofcoding" target="_blank"><i class="icon-camera"></i>photos</a>
+            <a href="http://www.infoq.com/joy-of-coding-2013/" target="_blank"><i class="icon-facetime-video"></i>videos</a>
+          </div>
+        </div>
+        <div class="row about">
+          <div class="col-md-4">
+            <h2>It's fun</h2>
+            <p>Learn, find inspiration, play, improve your craft. Learn about new and emerging technologies. Get inspired by renowned international speakers. Pair with fellow passionate developers in one of the hands-on (un)sessions.</p>
+          </div>
+          <div class="col-md-4">
+            <h2>It's affordable</h2>
+            <p>Joy of Coding is a non-profit event. With the help of our sponsors we aimed to keep registration fees as low as possible to provide the best value-for-money conference that you will go to in 2014.</p>
+          </div>
+          <div class="col-md-4">
+            <h2>It's for developers</h2>
+            <p>This conference is organised by a bunch of developers. There is no commercial agenda, it's based purely on stuff that developers, like ourselves, would like to see. Expert speakers but no talking heads.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sponsors">
+      <div class="container">
+        <h2>Partners</h2> 
+        <div class="row">
+          <div class="col-md-4">
+            <a target="_blank" href="http://www.finalist.nl/"><img src="img/sponsors/finalist.png"></a>
+          </div>
+          <div class="col-md-4">
+            <a target="_blank" href="http://www.xebia.com/"><img src="img/sponsors/xebia.png"></a>
+          </div>
+          <div class="col-md-4">
+            <a target="_blank" href="http://www.codecentric.nl/"><img src="img/sponsors/codecentric.png"></a>
+          </div>
+        </div>
+        <h2>Sponsors</h2>
+        <div class="row">
+          <div class="col-md-2 col-md-offset-2">
+            <a target="_blank" href="http://www.42.nl/"><img src="img/sponsors/42.png"></a>
+          </div>
+          <div class="col-md-2">
+            <a target="_blank" href="http://www.tty.nl/"><img src="img/sponsors/tty.png"></a>
+          </div>
+          <div class="col-md-2">
+            <a target="_blank" href="http://www.jdriven.nl/"><img src="img/sponsors/jdriven.png"></a>
+          </div>
+          <div class="col-md-2">
+            <a target="_blank" href="http://www.codewise.nl/"><img src="img/sponsors/codewise.png"></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-md-offset-2">
+            <a target="_blank" href="http://www.lunatech.nl/"><img src="img/sponsors/lunatech.png"></a>
+          </div>
+          <div class="col-md-2">
+            <a target="_blank" href="http://www.marktplaats.nl/"><img src="img/sponsors/marktplaats.png"></a>
+          </div>
+          <div class="col-md-2">
+            <a target="_blank" href="http://www.elasticsearch.com/"><img src="img/sponsors/elasticsearch.png"></a>
+          </div>
+          <div class="col-md-2">
+            <a target="_blank" href="http://www.onehippo.com/en/hippo-power"><img src="img/sponsors/hippo.png"></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-md-offset-2">
+            <a target="_blank" href="http://www.qwan.it/"><img src="img/sponsors/qwan.png"></a>
+          </div>
+          <div class="col-md-2">
+            <a target="_blank" href="http://www.hoppinger.com/"><img src="img/sponsors/hoppinger.png"></a>
+          </div>
+          <div class="col-md-2">
+            <a target="_blank" href="http://www.github.com/"><img src="img/sponsors/github.png"></a>
+          </div>
+          <div class="col-md-2">
+            <a target="_blank" href="http://www.zilverline.com/"><img src="img/sponsors/zilverline.png"></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-md-offset-5">
+            <a target="_blank" href="http://www.mendix.com/"><img src="img/sponsors/mendix.jpg"></a>
+          </div>
+        </div>
+        <h2>Media partners</h2>
+        <div class="row">
+          <div class="col-md-2 col-md-offset-4">
+            <a target="_blank" href="http://www.devnology.nl/"><img src="img/sponsors/devnology.png"></a>
+          </div>
+          <div class="col-md-2">
+            <a target="_blank" href="http://www.infoq.com/"><img src="img/sponsors/infoq.png"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="organisation">
+      <div class="members">
+        <div class="member"><a href="http://twitter.com/agemooij" target="_blank"><img src="img/organisation/age.jpg"></a></div>
+        <div class="member"><a href="http://twitter.com/annagos" target="_blank"><img src="img/organisation/anna.jpg"></a></div>
+        <div class="member"><a href="http://twitter.com/arnetim" target="_blank"><img src="img/organisation/arne.jpg"></a></div>
+        <div class="member"><a href="http://twitter.com/felienne" target="_blank"><img src="img/organisation/felienne.png"></a></div>
+        <div class="member"><a href="http://twitter.com/freekl" target="_blank"><img src="img/organisation/freek.png"></a></div>
+        <div class="member"><a href="http://twitter.com/jacquesbouman" target="_blank"><img src="img/organisation/jacques.jpg"></a></div>
+        <div class="member"><a href="http://twitter.com/mamersfo" target="_blank"><img src="img/organisation/martin.jpg"></a></div>
+      </div>
+      <p class="contactus">Contact us: <a href="mailto:info@joyofcoding.org">info@joyofcoding.org</a></p>
+    </div>
+
+    <div class="modal session" id="session" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true"></div>
+  </body>
+</html>

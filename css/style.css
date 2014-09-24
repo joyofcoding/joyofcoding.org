@@ -34,6 +34,10 @@ p, li {
   font-weight: 100;
   letter-spacing: 0.15em;
 }
+ul{
+  list-style-type: none;
+  padding-left: 0;
+}
 
 img {
   width: 100%;
@@ -65,7 +69,7 @@ a:hover {
 /** Banner */
 
 .banner {
-  background: url(../img/joyofcoding-1024.jpg) no-repeat left center fixed;
+  background: url(../img/mainstage-640.jpg) no-repeat left center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -75,9 +79,19 @@ a:hover {
   text-align: center;
 }
 
+@media (min-width: 640px) {
+  .banner {
+    background: url(../img/mainstage-1024.jpg) no-repeat left center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
 @media (min-width: 1024px) {
   .banner {
-    background: url(../img/joyofcoding-1600.jpg) no-repeat left center fixed;
+    background: url(../img/mainstage-1600.jpg) no-repeat left center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -87,7 +101,7 @@ a:hover {
 
 @media (min-width: 1600px) {
   .banner {
-    background: url(../img/joyofcoding-2560.jpg) no-repeat left center fixed;
+    background: url(../img/mainstage-2560.jpg) no-repeat left center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -106,8 +120,9 @@ a:hover {
   max-width: 400px;
 }
 
-.banner .hello h1, .banner .hello h2 {
-  text-shadow: 0 1px 10px rgba(0, 0, 0, .8);
+.banner .hello h1, 
+.banner .hello h2 {
+  text-shadow: 0 2px 5px rgba(0, 0, 0, .9);
 }
 
 .banner .actions {
@@ -121,19 +136,9 @@ a:hover {
 	padding: 20px;
 }
 
-.banner .actions .tickets {
-  text-align: left;
-	background-color: rgba(80, 80, 80, 0.8);
-  padding: 30px;
-}
-
-.banner .actions .tickets p {
-  margin-bottom: 0;
-}
-
 @media (max-width: 767px) {
   .banner img.logo {
-    margin-top: 200px;
+    margin-top: 100px;
   }
 
 	.banner .actions {
@@ -147,276 +152,44 @@ a:hover {
 }
 
 
-/** Speakers */
-
-.speakers {
-  background: black;
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 50px;
-}
-
-.speakers img {
-  margin: 20px 0;
-  max-width: 200px;
-  border-radius: 100px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-}
-
-@media (max-width: 767px) {
-	.speakers img, .speakers p {
-		display: none;
-	}
-}
-
-
-/** Program */
-
-.program {
-  background: url(../img/coding-1024.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  padding: 75px 0;
-  color: black;
-}
-
-@media (min-width: 1024px) {
-  .program {
-    background: url(../img/coding-1600.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-}
-
-@media (min-width: 1600px) {
-  .program {
-    background: url(../img/coding-2560.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-}
-
-@media only screen and (device-width: 320px), (device-width: 768px) {
-  .program {
-    background: white;
-  }
-
-  .program .workshop, .program .plenary, .program .presentation, .program .time, .program .keynote, .program .unconference {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-  }
-
-}
-
-.program p {
-  font-weight: 300;
-}
-
-.program h3, .program h4 {
-  font-weight: 400;
-  line-height: 20px;
-}
-
-.program a:link, .program a:active, .program a:visited, .program a:hover {
-  color: black;
-  text-decoration: none;
-  font-weight: normal;
-}
-
-.program a:hover {
-  color: rgb(156, 170, 175);
-}
-
-.program .slot {
-  padding: 0 15px;
-  overflow: hidden;
-}
-
-.program .tracks div {
-  padding-top: 25px;
-  height: 100px;
-
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
-}
-
-.program .tracks h4 {
-  font-weight: 300;
-}
-
-.program .workshop, .program .plenary, .program .presentation, .program .time, .program .keynote, .program .unconference {
-  padding-top: 15px;
-  margin-bottom: -99999px;
-  padding-bottom: 99999px;
-}
-
-.program .time {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
-}
-
-.program .plenary {
-  background-color: rgba(200, 200, 200, 0.95);
-}
-
-.program .unconference {
-  background-color: rgba(220, 220, 220, 0.95);
-}
-
-.program .workshop {
-  background-color: rgba(255, 255, 255, 0.95);
-}
-
-.program .presentation a:link,
-.program .presentation a:active,
-.program .presentation a:visited,
-.program .keynote a:link,
-.program .keynote a:active,
-.program .keynote a:visited {
-  color: white;
-}
-
-.program .presentation a:hover,
-.program .keynote a:hover {
-  color: rgb(156, 170, 175);
-}
-
-.program .presentation h4,
-.program .keynote h3 {
-  font-weight: 300;
-}
-
-.program .presentation {
-  background-color: rgba(100, 100, 100, 0.95);
-  color: white;
-}
-
-.program .keynote {
-  background-color: rgba(80, 80, 80, 0.95);
-  color: white;
-}
-
-@media (max-width: 767px) {
-  .program .continued {
-    display: none;
-  }
-
-  .program .tracks {
-    display: none;
-  }
-}
-
-
-/** Session details */
-
-.session {
-  color: black;
-}
-
-.session .modal-dialog {
-  width: 800px;
-}
-
-@media (max-width: 767px) {
-  .session .modal-dialog {
-    width: 100%;
-  }
-}
-
-.session .modal-header {
-  padding: 15px 30px;
-}
-
-.session .modal-body {
-  padding: 30px;
-}
-
-.session .speaker {
-  min-height: 190px;
-}
-
-.session .speaker img {
-  width: 150px;
-  float: left;
-  margin-top: 3px;
-  margin-right: 20px;
-  margin-bottom: 5px;
-
-  border: 1px solid black;
-}
-
-.session h4 {
-  margin-top: 25px;
-}
-
-.session p {
-  font-weight: 300;
-  letter-spacing: 0.1em;
-}
-
-.session a {
-  color: black;
-}
-
-.session h3, .session h4 {
-  font-weight: 400;
-}
-
-
-/** Parties */
-
-.parties {
-  background: black;
-  padding: 50px 0;
-}
-
-.parties .issponsoredby {
-  margin-top: 30px;
-}
-
-.parties .issponsoredby img {
-  width: 200px;
-  margin-top: 10px;
-}
-
-
 /** Location */
 
 .location {
-  background: url(../img/hulstkamp-1024.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url(../img/rotterdam-1024.jpg) no-repeat center center fixed; 
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-color: #000;
 
-  padding: 50px 0;
+  padding: 100px 0;
+}
+
+.location .container{
+  background: rgba(0,0,0,.8);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 @media (min-width: 1024px) {
   .location {
-    background: url(../img/hulstkamp-1600.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: url(../img/rotterdam-1600.jpg) no-repeat center center fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-color: #000;
   }
 }
 
 @media (min-width: 1600px) {
   .location {
-    background: url(../img/hulstkamp-2560.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: url(../img/rotterdam-2560.jpg) no-repeat center center fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-color: #000;
   }
 }
 
@@ -425,13 +198,6 @@ a:hover {
     background: white;
   }
 }
-
-@media (max-width: 767px) {
-	.location .pictures {
-		display: none;
-	}
-}
-
 
 /** Why */
 
@@ -450,10 +216,6 @@ a:hover {
   .why .socialmedia {
     margin-bottom: 20px;
   }
-
-  .why .socialmedia a {
-    display: inline;
-  }
 }
 
 .why .socialmedia i.icon-ok {
@@ -462,12 +224,12 @@ a:hover {
   -o-transform:matrix(-1, 0, 0, 1, 0, 0);
 }
 
-.why .lastyear a {
+.why .previousedition a {
   display: block;
   font-size: 14px;
 }
 
-.why .lastyear a i {
+.why .previousedition a i {
   margin-right: 20px;
 }
 
@@ -483,6 +245,13 @@ a:hover {
   text-align: center;
   color: black;
   padding: 50px 0;
+}
+
+.sponsors a{
+  color: black;
+}
+.sponsors a:hover{
+  color: rgb(156, 170, 175);
 }
 
 .sponsors h2 {
@@ -536,55 +305,4 @@ a:hover {
 	.organisation .members {
 		display: none;
 	}
-}
-
-
-/** Call for sessions */
-
-.cfs {
-  background: url(../img/coding-1024.jpg) no-repeat left center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  margin-top: 70px;
-}
-
-@media (min-width: 1024px) {
-  .cfs {
-    background: url(../img/coding-1600.jpg) no-repeat left center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-}
-
-@media (min-width: 1600px) {
-  .cfs {
-    background: url(../img/coding-2560.jpg) no-repeat left center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-}
-
-@media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px) {
-  .cfs {
-    -webkit-background-size: auto 100%;
-    background-attachment: scroll;
-  }
-}
-
-@media only screen and (orientation: landscape) and (device-width: 320px), (device-width: 768px) {
-  .cfs {
-    -webkit-background-size: 100% auto;
-    background-attachment: scroll;
-  }
-}
-
-.cfs h2 {
-  margin-top: 40px;
 }
