@@ -377,14 +377,14 @@ img.attached {
     transform: translateZ(1px)
 }
 #left-front .frontface .art {
-    background-image: url("/html-open.png"), url("/rotterdam.png");
+    background-image: url("/img/html-open.png"), url("/img/rotterdam.png");
     background-position: 14px 9px, center 790px
 }
 #right-front .frontface .art {
-    background-image: url("/diskette.png"), url("/squid1.png");
+    background-image: url("/img/diskette.png"), url("/img/squid1.png");
     background-position: -109px 514px, 135% 241px
 }
 #right-front .backface .art {
-    background-image: url("/mushroom.png");
+    background-image: url("/img/mushroom.png");
     background-position: 30px 99.5%
 }
