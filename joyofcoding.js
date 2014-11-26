@@ -27,15 +27,17 @@
         i = Math.min(170, Math.max(6, s * speed));
         z = Math.min(6, 6 / (s * 0.02));
         x = 1 - Math.min(.95, Math.max(.2, s / 100));
-        return ['webkit', 'moz', 'ms', ''].map(function(r) {
+
+        var leftFront = $("#left-front");
+        var rightFront = $("#right-front");
+        var insidePages = $("#inside-pages .faded");
+        var bodyDiv = $("#body");
+
+        return ['webkit-', 'moz-', 'ms-',''].map(function(prefix) {
           var type;
-          type = r !== '' ? "-" + r + "-" : '';
-          $("#left-front").css("" + r + "transform", "rotateY(-" + i + "deg) translateZ(3px)");
-          $("#right-front").css("" + r + "transform", "rotateY(" + i + "deg) translateZ(3px)");
-          if (s > 0) {
-            $("#body").css("" + r + "transform", "rotateX(" + z + "deg)");
-          }
-          return $("#inside-pages .faded").css("opacity", x);
+          leftFront.css("" + prefix + "transform", "rotate3d(0,-1,0," + i + "deg) translate3d(0,0,3px)");
+          rightFront.css("" + prefix + "transform", "rotate3d(0,1,0," + i + "deg) translate3d(0,0,3px)");
+          return insidePages.css("opacity", x);
         });
       };
       

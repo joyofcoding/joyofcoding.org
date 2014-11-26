@@ -20,10 +20,12 @@ h1, h2, h3 {
 #body {
     position: relative;
     margin: 0 auto;
+    /*
     -webkit-transform: rotateX(6deg);
     -moz-transform: rotateX(6deg);
     -ms-transform: rotateX(6deg);
     transform: rotateX(6deg);
+    */
     -webkit-perspective: 7000px;
     -moz-perspective: 7000px;
     -ms-perspective: 7000px;
