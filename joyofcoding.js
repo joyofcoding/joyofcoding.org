@@ -46,6 +46,9 @@
         $(window).scroll(_.throttle(scrollHandler, 1000 / 60));
       }
       resizeHandler = function() {
+        if(s > 100)
+          return;
+
         return $("#body").toggleClass("hidefront", $(window).width() < 720);
       };
       $(window).resize(_.debounce(resizeHandler, 300));

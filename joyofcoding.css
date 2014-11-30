@@ -411,3 +411,21 @@ img.attached {
     background-image: url("/img/mushroom.png");
     background-position: 30px 99.5%
 }
+
+.image-small-layout{
+    display: none;
+}
+
+@media screen and (max-width: 720px) {
+    .image-small-layout{
+        display: block;
+        width: 400px;
+        padding-bottom: 1rem;
+    }
+    #venue .image-regular-layout{
+        display: none !important;
+    }
+  iframe{
+    width: 600px;
+  }
+}
