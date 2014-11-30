@@ -217,13 +217,27 @@ h1, h2, h3 {
     border: none;
     box-shadow: none
 }
-#inside-pages #speakers img, #inside-pages #members img {
+#inside-pages #speakers img, 
+#inside-pages #members img {
     width: 96px;
     height: 96px;
     border-radius: 50%;
     border: solid 5px #fff;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.4)
 }
+#inside-pages #speakers .keynote-speakers img{
+    width: 196px;
+    height: 196px;
+}
+#inside-pages #speakers a.no-underline{
+    border-bottom: 0px;
+    box-shadow: none;
+    text-decoration: none;
+}
+#inside-pages #speakers a.no-underline:visited{
+    text-decoration: none;
+}
+
 #inside-pages #speakers .col {
     text-align: center
 }
