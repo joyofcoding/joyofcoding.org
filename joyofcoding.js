@@ -4,15 +4,19 @@
       myNav = navigator.userAgent.toLowerCase();
       if (myNav.indexOf('msie') !== -1) {
         return parseInt(myNav.split('msie')[1]);
-      } else {
-        return false;
       }
+
+      if(myNav.indexOf('rv:') !== -1){
+        return parseInt(myNav.split('rv:')[1]);
+      }
+
+      return false;
     };
 
     /* do not show the front for IE < 11 */
     $(document).ready(function() {
       var ie = isIE();
-      if(ie || (ie && ie < 11)){
+      if(ie){//} || (ie && ie < 11)){
         $("#body").addClass("hidefront");
       }
     });
@@ -46,7 +50,7 @@
         $(window).scroll(_.throttle(scrollHandler, 1000 / 60));
       }
       resizeHandler = function() {
-        if(s > 100)
+        if($(window).scrollTop() > 100)
           return;
 
         return $("#body").toggleClass("hidefront", $(window).width() < 720);
