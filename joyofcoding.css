@@ -406,7 +406,7 @@ img.attached {
 #body.hidefront .cols, 
 #body.hidefront .col, 
 #body.hidefront #members .members {
-    display: block
+    xdisplay: block
 }
 #body.hidefront #members {
     margin: 5rem 0 0 0

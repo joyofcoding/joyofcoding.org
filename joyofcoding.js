@@ -16,7 +16,8 @@
     /* do not show the front for IE < 11 */
     $(document).ready(function() {
       var ie = isIE();
-      if(ie){//} || (ie && ie < 11)){
+      //if((ie && ie < 11)){
+      if((ie)){
         $("#body").addClass("hidefront");
       }
     });
