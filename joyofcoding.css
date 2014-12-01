@@ -35,35 +35,6 @@ h1, h2, h3 {
     -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
-#body.hidefront {
-    margin: -2rem;
-    -webkit-transform: rotateX(0);
-    -moz-transform: rotateX(0);
-    -ms-transform: rotateX(0);
-    transform: rotateX(0);
-}
-#body.hidefront .section h2 {
-    padding: 0;
-    margin-left: 0;
-    margin-right: 0
-}
-#body.hidefront .folded-page, #body.hidefront .faded {
-    display: none
-}
-#body.hidefront .cols, #body.hidefront .col, #body.hidefront #members .members {
-    display: block
-}
-#body.hidefront #members {
-    margin: 5rem 0 0 0
-}
-#body.hidefront #inside-pages {
-    padding: 1rem;
-    box-shadow: none
-}
-#body.hidefront #partners .logo img {
-    max-height: 30px;
-    max-width: 100%
-}
 #inside-pages {
     padding: 3rem;
     box-shadow: inset 0 0 0 5px #fff;
@@ -415,6 +386,41 @@ img.attached {
 .image-small-layout{
     display: none;
 }
+
+
+#body.hidefront {
+    margin: -2rem;
+    -webkit-transform: rotateX(0);
+    -moz-transform: rotateX(0);
+    -ms-transform: rotateX(0);
+    transform: rotateX(0);
+}
+#body.hidefront .section h2 {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0
+}
+#body.hidefront .folded-page, #body.hidefront .faded {
+    display: none
+}
+#body.hidefront .cols, 
+#body.hidefront .col, 
+#body.hidefront #members .members {
+    display: block
+}
+#body.hidefront #members {
+    margin: 5rem 0 0 0
+}
+#body.hidefront #inside-pages {
+    padding: 1rem;
+    box-shadow: none
+}
+#body.hidefront #partners .logo img {
+    max-height: 30px;
+    max-width: 100%
+}
+
+
 
 @media screen and (max-width: 720px) {
     .image-small-layout{
