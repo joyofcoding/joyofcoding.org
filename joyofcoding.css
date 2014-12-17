@@ -39,6 +39,7 @@ h1, h2, h3 {
 }
 #inside-pages .section p, 
 #inside-pages .section li, 
+#inside-pages .section h1, 
 #inside-pages .section h2, 
 #inside-pages .section h3 {
     color: #fff;
@@ -110,6 +111,18 @@ h1, h2, h3 {
 #inside-pages .cols .col .cta .button:hover {
     background-color: #ff0
 }
+#intro {
+  text-align: center;
+  padding-top: 2rem;
+}
+#intro img{
+    margin-bottom: 2rem;
+    max-width:100%;
+}
+#intro div{
+    text-align: left;
+}
+
 #inside-pages #reasons .img {
     height: 250px;
     display: -webkit-flex;
@@ -423,7 +436,7 @@ img.attached {
     #intro-hidefront img{
         max-width: 100%;
     }
-    
+
 @media screen and (max-width: 720px) {
     .image-small-layout{
         display: block;
