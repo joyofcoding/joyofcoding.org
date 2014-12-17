@@ -437,15 +437,15 @@ img.attached {
         max-width: 100%;
     }
 
+#venue img{
+    max-width: 100%;
+}
+
 @media screen and (max-width: 720px) {
     .image-small-layout{
         display: block;
         width: 400px;
         padding-bottom: 1rem;
-    }
-    
-    #venue .image-regular-layout{
-        display: none !important;
     }
     
     iframe{
