@@ -20,12 +20,6 @@ h1, h2, h3 {
 #body {
     position: relative;
     margin: 0 auto;
-    /*
-    -webkit-transform: rotateX(6deg);
-    -moz-transform: rotateX(6deg);
-    -ms-transform: rotateX(6deg);
-    transform: rotateX(6deg);
-    */
     -webkit-perspective: 7000px;
     -moz-perspective: 7000px;
     -ms-perspective: 7000px;
@@ -131,6 +125,10 @@ h1, h2, h3 {
     -ms-justify-content: center;
     justify-content: center;
 }
+#inside-pages .inline-logo{
+    width: 50px;
+}
+
 #inside-pages #intro .img img {
     max-width: 80%
 }
@@ -252,7 +250,8 @@ h1, h2, h3 {
 .folded-page .logo {
     max-width: 100%
 }
-.folded-page .frontface, .folded-page .backface {
+.folded-page .frontface, 
+.folded-page .backface {
     box-sizing: border-box;
     padding: 3rem;
     background: #fff;

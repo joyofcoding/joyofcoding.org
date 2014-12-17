@@ -1,23 +1,25 @@
-﻿(function() {
-  var isIE = function() {
-      var myNav;
-      myNav = navigator.userAgent.toLowerCase();
-      if (myNav.indexOf('msie') !== -1) {
-        return parseInt(myNav.split('msie')[1]);
-      }
+﻿(function(Modernizr, win){
+    Modernizr.addTest('csstransformspreserve3d', function () {
 
-      if(myNav.indexOf('rv:') !== -1){
-        return parseInt(myNav.split('rv:')[1]);
-      }
+        var prop = Modernizr.prefixed('transformStyle');
+        var val = 'preserve-3d';
+        var computedStyle;
+        if(!prop) return false;
 
-      return false;
-    };
+        prop = prop.replace(/([A-Z])/g, function(str,m1){ return '-' + m1.toLowerCase(); }).replace(/^ms-/,'-ms-');
 
-    /* do not show the front for IE < 11 */
+        Modernizr.testStyles('#modernizr{' + prop + ':' + val + ';}', function (el, rule) {
+            computedStyle = win.getComputedStyle ? getComputedStyle(el, null).getPropertyValue(prop) : '';
+        });
+
+        return (computedStyle === val);
+    });
+}(Modernizr, window));
+
+(function() {
+    /* do not show the 3d transforms for browsers which do not support it */
     $(document).ready(function() {
-      var ie = isIE();
-      //if((ie && ie < 11)){
-      if((ie)){
+      if(!Modernizr.csstransformspreserve3d){
         $("#body").addClass("hidefront");
       }
     });
@@ -46,7 +48,7 @@
         });
       };
       
-      if ($(window).width() > 720 && !isIE()) {
+      if ($(window).width() > 720 && Modernizr.csstransformspreserve3d) {
         $(window).on('gesturechange', _.throttle(scrollHandler, 1000 / 60));
         $(window).scroll(_.throttle(scrollHandler, 1000 / 60));
       }
