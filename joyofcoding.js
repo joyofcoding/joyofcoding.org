@@ -48,17 +48,21 @@
         });
       };
       
+      // fixups if we have a small screen
       if ($(window).width() > 720 && Modernizr.csstransformspreserve3d) {
         $(window).on('gesturechange', _.throttle(scrollHandler, 1000 / 60));
         $(window).scroll(_.throttle(scrollHandler, 1000 / 60));
       }
+      
       resizeHandler = function() {
         if($(window).scrollTop() > 100)
           return;
 
         return $("#body").toggleClass("hidefront", $(window).width() < 720);
       };
+      
       $(window).resize(_.debounce(resizeHandler, 300));
+      
       if ($(window).width() < 720) {
         return $("#body").addClass("hidefront");
       }

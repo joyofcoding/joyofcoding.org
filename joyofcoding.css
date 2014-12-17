@@ -110,7 +110,7 @@ h1, h2, h3 {
 #inside-pages .cols .col .cta .button:hover {
     background-color: #ff0
 }
-#inside-pages #intro .img {
+#inside-pages #reasons .img {
     height: 250px;
     display: -webkit-flex;
     display: -moz-flex;
@@ -420,19 +420,24 @@ img.attached {
 }
 
 
-
+    #intro-hidefront img{
+        max-width: 100%;
+    }
+    
 @media screen and (max-width: 720px) {
     .image-small-layout{
         display: block;
         width: 400px;
         padding-bottom: 1rem;
     }
+    
     #venue .image-regular-layout{
         display: none !important;
     }
-  iframe{
-    width: 600px;
-  }
+    
+    iframe{
+        width: 600px;
+    }
 
     #body .cols, 
     #body .col, 
