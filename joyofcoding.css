@@ -434,4 +434,10 @@ img.attached {
   iframe{
     width: 600px;
   }
+
+    #body .cols, 
+    #body .col, 
+    #body #members .members {
+        display: block
+    }
 }
