@@ -439,7 +439,13 @@ img.attached {
 
 #venue img{
     max-width: 100%;
+    margin-bottom: 2rem;
 }
+
+    iframe{
+        max-width: 100%;
+    }
+
 
 @media screen and (max-width: 720px) {
     .image-small-layout{
@@ -448,9 +454,6 @@ img.attached {
         padding-bottom: 1rem;
     }
     
-    iframe{
-        width: 600px;
-    }
 
     #body .cols, 
     #body .col, 
