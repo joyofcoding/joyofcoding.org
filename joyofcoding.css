@@ -166,10 +166,17 @@ h1, h2, h3 {
     border: solid 5px #fff;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
 }
+#inside-pages #partners .logo{
+    font-size: 2rem;
+}
 #inside-pages #partners .logo img {
-    height: 30px;
+    height: 44px;
     width: auto
 }
+#inside-pages #partners .partners .logo img {
+    height: 60px;
+}
+
 #inside-pages #map {
     -webkit-transform: translateZ(1px);
     -moz-transform: translateZ(1px);
