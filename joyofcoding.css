@@ -461,8 +461,10 @@ img.attached {
         width: 400px;
         padding-bottom: 1rem;
     }
+    .image-regular-layout{
+        display: none !important;
+    }
     
-
     #body .cols, 
     #body .col, 
     #body #members .members {
