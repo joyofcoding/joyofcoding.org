@@ -142,7 +142,8 @@ h1, h2, h3 {
     width: 50px;
 }
 
-#inside-pages #intro .img img {
+#inside-pages #intro .img img,
+#inside-pages #reasons .img img {
     max-width: 80%
 }
 #inside-pages #partners .cols {
