@@ -161,7 +161,7 @@ h1, h2, h3 {
 }
 #inside-pages #partners .logo {
     background: #fff;
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: .5rem;
     margin: .5rem;
     margin-left: 0;
@@ -169,14 +169,14 @@ h1, h2, h3 {
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
 }
 #inside-pages #partners .logo{
-    font-size: 2rem;
+    font-size: 2.3rem;
 }
 #inside-pages #partners .logo img {
     height: 44px;
     width: auto
 }
 #inside-pages #partners .partners .logo img {
-    height: 60px;
+    height: 65px;
 }
 
 #inside-pages #map {
