@@ -220,6 +220,14 @@ h1, h2, h3 {
 #inside-pages #speakers h2{
     text-align: center;
 }
+
+#inside-pages #speakers .incomplete h3{
+    color: red;
+}
+
+#inside-pages #speakers .talk-details{
+    display: none;
+}
 /*
 #inside-pages #speakers img, 
 #inside-pages #members img {
