@@ -214,6 +214,13 @@ h1, h2, h3 {
     border: none;
     box-shadow: none
 }
+#inside-pages #speakers ol{
+  list-style-type: none;
+}
+#inside-pages #speakers h2{
+    text-align: center;
+}
+/*
 #inside-pages #speakers img, 
 #inside-pages #members img {
     width: 96px;
@@ -235,13 +242,12 @@ h1, h2, h3 {
     text-decoration: none;
 }
 
-#inside-pages #speakers .col {
-    text-align: center
-}
 #inside-pages #speakers img {
     width: 144px;
     height: 144px
 }
+*/
+
 #inside-pages .faded {
     position: fixed;
     pointer-events: none;
