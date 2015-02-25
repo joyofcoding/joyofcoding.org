@@ -67,4 +67,9 @@
         return $("#body").addClass("hidefront");
       }
     });
+
+    $(document).ready(function(){
+      // hook up event handlers to open talk details // close them
+
+    });
 }).call(this);
