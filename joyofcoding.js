@@ -70,6 +70,18 @@
 
     $(document).ready(function(){
       // hook up event handlers to open talk details // close them
+      $('#speakers li').on('click', function(evt){
+        // find the top coordinate of the li so this is the height on which we start our modal
+        var rect = evt.target.getBoundingClientRect();
+        console.log(rect.top, rect.right, rect.bottom, rect.left);
 
+        //find the modal with details of this talk and open it
+        $(this).find('.talk-details').show();
+      });
+
+      $('#speakers li .talk-details').on('click', function(evt){
+        //make the clicked talk-details auto-hide itself
+        $(this).hide();
+      });
     });
 }).call(this);
