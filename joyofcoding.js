@@ -76,7 +76,7 @@
         console.log(rect.top, rect.right, rect.bottom, rect.left);
 
         //find the modal with details of this talk and open it
-        $(this).find('.talk-details').toggle();
+        $(this).find('.talk-details').slideToggle();
       });
 /*
       $('#speakers li .talk-details').on('click', function(evt){
