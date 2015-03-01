@@ -76,12 +76,13 @@
         console.log(rect.top, rect.right, rect.bottom, rect.left);
 
         //find the modal with details of this talk and open it
-        $(this).find('.talk-details').show();
+        $(this).find('.talk-details').toggle();
       });
-
+/*
       $('#speakers li .talk-details').on('click', function(evt){
         //make the clicked talk-details auto-hide itself
         $(this).hide();
       });
+*/
     });
 }).call(this);
