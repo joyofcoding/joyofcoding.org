@@ -1,7 +1,8 @@
 body {
-    margin: 0 2rem 2rem 2rem;
     background: #333;
     font: 600 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0 2rem 2rem 2rem;
+    padding-top: 10rem;
     -webkit-perspective: 5000px;
     -moz-perspective: 5000px;
     -ms-perspective: 5000px;
@@ -18,9 +19,9 @@ h1, h2, h3 {
     text-transform: uppercase
 }
 #body {
-    position: relative;
-    margin: 0 auto;
-    margin-top: 10rem;
+xposition: relative;
+xmargin: 0 auto;
+xmargin-top: 10rem;
     -webkit-perspective: 7000px;
     -moz-perspective: 7000px;
     -ms-perspective: 7000px;
@@ -234,6 +235,9 @@ h1, h2, h3 {
     margin: 0;
     padding: 0;
     padding-top: 0.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+
 }
 #inside-pages #speakers li h4{
     padding-bottom: .5rem;
@@ -241,6 +245,7 @@ h1, h2, h3 {
     margin: 0;
     font-weight: normal;
     font-style: italic;
+    font-size: 1rem;
 }
 
 #inside-pages #speakers li.no-session-before{
@@ -520,6 +525,13 @@ img.attached {
 .mobile-only{
     display:none;
 }
+
+@media screen and (max-width: 1200px){
+    #inside-pages #speakers li h3{
+        font-size: 1.2rem;
+    }
+}
+
 
 @media screen and (max-width: 720px) {
     #inside-pages .cols .col:not(:last-child) {

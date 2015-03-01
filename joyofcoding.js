@@ -57,12 +57,11 @@
       resizeHandler = function() {
         if($(window).scrollTop() > 100)
           return;
-
         return $("#body").toggleClass("hidefront", $(window).width() < 720);
       };
       
       $(window).resize(_.debounce(resizeHandler, 300));
-      
+    
       if ($(window).width() < 720) {
         return $("#body").addClass("hidefront");
       }
@@ -70,19 +69,21 @@
 
     $(document).ready(function(){
       // hook up event handlers to open talk details // close them
-      $('#speakers li').on('click', function(evt){
-        // find the top coordinate of the li so this is the height on which we start our modal
-        var rect = evt.target.getBoundingClientRect();
-        console.log(rect.top, rect.right, rect.bottom, rect.left);
-
-        //find the modal with details of this talk and open it
-        $(this).find('.talk-details').slideToggle();
-      });
-/*
-      $('#speakers li .talk-details').on('click', function(evt){
-        //make the clicked talk-details auto-hide itself
-        $(this).hide();
-      });
-*/
+      if ($(window).width() < 720) {
+        //mobile, slide open the details
+        //TODO upon close the scrollheight is foobar, we need to set it to the top of the closed details item
+        $('#speakers li').on('click', function(evt){
+          // find the top coordinate of the li so this is the height on which we start our modal
+          var rect = evt.target.getBoundingClientRect();
+          //find the modal with details of this talk and open it
+          $(this).find('.talk-details').slideToggle();
+        });
+      }
+      else{
+        //desktop, use modal
+        $('#speakers li').on('click', function(evt){
+          $(this).find('.talk-details').modal();
+        });
+      }
     });
 }).call(this);
