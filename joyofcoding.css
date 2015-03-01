@@ -218,6 +218,8 @@ h1, h2, h3 {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  float:left;
+  width:100%;
 }
 #inside-pages #speakers li{
     height: 7rem;
@@ -246,7 +248,7 @@ h1, h2, h3 {
     height: 3rem;
 }
 #inside-pages #speakers li.workshop{
-    height: 24rem; /* 3 sessions + 2x margins*/
+    height: 23rem; /* 3 sessions + 2x margins*/
 }
 
 #inside-pages #speakers .track .timeslot{
