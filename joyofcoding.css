@@ -226,6 +226,8 @@ h1, h2, h3 {
     background: rgba(255, 255, 255, 0.1);
     margin-top: 1rem;
     margin-bottom: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 #inside-pages #speakers li h3{
     background: none;
@@ -234,7 +236,7 @@ h1, h2, h3 {
     padding-top: 0.5rem;
 }
 #inside-pages #speakers li h4{
-    padding: .5rem;
+    padding-bottom: .5rem;
     padding-top: 0;
     margin: 0;
     font-weight: normal;
@@ -250,8 +252,11 @@ h1, h2, h3 {
 #inside-pages #speakers li.workshop{
     height: 23rem; /* 3 sessions + 2x margins*/
 }
+#inside-pages #speakers li.keynote{
+    height: 5rem;
+}
 
-#inside-pages #speakers .track .timeslot{
+#inside-pages #speakers .timeslot{
     display:none;
 }
 
@@ -542,7 +547,7 @@ img.attached {
     #speakers li{
         height: auto !important;
         margin-top: 1rem !important;
-        padding-bottom: 0.5rem;
+        padding: 0 0.5rem 0.5rem;
     }
 
     .image-small-layout{
