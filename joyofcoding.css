@@ -542,6 +542,7 @@ img.attached {
     #speakers li{
         height: auto !important;
         margin-top: 1rem !important;
+        padding-bottom: 0.5rem;
     }
 
     .image-small-layout{
