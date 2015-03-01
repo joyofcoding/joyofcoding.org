@@ -486,9 +486,6 @@ img.attached {
 }
 #body.hidefront .cols, 
 #body.hidefront .col, 
-#body.hidefront #members .members {
-    xdisplay: block
-}
 #body.hidefront #members {
     margin: 5rem 0 0 0
 }
@@ -515,8 +512,38 @@ img.attached {
         max-width: 100%;
     }
 
+.mobile-only{
+    display:none;
+}
 
 @media screen and (max-width: 720px) {
+    #inside-pages .cols .col:not(:last-child) {
+        margin-right: 0;
+    }
+    #inside-pages #speakers ol{
+        float:none;
+    }
+
+    #inside-pages #speakers .col,
+    #inside-pages #speakers .cols
+    {
+        margin-top: 0rem !important;
+    }
+
+    #speakers .non-mobile{
+        display: none !important;
+    }
+    #speakers .mobile-only{
+        display: block;
+    }
+    #speakers .timeslot{
+        display:block !important;
+    }
+    #speakers li{
+        height: auto !important;
+        margin-top: 1rem !important;
+    }
+
     .image-small-layout{
         display: block;
         width: 400px;
