@@ -82,7 +82,11 @@
       else{
         //desktop, use modal
         $('#speakers li').on('click', function(evt){
-          $(this).find('.talk-details').modal();
+          var talkDetailsEl = $(this).find('.talk-details');
+          if(!talkDetailsEl.hasClass('modal')){
+            talkDetailsEl.addClass('modal');
+          }
+          talkDetailsEl.modal();
         });
       }
     });
