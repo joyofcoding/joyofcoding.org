@@ -72,7 +72,7 @@
       if ($(window).width() < 720) {
         //mobile, slide open the details
         //TODO upon close the scrollheight is foobar, we need to set it to the top of the closed details item
-        $('#speakers li').on('click', function(evt){
+        $('#speakers li:not(.lunch)').on('click', function(evt){
           // find the top coordinate of the li so this is the height on which we start our modal
           var rect = evt.target.getBoundingClientRect();
 
