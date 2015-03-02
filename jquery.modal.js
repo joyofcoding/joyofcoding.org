@@ -114,11 +114,13 @@
 
     center: function() {
       this.$elm.css({
-        position: 'fixed',
-        top: "50%",
+        position: 'absolute',
+        top: $(window).scrollTop(),
+        /*
         left: "50%",
         marginTop: - (this.$elm.outerHeight() / 2),
         marginLeft: - (this.$elm.outerWidth() / 2),
+        */
         zIndex: this.options.zIndex + 1
       });
     },

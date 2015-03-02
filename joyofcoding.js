@@ -83,10 +83,14 @@
         //desktop, use modal
         $('#speakers li').on('click', function(evt){
           var talkDetailsEl = $(this).find('.talk-details');
-          if(!talkDetailsEl.hasClass('modal')){
-            talkDetailsEl.addClass('modal');
-          }
-          talkDetailsEl.modal();
+
+          var modalContainer = $('#modal-container');
+          modalContainer.html('');//reset content
+
+          var title = $(this).find('h3').text();
+
+          modalContainer.html('<h1>' + title + '</h1>' + talkDetailsEl.html());
+          modalContainer.modal();
         });
       }
     });
