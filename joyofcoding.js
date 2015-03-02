@@ -90,7 +90,7 @@
       }
       else{
         //desktop, use modal
-        $('#speakers li').on('click', function(evt){
+        $('#speakers li:not(.lunch)').on('click', function(evt){
           var talkDetailsEl = $(this).find('.talk-details');
 
           var modalContainer = $('#modal-container');

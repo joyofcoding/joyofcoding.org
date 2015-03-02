@@ -279,6 +279,11 @@ xmargin-top: 10rem;
     transition: max-height 0.6s ease;
 }
 
+#speakers .cheated-full-width{
+    width: calc(400% + 2rem);
+    z-index: 1;
+    position:relative;
+}
 #inside-pages #members img {
     width: 96px;
     height: 96px;
@@ -548,6 +553,9 @@ img.attached {
         float:none;
     }
 
+#speakers .cheated-full-width{
+    width:auto;
+}
     #inside-pages #speakers .col,
     #inside-pages #speakers .cols
     {
