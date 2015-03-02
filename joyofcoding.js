@@ -57,14 +57,50 @@
       resizeHandler = function() {
         if($(window).scrollTop() > 100)
           return;
-
         return $("#body").toggleClass("hidefront", $(window).width() < 720);
       };
       
       $(window).resize(_.debounce(resizeHandler, 300));
-      
+    
       if ($(window).width() < 720) {
         return $("#body").addClass("hidefront");
+      }
+    });
+
+    $(document).ready(function(){
+      // hook up event handlers to open talk details // close them
+      if ($(window).width() < 720) {
+        //mobile, slide open the details
+        //TODO upon close the scrollheight is foobar, we need to set it to the top of the closed details item
+        $('#speakers li:not(.lunch)').on('click', function(evt){
+          // find the top coordinate of the li so this is the height on which we start our modal
+          var rect = evt.target.getBoundingClientRect();
+
+          var talkDetailsEl = $(this).find('.talk-details');
+          if(talkDetailsEl.hasClass('active')) {
+            talkDetailsEl.removeClass('active').css('max-height','0');
+            return;
+          }
+
+          var contents = talkDetailsEl.wrapInner('<div>').children(); // wrap a div around the contents
+          var height = contents.outerHeight();
+          //find the modal with details of this talk and open it
+          talkDetailsEl.css('max-height', height + 'px').addClass('active');
+        });
+      }
+      else{
+        //desktop, use modal
+        $('#speakers li:not(.lunch)').on('click', function(evt){
+          var talkDetailsEl = $(this).find('.talk-details');
+
+          var modalContainer = $('#modal-container');
+          modalContainer.html('');//reset content
+
+          var title = $(this).find('h3').text();
+
+          modalContainer.html('<h1>' + title + '</h1>' + talkDetailsEl.html());
+          modalContainer.modal();
+        });
       }
     });
 }).call(this);

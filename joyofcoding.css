@@ -1,7 +1,8 @@
 body {
-    margin: 0 2rem 2rem 2rem;
     background: #333;
     font: 600 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0 2rem 2rem 2rem;
+    padding-top: 10rem;
     -webkit-perspective: 5000px;
     -moz-perspective: 5000px;
     -ms-perspective: 5000px;
@@ -18,9 +19,9 @@ h1, h2, h3 {
     text-transform: uppercase
 }
 #body {
-    position: relative;
-    margin: 0 auto;
-    margin-top: 10rem;
+xposition: relative;
+xmargin: 0 auto;
+xmargin-top: 10rem;
     -webkit-perspective: 7000px;
     -moz-perspective: 7000px;
     -ms-perspective: 7000px;
@@ -214,6 +215,84 @@ h1, h2, h3 {
     border: none;
     box-shadow: none
 }
+#inside-pages #speakers ol{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float:left;
+  width:100%;
+}
+#inside-pages #speakers li{
+    height: 7rem;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 1rem;
+    margin-bottom: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+#inside-pages #speakers li h3{
+    background: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+
+}
+#inside-pages #speakers li h4{
+    padding-bottom: .5rem;
+    padding-top: 0;
+    margin: 0;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+#inside-pages #speakers li.no-session-before{
+    margin-top: 9rem;/* 1 session + 2x margin-top*/
+}
+#inside-pages #speakers li.lunch{
+    height: 3rem;
+}
+#inside-pages #speakers li.workshop{
+    height: 23rem; /* 3 sessions + 2x margins*/
+}
+#inside-pages #speakers li.keynote{
+    height: 5rem;
+}
+
+#inside-pages #speakers .timeslot{
+    display:none;
+}
+
+#inside-pages #speakers h2{
+    text-align: center;
+}
+
+#inside-pages #speakers .incomplete h3{
+    color: red;
+}
+
+#inside-pages #speakers .talk-details{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease;
+}
+
+#speakers .cheated-full-width{
+    width: calc(400% + 2rem);
+    z-index: 1;
+    position:relative;
+}
+#inside-pages #members img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: solid 5px #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4)
+}
+
+/*
 #inside-pages #speakers img, 
 #inside-pages #members img {
     width: 96px;
@@ -235,13 +314,12 @@ h1, h2, h3 {
     text-decoration: none;
 }
 
-#inside-pages #speakers .col {
-    text-align: center
-}
 #inside-pages #speakers img {
     width: 144px;
     height: 144px
 }
+*/
+
 #inside-pages .faded {
     position: fixed;
     pointer-events: none;
@@ -423,11 +501,10 @@ img.attached {
 #body.hidefront .folded-page, #body.hidefront .faded {
     display: none
 }
+/*
 #body.hidefront .cols, 
 #body.hidefront .col, 
-#body.hidefront #members .members {
-    xdisplay: block
-}
+*/
 #body.hidefront #members {
     margin: 5rem 0 0 0
 }
@@ -454,8 +531,52 @@ img.attached {
         max-width: 100%;
     }
 
+.mobile-only{
+    display:none;
+}
+
+@media screen and (max-width: 1200px){
+    #inside-pages #speakers li h3{
+        font-size: 1.2rem;
+    }
+}
+
 
 @media screen and (max-width: 720px) {
+    body{
+        padding-top: 0 !important;
+    }
+    #inside-pages .cols .col:not(:last-child) {
+        margin-right: 0;
+    }
+    #inside-pages #speakers ol{
+        float:none;
+    }
+
+#speakers .cheated-full-width{
+    width:auto;
+}
+    #inside-pages #speakers .col,
+    #inside-pages #speakers .cols
+    {
+        margin-top: 0rem !important;
+    }
+
+    #speakers .non-mobile{
+        display: none !important;
+    }
+    #speakers .mobile-only{
+        display: block;
+    }
+    #speakers .timeslot{
+        display:block !important;
+    }
+    #speakers li{
+        height: auto !important;
+        margin-top: 1rem !important;
+        padding: 0 0.5rem 0.5rem;
+    }
+
     .image-small-layout{
         display: block;
         width: 400px;
