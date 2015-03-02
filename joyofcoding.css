@@ -538,6 +538,9 @@ img.attached {
 
 
 @media screen and (max-width: 720px) {
+    body{
+        padding-top: 0 !important;
+    }
     #inside-pages .cols .col:not(:last-child) {
         margin-right: 0;
     }
