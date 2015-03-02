@@ -75,8 +75,17 @@
         $('#speakers li').on('click', function(evt){
           // find the top coordinate of the li so this is the height on which we start our modal
           var rect = evt.target.getBoundingClientRect();
+
+          var talkDetailsEl = $(this).find('.talk-details');
+          if(talkDetailsEl.hasClass('active')) {
+            talkDetailsEl.removeClass('active').css('max-height','0');
+            return;
+          }
+
+          var contents = talkDetailsEl.wrapInner('<div>').children(); // wrap a div around the contents
+          var height = contents.outerHeight();
           //find the modal with details of this talk and open it
-          $(this).find('.talk-details').slideToggle();
+          talkDetailsEl.css('max-height', height + 'px').addClass('active');
         });
       }
       else{

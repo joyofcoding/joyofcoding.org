@@ -274,7 +274,9 @@ xmargin-top: 10rem;
 }
 
 #inside-pages #speakers .talk-details{
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease;
 }
 
 #inside-pages #members img {
