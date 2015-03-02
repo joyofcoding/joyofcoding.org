@@ -229,6 +229,7 @@ xmargin-top: 10rem;
     margin-bottom: 0;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    cursor:pointer;
 }
 #inside-pages #speakers li h3{
     background: none;
