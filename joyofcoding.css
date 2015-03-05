@@ -236,7 +236,7 @@ xmargin-top: 10rem;
     margin: 0;
     padding: 0;
     padding-top: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-bottom: 0.5rem;
 
 }
@@ -537,9 +537,41 @@ img.attached {
     display:none;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1500px){
+    #inside-pages #speakers li h3{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 1350px){
     #inside-pages #speakers li h3{
         font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    #inside-pages #speakers li h4{
+        font-size:0.9em;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    #inside-pages #speakers li h3{
+        font-size: 1rem;
+        margin-bottom:0.1em;
+    }
+    #inside-pages #speakers li h4{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 700px){
+    #inside-pages #speakers li h3{
+        font-size: 1rem;
+        margin-bottom:0.1em;
+    }
+    #inside-pages #speakers li h4{
+        font-size: 0.8em;
     }
 }
 
