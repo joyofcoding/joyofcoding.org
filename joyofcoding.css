@@ -88,7 +88,18 @@ xmargin-top: 10rem;
     -moz-flex: 1;
     -ms-flex: 1;
     flex: 1;
+
+    flex-grow: 2;
 }
+
+#inside-pages .cols .col.timetable{
+    flex-grow: 1;
+}
+
+#inside-pages .cols .col4 {
+    flex-grow: 8 !important;
+}
+
 #inside-pages .cols .col:not(:last-child) {
     margin-right: 1rem
 }
