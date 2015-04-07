@@ -68,39 +68,77 @@
     });
 
     $(document).ready(function(){
-      // hook up event handlers to open talk details // close them
+      
+      // append the hash from the talk details to the talk elements so we can easily locate those
+      $('#speakers li:not(.lunch)').each(function(_, el){
+        $el = $(el);
+        if(!$el.attr('id')){
+          var hash = $el.find('h3').text().replace(/\W+/g, "-").toLowerCase();
+          $el.attr('id', hash);          
+        }
+      });
+
+      // upon clicking on the li elements append the hash from the current talk to the hash
+      $('#speakers li:not(.lunch)').on('click', function(evt){
+        document.location.hash = $(this).attr('id');
+      });
+
       if ($(window).width() < 720) {
-        //mobile, slide open the details
-        //TODO upon close the scrollheight is foobar, we need to set it to the top of the closed details item
-        $('#speakers li:not(.lunch)').on('click', function(evt){
-          // find the top coordinate of the li so this is the height on which we start our modal
-          var rect = evt.target.getBoundingClientRect();
-
-          var talkDetailsEl = $(this).find('.talk-details');
-          if(talkDetailsEl.hasClass('active')) {
-            talkDetailsEl.removeClass('active').css('max-height','0');
+        $(window).hashchange( function(){
+          // mobile version, use expanders for details
+          if(!document.location.hash)
             return;
-          }
 
+          $talk = $('li'+document.location.hash);
+          if(!$talk)
+            return;
+
+          // find the top coordinate of the li so this is the height on which we start our modal
+          var rect = $talk[0].getBoundingClientRect();
+
+          var talkDetailsEl = $talk.find('.talk-details');
           var contents = talkDetailsEl.wrapInner('<div>').children(); // wrap a div around the contents
-          var height = contents.outerHeight();
+          var height = 300 + contents.outerHeight(true); // 300 = bugfix; image height is not correctly added somehow
           //find the modal with details of this talk and open it
           talkDetailsEl.css('max-height', height + 'px').addClass('active');
         });
+
+        // add event handler to check for activated talk details to let them be closed
+        $('#speakers li:not(.lunch)').on('click', function(evt){
+          var talkContainer = $(this);
+          var talkDetailsEl = talkContainer.find('.talk-details');
+          if(talkDetailsEl.hasClass('active')) {
+            talkDetailsEl.removeClass('active').css('max-height','0');
+            talkContainer[0].scrollIntoView(true);// after hiding details scroll to top of talk summary 
+            return;
+          }
+        });
       }
       else{
-        //desktop, use modal
-        $('#speakers li:not(.lunch)').on('click', function(evt){
-          var talkDetailsEl = $(this).find('.talk-details');
+        $(window).hashchange( function(){
+          //desktop version, use modal dialog
+          if(!document.location.hash)
+            return;
+
+          $talk = $('li'+document.location.hash);
+          if(!$talk)
+            return;
+
+          $talk[0].scrollIntoView(true); //make the talk in the agenda scroll into view
 
           var modalContainer = $('#modal-container');
           modalContainer.html('');//reset content
 
-          var title = $(this).find('h3').text();
+          var title = $talk.find('h3').text();
+          var talkDetailsEl = $talk.find('.talk-details');
 
           modalContainer.html('<h1>' + title + '</h1>' + talkDetailsEl.html());
           modalContainer.modal();
         });
       }
+    });
+
+    $(window).load(function() {
+      $(window).hashchange();// maybe we are loaded with a hash, trigger to resolve
     });
 }).call(this);
