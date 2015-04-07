@@ -131,8 +131,9 @@
 
           var title = $talk.find('h3').text();
           var talkDetailsEl = $talk.find('.talk-details');
+          var timeslot = $talk.find('.timeslot');
 
-          modalContainer.html('<h1>' + title + '</h1>' + talkDetailsEl.html());
+          modalContainer.html('<h1>' + title + '</h1>' + timeslot.html() + talkDetailsEl.html());
           modalContainer.modal();
         });
       }
