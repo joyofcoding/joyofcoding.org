@@ -83,14 +83,9 @@
         document.location.hash = $(this).attr('id');
       });
 
-      /**
-      *  opening and closing of modal / expanders 
-      * talk details is done using the hashchange event
-      * so we can bookmark those links
-      */
       if ($(window).width() < 720) {
         $(window).hashchange( function(){
-          // mobile version, use expanders
+          // mobile version, use expanders for details
           if(!document.location.hash)
             return;
 
@@ -98,24 +93,23 @@
           if(!$talk)
             return;
 
-          //mobile, slide open the details
-          //TODO upon close the scrollheight is foobar, we need to set it to the top of the closed details item
           // find the top coordinate of the li so this is the height on which we start our modal
           var rect = $talk[0].getBoundingClientRect();
 
           var talkDetailsEl = $talk.find('.talk-details');
-
           var contents = talkDetailsEl.wrapInner('<div>').children(); // wrap a div around the contents
-          var height = contents.outerHeight();
+          var height = 300 + contents.outerHeight(true); // 300 = bugfix; image height is not correctly added somehow
           //find the modal with details of this talk and open it
           talkDetailsEl.css('max-height', height + 'px').addClass('active');
         });
 
         // add event handler to check for activated talk details to let them be closed
         $('#speakers li:not(.lunch)').on('click', function(evt){
-          var talkDetailsEl = $(this).find('.talk-details');
+          var talkContainer = $(this);
+          var talkDetailsEl = talkContainer.find('.talk-details');
           if(talkDetailsEl.hasClass('active')) {
             talkDetailsEl.removeClass('active').css('max-height','0');
+            talkContainer[0].scrollIntoView(true);// after hiding details scroll to top of talk summary 
             return;
           }
         });
@@ -130,14 +124,13 @@
           if(!$talk)
             return;
 
-          $talk[0].scrollIntoView(true);
-
-          var talkDetailsEl = $talk.find('.talk-details');
+          $talk[0].scrollIntoView(true); //make the talk in the agenda scroll into view
 
           var modalContainer = $('#modal-container');
           modalContainer.html('');//reset content
 
           var title = $talk.find('h3').text();
+          var talkDetailsEl = $talk.find('.talk-details');
 
           modalContainer.html('<h1>' + title + '</h1>' + talkDetailsEl.html());
           modalContainer.modal();
@@ -146,7 +139,6 @@
     });
 
     $(window).load(function() {
-      // maybe we are loaded with an hash, trigger to resolve
-      $(window).hashchange();
+      $(window).hashchange();// maybe we are loaded with a hash, trigger to resolve
     });
 }).call(this);
