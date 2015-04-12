@@ -39,10 +39,10 @@ xmargin-top: 10rem;
     background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px, cover;
     background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
-#inside-pages .section p, 
-#inside-pages .section li, 
-#inside-pages .section h1, 
-#inside-pages .section h2, 
+#inside-pages .section p,
+#inside-pages .section li,
+#inside-pages .section h1,
+#inside-pages .section h2,
 #inside-pages .section h3 {
     color: #fff;
     -webkit-font-smoothing: antialiased;
@@ -74,8 +74,8 @@ xmargin-top: 10rem;
     background: rgba(255, 255, 255, 0.1)
 }
 #inside-pages .section .keynote-speakers h3{
-  font-size: 2.2rem; 
-  padding: .3rem; 
+  font-size: 2.2rem;
+  padding: .3rem;
 }
 #inside-pages .cols {
     display: -webkit-flex;
@@ -139,8 +139,16 @@ xmargin-top: 10rem;
     text-align: left;
 }
 
+#inside-pages .inline-logo{
+    width: 50px;
+}
+
+#inside-pages #intro .img img{
+  max-width: 80%
+}
+
 #inside-pages #reasons .img {
-    height: 250px;
+    height: 230px;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -153,14 +161,16 @@ xmargin-top: 10rem;
     -moz-justify-content: center;
     -ms-justify-content: center;
     justify-content: center;
+    margin-top: -30px;
+
 }
-#inside-pages .inline-logo{
-    width: 50px;
+#inside-pages #reasons .img .chart-1{
+  margin-top: 40px;
 }
 
-#inside-pages #intro .img img,
 #inside-pages #reasons .img img {
-    max-width: 80%
+    max-width: 90%;
+    max-height: 90%;
 }
 #inside-pages #partners .cols {
     -webkit-flex-wrap: wrap;
@@ -309,7 +319,7 @@ xmargin-top: 10rem;
 }
 
 /*
-#inside-pages #speakers img, 
+#inside-pages #speakers img,
 #inside-pages #members img {
     width: 96px;
     height: 96px;
@@ -366,7 +376,7 @@ xmargin-top: 10rem;
     max-width: 50%
 }
 
-.folded-page .frontface, 
+.folded-page .frontface,
 .folded-page .backface {
     box-sizing: border-box;
     padding: 3rem;
@@ -519,8 +529,8 @@ img.attached {
     display: none
 }
 /*
-#body.hidefront .cols, 
-#body.hidefront .col, 
+#body.hidefront .cols,
+#body.hidefront .col,
 */
 #body.hidefront #members {
     margin: 5rem 0 0 0
@@ -634,9 +644,9 @@ img.attached {
     .image-regular-layout{
         display: none !important;
     }
-    
-    #body .cols, 
-    #body .col, 
+
+    #body .cols,
+    #body .col,
     #body #members .members {
         display: block
     }
