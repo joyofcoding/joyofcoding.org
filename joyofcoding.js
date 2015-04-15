@@ -47,34 +47,34 @@
           return insidePages.css("opacity", x);
         });
       };
-      
+
       // fixups if we have a small screen
       if ($(window).width() > 720 && Modernizr.csstransformspreserve3d) {
         $(window).on('gesturechange', _.throttle(scrollHandler, 1000 / 60));
         $(window).scroll(_.throttle(scrollHandler, 1000 / 60));
       }
-      
+
       resizeHandler = function() {
         if($(window).scrollTop() > 100)
           return;
         return $("#body").toggleClass("hidefront", $(window).width() < 720);
       };
-      
+
       $(window).resize(_.debounce(resizeHandler, 300));
-    
+
       if ($(window).width() < 720) {
         return $("#body").addClass("hidefront");
       }
     });
 
     $(document).ready(function(){
-      
+
       // append the hash from the talk details to the talk elements so we can easily locate those
       $('#speakers li:not(.lunch)').each(function(_, el){
         $el = $(el);
         if(!$el.attr('id')){
           var hash = $el.find('h3').text().replace(/\W+/g, "-").toLowerCase();
-          $el.attr('id', hash);          
+          $el.attr('id', hash);
         }
       });
 
@@ -109,7 +109,8 @@
           var talkDetailsEl = talkContainer.find('.talk-details');
           if(talkDetailsEl.hasClass('active')) {
             talkDetailsEl.removeClass('active').css('max-height','0');
-            talkContainer[0].scrollIntoView(true);// after hiding details scroll to top of talk summary 
+            document.location.hash = '';
+            talkContainer[0].scrollIntoView(true);// after hiding details scroll to top of talk summary
             return;
           }
         });
