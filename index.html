@@ -1,687 +1,700 @@
 <!DOCTYPE html>
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-  <title>Joy of Coding: 29 May 2015</title>
+    <title>Joy of Coding: 29 May 2015</title>
 
-  <meta name="description" content="A one-day conference in Rotterdam, the Netherlands celebrating the art, craft, science and joy of software development">
+    <meta name="description" content="A one-day conference in Rotterdam, the Netherlands celebrating the art, craft, science and joy of software development">
 
-  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
 
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
-  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-  <meta name="msapplication-TileColor" content="#2b5797">
-  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 
-  <script src="/modernizr.custom.09017.js"></script>
-  <link rel="stylesheet" type="text/css" href="/joyofcoding.css">
-  <link rel="stylesheet" type="text/css" href="/jquery.modal.css">
-  <link href='http://fonts.googleapis.com/css?family=Rajdhani:400,700' rel='stylesheet' type='text/css'>
+    <script src="/modernizr.custom.09017.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/joyofcoding.css">
+    <link rel="stylesheet" type="text/css" href="/joyofcoding-modal.css">
+    <!--<link rel="stylesheet" type="text/css" href="/jquery.modal.css">-->
+
+    <link href='http://fonts.googleapis.com/css?family=Rajdhani:400,700' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
 
-  <div id="body">
+<div class="joyofcoding-modal">
+    <div class="modal">
+        <div class="modal-centered">
+            <a href="#close-modal" class="modal-close">Close</a>
+            <div class="modal-content"></div>
+        </div>
+    </div>
+</div>
+
+<div id="body">
 
     <div id="left-front" class="folded-page">
-      <div class="backface"></div>
-      <div class="frontface">
-        <div class="art"></div>
-        <h1><img src="/img/logo.png" class="logo" alt="Joy of Coding"></h1>
-        <div class="hello">
-          <h2>Rotterdam, 29 May 2015</h2>
-          <h3>A one-day conference celebrating the art, craft, science and joy of software development</h3>
+        <div class="backface"></div>
+        <div class="frontface">
+            <div class="art"></div>
+            <h1><img src="/img/logo.png" class="logo" alt="Joy of Coding"></h1>
+            <div class="hello">
+                <h2>Rotterdam, 29 May 2015</h2>
+                <h3>A one-day conference celebrating the art, craft, science and joy of software development</h3>
+            </div>
         </div>
-      </div>
     </div>
 
     <div id="right-front" class="folded-page">
-      <div class="backface"><div class="art"></div></div>
-      <div class="frontface">
-        <div class="art"></div>
-        <div class="col-md-4">
-          <img src="/img/photo3.jpg" alt="">
-          <h2><span>Learn new stuff</span></h2>
-        </div>
-        <div class="col-md-4">
-          <img src="/img/photo2.jpg" alt="">
-          <h2><span>Great value</span></h2>
-        </div>
-        <div class="col-md-4">
-          <img src="/img/photo1.jpg" alt="">
-          <h2><span>By devs, for devs</span></h2>
-        </div>
+        <div class="backface"><div class="art"></div></div>
+        <div class="frontface">
+            <div class="art"></div>
+            <div class="col-md-4">
+                <img src="/img/photo3.jpg" alt="">
+                <h2><span>Learn new stuff</span></h2>
+            </div>
+            <div class="col-md-4">
+                <img src="/img/photo2.jpg" alt="">
+                <h2><span>Great value</span></h2>
+            </div>
+            <div class="col-md-4">
+                <img src="/img/photo1.jpg" alt="">
+                <h2><span>By devs, for devs</span></h2>
+            </div>
 
-      </div>
+        </div>
     </div>
 
     <div id="inside-pages">
-      <div class="art"></div>
-      <div class="faded"></div>
+        <div class="art"></div>
+        <div class="faded"></div>
 
-      <div class="section" id="intro">
-        <img src="/img/logo.png" class="logo" alt="Joy of Coding">
-        <!--<img src="/img/bg.jpg" alt="Joy of Coding 2015" class="attached">-->
-        <div class="hello">
-          <h1>Rotterdam, 29 May 2015</h1>
-          <p>Welcome to Joy of Coding! A one-day conference celebrating the art, craft, science and joy of software development. We are back with a schedule filled with great speakers and packed with knowledge. The next edition will be held 29 May 2015 at the Van Nelle ontwerpfabriek in Rotterdam. Reasons why you should attend:</p>
-        </div>
-      </div>
-
-      <div class="section" id="reasons">
-        <div class="cols">
-          <div class="col">
-            <h3>Learn new stuff</h3>
-            <p class="img"><img src="/img/bggraph.png" alt="" class="chart-1"></p>
-            <p>We're not happy unless you go home after Joy of Coding feeling inspired and full of new ideas. That's why we're cramming the conference full of renowned speakers, passionate developers like yourself, and (un)sessions that we hope you'll love.</p>
-          </div>
-          <div class="col">
-            <h3>Great value</h3>
-            <p class="img"><img src="/img/bggraph2.png" alt=""></p>
-            <p>We know you can't go to every conference every year, but we really want you to come to ours, so we're working to keep the entry price completely reasonable by teaming up with sponsors. Our goal: be the best value for money conference in 2015. Our very-early bird tickets start selling at the meager price of only EUR 128,-!</p>
-          </div>
-          <div class="col">
-            <h3>By devs, for devs</h3>
-            <p class="img"><img src="/img/speaker.png" alt=""></p>
-            <p>Like you, we're a bunch of developers who like going to interesting conferences and meetups. So there will be no commercial agenda or ulterior motive to Joy of Coding. It's just a place where we can all get together and talk about code.</p>
-            <p class="cta"><a href="http://joyofcoding.eventler.nl/" class="button" title="Buy entrance ticket">Buy your ticket!</a></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="section" id="preparty">
-        <div class="cols">
-          <div class="col">
-            <h1>Warm-Up Party</h1>
-            <p>Want to meet some of the other attendees and speakers in an informal setting? Join us the night before Joy of Coding at our free warm-up party! We will have a few talks (<a href="https://twitter.com/PeterHilton">Peter Hilton</a> &amp; <a href="https://twitter.com/KevlinHenney">Kevlin Henney</a>) and best of all, drinks are sponsored by <a href="http://ordina.nl">Ordina</a>! The pre-party will be held at <a href="https://www.google.nl/maps/dir//Bierlokaal+Locus+Publicus,+Oostzeedijk+364,+3063+CD+Rotterdam,+Netherlands/@51.922801,4.498283,17z/data=!4m12!1m3!3m2!1s0x47c433467b4b9dcb:0x40bb96ad3783228d!2sBierlokaal+Locus+Publicus!4m7!1m0!1m5!1m1!1s0x47c433467b4b9dcb:0x40bb96ad3783228d!2m2!1d4.498283!2d51.922801">Locus Publicus International</a> and is easily reached by subway from Rotterdam Centraal station (or Rotterdam Blaak station). <a href="http://www.meetup.com/010DEV/events/221930670/">RSVP @ Meetup that you are coming!</a></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="section" id="speakers">
-        <div class="cols non-mobile">
-          <div class="col timetable">
-            &nbsp;
-          </div>
-          <div class="col">
-            <h2>Mainstage</h2>
-          </div>
-          <div class="col">
-            <h2>Room 2</h2>
-          </div>
-          <div class="col">
-            <h2>Room 3</h2>
-          </div>
-          <div class="col">
-            <h2>Room 4</h2>
-          </div>
-        </div>
-        <h2 class="mobile-only">Schedule</h2>
-        <h1 class="mobile-only">Mainstage</h1>
-
-        <div class="cols">
-          <div class="col non-mobile timetable">
-            <ol>
-              <li class="keynote">
-                <h3>9:30 - 10:20</h3>
-              </li>
-            </ol>
-          </div>
-          <div class="col col4">
-            <ol>
-              <li class="keynote" id="programming-as-distributed-cognition-defining-a-super-power">
-                <h3>Opening keynote - Programming as distributed cognition: defining a super power</h3>
-                <h4>Chris Granger</h4>
-                <span class="timeslot">9:30 - 10:20</span>
-
-                <div class="talk-details">
-                  <p>With the constant barrage of frameworks, languages, and methodologies, it's easy to forget that programming isn't an end unto itself, but instead merely a means to get somewhere else. With the help of a computer, we can think and create things we never would have been able to before. Programming isn't simply a skill, it's a fundamental upgrade to our capabilities as humans - a way to distribute and externalize computation that would otherwise have to take place in our heads. So what would it be like if *everyone* could use computers as the thinking tools we originally meant for them to be?<br />
-Let's try to find out.</p>
-
-                  <h2>About Chris Granger</h2>
-                  <a href="https://twitter.com/ibdknox" class="no-underline" title="@idbknox">
-                    <img src="/img/speakers/chris-granger.jpg">
-                  </a>
-                  <p>I grew up as part of the nintendo generation, having learned the parts of a computer at the age of two and later learning numbers and colors from a Sesame Street game on the NES. I started programming at the age of ten and took my first paid development gig at 17. Since then I’ve built websites large and small, written frameworks and libraries used by thousands, taught developers around the world, and helped envision the future of development at Microsoft. These days, I’m the co-founder and CEO of Kodowa, where we built the next generation code editor Light Table and now Eve, a new vision for putting computation in the hands of everyone.</p>
-                </div>
-              </li>
-            </ol>
-          </div>
+        <div class="section" id="intro">
+            <img src="/img/logo.png" class="logo" alt="Joy of Coding">
+            <!--<img src="/img/bg.jpg" alt="Joy of Coding 2015" class="attached">-->
+            <div class="hello">
+                <h1>Rotterdam, 29 May 2015</h1>
+                <p>Welcome to Joy of Coding! A one-day conference celebrating the art, craft, science and joy of software development. We are back with a schedule filled with great speakers and packed with knowledge. The next edition will be held 29 May 2015 at the Van Nelle ontwerpfabriek in Rotterdam. Reasons why you should attend:</p>
+            </div>
         </div>
 
-        <div class="cols">
-          <div class="col non-mobile timetable">
-            <ol>
-              <li><h3>10:30 - 11:00</h3></li>
-              <li><h3>11:10 - 11:40</h3></li>
-              <li><h3>11:50 - 12:20</h3></li>
-              <li class="lunch"><h3>12:20 - 13:20</h3></li>
-              <li><h3>13:30 - 14:20</h3></li>
-              <li><h3>14:30 - 15:00</h3></li>
-              <li><h3>15:10 - 15:40</h3></li>
-              <li><h3>15:50 - 16:20</h3></li>
-            </ol>
-          </div>
-          <div class="track col">
-            <ol>
-              <li class="">
-                <h3>Joy of Testing</h3>
-                <h4>John Hughes</h4>
-                <span class="timeslot">10:30 - 11:00</span>
-
-
-                <div class="talk-details">
-
-                  <p>Even the best test suites can't entirely prevent nasty surprises: race conditions, unexpected interactions, faults in distributed protocols and so on, still slip past them into production. Yet writing even more tests of the same kind quickly runs into diminishing returns. I'll talk about new automated techniques that can dramatically improve your testing, letting you focus on what your code should do, rather than which cases should be tested--with plenty of war stories from the likes of Ericsson, Volvo Cars, and Basho Technologies, to show how these new techniques really enable us to nail the hard stuff. And best of all—it’s fun!</p>
-
-                  <h2>About John Hughes</h2>
-                  <a href="https://twitter.com/rjmh" class="no-underline" title="@rjmh">
-                    <img src="/img/speakers/john-hughes.jpg">
-                  </a>
-                  <p>John Hughes has been a functional programming enthusiast for more than thirty years, at the Universities of Oxford, Glasgow, and since 1992 Chalmers University in Gothenburg, Sweden. He served on the Haskell design committee, co-chairing the committee for Haskell 98, and is the author of more than 75 papers, including <a href="https://www.google.com/#q=why+functional+programming+matters">"Why Functional Programming Matters"</a>, one of the classics of the area. With Koen Claessen, he created QuickCheck, the most popular testing tool among Haskell programmers, and in 2006 he founded Quviq to commercialise the technology using Erlang. Along the way he’s learned to take great joy in buggy code.</p>
+        <div class="section" id="reasons">
+            <div class="cols">
+                <div class="col">
+                    <h3>Learn new stuff</h3>
+                    <p class="img"><img src="/img/bggraph.png" alt="" class="chart-1"></p>
+                    <p>We're not happy unless you go home after Joy of Coding feeling inspired and full of new ideas. That's why we're cramming the conference full of renowned speakers, passionate developers like yourself, and (un)sessions that we hope you'll love.</p>
                 </div>
-              </li>
-
-              <li class="">
-                <h3>The Joy of Debugging Ourselves</h3>
-                <h4>Laurent Bossavit</h4>
-                <span class="timeslot">11:10 - 11:40</span>
-
-                <div class="talk-details">
-
-              <!--<p>Recipient of the 2006 Gordon Pask award from the Agile community. Divides his attention between assisting Agile teams and the Institut Agile project.</p>-->
-                  <p>Here's a guilty secret of programming: a little debugging is a lot of fun. Granted, too much debugging can be the opposite of fun. Therein lies a mystery: why can't we ever seem to write *just the right amount* of bugs? The discipline tasked with answering these questions, known as Software Engineering has for the past four decades (and a bit) managed to ignore some fundamental facts about programming, such as why a little debugging can be a lot of fun, and more interestingly where bugs come from in the first place. Laurent's talk reveals some dismal truths about this sad state of affairs, but also offers more uplifting suggestions on how we can bring tons of fun back into programming, by developing new skills such as leprechaun hunting and brain debugging.</p>
-                  <h2>About Laurent Bossavit</h2>
-                  <a href="https://twitter.com/morendil" class="no-underline" title="@morendil">
-                    <img src="/img/speakers/laurent-bossavit.png" />
-                  </a>
-                  <p>Free electron, Extreme Programming and Agile enthusiast, a passion for learning and Things That Work</p>
+                <div class="col">
+                    <h3>Great value</h3>
+                    <p class="img"><img src="/img/bggraph2.png" alt=""></p>
+                    <p>We know you can't go to every conference every year, but we really want you to come to ours, so we're working to keep the entry price completely reasonable by teaming up with sponsors. Our goal: be the best value for money conference in 2015. Our very-early bird tickets start selling at the meager price of only EUR 128,-!</p>
                 </div>
-              </li>
-              <li>
-                <h3>Just enough crypto for the web</h3>
-                <h4>Angelo van der Sijpt</h4>
-                <span class="timeslot">11:50 - 12:20</span>
-
-                <div class="talk-details">
-
-                  <p>Cryptography is a staple of the modern web, and most developers don’t make it past “it uses HTTPS, so it must be secure, right?”. In 30 minutes, I will show you what you need to <em>understand</em> to make your web application secure, and explain everything you need to know about the file types used in public key infrastructure.</p>
-                  <p>Note: this talk is certified math-free.</p>
-
-                  <h2>About Angelo van der Sijpt</h2>
-                  <a href="https://twitter.com/_angelos" class="no_underline" title="_angelos">
-                    <img src="/img/speakers/angelo-van-der-sijpt.jpg" />
-                  </a>
-                  <p>Angelo is a Fellow and Software Architect at Luminis, where he focuses on connected devices, security, and is a firm believer in the power of service design and simplicity in software. The main thing that binds his projects is that all have a "twist", be it in hardware, scale, or security requirements. Angelo is an Apache committer on the Apache ACE project, and has spoken at conferences such as Apachecon and Oredev. He is a frequent flyer at hands-on sessions such as those of Devnology and Agile Holland.</p>
+                <div class="col">
+                    <h3>By devs, for devs</h3>
+                    <p class="img"><img src="/img/speaker.png" alt=""></p>
+                    <p>Like you, we're a bunch of developers who like going to interesting conferences and meetups. So there will be no commercial agenda or ulterior motive to Joy of Coding. It's just a place where we can all get together and talk about code.</p>
+                    <p class="cta"><a href="http://joyofcoding.eventler.nl/" class="button" title="Buy entrance ticket">Buy your ticket!</a></p>
                 </div>
-              </li>
-
-              <li class="lunch">
-                <h3>Lunch break</h3>
-              </li>
-
-              <li class="cheated-full-width" style="">
-                <h3>Exercises in Programming Style</h3>
-                <h4>Crista Lopes</h4>
-                <span class="timeslot">13:30 - 14:20</span>
-
-                <div class="talk-details">
-
-                <p>Back in the 1940s, a French writer called Raymond Queneau wrote an interesting book with the title Exercises in Style featuring 99 renditions of the exact same short story, each written in a different style. In my book <a href="http://www.amazon.com/Exercises-Programming-Style-Cristina-Videira/dp/1482227371">"Exercises in Programming Style"</a> I shamelessly do the same for a simple program. From monolithic to object-oriented to continuations to relational to publish/subscribe to monadic to aspect-oriented to map-reduce, and much more, you will get a tour through the richness of human computational thought by means of implementing one simple program in many different ways. This is more than an academic exercise; large-scale systems design feeds on these ways of thinking. I will talk about the dangers of getting trapped in just one or two prescribed styles during your career, and the need to truly understand this wide variety of concepts when architecting software. </p>
-
-                <h2>About Christa Lopes</h2>
-            <a href="https://twitter.com/cristalopes" class="no-underline" title="@cristalopes">
-              <img src="/img/speakers/crista-lopes.png">
-            </a>
-                <p>Crista Lopes is a Professor of Informatics in the School of Information and Computer Sciences at the University of California, Irvine. Her research focuses on software engineering for large-scale data and systems. Early in her career, she was a founding member of the team at Xerox PARC that developed Aspect-Oriented Programming. Along with her research program, she is also a prolific software developer. Her open source contributions include being one of the core developers of OpenSimulator, a virtual world server. She is also a founder of Encitra, a company specializing in online virtual reality for early-stage sustainable urban redevelopment projects. She has a PhD from Northeastern University, and MS and BS degrees from Instituto Superior Tecnico in Portugal. She is the recipient of several National Science Foundation grants, including a prestigious CAREER Award. She claims to be the only person in the world who is both an ACM Distinguished Scientist and Ohloh Kudos Rank 9.</p>
-                </div>
-              </li>
-              <li class="">
-                <h3>Hacking Culture with Chat Robots</h3>
-                <h4>Ben Straub</h4>
-                <span class="timeslot">14:30 - 15:00</span>
-
-
-                <div class="talk-details">
-
-                  <p>Chat robots are just for looking up cat GIFs, right? Well, not necessarily. Robots are for automation, and what you choose to automate has a feedback effect on the people who use it. Come take a look at some examples of this, and some guiding principles for how you can apply it in your organization.</p>
-                  <h2>About Ben Straub</h2>
-                  <a href="https://twitter.com/benstraub" class="no-underline" title="@benstraub">
-                    <img src="/img/speakers/ben-straub.png">
-                  </a>
-                  <p>Ben Straub has been writing software for over 15 years. He's a GitHub alumnus, co-author of the second edition of Pro Git, and has written a multitude of Hubot plugins. He's seen what chat bots can do, not just for engineering, but for a whole company.</p>
-                </div>
-              </li>
-              <li class="">
-                <h3>Hello, declarative world</h3>
-                <h4>Tom Stuart</h4>
-                <span class="timeslot">15:10 - 15:40</span>
-
-                <div class="talk-details">
-
-                  <p>We know that a computer is an imperative machine: a CPU reads one instruction after another, and performs one operation after another, with each operation modifying the state of its registers and memory. But although it’s completely natural to think of computer programs as imperative recipes, there are other interesting ways to specify a computation. One such alternative is declarative programming, where we tell the computer what we want to achieve instead of exactly how to achieve it. This idea has been around for a long time but has recently begun to reappear everywhere. In this talk we’ll look at some modern examples of declarative programming and explore how it can help us with the applications we build today.</p>
-                  <h2>About Tom Stuart</h2>
-                  <a href="https://twitter.com/tomstuart" class="no-underline" title="@tomstuart">
-                    <img src="/img/speakers/tom-stuart.jpg">
-                  </a>
-                  <p>Tom is a computer scientist and programmer. He has lectured on optimising compilers at the University of Cambridge, co-organises the Ruby Manor conference, and is a member of the London Ruby User Group. His latest book, Understanding Computation, was published by O'Reilly in 2013.</p>
-                </div>
-              </li>
-              <li>
-                <h3>Modelling complex game economy with Neo4j</h3>
-                <h4>Yan Cui</h4>
-                <span class="timeslot">15:50 - 16:20</span>
-
-                <div class="talk-details">
-
-
-                  <p>The challenge of modelling and balancing the economy of a large scale game is one of the biggest problems game developers face and one that many have tried to solve by simply throwing man-hours at it... But there's a better way!</p>
-                  <p>Learn how Gamesys did it by leveraging graph database Neo4j to model the in-game economy of our MMORPG "Here Be Monsters" and automate the balancing process. We'll discuss lessons learned, successes and challenges, and how a graph database enables our small team of game designers to stay agile and focused on delivering new content to players.</p>
-
-                  <h2>About Yan Cui</h2>
-                  <a href="https://twitter.com/theburningmonk" class="no-underline" title="@theburningmonk">
-                    <img src="/img/speakers/yan-cui.png"/>
-                  </a>
-                  <p>Yan works as a server side developer at Gamesys where he develops scalable backend services for Gamesys's social games on mobile and Facebook. He's a co-author of the upcoming book F# Deep Dives for Manning Publishing. He's a regular speaker on topics such as Aspect-Oriented Programming, F# and NoSQL, and he keeps an active blog at <a href="http://theburningmonk.com/">http://theburningmonk.com/</a></p>
-                </div>
-
-              </li>
-              <li class="keynote mobile-only">
-                <h3>Closing keynote - Cool Code</h3>
-                <h4>Kevlin Henny</h4>
-                <span class="timeslot">16:30 - 17:20</span>
-
-                <div class="talk-details">
-                  <p>In most disciplines built on skill and knowledge, from art to architecture, from creative writing to structural engineering, there is a strong emphasis on studying existing work. Exemplary pieces from past and present are examined and discussed in order to provoke thinking and learn techniques for the present and the future. Although programming is a discipline with a very large canon of existing work to draw from, the only code most programmers read is the code they maintain. They rarely look outside the code directly affecting their work. This talk examines some examples of code that are interesting because of historical significance, profound concepts, impressive technique, exemplary style or just sheer geekiness.</p>
-
-                  <h2>About Kevlin Henny</h2>
-                  <a href="https://twitter.com/kevlinhenney" class="no-underline" title="@kevlinhenney">
-                    <img src="/img/speakers/kevlin-henney.jpg">
-                  </a>
-                  <p>Kevlin Henney is an independent consultant, trainer and writer based in the UK. His development interests are in patterns, programming, practice and process. He has been a columnist for many magazines and web sites and is co-author of A Pattern Language for Distributed Computing and On Patterns and Pattern Languages, two volumes in the Pattern-Oriented Software Architecture series. He is also editor of 97 Things Every Programmer Should Know.</p>
-                </div>
-              </li>
-            </ol>
-          </div>
-
-          <div class="track col">
-            <h1 class="mobile-only">Room 2</h1>
-            <ol>
-              <li class="workshop">
-                <h3>BreakIn: Making a Breakout clone in F#</h3>
-                <h4>Andrea Magnorsky</h4>
-                <span class="timeslot">10:30 - 12:20</span>
-
-
-                <div class="talk-details">
-                  <p>In this workshop, we will start of with the skeleton of a Breakout clone in F# and turn it into a more functional version of Breakout. By the end of the workshop you will write a cool power up, so brush up on your game skills for extra bonus points!!</p>
-                  <p>You will need a windows machine (a VM on OSx has worked for many people) with F# installed . A mouse will come handy too because we have an editor where clicking things is necessary.</p>
-                  <p>This is an ideal way to try some F# and/or game development.</p>
-
-                  <h2>About Andrea Magnorsky</h2>
-                  <a href="https://twitter.com/silverspoon" class="no-underline" title="@silverspoon">
-                    <img src="/img/speakers/andrea-magnorsky.jpg"/>
-                  </a>
-                  <p>I am a developer that makes games, at the moment Onikira:Demon Killer. I like to learn how to do things in different ways, in the hope that one day I will have to do nothing and just do things because I can.</p>
-                  <p>Conferences and meetups are a great way to learn more, so I try to help when I can to make them happen.</p>
-                  <p>I worked on enterprise (not the one with Piccard sadly) for too many years and then we created the company where we now make games, the future unknown.</p>
-                </div>
-              </li>
-              <li class="lunch">
-                <h3>Lunch break</h3>
-              </li>
-              <li class=" no-session-before">
-                <h3>The story of one who ever finally shipped something</h3>
-                <h4>Ole Michaelis</h4>
-                <span class="timeslot">14:30 - 15:00</span>
-
-                <div class="talk-details">
-                  <p>Everyone knows that, you have that one idea, it might be the next facebook or just the thing somehow nobody build yet but you are dying for it. So what does a programmer do? Right, going to build it. We are makers, builders we have the powers to create our own tooling and make our dreams come true! But somehow only a very few of these ideas actually will ever see a production environment. Contrary to popular belief, some ship! And this is the story how I shipped my pet project!</p>
-
-                  <h2>About Ole Michaelis</h2>
-                  <a href="https://twitter.com/codestars" class="no-underline" title="@codestars">
-                    <img src="/img/speakers/ole-michaelis.jpg"/>
-                  </a>
-                  <p>Ole Michaelis is the co-founder of <a href="http://2015.socoded.com">SoCoded</a>, a hackfest and web development conference in Hamburg. He’s a Software Engineer at Jimdo, a DIY website creator, where he focuses on backend development. In his free time, he’s building <a href="http://slidr.io">slidr.io</a>, a hazzle-free slide sharing platform. Ole is passionate about open source software, enjoys traveling, and loves Mexican food. He classifies himself as a 'bad' German as he dislikes beer and soccer – the traditional German past-times.</p>
-                </div>
-              </li>
-              <li>
-                <h3>Functional Programming for Beginners</h3>
-                <h4>Nicole Rauch</h4>
-                <span class="timeslot">15:10 - 15:40</span>
-
-                <div class="talk-details">
-                  <p>Functional programming is currently booming. This is partly driven by the growing number of hybrid languages like Scala or F#. But even if you are not directly interested in one of these languages, you can benefit from looking into functional programming: It widens the horizon and can provide new stimuli for developers working in an object-oriented or procedural environment.</p>
-                  <p>In this talk, I will demonstrate the basic aspects of functional programming languages, showing examples in Haskell and JavaScript, and I will point out what is so special about functional programming.</p>
-
-                  <h2>About Nicole Rauch</h2>
-                  <img src="/img/speakers/nicole-rauch.jpg"/>
-                  <p>Nicole Rauch is an independent software developer and development coach with a solid background in compiler construction and formal methods. Over the last three years, she worked on the restructuring of large legacy code applications with different technologies. She is also involved in the development of a web platform in node.js. Nonetheless, her secret love is for functional programming. Alongside her occupation as developer, she took part in conducting a number of self-organized conferences related to software craftsmanship and agile coaching. She is also one of the initiators of <a href="https://www.softwerkskammer.org/">Softwerkskammer</a>, the german-speaking Software Craftsmanship community.</p>
-                </div>
-              </li>
-              <li>
-                <h3>Building Applications With AWS Lambda</h3>
-                <h4>J Randall Hunt</h4>
-                <span class="timeslot">15:50 - 16:20</span>
-                <div class="talk-details">
-                  <p>AWS Lambda is a really exciting new way to abstract away complex infrastructure and focus solely on building your application. Imagine being able to take a javascript, python, or Java method and have it just run. No servers, no queues, no ops. That's what the vision of AWS Lambda is and I want everyone to try it out. In this demo I'll share my love of space and show you how to write simple AWS Lambda functions for changing your twitter background to the astronomy picture of the day. Finally I'll stick around to answer any questions you have about AWS and Lambda.</p>
-                  <h2>About J Randall Hunt</h2>
-                  <a href="https://twitter.com/jrhunt" class="no-underline" title="@jrhunt">
-                    <img src="/img/speakers/randall-hunt.jpg"/>
-                  </a>
-                  <p>J. Randall Hunt Developer Advocate and Software Engineer at Amazon Web Services in New York City. Python is his favorite language but he can sometimes be found in the dark realm of C++. Randall loves databases and enjoys talking about them from the developer perspective. Author of gitshots, a ridiculous and amusing platform for sharing git commits. Contributor to MongoDB and lots of other open source tools and libraries. Formerly of MongoDB, hackNY, and NASA. A total space nerd.<p>
-                </div>
-              </li>
-
-            </ol>
-          </div>
-
-          <div class="track col">
-            <h1 class="mobile-only">Room 3</h1>
-            <ol>
-              <li class="workshop">
-                <h3>Coding Dojo</h3>
-                <h4>Emily Bache</h4>
-                <span class="timeslot">10:30 - 12:20</span>
-
-                <div class="talk-details">
-                  <p>In this hands-on session we will be working on a rather smelly piece of code which helpfully has a fairly comprehensive suite of automated tests. Refactoring is one of the key skills of Test-Driven Development, and this is your chance to really practice it. The idea is not to rewrite the code from scratch, but rather, by taking small refactoring steps, gradually transform the code into a paragon of readability and elegance.</p>
-                  <p>We’ll be stepping into the Coding Dojo together, which is a safe place designed for learning, where it doesn’t matter if we make mistakes. In fact all the code will be thrown away afterwards. You should feel free to experiment, try out different refactoring approaches, and get feedback from your peers. The great thing about this Kata is that since the tests are very good and very quick to run, they will catch every little refactoring mistake you make. You should experience how programming is supposed to be – smooth, calm, and always minutes away from committable code. The last part of the session is the retrospective, when we discuss what we’ve learnt, and how we can apply our new skills in our daily production code.</p>
-                  <p>The code kata we’ll be looking at is “Tennis”, and the starting code is available here: https://github.com/emilybache/Tennis-Refactoring-Kata. (Java, Python, C++ etc). If you want to practice using your familiar development tools, please download the code and set up a project in advance of the session. Otherwise you can just come and use the cyber-dojo practice environment, which runs in a browser.</p>
-                  <h2>About Emily Bache</h2>
-                  <a href="https://twitter.com/emilybache" class="no-underline" title="@emilybache">
-                    <img src="/img/speakers/emily-bache.jpg"/>
-                  </a>
-                  <p>Emily Bache is an independent consultant specializing in automated testing and agile methods. With over 15 years of experience working as a software developer in organizations as diverse as multinational corporation to small startup, she has learnt that to be truly agile, teams need to learn use agile engineering practices. Emily is the author of "The Coding Dojo Handbook: a practical guide to creating a space where good programmers can become great programmers" and loves to coach and teach developers about Clean Code, Test Driven Development, Refactoring, and more. Emily speaks regularly at international events such as Agile Testing Days, XP2014, ACCU, and recently gave a keynote address at Europython in Berlin.</p>
-                </div>
-              </li>
-              <li class="lunch">
-                <h3>Lunch break</h3>
-              </li>
-              <li class="workshop no-session-before">
-                <h3>Property Based Testing Hands-on</h3>
-                <h4>Marc Evers, Rob Westgeest &amp; Willem van den Ende</h4>
-                <span class="timeslot">14:30 - 16:20</span>
-
-                <div class="talk-details">
-                  <p>Most unit/integration testing as we know it is example-based: we describe examples of how the code under test behaves in our favourite testing framework.</p>
-                  <p>Property based testing is a new and promising approach to automated unit testing. It is very different from example-based approaches: in property based testing, you don't write examples but you describe properties of the code under test (statements about the outputs based on the inputs). Based on this, a property-based test framework generates many different inputs and checks if the code under test satisfies everything.</p>
-                  <p>It started in QuickCheck in the functional programming language Haskell and currently frameworks are available for many languages, from Java/Scala to C++.</p>
-                  <p>Property based testing forces you to think carefully about specifications: what are the preconditions, postconditions, invariants? It looks like a useful new tool for the crafts(wo)man's tool chest. This session will give you a good impression of how it works and what possible applications could be.</p>
-
-                  <h2>About Marc, Rob &amp; Willem</h2>
-                  <p>Marc: works as an independent coach, trainer and consultant in the field of (agile) software development and software processes. Marc develops true learning organizations that focus on continuous reflection and improvement: apply, inspect, adapt. Marc also organizes workshops and conferences on agile and lean software development, extreme programming, systems thinking, theory of constraints, and effective communication. He is co-founder of the Agile Open and XP Days Benelux conferences.</p>
-                  <p>Rob: after years of experience with Object Oriented Software Development with UML, several development processes and project approaches as developer, architect, trainer and project leader, Rob worked on his first XP project in 2000. And with great success! He supports projects and people in the application of agile practices, principles and values since then. Rob develops himself and others continuously by visiting, organising and hosting workshops at conferences and user group meetings like SPA, XP Days, XP-NL and Agile Open.</p>
-                  <p>Willem: is a Dutch eXtreme Programming pioneer. As a coach, developer and coach he guides organisations in introducing agile software development since 1999.</p>
-                </div>
-              </li>
-            </ol>
-
-          </div>
-
-          <div class="track col">
-            <h1 class="mobile-only">Room 4</h1>
-            <ol>
-              <li class="workshop">
-                <h3>Intro to Musical Programming with ChucK</h3>
-                <h4>Bonnie Eisenman</h4>
-                <span class="timeslot">10:30 - 12:20</span>
-
-                <div class="talk-details">
-
-
-                  <p>Learn to programmatically generate music with the ChucK programming language! ChucK is an easy-to-learn, versatile way to program music, intended for use by musicians with no programming knowledge and experienced programmers alike. It is particularly useful if you wish to create your own musical projects or installations. In this workshop, I'll walk through the basics of ChucK, and participants will learn to program their own musical pieces.</p>
-                  <h2>About Bonnie Eisenman</h2>
-                  <a href="https://twitter.com/brindelle" class="no-underline" title="@brindelle">
-                    <img src="/img/speakers/bonnie-eisenman.jpg"/>
-                  </a>
-                  <p>Bonnie Eisenman is a software engineer at Codecademy. She recently graduated from Princeton with an engineering degree in Computer Science. Besides her work at Codecademy, she also works on side projects involving Arduinos and electronic music.</p>
-                </div>
-              </li>
-              <li class="lunch">
-                <h3>Lunch break</h3>
-              </li>
-              <li class="workshop no-session-before">
-                <h3>Coda Lisa</h3>
-                <h4>Rico Huijbers</h4>
-                <span class="timeslot">14:30 - 16:20</span>
-
-                <div class="talk-details">
-
-                  <p>"In this laid-back workshop, we're going to make art! Or more precisely, we're going to make computer programs that are going to make art for us.</p>
-                  <p>Intricate patterns are going to emerge on our shared virtual canvas, as the rules of our little automatons combine to form some emergent behavior that nobody expected. We'll even incorporate stimuli from the real world to make our installation interactive. So grab a beer and a laptop, sling some JavaScript, and be part of this creative event that is bound to win several awards!(*)"</p>
-                  <h2>About Rico Huijbers</h2>
-                  <a href="https://twitter.com/rix0rrr" class="no-underline" title="@rix0rrr">
-                    <img src="/img/speakers/rico-huijbers.jpg"/>
-                  </a>
-                  <p>Rico Huijbers is a software development Jack-of-all-trades, who hates web development yet for some reason can't stop talking about it.</p>
-                </div>
-              </li>
-            </ol>
-
-          </div>
+            </div>
         </div>
 
-        <div class="cols non-mobile">
-          <div class="col timetable">
-            <ol>
-              <li class="keynote"><h3>16:30 - 17:20</h3></li>
-            </ol>
-          </div>
-          <div class="col col4">
-            <ol>
-              <li class="keynote">
-                <h3>Closing keynote - Cool Code</h3>
-                <h4>Kevlin Henney</h4>
-                <span class="timeslot">16:30 - 17:20</span>
-
-                <div class="talk-details">
-                  <p>In most disciplines built on skill and knowledge, from art to architecture, from creative writing to structural engineering, there is a strong emphasis on studying existing work. Exemplary pieces from past and present are examined and discussed in order to provoke thinking and learn techniques for the present and the future. Although programming is a discipline with a very large canon of existing work to draw from, the only code most programmers read is the code they maintain. They rarely look outside the code directly affecting their work. This talk examines some examples of code that are interesting because of historical significance, profound concepts, impressive technique, exemplary style or just sheer geekiness.</p>
-
-                  <h2>About Kevlin Henney</h2>
-                  <a href="https://twitter.com/kevlinhenney" class="no-underline" title="@kevlinhenney">
-                    <img src="/img/speakers/kevlin-henney.jpg">
-                  </a>
-                  <p>Kevlin Henney is an independent consultant, trainer and writer based in the UK. His development interests are in patterns, programming, practice and process. He has been a columnist for many magazines and web sites and is co-author of A Pattern Language for Distributed Computing and On Patterns and Pattern Languages, two volumes in the Pattern-Oriented Software Architecture series. He is also editor of 97 Things Every Programmer Should Know.</p>
+        <div class="section" id="preparty">
+            <div class="cols">
+                <div class="col">
+                    <h1>Warm-Up Party</h1>
+                    <p>Want to meet some of the other attendees and speakers in an informal setting? Join us the night before Joy of Coding at our free warm-up party! We will have a few talks (<a href="https://twitter.com/PeterHilton">Peter Hilton</a> &amp; <a href="https://twitter.com/KevlinHenney">Kevlin Henney</a>) and best of all, drinks are sponsored by <a href="http://ordina.nl">Ordina</a>! The pre-party will be held at <a href="https://www.google.nl/maps/dir//Bierlokaal+Locus+Publicus,+Oostzeedijk+364,+3063+CD+Rotterdam,+Netherlands/@51.922801,4.498283,17z/data=!4m12!1m3!3m2!1s0x47c433467b4b9dcb:0x40bb96ad3783228d!2sBierlokaal+Locus+Publicus!4m7!1m0!1m5!1m1!1s0x47c433467b4b9dcb:0x40bb96ad3783228d!2m2!1d4.498283!2d51.922801">Locus Publicus International</a> and is easily reached by subway from Rotterdam Centraal station (or Rotterdam Blaak station). <a href="http://www.meetup.com/010DEV/events/221930670/">RSVP @ Meetup that you are coming!</a></p>
                 </div>
-              </li>
-            </ol>
-          </div>
+            </div>
         </div>
 
-        <div class="cols">
-          <div class="col timetable">
-            <ol>
-              <li class="keynote"><h3>17:20 - 21:00</h3></li>
-            </ol>
-          </div>
-          <div class="col col4">
-            <ol>
-              <li class="keynote">
-                <h3>Afterparty &amp; Dinner</h3>
-                <span class="timeslot">17:20 - 21:00</span>
-
-                <div class="talk-details">
-                  <p>We are most happy that due to a generous donation by <a href="http://www.incentro.com/nl/" Title="Incentro">Incentro</a> we are able to provide you with dinner &amp; drinks and the opportunity to reflect on the days sessions. There wil be plenty time to mingle with other attendees and speakers. Which talk did you enjoy most? Which gadget should I buy in 2015?</p>
-                  <p>Around 21:00 we will have to wrap up the 2015 edition of Joy of Coding, waiting a full year for our 2016 return!</p>
-
-                  <h2>Dinner &amp; party sponsor</h2>
-                  <a href="http://www.incentro.com/nl/" Title="Incentro"><img src="/img/sponsors/incentro.png"/></a>
+        <div class="section" id="speakers">
+            <div class="cols non-mobile">
+                <div class="col timetable">
+                    &nbsp;
                 </div>
-              </li>
-            </ol> 
-          </div>
+                <div class="col">
+                    <h2>Mainstage</h2>
+                </div>
+                <div class="col">
+                    <h2>Room 2</h2>
+                </div>
+                <div class="col">
+                    <h2>Room 3</h2>
+                </div>
+                <div class="col">
+                    <h2>Room 4</h2>
+                </div>
+            </div>
+            <h2 class="mobile-only">Schedule</h2>
+            <h1 class="mobile-only">Mainstage</h1>
+
+            <div class="cols">
+                <div class="col non-mobile timetable">
+                    <ol>
+                        <li class="keynote">
+                            <h3>9:30 - 10:20</h3>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col col4">
+                    <ol>
+                        <li class="keynote" id="programming-as-distributed-cognition-defining-a-super-power">
+                            <h3>Opening keynote - Programming as distributed cognition: defining a super power</h3>
+                            <h4>Chris Granger</h4>
+                            <span class="timeslot">9:30 - 10:20</span>
+
+                            <div class="talk-details">
+                                <p>With the constant barrage of frameworks, languages, and methodologies, it's easy to forget that programming isn't an end unto itself, but instead merely a means to get somewhere else. With the help of a computer, we can think and create things we never would have been able to before. Programming isn't simply a skill, it's a fundamental upgrade to our capabilities as humans - a way to distribute and externalize computation that would otherwise have to take place in our heads. So what would it be like if *everyone* could use computers as the thinking tools we originally meant for them to be?<br />
+                                    Let's try to find out.</p>
+
+                                <h2>About Chris Granger</h2>
+                                <a href="https://twitter.com/ibdknox" class="no-underline" title="@idbknox">
+                                    <img src="/img/speakers/chris-granger.jpg">
+                                </a>
+                                <p>I grew up as part of the nintendo generation, having learned the parts of a computer at the age of two and later learning numbers and colors from a Sesame Street game on the NES. I started programming at the age of ten and took my first paid development gig at 17. Since then I’ve built websites large and small, written frameworks and libraries used by thousands, taught developers around the world, and helped envision the future of development at Microsoft. These days, I’m the co-founder and CEO of Kodowa, where we built the next generation code editor Light Table and now Eve, a new vision for putting computation in the hands of everyone.</p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="cols">
+                <div class="col non-mobile timetable">
+                    <ol>
+                        <li><h3>10:30 - 11:00</h3></li>
+                        <li><h3>11:10 - 11:40</h3></li>
+                        <li><h3>11:50 - 12:20</h3></li>
+                        <li class="lunch"><h3>12:20 - 13:20</h3></li>
+                        <li><h3>13:30 - 14:20</h3></li>
+                        <li><h3>14:30 - 15:00</h3></li>
+                        <li><h3>15:10 - 15:40</h3></li>
+                        <li><h3>15:50 - 16:20</h3></li>
+                    </ol>
+                </div>
+                <div class="track col">
+                    <ol>
+                        <li class="track-modal">
+                            <h3>Joy of Testing</h3>
+                            <h4>John Hughes</h4>
+                            <span class="timeslot">10:30 - 11:00</span>
+
+
+                            <div class="talk-details">
+
+                                <p>Even the best test suites can't entirely prevent nasty surprises: race conditions, unexpected interactions, faults in distributed protocols and so on, still slip past them into production. Yet writing even more tests of the same kind quickly runs into diminishing returns. I'll talk about new automated techniques that can dramatically improve your testing, letting you focus on what your code should do, rather than which cases should be tested--with plenty of war stories from the likes of Ericsson, Volvo Cars, and Basho Technologies, to show how these new techniques really enable us to nail the hard stuff. And best of all—it’s fun!</p>
+
+                                <h2>About John Hughes</h2>
+                                <a href="https://twitter.com/rjmh" class="no-underline" title="@rjmh">
+                                    <img src="/img/speakers/john-hughes.jpg">
+                                </a>
+                                <p>John Hughes has been a functional programming enthusiast for more than thirty years, at the Universities of Oxford, Glasgow, and since 1992 Chalmers University in Gothenburg, Sweden. He served on the Haskell design committee, co-chairing the committee for Haskell 98, and is the author of more than 75 papers, including <a href="https://www.google.com/#q=why+functional+programming+matters">"Why Functional Programming Matters"</a>, one of the classics of the area. With Koen Claessen, he created QuickCheck, the most popular testing tool among Haskell programmers, and in 2006 he founded Quviq to commercialise the technology using Erlang. Along the way he’s learned to take great joy in buggy code.</p>
+                            </div>
+                        </li>
+
+                        <li class="track-modal">
+                            <h3>The Joy of Debugging Ourselves</h3>
+                            <h4>Laurent Bossavit</h4>
+                            <span class="timeslot">11:10 - 11:40</span>
+
+                            <div class="talk-details">
+
+                                <!--<p>Recipient of the 2006 Gordon Pask award from the Agile community. Divides his attention between assisting Agile teams and the Institut Agile project.</p>-->
+                                <p>Here's a guilty secret of programming: a little debugging is a lot of fun. Granted, too much debugging can be the opposite of fun. Therein lies a mystery: why can't we ever seem to write *just the right amount* of bugs? The discipline tasked with answering these questions, known as Software Engineering has for the past four decades (and a bit) managed to ignore some fundamental facts about programming, such as why a little debugging can be a lot of fun, and more interestingly where bugs come from in the first place. Laurent's talk reveals some dismal truths about this sad state of affairs, but also offers more uplifting suggestions on how we can bring tons of fun back into programming, by developing new skills such as leprechaun hunting and brain debugging.</p>
+                                <h2>About Laurent Bossavit</h2>
+                                <a href="https://twitter.com/morendil" class="no-underline" title="@morendil">
+                                    <img src="/img/speakers/laurent-bossavit.png" />
+                                </a>
+                                <p>Free electron, Extreme Programming and Agile enthusiast, a passion for learning and Things That Work</p>
+                            </div>
+                        </li>
+                        <li class="track-modal">
+                            <h3>Just enough crypto for the web</h3>
+                            <h4>Angelo van der Sijpt</h4>
+                            <span class="timeslot">11:50 - 12:20</span>
+
+                            <div class="talk-details">
+
+                                <p>Cryptography is a staple of the modern web, and most developers don’t make it past “it uses HTTPS, so it must be secure, right?”. In 30 minutes, I will show you what you need to <em>understand</em> to make your web application secure, and explain everything you need to know about the file types used in public key infrastructure.</p>
+                                <p>Note: this talk is certified math-free.</p>
+
+                                <h2>About Angelo van der Sijpt</h2>
+                                <a href="https://twitter.com/_angelos" class="no_underline" title="_angelos">
+                                    <img src="/img/speakers/angelo-van-der-sijpt.jpg" />
+                                </a>
+                                <p>Angelo is a Fellow and Software Architect at Luminis, where he focuses on connected devices, security, and is a firm believer in the power of service design and simplicity in software. The main thing that binds his projects is that all have a "twist", be it in hardware, scale, or security requirements. Angelo is an Apache committer on the Apache ACE project, and has spoken at conferences such as Apachecon and Oredev. He is a frequent flyer at hands-on sessions such as those of Devnology and Agile Holland.</p>
+                            </div>
+                        </li>
+
+                        <li class="lunch">
+                            <h3>Lunch break</h3>
+                        </li>
+
+                        <li class="cheated-full-width track-modal" style="">
+                            <h3>Exercises in Programming Style</h3>
+                            <h4>Crista Lopes</h4>
+                            <span class="timeslot">13:30 - 14:20</span>
+
+                            <div class="talk-details">
+
+                                <p>Back in the 1940s, a French writer called Raymond Queneau wrote an interesting book with the title Exercises in Style featuring 99 renditions of the exact same short story, each written in a different style. In my book <a href="http://www.amazon.com/Exercises-Programming-Style-Cristina-Videira/dp/1482227371">"Exercises in Programming Style"</a> I shamelessly do the same for a simple program. From monolithic to object-oriented to continuations to relational to publish/subscribe to monadic to aspect-oriented to map-reduce, and much more, you will get a tour through the richness of human computational thought by means of implementing one simple program in many different ways. This is more than an academic exercise; large-scale systems design feeds on these ways of thinking. I will talk about the dangers of getting trapped in just one or two prescribed styles during your career, and the need to truly understand this wide variety of concepts when architecting software. </p>
+
+                                <h2>About Christa Lopes</h2>
+                                <a href="https://twitter.com/cristalopes" class="no-underline" title="@cristalopes">
+                                    <img src="/img/speakers/crista-lopes.png">
+                                </a>
+                                <p>Crista Lopes is a Professor of Informatics in the School of Information and Computer Sciences at the University of California, Irvine. Her research focuses on software engineering for large-scale data and systems. Early in her career, she was a founding member of the team at Xerox PARC that developed Aspect-Oriented Programming. Along with her research program, she is also a prolific software developer. Her open source contributions include being one of the core developers of OpenSimulator, a virtual world server. She is also a founder of Encitra, a company specializing in online virtual reality for early-stage sustainable urban redevelopment projects. She has a PhD from Northeastern University, and MS and BS degrees from Instituto Superior Tecnico in Portugal. She is the recipient of several National Science Foundation grants, including a prestigious CAREER Award. She claims to be the only person in the world who is both an ACM Distinguished Scientist and Ohloh Kudos Rank 9.</p>
+                            </div>
+                        </li>
+                        <li class="track-modal">
+                            <h3>Hacking Culture with Chat Robots</h3>
+                            <h4>Ben Straub</h4>
+                            <span class="timeslot">14:30 - 15:00</span>
+
+
+                            <div class="talk-details">
+
+                                <p>Chat robots are just for looking up cat GIFs, right? Well, not necessarily. Robots are for automation, and what you choose to automate has a feedback effect on the people who use it. Come take a look at some examples of this, and some guiding principles for how you can apply it in your organization.</p>
+                                <h2>About Ben Straub</h2>
+                                <a href="https://twitter.com/benstraub" class="no-underline" title="@benstraub">
+                                    <img src="/img/speakers/ben-straub.png">
+                                </a>
+                                <p>Ben Straub has been writing software for over 15 years. He's a GitHub alumnus, co-author of the second edition of Pro Git, and has written a multitude of Hubot plugins. He's seen what chat bots can do, not just for engineering, but for a whole company.</p>
+                            </div>
+                        </li>
+                        <li class="track-modal">
+                            <h3>Hello, declarative world</h3>
+                            <h4>Tom Stuart</h4>
+                            <span class="timeslot">15:10 - 15:40</span>
+
+                            <div class="talk-details">
+
+                                <p>We know that a computer is an imperative machine: a CPU reads one instruction after another, and performs one operation after another, with each operation modifying the state of its registers and memory. But although it’s completely natural to think of computer programs as imperative recipes, there are other interesting ways to specify a computation. One such alternative is declarative programming, where we tell the computer what we want to achieve instead of exactly how to achieve it. This idea has been around for a long time but has recently begun to reappear everywhere. In this talk we’ll look at some modern examples of declarative programming and explore how it can help us with the applications we build today.</p>
+                                <h2>About Tom Stuart</h2>
+                                <a href="https://twitter.com/tomstuart" class="no-underline" title="@tomstuart">
+                                    <img src="/img/speakers/tom-stuart.jpg">
+                                </a>
+                                <p>Tom is a computer scientist and programmer. He has lectured on optimising compilers at the University of Cambridge, co-organises the Ruby Manor conference, and is a member of the London Ruby User Group. His latest book, Understanding Computation, was published by O'Reilly in 2013.</p>
+                            </div>
+                        </li>
+                        <li class="track-modal">
+                            <h3>Modelling complex game economy with Neo4j</h3>
+                            <h4>Yan Cui</h4>
+                            <span class="timeslot">15:50 - 16:20</span>
+
+                            <div class="talk-details">
+
+
+                                <p>The challenge of modelling and balancing the economy of a large scale game is one of the biggest problems game developers face and one that many have tried to solve by simply throwing man-hours at it... But there's a better way!</p>
+                                <p>Learn how Gamesys did it by leveraging graph database Neo4j to model the in-game economy of our MMORPG "Here Be Monsters" and automate the balancing process. We'll discuss lessons learned, successes and challenges, and how a graph database enables our small team of game designers to stay agile and focused on delivering new content to players.</p>
+
+                                <h2>About Yan Cui</h2>
+                                <a href="https://twitter.com/theburningmonk" class="no-underline" title="@theburningmonk">
+                                    <img src="/img/speakers/yan-cui.png"/>
+                                </a>
+                                <p>Yan works as a server side developer at Gamesys where he develops scalable backend services for Gamesys's social games on mobile and Facebook. He's a co-author of the upcoming book F# Deep Dives for Manning Publishing. He's a regular speaker on topics such as Aspect-Oriented Programming, F# and NoSQL, and he keeps an active blog at <a href="http://theburningmonk.com/">http://theburningmonk.com/</a></p>
+                            </div>
+
+                        </li>
+                        <li class="keynote mobile-only track-modal">
+                            <h3>Closing keynote - Cool Code</h3>
+                            <h4>Kevlin Henny</h4>
+                            <span class="timeslot">16:30 - 17:20</span>
+
+                            <div class="talk-details">
+                                <p>In most disciplines built on skill and knowledge, from art to architecture, from creative writing to structural engineering, there is a strong emphasis on studying existing work. Exemplary pieces from past and present are examined and discussed in order to provoke thinking and learn techniques for the present and the future. Although programming is a discipline with a very large canon of existing work to draw from, the only code most programmers read is the code they maintain. They rarely look outside the code directly affecting their work. This talk examines some examples of code that are interesting because of historical significance, profound concepts, impressive technique, exemplary style or just sheer geekiness.</p>
+
+                                <h2>About Kevlin Henny</h2>
+                                <a href="https://twitter.com/kevlinhenney" class="no-underline" title="@kevlinhenney">
+                                    <img src="/img/speakers/kevlin-henney.jpg">
+                                </a>
+                                <p>Kevlin Henney is an independent consultant, trainer and writer based in the UK. His development interests are in patterns, programming, practice and process. He has been a columnist for many magazines and web sites and is co-author of A Pattern Language for Distributed Computing and On Patterns and Pattern Languages, two volumes in the Pattern-Oriented Software Architecture series. He is also editor of 97 Things Every Programmer Should Know.</p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="track col">
+                    <h1 class="mobile-only">Room 2</h1>
+                    <ol>
+                        <li class="workshop track-modal">
+                            <h3>BreakIn: Making a Breakout clone in F#</h3>
+                            <h4>Andrea Magnorsky</h4>
+                            <span class="timeslot">10:30 - 12:20</span>
+
+
+                            <div class="talk-details">
+                                <p>In this workshop, we will start of with the skeleton of a Breakout clone in F# and turn it into a more functional version of Breakout. By the end of the workshop you will write a cool power up, so brush up on your game skills for extra bonus points!!</p>
+                                <p>You will need a windows machine (a VM on OSx has worked for many people) with F# installed . A mouse will come handy too because we have an editor where clicking things is necessary.</p>
+                                <p>This is an ideal way to try some F# and/or game development.</p>
+
+                                <h2>About Andrea Magnorsky</h2>
+                                <a href="https://twitter.com/silverspoon" class="no-underline" title="@silverspoon">
+                                    <img src="/img/speakers/andrea-magnorsky.jpg"/>
+                                </a>
+                                <p>I am a developer that makes games, at the moment Onikira:Demon Killer. I like to learn how to do things in different ways, in the hope that one day I will have to do nothing and just do things because I can.</p>
+                                <p>Conferences and meetups are a great way to learn more, so I try to help when I can to make them happen.</p>
+                                <p>I worked on enterprise (not the one with Piccard sadly) for too many years and then we created the company where we now make games, the future unknown.</p>
+                            </div>
+                        </li>
+                        <li class="lunch">
+                            <h3>Lunch break</h3>
+                        </li>
+                        <li class=" no-session-before track-modal">
+                            <h3>The story of one who ever finally shipped something</h3>
+                            <h4>Ole Michaelis</h4>
+                            <span class="timeslot">14:30 - 15:00</span>
+
+                            <div class="talk-details">
+                                <p>Everyone knows that, you have that one idea, it might be the next facebook or just the thing somehow nobody build yet but you are dying for it. So what does a programmer do? Right, going to build it. We are makers, builders we have the powers to create our own tooling and make our dreams come true! But somehow only a very few of these ideas actually will ever see a production environment. Contrary to popular belief, some ship! And this is the story how I shipped my pet project!</p>
+
+                                <h2>About Ole Michaelis</h2>
+                                <a href="https://twitter.com/codestars" class="no-underline" title="@codestars">
+                                    <img src="/img/speakers/ole-michaelis.jpg"/>
+                                </a>
+                                <p>Ole Michaelis is the co-founder of <a href="http://2015.socoded.com">SoCoded</a>, a hackfest and web development conference in Hamburg. He’s a Software Engineer at Jimdo, a DIY website creator, where he focuses on backend development. In his free time, he’s building <a href="http://slidr.io">slidr.io</a>, a hazzle-free slide sharing platform. Ole is passionate about open source software, enjoys traveling, and loves Mexican food. He classifies himself as a 'bad' German as he dislikes beer and soccer – the traditional German past-times.</p>
+                            </div>
+                        </li>
+                        <li class="track-modal">
+                            <h3>Functional Programming for Beginners</h3>
+                            <h4>Nicole Rauch</h4>
+                            <span class="timeslot">15:10 - 15:40</span>
+
+                            <div class="talk-details">
+                                <p>Functional programming is currently booming. This is partly driven by the growing number of hybrid languages like Scala or F#. But even if you are not directly interested in one of these languages, you can benefit from looking into functional programming: It widens the horizon and can provide new stimuli for developers working in an object-oriented or procedural environment.</p>
+                                <p>In this talk, I will demonstrate the basic aspects of functional programming languages, showing examples in Haskell and JavaScript, and I will point out what is so special about functional programming.</p>
+
+                                <h2>About Nicole Rauch</h2>
+                                <img src="/img/speakers/nicole-rauch.jpg"/>
+                                <p>Nicole Rauch is an independent software developer and development coach with a solid background in compiler construction and formal methods. Over the last three years, she worked on the restructuring of large legacy code applications with different technologies. She is also involved in the development of a web platform in node.js. Nonetheless, her secret love is for functional programming. Alongside her occupation as developer, she took part in conducting a number of self-organized conferences related to software craftsmanship and agile coaching. She is also one of the initiators of <a href="https://www.softwerkskammer.org/">Softwerkskammer</a>, the german-speaking Software Craftsmanship community.</p>
+                            </div>
+                        </li>
+                        <li class="track-modal">
+                            <h3>Building Applications With AWS Lambda</h3>
+                            <h4>J Randall Hunt</h4>
+                            <span class="timeslot">15:50 - 16:20</span>
+                            <div class="talk-details">
+                                <p>AWS Lambda is a really exciting new way to abstract away complex infrastructure and focus solely on building your application. Imagine being able to take a javascript, python, or Java method and have it just run. No servers, no queues, no ops. That's what the vision of AWS Lambda is and I want everyone to try it out. In this demo I'll share my love of space and show you how to write simple AWS Lambda functions for changing your twitter background to the astronomy picture of the day. Finally I'll stick around to answer any questions you have about AWS and Lambda.</p>
+                                <h2>About J Randall Hunt</h2>
+                                <a href="https://twitter.com/jrhunt" class="no-underline" title="@jrhunt">
+                                    <img src="/img/speakers/randall-hunt.jpg"/>
+                                </a>
+                                <p>J. Randall Hunt Developer Advocate and Software Engineer at Amazon Web Services in New York City. Python is his favorite language but he can sometimes be found in the dark realm of C++. Randall loves databases and enjoys talking about them from the developer perspective. Author of gitshots, a ridiculous and amusing platform for sharing git commits. Contributor to MongoDB and lots of other open source tools and libraries. Formerly of MongoDB, hackNY, and NASA. A total space nerd.<p>
+                            </div>
+                        </li>
+
+                    </ol>
+                </div>
+
+                <div class="track col">
+                    <h1 class="mobile-only">Room 3</h1>
+                    <ol>
+                        <li class="workshop track-modal">
+                            <h3>Coding Dojo</h3>
+                            <h4>Emily Bache</h4>
+                            <span class="timeslot">10:30 - 12:20</span>
+
+                            <div class="talk-details">
+                                <p>In this hands-on session we will be working on a rather smelly piece of code which helpfully has a fairly comprehensive suite of automated tests. Refactoring is one of the key skills of Test-Driven Development, and this is your chance to really practice it. The idea is not to rewrite the code from scratch, but rather, by taking small refactoring steps, gradually transform the code into a paragon of readability and elegance.</p>
+                                <p>We’ll be stepping into the Coding Dojo together, which is a safe place designed for learning, where it doesn’t matter if we make mistakes. In fact all the code will be thrown away afterwards. You should feel free to experiment, try out different refactoring approaches, and get feedback from your peers. The great thing about this Kata is that since the tests are very good and very quick to run, they will catch every little refactoring mistake you make. You should experience how programming is supposed to be – smooth, calm, and always minutes away from committable code. The last part of the session is the retrospective, when we discuss what we’ve learnt, and how we can apply our new skills in our daily production code.</p>
+                                <p>The code kata we’ll be looking at is “Tennis”, and the starting code is available here: https://github.com/emilybache/Tennis-Refactoring-Kata. (Java, Python, C++ etc). If you want to practice using your familiar development tools, please download the code and set up a project in advance of the session. Otherwise you can just come and use the cyber-dojo practice environment, which runs in a browser.</p>
+                                <h2>About Emily Bache</h2>
+                                <a href="https://twitter.com/emilybache" class="no-underline" title="@emilybache">
+                                    <img src="/img/speakers/emily-bache.jpg"/>
+                                </a>
+                                <p>Emily Bache is an independent consultant specializing in automated testing and agile methods. With over 15 years of experience working as a software developer in organizations as diverse as multinational corporation to small startup, she has learnt that to be truly agile, teams need to learn use agile engineering practices. Emily is the author of "The Coding Dojo Handbook: a practical guide to creating a space where good programmers can become great programmers" and loves to coach and teach developers about Clean Code, Test Driven Development, Refactoring, and more. Emily speaks regularly at international events such as Agile Testing Days, XP2014, ACCU, and recently gave a keynote address at Europython in Berlin.</p>
+                            </div>
+                        </li>
+                        <li class="lunch">
+                            <h3>Lunch break</h3>
+                        </li>
+                        <li class="workshop no-session-before track-modal">
+                            <h3>Property Based Testing Hands-on</h3>
+                            <h4>Marc Evers, Rob Westgeest &amp; Willem van den Ende</h4>
+                            <span class="timeslot">14:30 - 16:20</span>
+
+                            <div class="talk-details">
+                                <p>Most unit/integration testing as we know it is example-based: we describe examples of how the code under test behaves in our favourite testing framework.</p>
+                                <p>Property based testing is a new and promising approach to automated unit testing. It is very different from example-based approaches: in property based testing, you don't write examples but you describe properties of the code under test (statements about the outputs based on the inputs). Based on this, a property-based test framework generates many different inputs and checks if the code under test satisfies everything.</p>
+                                <p>It started in QuickCheck in the functional programming language Haskell and currently frameworks are available for many languages, from Java/Scala to C++.</p>
+                                <p>Property based testing forces you to think carefully about specifications: what are the preconditions, postconditions, invariants? It looks like a useful new tool for the crafts(wo)man's tool chest. This session will give you a good impression of how it works and what possible applications could be.</p>
+
+                                <h2>About Marc, Rob &amp; Willem</h2>
+                                <p>Marc: works as an independent coach, trainer and consultant in the field of (agile) software development and software processes. Marc develops true learning organizations that focus on continuous reflection and improvement: apply, inspect, adapt. Marc also organizes workshops and conferences on agile and lean software development, extreme programming, systems thinking, theory of constraints, and effective communication. He is co-founder of the Agile Open and XP Days Benelux conferences.</p>
+                                <p>Rob: after years of experience with Object Oriented Software Development with UML, several development processes and project approaches as developer, architect, trainer and project leader, Rob worked on his first XP project in 2000. And with great success! He supports projects and people in the application of agile practices, principles and values since then. Rob develops himself and others continuously by visiting, organising and hosting workshops at conferences and user group meetings like SPA, XP Days, XP-NL and Agile Open.</p>
+                                <p>Willem: is a Dutch eXtreme Programming pioneer. As a coach, developer and coach he guides organisations in introducing agile software development since 1999.</p>
+                            </div>
+                        </li>
+                    </ol>
+
+                </div>
+
+                <div class="track col">
+                    <h1 class="mobile-only">Room 4</h1>
+                    <ol>
+                        <li class="workshop track-modal">
+                            <h3>Intro to Musical Programming with ChucK</h3>
+                            <h4>Bonnie Eisenman</h4>
+                            <span class="timeslot">10:30 - 12:20</span>
+
+                            <div class="talk-details">
+
+
+                                <p>Learn to programmatically generate music with the ChucK programming language! ChucK is an easy-to-learn, versatile way to program music, intended for use by musicians with no programming knowledge and experienced programmers alike. It is particularly useful if you wish to create your own musical projects or installations. In this workshop, I'll walk through the basics of ChucK, and participants will learn to program their own musical pieces.</p>
+                                <h2>About Bonnie Eisenman</h2>
+                                <a href="https://twitter.com/brindelle" class="no-underline" title="@brindelle">
+                                    <img src="/img/speakers/bonnie-eisenman.jpg"/>
+                                </a>
+                                <p>Bonnie Eisenman is a software engineer at Codecademy. She recently graduated from Princeton with an engineering degree in Computer Science. Besides her work at Codecademy, she also works on side projects involving Arduinos and electronic music.</p>
+                            </div>
+                        </li>
+                        <li class="lunch">
+                            <h3>Lunch break</h3>
+                        </li>
+                        <li class="workshop no-session-before track-modal">
+                            <h3>Coda Lisa</h3>
+                            <h4>Rico Huijbers</h4>
+                            <span class="timeslot">14:30 - 16:20</span>
+
+                            <div class="talk-details">
+
+                                <p>"In this laid-back workshop, we're going to make art! Or more precisely, we're going to make computer programs that are going to make art for us.</p>
+                                <p>Intricate patterns are going to emerge on our shared virtual canvas, as the rules of our little automatons combine to form some emergent behavior that nobody expected. We'll even incorporate stimuli from the real world to make our installation interactive. So grab a beer and a laptop, sling some JavaScript, and be part of this creative event that is bound to win several awards!(*)"</p>
+                                <h2>About Rico Huijbers</h2>
+                                <a href="https://twitter.com/rix0rrr" class="no-underline" title="@rix0rrr">
+                                    <img src="/img/speakers/rico-huijbers.jpg"/>
+                                </a>
+                                <p>Rico Huijbers is a software development Jack-of-all-trades, who hates web development yet for some reason can't stop talking about it.</p>
+                            </div>
+                        </li>
+                    </ol>
+
+                </div>
+            </div>
+
+            <div class="cols non-mobile">
+                <div class="col timetable">
+                    <ol>
+                        <li class="keynote"><h3>16:30 - 17:20</h3></li>
+                    </ol>
+                </div>
+                <div class="col col4">
+                    <ol>
+                        <li class="keynote track-modal">
+                            <h3>Closing keynote - Cool Code</h3>
+                            <h4>Kevlin Henney</h4>
+                            <span class="timeslot">16:30 - 17:20</span>
+
+                            <div class="talk-details">
+                                <p>In most disciplines built on skill and knowledge, from art to architecture, from creative writing to structural engineering, there is a strong emphasis on studying existing work. Exemplary pieces from past and present are examined and discussed in order to provoke thinking and learn techniques for the present and the future. Although programming is a discipline with a very large canon of existing work to draw from, the only code most programmers read is the code they maintain. They rarely look outside the code directly affecting their work. This talk examines some examples of code that are interesting because of historical significance, profound concepts, impressive technique, exemplary style or just sheer geekiness.</p>
+
+                                <h2>About Kevlin Henney</h2>
+                                <a href="https://twitter.com/kevlinhenney" class="no-underline" title="@kevlinhenney">
+                                    <img src="/img/speakers/kevlin-henney.jpg">
+                                </a>
+                                <p>Kevlin Henney is an independent consultant, trainer and writer based in the UK. His development interests are in patterns, programming, practice and process. He has been a columnist for many magazines and web sites and is co-author of A Pattern Language for Distributed Computing and On Patterns and Pattern Languages, two volumes in the Pattern-Oriented Software Architecture series. He is also editor of 97 Things Every Programmer Should Know.</p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="cols">
+                <div class="col timetable">
+                    <ol>
+                        <li class="keynote"><h3>17:20 - 21:00</h3></li>
+                    </ol>
+                </div>
+                <div class="col col4">
+                    <ol>
+                        <li class="keynote track-modal">
+                            <h3>Afterparty &amp; Dinner</h3>
+                            <span class="timeslot">17:20 - 21:00</span>
+
+                            <div class="talk-details">
+                                <p>We are most happy that due to a generous donation by <a href="http://www.incentro.com/nl/" Title="Incentro">Incentro</a> we are able to provide you with dinner &amp; drinks and the opportunity to reflect on the days sessions. There wil be plenty time to mingle with other attendees and speakers. Which talk did you enjoy most? Which gadget should I buy in 2015?</p>
+                                <p>Around 21:00 we will have to wrap up the 2015 edition of Joy of Coding, waiting a full year for our 2016 return!</p>
+
+                                <h2>Dinner &amp; party sponsor</h2>
+                                <a href="http://www.incentro.com/nl/" Title="Incentro"><img src="/img/sponsors/incentro.png"/></a>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
         </div>
-      </div>
 
-      <div class="section" id="venue">
-        <h2>Venue</h2>
-        <div class="cols">
-          <div class="col">
-            <h3>Van Nelle Ontwerpfabriek</h3>
-            <p>This years edition will be held at the former <a href="http://vannellefabriek.com/Contact">Van Nelle factory</a>, a world heritage site since 2014. In the 20th century it was a factory, processing coffee, tea and tobacco and later on additional chewing gum, cigarettes, instant pudding and rice. The operation stopped in 1996. Currently it houses a wide variety of new media and design companies and is known as the Van Nelle Design Factory ("Van Nelle Ontwerpfabriek" in Dutch).</p>
+        <div class="section" id="venue">
+            <h2>Venue</h2>
+            <div class="cols">
+                <div class="col">
+                    <h3>Van Nelle Ontwerpfabriek</h3>
+                    <p>This years edition will be held at the former <a href="http://vannellefabriek.com/Contact">Van Nelle factory</a>, a world heritage site since 2014. In the 20th century it was a factory, processing coffee, tea and tobacco and later on additional chewing gum, cigarettes, instant pudding and rice. The operation stopped in 1996. Currently it houses a wide variety of new media and design companies and is known as the Van Nelle Design Factory ("Van Nelle Ontwerpfabriek" in Dutch).</p>
 
-            <img src="/img/Van_Nelle_Fabriek_Actueel2.jpg" alt="The Van Nelle Factory" class="image-small-layout"/>
+                    <img src="/img/Van_Nelle_Fabriek_Actueel2.jpg" alt="The Van Nelle Factory" class="image-small-layout"/>
 
-            <h3>How to get there</h3>
-            <p><em>car:</em> use your car navigation to get to <em>Van Nelleweg 1, Rotterdam</em>. Parking space is available at the venue.</p>
-            <p><em>public transport:</em> travel to Rotterdam central station, take bus 38 towards Schiedam central station and get off at Beukelsbrug. From there it is only a 5 minute walk towards the venue.</p>
-            <p>If you stay at the Van der Valk hotel you can easily walk towards the venue</p>
-          </div>
-          <div class="col image-regular-layout">
-            <img src="/img/Van_Nelle_Fabriek_Actueel2.jpg" alt="The Van Nelle Factory" />
-          </div>
-        </div>
-      </div>
-
-      <div class="section" id="code-of-conduct">
-
-        <h2>Code of conduct</h2>
-        <p>All attendees, speakers, hosts, sponsors and volunteers (further referred to as participants) involved in our events are subject to the following code of conduct. We will enforce this code throughout our events and expect cooperation from all participants to help ensure a safe environment for all.</p>
-
-
-        <div class="cols">
-          <div class="col">
-            <h3>No harassment</h3>
-            <p>We are dedicated to providing harassment-free events for everyone, regardless of gender, age, sexual orientation, disability, physical appearance, body size, race, or religion (or lack thereof). We do not tolerate harassment of participants in any form. </p>
-            <p>Harassment includes offensive verbal comments related to gender, age, sexual orientation, disability, physical appearance, body size, race or religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.</p>
-            <p>Participants asked to stop any harassing behaviour are expected to comply immediately.</p>
-          </div>
-          <div class="col">
-            <h3>We will help</h3>
-            <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact one of the organisers immediately. We will make sure that during our conferences the organisers can be easily identified, for example through recognisable t-shirts.</p>
-            <p>If you are travelling to or from our event, and during the event, we will be happy to help you contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of our event. We value your attendance and will take serious any breach of this code of conduct.</p>
-          </div>
+                    <h3>How to get there</h3>
+                    <p><em>car:</em> use your car navigation to get to <em>Van Nelleweg 1, Rotterdam</em>. Parking space is available at the venue.</p>
+                    <p><em>public transport:</em> travel to Rotterdam central station, take bus 38 towards Schiedam central station and get off at Beukelsbrug. From there it is only a 5 minute walk towards the venue.</p>
+                    <p>If you stay at the Van der Valk hotel you can easily walk towards the venue</p>
+                </div>
+                <div class="col image-regular-layout">
+                    <img src="/img/Van_Nelle_Fabriek_Actueel2.jpg" alt="The Van Nelle Factory" />
+                </div>
+            </div>
         </div>
 
-        <div class="cols">
-          <div class="col">
-            <h3>No offensive content</h3>
-            <p>It is not appropriate to link any offensive content, such as sexual language and imagery, to our events in any form, including talks, workshops, parties, Twitter and other online media. Speakers are asked to review their material and be considerate and friendly to a diverse audience.</p>
-          </div>
-          <div class="col">
-            <h3>No alcohol abuse</h3>
-            <p>Thanks to the help of our sponsors, food and drinks are often freely available during or after our events. We hope this will be appreciated and used in good spirits, but we ask you to drink responsibly.</p>
-          </div>
+        <div class="section" id="code-of-conduct">
+
+            <h2>Code of conduct</h2>
+            <p>All attendees, speakers, hosts, sponsors and volunteers (further referred to as participants) involved in our events are subject to the following code of conduct. We will enforce this code throughout our events and expect cooperation from all participants to help ensure a safe environment for all.</p>
+
+
+            <div class="cols">
+                <div class="col">
+                    <h3>No harassment</h3>
+                    <p>We are dedicated to providing harassment-free events for everyone, regardless of gender, age, sexual orientation, disability, physical appearance, body size, race, or religion (or lack thereof). We do not tolerate harassment of participants in any form. </p>
+                    <p>Harassment includes offensive verbal comments related to gender, age, sexual orientation, disability, physical appearance, body size, race or religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.</p>
+                    <p>Participants asked to stop any harassing behaviour are expected to comply immediately.</p>
+                </div>
+                <div class="col">
+                    <h3>We will help</h3>
+                    <p>If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact one of the organisers immediately. We will make sure that during our conferences the organisers can be easily identified, for example through recognisable t-shirts.</p>
+                    <p>If you are travelling to or from our event, and during the event, we will be happy to help you contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of our event. We value your attendance and will take serious any breach of this code of conduct.</p>
+                </div>
+            </div>
+
+            <div class="cols">
+                <div class="col">
+                    <h3>No offensive content</h3>
+                    <p>It is not appropriate to link any offensive content, such as sexual language and imagery, to our events in any form, including talks, workshops, parties, Twitter and other online media. Speakers are asked to review their material and be considerate and friendly to a diverse audience.</p>
+                </div>
+                <div class="col">
+                    <h3>No alcohol abuse</h3>
+                    <p>Thanks to the help of our sponsors, food and drinks are often freely available during or after our events. We hope this will be appreciated and used in good spirits, but we ask you to drink responsibly.</p>
+                </div>
+            </div>
+
+            <div class="cols">
+                <div class="col">
+                    <h3>Compliance</h3>
+                    <p>We expect participants to follow these rules at all of our events and related social events. Participants who violate these rules may be expelled from the event without a refund at the discretion of the organisers.</p>
+                </div>
+            </div>
+
+            <p>Credit: parts of this code of conduct were taken from <a href="http://confcodeofconduct.com/">http://confcodeofconduct.com/</a></p>
         </div>
 
-        <div class="cols">
-          <div class="col">
-            <h3>Compliance</h3>
-            <p>We expect participants to follow these rules at all of our events and related social events. Participants who violate these rules may be expelled from the event without a refund at the discretion of the organisers.</p>
-          </div>
+        <div class="section" id="partners">
+            <h2>Together with</h2>
+
+            <h3>Partners</h3>
+            <div class="cols partners">
+                <a class="logo col" href="http://www.finalist.nl/" Title="Finalist Open IT oplossingen"><img src="/img/sponsors/finalist.png"></a>
+                <a class="logo col" href="http://www.luminis.eu/" Title="Luminis - Conversing Worlds"><img src="/img/sponsors/luminis-groep.png"></a>
+                <a class="logo col" href="http://www.mendix.com/" Title="Mendix"><img src="/img/sponsors/mendix.png"></a>
+            </div>
+
+            <h3>Party &amp; Dinner sponsors</h3>
+            <div class="cols partners">
+                <a class="logo col" href="http://www.ordina.nl/" Title="Ordina | ICT. Maar dan voor mensen"><img src="/img/sponsors/ordina.png"></a>
+                <a class="logo col" href="http://www.incentro.com/nl/" Title="Incentro"><img src="/img/sponsors/incentro.png"></a>
+            </div>
+
+            <h3>Sponsors</h3>
+            <div class="cols">
+                <a class="logo col" href="http://www.codewise.nl" Title="CodeWise - Moves your IT forward"><img src="/img/sponsors/codewise.png"></a>
+                <a class="logo col" href="http://www.42.nl" Title="42 - Enterprise Software Specialisten"><img src="/img/sponsors/42.png"></a>
+                <a class="logo col" href="http://www.jdriven.nl" Title="JDriven - Java en open-source software design, delivery en consulting"><img src="/img/sponsors/jdriven.png"></a>
+                <a class="logo col" href="http://www.hoppinger.com" Title="Hoppinger - Internetbureau voor strategie, design &amp; open source techniek"><img src="/img/sponsors/hoppinger.png"></a>
+                <a class="logo col" href="http://www.onehippo.com/en/hippo-power" Title="Hippo - Enterprise open source java cms"><img src="/img/sponsors/hippo.png"></a>
+                <a class="logo col" href="http://www.qwan.eu/en" Title="Quality Without A Name, Agile Consultancy, Software Development, Agile Training, Agile Engineering, Software Craftsmanship"><img src="/img/sponsors/qwan.png"></a>
+                <a class="logo col" href="http://infi.nl/" Title="Infi - Slimme softwareontwikkeling"><img src="/img/sponsors/infi.png"></a>
+            </div>
+
+            <div class="cols">
+                <a class="logo col" href="http://www.floorplanner.com" Title="Floorplanner"><img src="/img/sponsors/floorplanner.png"></a>
+                <a class="logo col" href="http://carriere.infosupport.com/" Title="Info Support - Solid Innovator"><img src="/img/sponsors/infosupport.png"></a>
+
+                <a class="logo col" href="http://banen.bol.com/" Title="Werken bij bol.com"><img src="/img/sponsors/bol-com.png"></a>
+                <a class="logo col" href="http://codecentric.nl/" Title="codecentric nederland bv"><img src="/img/sponsors/codecentric.png"></a>
+            </div>
+
+            <h3>Media partners</h3>
+            <div class="cols">
+                <a class="logo col" href="http://www.devnology.nl/"><img src="/2014/img/sponsors/devnology.png"></a>
+                <a class="logo col" href="http://www.infoq.com/?utm_source=joyofcoding&amp;utm_medium=logo&amp;utm_campaign=joyofcoding"><img src="/img/sponsors/infoq.png"></a>
+            </div>
+
         </div>
 
-        <p>Credit: parts of this code of conduct were taken from <a href="http://confcodeofconduct.com/">http://confcodeofconduct.com/</a></p>
+        <div class="section" id="previous-editions">
+            <h2>Previous editions</h2>
+            <div class="cols">
+                <div class="col">
+                    <h3>2014</h3>
+                    <p>Feeling nostalgic? We still have the <a href="/2014/index.html">Website</a> available for you. The <a href="https://speakerdeck.com/joyofcoding">slides</a>, <a href="http://www.flickr.com/photos/joyofcoding/sets/72157642055047693/">photos</a> and <a href="http://www.infoq.com/joy-of-coding-2014/">videos</a> can be found at the linked sites.</p>
+                </div>
+                <div class="col">
+                    <h3>2013</h3>
+                    <p>The <a href="/2013/index.html">website</a> is still available in its final form. You can look at the <a href="http://flickr.com/joyofcoding">photos</a> and <a href="http://www.infoq.com/joy-of-coding-2013/">videos</a> at the linked sites.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="legal">
+            <p>Joy of Coding is organised by Devnology, a Dutch non-profit organisation registered with the <a href="http://www.kvk.nl/orderstraat/bedrijf-kiezen/?q=17251880">Kamer van Koophandel (#17251880)</a>. You can reach us at Kattenbosch 98, Rosmalen, The Netherlands or +3173-8509888. Our VAT number is NL820757573B01.</p>
+
+            <p>Tickets are non-refundable but they are transferable: if you are unable to attend you can transfer your ticket to another attendee, just by informing us about the transfer via <a href="mailto:info@joyofcoding.org">email</a> (no additional cost incurred)</p>
+            <p>If, through unforeseen circumstances, the event is cancelled a best effort will be made to refund 50% of the registration fee.</p>
+        </div>
+
+        <footer class="section" id="members">
+            <div class="members">
+                <div class="member"><a href="http://twitter.com/annagos" title="@annagos"><img src="img/organisation/anna.jpg"></a></div>
+                <div class="member"><a href="http://twitter.com/arnetim" title="@arnetime"><img src="img/organisation/arne.jpg"></a></div>
+                <div class="member"><a href="http://twitter.com/felienne" title="@felienne"><img src="img/organisation/felienne.png"></a></div>
+                <div class="member"><a href="http://twitter.com/freekl" title="@freekl"><img src="img/organisation/freek.png"></a></div>
+                <div class="member"><a href="http://twitter.com/mamersfo" title="@mamersfo"><img src="img/organisation/martin.jpg"></a></div>
+                <div class="member"><a href="http://twitter.com/markvanstraten" title="@markvanstraten"><img src="img/organisation/mark.jpg"></a></div>
+                <div class="member"><a href="http://twitter.com/daan_van_berkel" title="@daan_van_berkel"><img src="img/organisation/daan.jpg"></a></div>
+                <div class="member"><a href="http://twitter.com/jettrocoenradie" title="@jettrocoenradie"><img src="img/organisation/jettro.jpg"></a></div>
+
+            </div>
+            <p>Contact us: <a href="mailto:info@joyofcoding.org">info@joyofcoding.org</a></p>
+        </footer>
+
     </div>
 
-      <div class="section" id="partners">
-        <h2>Together with</h2>
+</div>
 
-        <h3>Partners</h3>
-        <div class="cols partners">
-          <a class="logo col" href="http://www.finalist.nl/" Title="Finalist Open IT oplossingen"><img src="/img/sponsors/finalist.png"></a>
-          <a class="logo col" href="http://www.luminis.eu/" Title="Luminis - Conversing Worlds"><img src="/img/sponsors/luminis-groep.png"></a>
-          <a class="logo col" href="http://www.mendix.com/" Title="Mendix"><img src="/img/sponsors/mendix.png"></a>
-        </div>
+<!--<div id="modal-container" class="modal"></div>-->
 
-        <h3>Party &amp; Dinner sponsors</h3>
-        <div class="cols partners">
-          <a class="logo col" href="http://www.ordina.nl/" Title="Ordina | ICT. Maar dan voor mensen"><img src="/img/sponsors/ordina.png"></a>
-          <a class="logo col" href="http://www.incentro.com/nl/" Title="Incentro"><img src="/img/sponsors/incentro.png"></a>
-        </div>
+<script src="/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<script src="/joyofcoding-modal.js" type="text/javascript"></script>
+<!--<script src="/jquery.modal.js" type="text/javascript"></script>-->
+<script src="/jquery.ba-hashchange.min.js" type="text/javascript"></script>
+<script src="/underscore-1.7.0.min.js" type="text/javascript"></script>
+<script src="/joyofcoding.js" type="text/javascript"></script>
 
-        <h3>Sponsors</h3>
-        <div class="cols">
-          <a class="logo col" href="http://www.codewise.nl" Title="CodeWise - Moves your IT forward"><img src="/img/sponsors/codewise.png"></a>
-          <a class="logo col" href="http://www.42.nl" Title="42 - Enterprise Software Specialisten"><img src="/img/sponsors/42.png"></a>
-          <a class="logo col" href="http://www.jdriven.nl" Title="JDriven - Java en open-source software design, delivery en consulting"><img src="/img/sponsors/jdriven.png"></a>
-          <a class="logo col" href="http://www.hoppinger.com" Title="Hoppinger - Internetbureau voor strategie, design &amp; open source techniek"><img src="/img/sponsors/hoppinger.png"></a>
-          <a class="logo col" href="http://www.onehippo.com/en/hippo-power" Title="Hippo - Enterprise open source java cms"><img src="/img/sponsors/hippo.png"></a>
-          <a class="logo col" href="http://www.qwan.eu/en" Title="Quality Without A Name, Agile Consultancy, Software Development, Agile Training, Agile Engineering, Software Craftsmanship"><img src="/img/sponsors/qwan.png"></a>
-          <a class="logo col" href="http://infi.nl/" Title="Infi - Slimme softwareontwikkeling"><img src="/img/sponsors/infi.png"></a>
-        </div>
-
-        <div class="cols">
-          <a class="logo col" href="http://www.floorplanner.com" Title="Floorplanner"><img src="/img/sponsors/floorplanner.png"></a>
-          <a class="logo col" href="http://carriere.infosupport.com/" Title="Info Support - Solid Innovator"><img src="/img/sponsors/infosupport.png"></a>
-
-          <a class="logo col" href="http://banen.bol.com/" Title="Werken bij bol.com"><img src="/img/sponsors/bol-com.png"></a>
-          <a class="logo col" href="http://codecentric.nl/" Title="codecentric nederland bv"><img src="/img/sponsors/codecentric.png"></a>
-        </div>
-
-        <h3>Media partners</h3>
-        <div class="cols">
-          <a class="logo col" href="http://www.devnology.nl/"><img src="/2014/img/sponsors/devnology.png"></a>
-          <a class="logo col" href="http://www.infoq.com/?utm_source=joyofcoding&amp;utm_medium=logo&amp;utm_campaign=joyofcoding"><img src="/img/sponsors/infoq.png"></a>
-        </div>
-
-      </div>
-
-      <div class="section" id="previous-editions">
-        <h2>Previous editions</h2>
-        <div class="cols">
-          <div class="col">
-            <h3>2014</h3>
-            <p>Feeling nostalgic? We still have the <a href="/2014/index.html">Website</a> available for you. The <a href="https://speakerdeck.com/joyofcoding">slides</a>, <a href="http://www.flickr.com/photos/joyofcoding/sets/72157642055047693/">photos</a> and <a href="http://www.infoq.com/joy-of-coding-2014/">videos</a> can be found at the linked sites.</p>
-          </div>
-          <div class="col">
-            <h3>2013</h3>
-            <p>The <a href="/2013/index.html">website</a> is still available in its final form. You can look at the <a href="http://flickr.com/joyofcoding">photos</a> and <a href="http://www.infoq.com/joy-of-coding-2013/">videos</a> at the linked sites.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="section" id="legal">
-        <p>Joy of Coding is organised by Devnology, a Dutch non-profit organisation registered with the <a href="http://www.kvk.nl/orderstraat/bedrijf-kiezen/?q=17251880">Kamer van Koophandel (#17251880)</a>. You can reach us at Kattenbosch 98, Rosmalen, The Netherlands or +3173-8509888. Our VAT number is NL820757573B01.</p>
-
-        <p>Tickets are non-refundable but they are transferable: if you are unable to attend you can transfer your ticket to another attendee, just by informing us about the transfer via <a href="mailto:info@joyofcoding.org">email</a> (no additional cost incurred)</p>
-        <p>If, through unforeseen circumstances, the event is cancelled a best effort will be made to refund 50% of the registration fee.</p>
-      </div>
-
-      <footer class="section" id="members">
-        <div class="members">
-          <div class="member"><a href="http://twitter.com/annagos" title="@annagos"><img src="img/organisation/anna.jpg"></a></div>
-          <div class="member"><a href="http://twitter.com/arnetim" title="@arnetime"><img src="img/organisation/arne.jpg"></a></div>
-          <div class="member"><a href="http://twitter.com/felienne" title="@felienne"><img src="img/organisation/felienne.png"></a></div>
-          <div class="member"><a href="http://twitter.com/freekl" title="@freekl"><img src="img/organisation/freek.png"></a></div>
-          <div class="member"><a href="http://twitter.com/mamersfo" title="@mamersfo"><img src="img/organisation/martin.jpg"></a></div>
-          <div class="member"><a href="http://twitter.com/markvanstraten" title="@markvanstraten"><img src="img/organisation/mark.jpg"></a></div>
-          <div class="member"><a href="http://twitter.com/daan_van_berkel" title="@daan_van_berkel"><img src="img/organisation/daan.jpg"></a></div>
-          <div class="member"><a href="http://twitter.com/jettrocoenradie" title="@jettrocoenradie"><img src="img/organisation/jettro.jpg"></a></div>
-
-        </div>
-        <p>Contact us: <a href="mailto:info@joyofcoding.org">info@joyofcoding.org</a></p>
-      </footer>
-
-    </div>
-
-  </div>
-
-  <div id="modal-container" class="modal"></div>
-
-  <script src="/jquery-1.11.1.min.js" type="text/javascript"></script>
-  <script src="/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
-  <script src="/jquery.modal.js" type="text/javascript"></script>
-  <script src="/jquery.ba-hashchange.min.js" type="text/javascript"></script>
-  <script src="/underscore-1.7.0.min.js" type="text/javascript"></script>
-  <script src="/joyofcoding.js" type="text/javascript"></script>
-
-  <script type="text/javascript">
+<script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-36101914-1']);
     _gaq.push(['_setDomainName', 'joyofcoding.org']);
@@ -689,9 +702,9 @@ Let's try to find out.</p>
     _gaq.push(['_trackPageview']);
 
     (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
-  </script>
+</script>
 </body>

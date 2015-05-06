@@ -22,6 +22,8 @@
       if(!Modernizr.csstransformspreserve3d){
         $("#body").addClass("hidefront");
       }
+        // For cool transitioning
+        joyofcodingModal.initialize();
     });
 
     /* initialize front folding & unfolding */
@@ -117,8 +119,9 @@
       }
       else{
         $(window).hashchange( function(){
+
           //desktop version, use modal dialog
-          if(!document.location.hash)
+          if(!document.location.hash || document.location.hash === "#!")
             return;
 
           $talk = $('li'+document.location.hash);
@@ -127,15 +130,12 @@
 
           $talk[0].scrollIntoView(true); //make the talk in the agenda scroll into view
 
-          var modalContainer = $('#modal-container');
-          modalContainer.html('');//reset content
-
           var title = $talk.find('h3').text();
           var talkDetailsEl = $talk.find('.talk-details');
           var timeslot = $talk.find('.timeslot');
 
-          modalContainer.html('<h1>' + title + '</h1>' + timeslot.html() + talkDetailsEl.html());
-          modalContainer.modal();
+            joyofcodingModal.show('<h1>' + title + '</h1>' + timeslot.html() + talkDetailsEl.html());
+
         });
       }
     });
