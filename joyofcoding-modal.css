@@ -1,0 +1,83 @@
+.joyofcoding-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.75);
+    z-index: 10;
+    pointer-events: none;
+    -webkit-transition: opacity 300ms;
+    transition: opacity 300ms;
+    display: none;
+    opacity: 0;
+}
+
+.joyofcoding-modal.enabled {
+    display: block;
+}
+
+.joyofcoding-modal.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.joyofcoding-modal .modal-centered {
+    -webkit-transition: -webkit-transform 600ms cubic-bezier(0.230, 0.765, 0.000, 1.000);
+    transition: transform 600ms cubic-bezier(0.230, 0.765, 0.000, 1.000);
+    -webkit-transform: translate3d(0,-40px,0);
+    transform: translate3d(0,-40px,0);
+}
+
+.joyofcoding-modal.show .modal-centered  {
+    -webkit-transform: translate3d(0,0px,0);
+    transform: translate3d(0,0px,0);
+}
+
+.track-modal {
+    cursor:pointer;
+}
+
+.joyofcoding-modal .modal-close {
+    position: absolute;
+    top: -12.5px;
+    right: -12.5px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    background: url(close.png) no-repeat 0 0;
+}
+
+/**
+    Vertical center align
+    Credit goes to: http://css-tricks.com/centering-in-the-unknown/
+*/
+/* This parent can be any width and height */
+.joyofcoding-modal .modal {
+    text-align: center;
+}
+
+/* The ghost, nudged to maintain perfect centering */
+.joyofcoding-modal .modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+/* The element to be centered, can
+   also be of any width and height */
+.joyofcoding-modal .modal .modal-centered {
+    display: inline-block;
+    vertical-align: middle;
+    width: 800px;
+    background: #fff;
+    padding: 15px 30px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #000;
+    position: relative;
+}
