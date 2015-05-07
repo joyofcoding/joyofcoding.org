@@ -72,7 +72,7 @@
     $(document).ready(function(){
 
       // append the hash from the talk details to the talk elements so we can easily locate those
-      $('#speakers li:not(.lunch)').each(function(_, el){
+      $('#speakers li.track-modal').each(function(_, el){
         $el = $(el);
         if(!$el.attr('id')){
           var hash = $el.find('h3').text().replace(/\W+/g, "-").toLowerCase();
@@ -81,7 +81,7 @@
       });
 
       // upon clicking on the li elements append the hash from the current talk to the hash
-      $('#speakers li:not(.lunch)').on('click', function(evt){
+      $('#speakers li.track-modal').on('click', function(evt){
         document.location.hash = $(this).attr('id');
       });
 
