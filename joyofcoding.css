@@ -368,6 +368,7 @@ xmargin-top: 10rem;
     position: absolute;
     height: 100%;
     width: 48%;
+    z-index: 1;
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
