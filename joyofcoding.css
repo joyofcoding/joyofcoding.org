@@ -362,17 +362,20 @@ xmargin-top: 10rem;
     -ms-transform: translateZ(2px);
     transform: translateZ(2px)
 }
+
 .folded-page {
     background: #fff;
     text-align: center;
     position: absolute;
     height: 100%;
     width: 48%;
+    z-index: 1;
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
+
 .folded-page .logo {
     max-width: 50%
 }
