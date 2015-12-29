@@ -1,0 +1,151 @@
+.banner {
+  height: 100vh;
+  background: #5919C9 url('../img/bg-pattern.png') no-repeat center;
+}
+
+.banner p.tagline {
+  color: #C1D7E2;
+}
+
+.menu {
+  height: 70px;
+  background-color: white;
+}
+
+.menu.affix {
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.menu.affix + div {
+  margin-top: 70px;
+}
+
+.menu p {
+  font-size: 24px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.menu .brand {
+  display: none;
+  float: left;
+  padding-left: 40px;
+  padding-top: 30px;
+}
+
+.menu .brand p {
+  color: #5919C9;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .menu .brand {
+    display: block;
+  }
+}
+
+.menu .cfs {
+  background-color: #FC3D57;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  width: 100%;
+  height: 100%;
+  float: right;
+}
+
+.menu .cfs p {
+  font-weight: 200;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .menu .cfs {
+    width: auto;
+  }
+}
+
+.speakers {
+  background: #C1D7E2 url('../img/bg-pattern-dot.png');
+  padding-bottom: 50px;
+}
+
+.speakers h2 {
+  color: white;
+}
+
+.speakers .speaker {
+  margin: 30px 0;
+  box-shadow: 0 0 20px #999;
+}
+
+.speakers .speaker img {
+  width: 100%;
+}
+
+.speakers .speaker .about {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (min-width: 992px) {
+  .speakers .speaker .about {
+    min-height: 200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .speakers .speaker .about {
+    min-height: 170px;
+  }
+}
+
+
+.speakers .speaker .about p.name {
+  color: #5919C9;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.speakers .speaker .about p.description {
+  line-height: 20px;
+  color: #C1D7E2;
+}
+
+.aboutus h2, .supported h2 {
+  color: #5919C9;
+}
+
+@media (min-width: 768px) {
+  .aboutus h2:after, .supported h2:after {
+    background-color: #5919C9;
+  }
+}
+
+.supported {
+  margin-bottom: 40px;
+}
+
+.supported img {
+  margin: 20px 0;
+  max-width: 100%;
+  max-height: 100px;
+  width: auto;
+}
+
+@media (min-width: 768px) {
+  .supported .partners, .supported .sponsors {
+    margin-bottom: 40px;
+  }
+}
+
+.supported .sponsors img {
+  max-height: 60px;
+}
+
+.footer img {
+  width: 100%;
+}

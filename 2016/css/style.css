@@ -1,0 +1,158 @@
+body {
+  background-color: white;
+}
+
+p, li {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+h2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: #FC3D57;
+  font-family: 'PT Serif', serif;
+}
+
+a:link, a:active, a:visited, a:hover {
+  color: #FC3D57;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  h2:after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    margin-top: 0.5em;
+    margin-left: 20px;
+    height: 2px;
+    background-color: white;
+  }
+}
+
+.banner {
+  color: white;
+}
+
+.banner h1 {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+@media (min-width: 768px) {
+  .banner h1 {
+    padding-left: 170px;
+    max-width: 1000px;
+    font-size: 64px;
+    line-height: 80px;
+  }
+}
+
+.banner h1 span.highlight {
+  color: #FC3D57;
+  font-family: 'PT Serif', serif;
+}
+
+.banner p.tagline {
+  color: white;
+  padding: 20px;
+  font-family: 'PT Serif', serif;
+  font-size: 24px;
+}
+
+@media (min-width: 768px) {
+  .banner p.tagline {
+    padding-left: 170px;
+  }
+}
+
+.banner .logo {
+  padding-left: 40px;
+}
+
+.banner .logo img {
+  display: inline-block;
+}
+
+.banner .logo .name {
+  display: inline-block;
+  vertical-align:middle;
+  margin-left: 10px;
+}
+
+.banner .logo .name p {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.banner .navbar .navbar-toggle {
+  border: 1px solid white;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.banner .navbar .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.banner .navbar .nav > li {
+  text-align: right;
+}
+
+.banner .navbar .nav > li > a {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 14px;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: white;
+}
+
+.banner .navbar .nav > li > a.active {
+  color: #FC3D57;
+}
+
+@media (min-width: 768px) {
+  .banner .navbar .nav > li {
+    padding: 20px 0px;
+    text-align: center;
+  }
+
+  .banner .navbar .nav > li.tickets {
+    background-color: #FC3D57;
+    padding: 20px 25px;
+    margin-left: 20px;
+  }
+
+  .banner .navbar .nav > li.tickets > a {
+    font-size: 24px;
+  }
+}
+
+.content p, li {
+  color: #5919C9;
+  font-size: 16px;
+}
+
+.content p.intro {
+  font-family: 'PT Serif', serif;
+  line-height: 36px;
+  font-size: 24px;
+  margin: 30px 0;
+}
