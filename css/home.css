@@ -5,6 +5,11 @@
 
 .banner p.tagline {
   color: #C1D7E2;
+  font-size: 200%;
+}
+
+.banner .logo {
+  padding-bottom: 40px;
 }
 
 .menu {
@@ -32,7 +37,7 @@
   display: none;
   float: left;
   padding-left: 40px;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .menu .brand p {
@@ -57,7 +62,8 @@
 }
 
 .menu .cfs p {
-  font-weight: 200;
+  font-weight: bold;
+  letter-spacing: 2px;
   color: white;
 }
 
@@ -106,13 +112,14 @@
 
 .speakers .speaker .about p.name {
   color: #5919C9;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
+  padding: 5px 0px;
 }
 
 .speakers .speaker .about p.description {
   line-height: 20px;
-  color: #C1D7E2;
+  color: #86abbe;
 }
 
 .aboutus h2, .supported h2 {
