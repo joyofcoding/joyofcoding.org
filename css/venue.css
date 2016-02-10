@@ -1,0 +1,9 @@
+.img-wrapper img {
+  max-width: 100% !important;
+  height: auto;
+  display: block;
+}
+
+.img-wrapper {
+  padding-top: 30px;
+}
