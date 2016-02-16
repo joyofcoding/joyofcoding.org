@@ -158,6 +158,10 @@
   max-height: 60px;
 }
 
+.supported .logo {
+  text-align: center;
+}
+
 .footer img {
   width: 100%;
 }
