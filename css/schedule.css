@@ -1,0 +1,77 @@
+table.schedule {
+    width: 100%;
+    border-spacing: 5px;
+    border-collapse: separate;
+}
+
+table.schedule td {
+    vertical-align: top;
+    padding: 5px;
+}
+
+table.schedule td.spanall {
+  text-align: center;
+}
+
+table.schedule td.track {
+    background: rgba(213,235,246,0.9);
+}
+
+table.schedule td.plenary {
+    background: rgba(252,61,87,0.3);
+}
+
+table.schedule td.workshop {
+    background: rgba(89,25,201,0.3);
+}
+
+table.schedule td.track {
+    width: 24.75%;
+}
+
+table.schedule td.time {
+    width: 1%;
+    white-space: nowrap;
+    font-family: monospace;
+    background: rgba(255,255,255,0.2);
+}
+
+table.schedule td a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+table.schedule td h3 {
+  color: #5919C9;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 0px;
+  margin: 0px;
+}
+
+table.schedule td a:hover h3 {
+    text-decoration: underline;
+}
+
+table.schedule th.track {
+    background: rgba(255,255,255,0.2);
+    padding: 5px;
+}
+
+table.schedule p {
+    padding: 0px;
+    margin: 0px;
+}
+
+table.schedule th p {
+    font-weight: bold;
+}
+
+table.schedule p.description {
+    font-weight: normal;
+    font-size: 95%;
+}
