@@ -1,3 +1,14 @@
+@media (max-width: 600px) {
+    table.schedule {
+        display: none;
+    }
+}
+@media (min-width: 600px) {
+    ol.schedule {
+        display: none;
+    }
+}
+
 table.schedule {
     width: 100%;
     border-spacing: 5px;
@@ -43,7 +54,8 @@ table.schedule td a {
     text-decoration: none;
 }
 
-table.schedule td h3 {
+table.schedule td h3,
+ol.schedule li h3 {
   color: #5919C9;
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
@@ -53,13 +65,15 @@ table.schedule td h3 {
   margin: 0px;
 }
 
-table.schedule td a:hover h3 {
+table.schedule td a:hover h3,
+ol.schedule li a:hover h3 {
     text-decoration: underline;
 }
 
 table.schedule th.track {
     background: rgba(255,255,255,0.2);
     padding: 5px;
+    vertical-align: top;
 }
 
 table.schedule p {
@@ -67,7 +81,7 @@ table.schedule p {
     margin: 0px;
 }
 
-table.schedule th p {
+table.schedule th p.name {
     font-weight: bold;
 }
 
@@ -75,3 +89,64 @@ table.schedule p.description {
     font-weight: normal;
     font-size: 95%;
 }
+
+ol.schedule {
+    list-style-type: none;
+    padding: 5px;
+}
+
+ol.schedule li {
+    padding: 10px;
+    padding-bottom: 18px;
+    margin-bottom: 10px;
+}
+
+ol.schedule .inline-location {
+    display: none;
+}
+
+ol.schedule .meta {
+    font-size: 90%;
+    color: #5919C9;
+}
+
+ol.schedule .meta .time {
+    color: #333;
+    font-family: monospace;
+    display: inline;
+    position: absolute;
+}
+
+ol.schedule .meta .at {
+    margin-left: 110px;
+    margin-right: 5px;
+}
+
+ol.schedule .meta .location {
+    font-weight: bold;
+}
+
+
+ol.schedule li.track {
+    background: rgba(213,235,246,0.9);
+}
+
+ol.schedule li.plenary {
+    background: rgba(252,61,87,0.3);
+}
+
+ol.schedule li.workshop  {
+    background: rgba(89,25,201,0.3);
+}
+
+ol.schedule li h3 {
+    font-size: 140%;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+ol.schedule p.description {
+    font-size: 100%;
+    margin-bottom: 0px;
+}
+

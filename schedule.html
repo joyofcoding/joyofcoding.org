@@ -3,15 +3,15 @@
 
   <head>
     <title>Joy of Coding-Schedule</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A one-day conference that celebrates the art, craft, science but foremost the joy of software development">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A one-day conference that celebrates the art, craft, science but foremost the joy of software development" />
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link href='https://fonts.googleapis.com/css?family=Poppins:400,300,600' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=PT+Serif:400italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="stylesheet" href="css/page.css" type="text/css">
-    <link rel="stylesheet" href="css/schedule.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
+    <link href='https://fonts.googleapis.com/css?family=Poppins:400,300,600' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=PT+Serif:400italic' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/page.css" type="text/css" />
+    <link rel="stylesheet" href="css/schedule.css" type="text/css" />
   </head>
 
   <body>
@@ -48,30 +48,33 @@
     <div class="content">
       <div class="container">
         <table class="schedule">
+          <thead>
           <tr>
-            <th></td>
+            <th></th>
             <th class="track">
-              <p>Willem Burger Hall</p>
+              <p class="name">Willem Burger Hall</p>
               <p class="description">Presentations</p>
-            </td>
+            </th>
             <th class="track">
-              <p>Space 1</p>
+              <p class="name">Space 1</p>
               <p class="description">Workshop and Presentations</p>
-            </td>
+            </th>
             <th class="track">
-              <p>Space 2</p>
+              <p class="name">Space 2</p>
               <p class="description">Workshops</p>
-            </td>
+            </th>
             <th class="track">
-              <p>Space 3</p>
+              <p class="name">Space 3</p>
               <p class="description">Workshops</p>
-            </td>
+            </th>
           </tr>
+          </thead>
+          <tbody>
           <tr>
             <td class="time">08:30</td>
-            <td class="track spanall plenary" colspan="4">
+            <td class="track spanall plenary" colspan="4" data-location="Entrance">
               <a href="./joost-van-dongen-chello-fortress.html">
-                <h3>Registration and "Chello Fortress" game by Joost van Dongen @ <strong>Entrance</strong></h3>
+                <h3>Registration and "Chello Fortress" game by Joost van Dongen <span class="inline-location">@ <strong>Entrance</strong></span></h3>
               </a>
             </td>
           </tr>
@@ -98,19 +101,19 @@
                 <p class="description">Lorem ipsum dolor odet percunia.</p>
               </a>
             </td>
-            <td class="track workshop" rowspan="3">
+            <td class="track workshop" rowspan="3" data-time="10:30-12:20">
               <a href="./emily-bache.html">
                 <h3>Emily Bache</h3>
                 <p class="description">Lorem ipsum dolor odet percunia.</p>
               </a>
             </td>
-            <td class="track workshop" rowspan="3">
+            <td class="track workshop" rowspan="3" data-time="10:30-12:20">
               <a href="./daan-van-berkel.html">
                 <h3>Daan van Berkel</h3>
                 <p class="description">Lorem ipsum dolor odet percunia and some more text to see how the table behaves.</p>
               </a>
             </td>
-            <td class="track workshop" rowspan="3">
+            <td class="track workshop" rowspan="3" data-time="10:30-12:20">
               <a href="./egbert-teeselink.html">
                 <h3>Egbert Teeselink</h3>
                 <p class="description">Lorem ipsum dolor odet percunia.</p>
@@ -137,7 +140,9 @@
           </tr>
           <tr>
             <td class="time">12:30-13:30</td>
-            <td class="track spanall plenary" colspan="4"><p>Lunch @ <strong>Foyer</strong></p></td>
+            <td class="track spanall plenary" colspan="4" data-location="Foyer">
+              <h3>Lunch <span class="inline-location">@ <strong>Foyer</strong></span></h3>
+            </td>
           </tr>
           <tr>
             <td class="time">13:40-14:30</td>
@@ -162,13 +167,13 @@
                 <p class="description">Some lovely lorem ipsum dolor odet percunia.</p>
               </a>
             </td>
-            <td class="track workshop" rowspan="3">
+            <td class="track workshop" rowspan="3" data-time="14:40-16:20">
               <a href="./lorem-ipsum.html">
                 <h3>Lorem Ipsum</h3>
                 <p class="description">Some lovely lorem ipsum dolor odet percunia.</p>
               </a>
             </td>
-            <td class="track workshop" rowspan="3">
+            <td class="track workshop" rowspan="3" data-time="14:40-16:20">
               <a href="./lorem-ipsum.html">
                 <h3>Lorem Ipsum</h3>
                 <p class="description">Some lovely lorem ipsum dolor odet percunia.</p>
@@ -216,14 +221,245 @@
           </tr>
           <tr>
             <td class="time">17:30-20.00</td>
-            <td class="track spanall plenary" colspan="4">
-              <p>Food, Drinks &amp; Music @ <strong>Foyer</strong></p>
-              <p>&nbsp;</p>
-              <p>&nbsp;</p>
-              <p>&nbsp;</p>
+            <td class="track spanall plenary" colspan="4" data-location="Foyer">
+              <h3>Food, Drinks &amp; Music <span class="inline-location">@ <strong>Foyer</strong></span></h3>
+              <p class="description">&nbsp;</p>
+              <p class="description">&nbsp;</p>
+              <p class="description">&nbsp;</p>
             </td>
           </tr>
+          </tbody>
         </table>
+
+        <!-- the `ol` tag below is kept in sync with the info in the `table` tag above by a script -->
+        <ol class="schedule">
+
+<li class="track spanall plenary" data-location="Entrance">
+  <a href="./joost-van-dongen-chello-fortress.html">
+    <div class="meta">
+      <span class="time">08:30</span>
+      <span class="at"> @ </span>
+      <span class="location">Entrance</span>
+    </div>
+    <h3>Registration and "Chello Fortress" game by Joost van Dongen <span class="inline-location">@ <strong>Entrance</strong></span></h3>
+  </a>
+</li>
+<li class="track plenary">
+  <div class="meta">
+    <span class="time">09:20-09:30</span>
+    <span class="at"> @ </span>
+    <span class="location">Willem Burger Hall</span>
+  </div>
+  <h3>Opening</h3>
+</li>
+<li class="track plenary">
+  <a href="./philip-wadler.html">
+    <div class="meta">
+      <span class="time">09:30-10:20</span>
+      <span class="at"> @ </span>
+      <span class="location">Willem Burger Hall</span>
+    </div>
+    <h3>Philip Wadler</h3>
+    <p class="description">Superman!</p>
+  </a>
+</li>
+<li class="track">
+  <a href="./melinda-secklington.html">
+    <div class="meta">
+      <span class="time">10:30-11:05</span>
+      <span class="at"> @ </span>
+      <span class="location">Willem Burger Hall</span>
+    </div>
+    <h3>Melinda Secklington</h3>
+    <p class="description">Lorem ipsum dolor odet percunia.</p>
+  </a>
+</li>
+<li class="track workshop" rowspan="3" data-time="10:30-12:20">
+  <a href="./emily-bache.html">
+    <div class="meta">
+      <span class="time">10:30-12:20</span>
+      <span class="at"> @ </span>
+      <span class="location">Space 1</span>
+    </div>
+    <h3>Emily Bache</h3>
+    <p class="description">Lorem ipsum dolor odet percunia.</p>
+  </a>
+</li>
+<li class="track workshop" rowspan="3" data-time="10:30-12:20">
+  <a href="./daan-van-berkel.html">
+    <div class="meta">
+      <span class="time">10:30-12:20</span>
+      <span class="at"> @ </span>
+      <span class="location">Space 2</span>
+    </div>
+    <h3>Daan van Berkel</h3>
+    <p class="description">Lorem ipsum dolor odet percunia and some more text to see how the table behaves.</p>
+  </a>
+</li>
+<li class="track workshop" rowspan="3" data-time="10:30-12:20">
+  <a href="./egbert-teeselink.html">
+    <div class="meta">
+      <span class="time">10:30-12:20</span>
+      <span class="at"> @ </span>
+      <span class="location">Space 3</span>
+    </div>
+    <h3>Egbert Teeselink</h3>
+    <p class="description">Lorem ipsum dolor odet percunia.</p>
+  </a>
+</li>
+<li class="track">
+  <a href="./lorem-ipsum.html">
+    <div class="meta">
+      <span class="time">11:10-11:40</span>
+      <span class="at"> @ </span>
+      <span class="location">Willem Burger Hall</span>
+    </div>
+    <h3>Lorem Ipsum</h3>
+    <p class="description">Some lovely lorem ipsum dolor odet percunia.</p>
+  </a>
+</li>
+<li class="track">
+  <a href="./lorem-ipsum.html">
+    <div class="meta">
+      <span class="time">11:45-12:20</span>
+      <span class="at"> @ </span>
+      <span class="location">Willem Burger Hall</span>
+    </div>
+    <h3>Lorem Ipsum</h3>
+    <p class="description">Some lovely lorem ipsum dolor odet percunia.</p>
+  </a>
+</li>
+<li class="track spanall plenary" data-location="Foyer">
+  <div class="meta">
+    <span class="time">12:30-13:30</span>
+    <span class="at"> @ </span>
+    <span class="location">Foyer</span>
+  </div>
+  <h3>Lunch <span class="inline-location">@ <strong>Foyer</strong></span></h3>
+</li>
+<li class="track plenary">
+  <a href="./lorem-ipsum.html">
+    <div class="meta">
+      <span class="time">13:40-14:30</span>
+      <span class="at"> @ </span>
+      <span class="location">Willem Burger Hall</span>
+    </div>
+    <h3>Corey Haines</h3>
+    <p class="description">Some lovely lorem ipsum dolor odet percunia.</p>
+  </a>
+</li>
+<li class="track">
+  <a href="./lorem-ipsum.html">
+    <div class="meta">
+      <span class="time">14:40-15:05</span>
+      <span class="at"> @ </span>
+      <span class="location">Willem Burger Hall</span>
+    </div>
+    <h3>Lorem Ipsum</h3>
+    <p class="description">Some lovely lorem ipsum dolor odet percunia.</p>
+  </a>
+</li>
+<li class="track">
+  <a href="./lorem-ipsum.html">
+    <div class="meta">
+      <span class="time">14:40-15:05</span>
+      <span class="at"> @ </span>
+      <span class="location">Space 1</span>
+    </div>
+    <h3>Lorem Ipsum</h3>
+    <p class="description">Some lovely lorem ipsum dolor odet percunia.</p>
+  </a>
+</li>
+<li class="track workshop" rowspan="3" data-time="14:40-16:20">
+  <a href="./lorem-ipsum.html">
+    <div class="meta">
+      <span class="time">14:40-16:20</span>
+      <span class="at"> @ </span>
+      <span class="location">Space 2</span>
+    </div>
+    <h3>Lorem Ipsum</h3>
+    <p class="description">Some lovely lorem ipsum dolor odet percunia.</p>
+  </a>
+</li>
+<li class="track workshop" rowspan="3" data-time="14:40-16:20">
+  <a href="./lorem-ipsum.html">
+    <div class="meta">
+      <span class="time">14:40-16:20</span>
+      <span class="at"> @ </span>
+      <span class="location">Space 3</span>
+    </div>
+    <h3>Lorem Ipsum</h3>
+    <p class="description">Some lovely lorem ipsum dolor odet percunia.</p>
+  </a>
+</li>
+<li class="track">
+  <a href="./lorem-ipsum.html">
+    <div class="meta">
+      <span class="time">15:10-15:40</span>
+      <span class="at"> @ </span>
+      <span class="location">Willem Burger Hall</span>
+    </div>
+    <h3>Lorem Ipsum</h3>
+    <p class="description">Some lovely lorem ipsum dolor odet percunia.</p>
+  </a>
+</li>
+<li class="track">
+  <a href="./lorem-ipsum.html">
+    <div class="meta">
+      <span class="time">15:10-15:40</span>
+      <span class="at"> @ </span>
+      <span class="location">Space 1</span>
+    </div>
+    <h3>Lorem Ipsum</h3>
+    <p class="description">Some lovely lorem ipsum dolor odet percunia.</p>
+  </a>
+</li>
+<li class="track">
+  <a href="./lorem-ipsum.html">
+    <div class="meta">
+      <span class="time">15:45-16:20</span>
+      <span class="at"> @ </span>
+      <span class="location">Willem Burger Hall</span>
+    </div>
+    <h3>Lorem Ipsum</h3>
+    <p class="description">Some lovely lorem ipsum dolor odet percunia.</p>
+  </a>
+</li>
+<li class="track">
+  <a href="./lorem-ipsum.html">
+    <div class="meta">
+      <span class="time">15:45-16:20</span>
+      <span class="at"> @ </span>
+      <span class="location">Space 1</span>
+    </div>
+    <h3>Lorem Ipsum</h3>
+    <p class="description">Some lovely lorem ipsum dolor odet percunia.</p>
+  </a>
+</li>
+<li class="track plenary">
+  <a href="./lorem-ipsum.html">
+    <div class="meta">
+      <span class="time">16:30-17:20</span>
+      <span class="at"> @ </span>
+      <span class="location">Willem Burger Hall</span>
+    </div>
+    <h3>Lorem Ipsum</h3>
+    <p class="description">Some lovely lorem ipsum dolor odet percunia.</p>
+  </a>
+</li>
+<li class="track spanall plenary" data-location="Foyer">
+  <div class="meta">
+    <span class="time">17:30-20.00</span>
+    <span class="at"> @ </span>
+    <span class="location">Foyer</span>
+  </div>
+  <h3>Food, Drinks &amp; Music <span class="inline-location">@ <strong>Foyer</strong></span></h3>
+  <p class="description">&nbsp;</p>
+  <p class="description">&nbsp;</p>
+  <p class="description">&nbsp;</p>
+</li>
+
+        </ol>
       </div>
     </div>
 
@@ -246,3 +482,6 @@
   </body>
 
 </html>
+
+
+
