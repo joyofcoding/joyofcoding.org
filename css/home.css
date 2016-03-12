@@ -100,13 +100,13 @@
 
 @media (min-width: 992px) {
   .speakers .speaker .about {
-    min-height: 200px;
+    min-height: 220px;
   }
 }
 
 @media (min-width: 1200px) {
   .speakers .speaker .about {
-    min-height: 170px;
+    min-height: 190px;
   }
 }
 

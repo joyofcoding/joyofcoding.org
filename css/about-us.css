@@ -1,0 +1,54 @@
+.staff {
+  margin: 30px 0;
+  box-shadow: 0 0 20px #999;
+}
+
+.staff img {
+  width: 100%;
+}
+
+.staff .about {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (min-width: 992px) {
+  .staff .about {
+    min-height: 380px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .staff .about {
+    min-height: 300px;
+  }
+}
+
+.staff .about p.name {
+  color: #5919C9;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5px 0px;
+}
+
+.staff .about p.description {
+  line-height: 20px;
+  font-size: 14px;
+  color: #86abbe;
+}
+
+@media (min-width: 768px) {
+  .legal, .alumni {
+    padding-left: 40px;
+    padding-top: 40px;
+  }
+
+  .alumni {
+    padding-right: 40px;
+  }
+
+  .previous {
+    padding-left: 40px;
+  }
+}
