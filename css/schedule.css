@@ -1,9 +1,9 @@
-@media (max-width: 600px) {
+@media (max-width: 629px) {
     table.schedule {
         display: none;
     }
 }
-@media (min-width: 600px) {
+@media (min-width: 630px) {
     ol.schedule {
         display: none;
     }
@@ -57,7 +57,7 @@ table.schedule td a {
 table.schedule td h3,
 ol.schedule li h3 {
   color: #5919C9;
-  font-size: 16px;
+  font-size: 19px;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   line-height: 26px;
