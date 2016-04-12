@@ -19,3 +19,15 @@ executable sync-list-from-table
                      , hxt
                      , regexpr
                      , HandsomeSoup
+
+executable csv-to-html-pages
+  main-is:             csv-to-html-pages.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , bytestring
+                     , vector
+                     , cassava
+                     , shakespeare
+                     , blaze-html
+                     , MissingH
+                     , directory
