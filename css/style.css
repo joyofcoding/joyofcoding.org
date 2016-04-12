@@ -156,3 +156,9 @@ a:link, a:active, a:visited, a:hover {
   font-size: 24px;
   margin: 30px 0;
 }
+
+.img-wrapper img {
+  max-width: 100% !important;
+  height: auto;
+  display: block;
+}
