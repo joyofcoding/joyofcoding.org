@@ -26,6 +26,12 @@ h3 {
   font-size: 250%;
 }
 
+h4 {
+    color: #FC3D57;
+    font-family: 'PT Serif', serif;
+    font-size: 180%;
+}
+
 a:link, a:active, a:visited, a:hover {
   color: #FC3D57;
   text-decoration: none;

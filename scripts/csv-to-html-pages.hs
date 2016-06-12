@@ -23,6 +23,7 @@ data CsvData = CsvData
     , pic      :: !String
     , title    :: !String
     , abstract :: !String
+    , wsInstr  :: !String
     , checked  :: !String
     }-- deriving (Show)
 
@@ -33,6 +34,7 @@ data PageData = PageData
     , speakerPicUrl    :: !String
     , talkTitle        :: !(Maybe String)
     , talkAbstractHtml :: !(Maybe String)
+    , wsInstrHtml      :: !(Maybe String)
     } deriving (Show)
 
 instance FromNamedRecord CsvData where
@@ -41,6 +43,7 @@ instance FromNamedRecord CsvData where
                                  <*> r .: "Pic"
                                  <*> r .: "Title"
                                  <*> r .: "Abstract"
+                                 <*> r .: "WorkshopInstructions"
                                  <*> r .: "Checked?"
 
 main :: IO ()
@@ -61,10 +64,10 @@ renderTemplate :: PageData -> String
 renderTemplate p = renderHtml ( $(shamletFile "speaker-page-template.hamlet") )
 
 csvToMaybePage :: CsvData -> Maybe PageData
-csvToMaybePage (CsvData "" _ _ _ _ _) = Nothing
-csvToMaybePage (CsvData _ "" _ _ _ _) = Nothing
-csvToMaybePage (CsvData _ _ "" _ _ _) = Nothing
-csvToMaybePage (CsvData name bio pic title abstract _) =
+csvToMaybePage (CsvData "" _ _ _ _ _ _) = Nothing
+csvToMaybePage (CsvData _ "" _ _ _ _ _) = Nothing
+csvToMaybePage (CsvData _ _ "" _ _ _ _) = Nothing
+csvToMaybePage (CsvData name bio pic title abstract wsInstr _) =
   Just $ PageData
     { slug             = toSlug name
     , speakerName      = name
@@ -72,6 +75,7 @@ csvToMaybePage (CsvData name bio pic title abstract _) =
     , speakerPicUrl    = pic
     , talkTitle        = nothingIfEmpty title
     , talkAbstractHtml = nothingIfEmpty $ htmlEncode abstract
+    , wsInstrHtml      = nothingIfEmpty $ htmlEncode wsInstr
     }
   where
     htmlEncode = replace "\n" "<br/><br/>" . replace "\n\n" "\n"
