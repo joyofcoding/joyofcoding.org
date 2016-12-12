@@ -1,0 +1,8 @@
+resolver: lts-5.15
+packages:
+- '.'
+extra-deps:
+- regexpr-0.5.4
+- mtlparse-0.1.4.0
+flags: {}
+extra-package-dbs: []

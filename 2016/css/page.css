@@ -1,0 +1,18 @@
+body {
+  background: #C1D7E2 url('../img/bg-pattern-dot.png');
+  padding-bottom: 150px;
+}
+
+
+.banner p.tagline {
+    color: #5919C9;
+    padding: 20px;
+    font-family: 'PT Serif', serif;
+    font-size: 34px;
+}
+
+@media (min-width: 768px) {
+    .banner p.tagline {
+        padding-left: 170px;
+    }
+}

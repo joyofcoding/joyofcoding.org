@@ -1,9 +1,0 @@
-.img-wrapper {
-  padding-top: 30px;
-}
-
-@media (min-width: 992px) {
-  .content .row {
-    margin-bottom: 50px;
-  }
-}
