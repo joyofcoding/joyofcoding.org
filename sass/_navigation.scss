@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+#site-navigation {
+	display: none;
+	@include grid-media($medium) {
+		display: block;
+	}
+
+	li {
+		text-align: inherit;
+		float: left;
+	
+		a {
+			color: $red;
+			display: block;
+			font-weight: bold;
+			font-size: 1em;
+			line-height: 4.7em;
+			letter-spacing: -1px;
+			padding: 0 1.25em;
+			text-transform: uppercase;
+			&:hover,
+			&:active {
+				color: $blue;
+			}
+			
+			&.alt {
+				color: $blue;
+				padding: 0 4em;
+				transition: background-color $base-duration;
+				background-color: $red;
+				margin-left: 2em;
+				&:hover,
+				&:active {
+					background: white;
+				}
+			}
+		}
+	}
+}
