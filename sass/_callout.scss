@@ -1,0 +1,94 @@
+/*--------------------------------------------------------------
+# Callout
+--------------------------------------------------------------*/
+.ca_alt {
+	img {
+		left: -2.5em;
+	}
+	.callout {
+		&:after {
+			left: 0;
+			right: auto;
+		}
+	}
+	.callout_wrap {
+		@include grid-media($medium) {
+			margin-left: auto;
+		}
+		&:after {
+			right: 0;
+			left: inherit;
+		}
+	}
+}
+
+#lineup {
+	
+	section {
+		margin-bottom: 12em;
+	}
+
+	.callout {
+		position: relative;
+		&:after {
+			content: url('../img/logo-joyofcoding-notext.svg');
+			position: absolute;
+			right: 0;
+			top: 0;
+			width: 24px;
+			height: 19px;
+		}
+	}
+
+	.callout_wrap {
+		@extend .bg_white;
+	    box-shadow: 57px 57px 177px 0 rgba(#fff600,.2);
+		padding: 2.5em;
+		@include grid-media($medium) {
+			width: 46.43%;
+		}
+	
+		svg {
+			color: white;
+			position: absolute;
+			height: 1.25em;
+			right: 0;
+			top: 0;
+			width: 1.5em;
+		}
+	
+		.callout_content {
+			font-family: "Source Code Pro";
+			font-size: .875em;
+			p {
+				line-height: 2.5em;
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+	
+		&:after {
+			border-bottom: $base-border;
+			bottom: -4em;
+			content: '';
+			position: absolute;
+			left: 0;
+			width:  100%;
+			@include grid-media($medium) {
+				width:  47.5%;
+			}
+		}
+	}
+	
+	img {
+		position: absolute;
+		bottom: -2em;
+		right: -2.5em;
+		z-index: -1;
+
+		@include grid-media($medium) {
+			right: 0;
+		}
+	}
+}

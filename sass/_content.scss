@@ -1,0 +1,123 @@
+/*--------------------------------------------------------------
+# Content Main
+--------------------------------------------------------------*/
+#main {
+	.entry-content {
+		text-align: center;
+
+		@include grid-media($medium) {
+			text-align: left;
+
+			h2 {
+				max-width: 16em;
+			}
+	
+			p {
+				max-width: 51em;
+			}
+			
+			strong {
+				font-size: 1.5em;
+			}
+			
+		}
+
+		.btn {
+			margin: 3.75em auto;
+			@include grid-media($medium) {
+				margin: 4em 0;
+			}
+			@include grid-media($large) {
+				margin: 5em 0;
+			}
+			@include grid-media($xlarge) {
+				margin: 14em 0 0 12.5em;
+			}
+		}
+	}
+}
+
+/*--------------------------------------------------------------
+# Content Sponsors
+--------------------------------------------------------------*/
+#sponsors {
+	@extend .bg_white;
+	text-align: center;
+
+	img {
+		display: block;
+		height: auto;
+		width: 100%
+	}
+}
+
+/*--------------------------------------------------------------
+# Content Aside
+--------------------------------------------------------------*/
+aside#widgets {
+	@extend .bg_white;
+	text-align: center;
+	@include grid-media($large) {
+		text-align: left;
+	}
+
+	.wrap {
+		@extend .bg_blue;
+		background-color: $red;
+		background-image: url('../img/footer_bg.jpg');
+		background-position: center center;
+		background-size: cover;
+		color: white;
+	}
+
+	h2 {
+		font-size: 1.25em;
+		text-transform: uppercase;
+		padding-top: .75em;
+		@include grid-media($large) {
+			font-size: 1.875em;	
+		}
+	}
+
+	/* Social nav */
+	$flickr: #ff0084;
+	$mailto: $medium-gray;
+	$twitter: #00aced;
+	$youtube: #bb0000;
+	
+	ul.social {
+		margin: 0 0 1.5em;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		list-style: none;
+		@include grid-media($large) {
+			justify-content: flex-start;
+		}
+	
+		li {
+			margin: 0 .125em;
+			padding: .25em 0;
+		}
+		
+		a {
+			border-radius: 100%;
+			border: 1px solid $action-color;
+			color: $action-color;
+			display: inline-block;
+			height: 2.5em;
+			text-align: center;
+			transition: background-color $base-duration $base-timing;
+			line-height: 2.75em;
+			width: 2.5em;
+			&:hover,
+			&:focus {
+// 				background: $dark-gray;
+			}
+			&[href*="flickr.com"] { 		&:hover, &:focus { color: $flickr; } }
+			&[href^="mailto"] { 			&:hover, &:focus { color: $mailto; } }
+			&[href*="twitter.com"] { 		&:hover, &:focus { color: $twitter; } }
+			&[href*="youtube.com"] { 		&:hover, &:focus { color: $youtube; } }
+		}
+	}
+}

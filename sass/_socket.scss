@@ -1,0 +1,18 @@
+/*--------------------------------------------------------------
+# Content Socket
+--------------------------------------------------------------*/
+footer#socket {
+	@extend .bg_blue;
+	font-family: "Source Code Pro";
+	text-align: center;
+	padding: 1.5em;
+	
+	> span {
+		font-size: .875em;
+		margin-right: 2em;
+		
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}

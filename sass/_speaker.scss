@@ -1,0 +1,158 @@
+/*--------------------------------------------------------------
+# Speaker block
+--------------------------------------------------------------*/
+#lineup article {
+
+	.spkr_alt {
+	
+		h3 {
+			text-align: right;
+		}
+	
+		img {
+			left: -2.5em;
+		}
+	
+		.spkr {
+			&:before,
+			&:after {
+				@include grid-media($medium) {
+					margin-left: auto;
+					margin-right: 0;
+				}
+			}
+			h3:before {
+				left: -2.5rem;
+				right: auto;
+				@include grid-media($medium) {
+					left: -2.5rem;
+					right: auto;
+				}
+			}
+		}
+	
+		.spkr_content {
+			@include grid-media($medium) {
+			    margin-left: auto;
+			}
+		}
+	
+		span {
+			@include grid-media($medium) {
+				left: 0;
+			}
+		}
+	}
+
+	section {
+		margin-bottom: 7em;
+	}
+
+	.spkr {
+	
+		h3 {
+			padding-top: 3.75em;
+			margin-bottom: .5em;
+			@include grid-media($medium) {
+				padding-top: 2.25em;
+				margin-bottom: 0;
+			}
+		}
+		
+		img {
+		    box-shadow: 57px 57px 177px 0 rgba($red,.2);
+			height: auto;
+			position: absolute;
+			right: -2.5em;
+			top: 0;
+			z-index: -1;
+	
+			@include grid-media($small) {
+				max-width: 380px;	
+			}
+	
+			@include grid-media($medium) {
+				max-width: none;
+				right: 0;
+				width: 46.155%;
+			}
+	
+		}
+	
+		.spkr_meta {
+			font-size: .75em;
+			position: absolute;
+			text-transform: uppercase;
+			top: 1em;
+			left: 2em;
+			@include grid-media($medium) {
+				left: 25%;
+			}
+			
+			.times {
+				white-space: nowrap;
+			}
+		}
+		
+		blockquote {
+			display: none;
+			@include grid-media($medium) {
+				display: block;
+			}
+		}
+		
+		.spkr_content {
+			margin-bottom: 2em;
+			@include grid-media($medium) {
+				width: 46.155%;
+			}
+		}
+		
+		span {
+			font-family: "Source Code Pro";
+			font-size: .9375em;
+			font-weight: bold;
+			text-transform: uppercase;
+			@include grid-media($medium) {
+				position: absolute;
+				margin-top: -2em;
+/* 				bottom: 0; */
+				right: 0%;
+			}
+
+			a {
+				color: white;
+				text-decoration: none;
+				&:hover,
+				&:active {
+					text-decoration: underline;
+				}
+			}			
+		}
+		
+		&:before,
+		&:after {
+			border-top: $base-border;
+			content: '';
+			position: absolute;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			width: 100%;
+			@include grid-media($medium) {
+				width: 46.155%;
+				margin-left: 0;
+			}
+		}
+	
+		&:before {
+			top: 0;
+		}
+		&:after {
+			margin-top: 4em;
+			@include grid-media($medium) {
+				margin-top: 0;
+			}
+		}
+	}
+}
