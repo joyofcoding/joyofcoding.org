@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Speakers on Joy of Coding</title>
+    <link>http://joyofcoding.org/speaker/index.xml</link>
+    <description>Recent content in Speakers on Joy of Coding</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Joy of Coding 2017</copyright>
+    <lastBuildDate>Sun, 07 May 2017 20:01:07 +0200</lastBuildDate>
+    <atom:link href="http://joyofcoding.org/speaker/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Carin Meier</title>
+      <link>http://joyofcoding.org/speaker/carin-meier/</link>
+      <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
+      
+      <guid>http://joyofcoding.org/speaker/carin-meier/</guid>
+      <description>&lt;p&gt;I wish I could connect my lamp to the internet, but I know nothing about all that &amp;lsquo;technology&amp;rdquo; stuff that you do&amp;rdquo;. Sounds familiar? In my workshop I will be teaching the teachers: I&amp;rsquo;ll be giving you the tools to help your non-dev, non-technology-minded relatives have physical objects (lamps, motors, sensors) in their houses interact with the online world. We&amp;rsquo;ll be posting sensor readings on twitter and we&amp;rsquo;ll be activating lamps based on online weather forecasts. All using no solder: just plug and play electronics. And no code!
+To be precise, we&amp;rsquo;ll be using the Seeedstudio Grove system, coupled to the Particle Photon, coupled to IFTTT.
+Of course, since you are devs, after setting up the click and play, no code examples you can share with your relatives, we will dive deeper in the system, changing the firmware on the photon to do our biding, making API calls from our own websites, etc.
+After the workshop, you&amp;rsquo;ll have the opportunity to buy the equipment used to continue playing at home.
+&lt;p&gt;&lt;span class=&#34;red&#34;&gt;Workshop instructions&lt;/span&gt;&lt;/p&gt;
+Participants will work in pairs, at a maximum of 13 pairs. Each pair will need:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;One laptop or tablet. A phone is possible but sub-optimal&lt;/li&gt;
+&lt;li&gt;One smartphone with the Particle app pre-installed&lt;/li&gt;
+&lt;li&gt;An account with Particle, an account with IFTTT, plus a social media account (such as Facebook, Twitter, or even Evernote)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

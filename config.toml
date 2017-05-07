@@ -1,0 +1,25 @@
+languageCode = "en-us"
+title        = "Joy of Coding"
+baseURL      = "http://joyofcoding.org/"
+copyright    = "&copy; Joy of Coding 2017"
+canonifyurls = true
+theme        = "joyofcoding"
+publishDir   = "docs"
+
+[permalinks]
+  post = "/blog/:year/:month/:day/:title/"
+  page = "/:filename/"
+
+[params]
+  ga_api_key    = "Google Analytics API key"
+  mail          = "your@address.here"
+  github        = "http://github.com/joyofcoding"
+  twitter       = "https://twitter.com/username"
+  flickr        = "https://flickr.com/username"
+  linkedin      = "https://www.linkedin.com/in/username"
+  youtube_video = "https://www.youtube.com/embed/gSPV5ONN_7Q"
+
+  [params.intro]
+    header_text    = "Celebrating 5 years of the art, craft, science and joy of software development"
+    subheader_text = "Joy of coding is all about the love for programming. Learn about new and emerging technologies from companies and academia. Get inspired by renowned international speakers. Pair with fellow passionate developers in one of the workshops."
+    header_cta     = "Friday 30 June 2017 @ De Rotterdamse Schouwburg, Rotterdam"
