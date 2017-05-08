@@ -1,0 +1,165 @@
+/*--------------------------------------------------------------
+# Footer Layout
+--------------------------------------------------------------*/
+aside#footer {
+  @include grid-container();
+  clear: both;
+  
+  a {
+    font-weight: bold;
+    font-family: "Source Code Pro";
+  }
+	
+	section {
+		padding: 1em;
+		@include grid-media($medium) {
+			padding: 2em;
+		}
+		@include grid-media($xlarge) {
+			padding: 3em 5em;
+		}
+	}
+	
+	#contact {
+  	color: $blue;
+		width: 100%;
+		@include grid-media($medium) {
+			width: 33.33%;
+			float: left;
+		}
+	}
+
+	.wrap {
+		@include clearfix();
+		@include grid-media($medium) {
+			width: 66.66%;
+			float: left;
+		}
+		
+		section {
+			@include clearfix();
+			width: 100%;
+			@include grid-media($small) {
+				width: 50%;
+				float: left;
+			}
+			p:last-child {
+  			border-bottom: 1px solid #fff;
+  			padding-bottom: 3em;
+//   			margin-bottom: 3em;
+			}
+		}
+	}
+}
+
+
+/*--------------------------------------------------------------
+# Footer Content
+--------------------------------------------------------------*/
+aside#footer {
+  background-color: white;
+	text-align: center;
+
+	@include grid-media($large) {
+		text-align: left;
+	}
+  
+	.wrap {
+  	color: white;
+		background-color: $red;
+		background-image: url('../img/bg_footer.jpg');
+		background-position: center center;
+		background-size: cover;
+
+  	a {
+    	color: white;
+  	}
+	}
+	
+	.signup {
+  	font-family: "Source Code Pro";
+  	font-size: .9375em;
+	}
+
+	h2 {
+		font-size: 1.25em;
+		text-transform: uppercase;
+		padding-top: .75em;
+		letter-spacing: -1px;
+		@include grid-media($large) {
+			font-size: 1.875em;	
+		}
+	}
+
+	/* Social nav */
+	$flickr: #ff0084;
+	$mailto: $medium-gray;
+	$twitter: #00aced;
+	$youtube: #bb0000;
+	
+	ul.social {
+		margin: 0 0 1.5em;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		list-style: none;
+		@include grid-media($large) {
+			justify-content: flex-start;
+		}
+	
+		li {
+			margin: 0 .5em;
+			padding: .25em 0;
+		}
+		
+		a {
+			border-radius: 100%;
+			border: 1px solid $action-color;
+			color: $action-color;
+			display: inline-block;
+			height: 2.5em;
+			text-align: center;
+			transition: background-color $base-duration $base-timing;
+			line-height: 2.75em;
+			width: 2.5em;
+			&[href*="flickr.com"] { 		&:hover, &:focus { color: $flickr; } }
+			&[href^="mailto"] { 			&:hover, &:focus { color: $mailto; } }
+			&[href*="twitter.com"] { 		&:hover, &:focus { color: $twitter; } }
+			&[href*="youtube.com"] { 		&:hover, &:focus { color: $youtube; } }
+		}
+	}
+}
+
+
+/*--------------------------------------------------------------
+# Socket 
+--------------------------------------------------------------*/
+footer#socket {
+  background-color: $blue;
+  color: white;
+	font-family: "Source Code Pro";
+	text-align: center;
+	padding: 1.5em;
+	
+	a {
+    color: white;
+	}
+  
+	> span {
+  	display: block;
+		font-size: .75em;
+		
+		@include grid-media($medium) {
+      margin-right: 1.5em;
+  		display: inline;
+		}
+
+		@include grid-media($large) {
+      margin-right: 2.5em;
+		}
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}

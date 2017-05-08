@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Joy of Coding</title>
+    <link>http://joyofcoding.org/home/index.xml</link>
+    <description>Recent content in Homes on Joy of Coding</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Joy of Coding 2017</copyright>
+    <lastBuildDate>Wed, 29 Mar 2017 12:38:11 +0200</lastBuildDate>
+    <atom:link href="http://joyofcoding.org/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Joy of Coding</title>
+      <link>http://joyofcoding.org/home/intro/</link>
+      <pubDate>Wed, 29 Mar 2017 12:38:11 +0200</pubDate>
+      
+      <guid>http://joyofcoding.org/home/intro/</guid>
+      <description>&lt;p&gt;Joy of coding is all about the love for programming. Learn about new and emerging technologies from companies and academia. Get inspired by renowned international speakers.&lt;/p&gt;
+
+&lt;p&gt;Pair with fellow passionate developers in one of the workshops.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Friday 30 June 2017 @ De Rotterdamse Schouwburg, Rotterdam&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

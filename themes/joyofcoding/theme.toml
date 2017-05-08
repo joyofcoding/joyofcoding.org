@@ -1,0 +1,6 @@
+author = "Arno Hartensveld, Bas Middelham"
+description = "Joy of Coding 2017 Site Theme"
+license = "MIT"
+name = "joyofcoding"
+source_repo = "github.com"
+tags = ["site", "hugo", "joy of coding"]

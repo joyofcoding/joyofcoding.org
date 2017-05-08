@@ -1,0 +1,189 @@
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+#site-navigation {
+  @include grid-media($large) {
+		position: absolute;
+		top: 0;
+		right: 0;
+  }
+
+  .toggled & {
+    @media only screen and (max-width: 1024px) {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      height: 100%;
+      width: 100%;
+      background-color: $red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+
+	ul {
+  	display: none;
+    margin-bottom: 0;
+    background-color: $red;
+    @include grid-media($large) {
+      background-color: inherit;
+    }
+    
+  	li {
+  		text-align: center;
+
+      @include grid-media($large) {
+    		float: left;
+        text-align: inherit;
+    	}
+
+  		a {
+  			color: white;
+//   			background-color: rgba( $blue , .5 );
+  			display: block;
+  			font-weight: bold;
+  			font-size: 1.5em;
+  			line-height: 2.5em;
+  			letter-spacing: -1px;
+  			padding: 0 1.25em;
+  			text-transform: uppercase;
+  			text-decoration: none;
+				margin: .25em 1.5em;
+
+        @include grid-media($large) {
+    			color: $red;
+          font-size: 1em;
+  				margin: 0;
+//     			background-color: inherit;
+          line-height: 4.7em;
+        }
+
+  			&:hover,
+  			&:active {
+  				color: $blue;
+          text-decoration: none;
+    			.home & {
+    				color: white;
+    			}
+  			}
+  			
+  			&.alt {
+  				color: white;
+  				padding: 0 4em;
+  				transition: background-color $base-duration;
+  				background-color: $red;
+  				margin: 0 1.5em;
+          @include grid-media($large) {
+    				margin: 0 0 0 2em;
+    		  }
+    			.home & {
+    				color: $blue;
+    			}
+  				&:hover,
+  				&:active {
+  					background: white;
+    				color: $blue;
+  				}
+  			}
+  		}
+    }
+	}
+}
+
+/*--------------------------------------------------------------
+# Menu toggle
+--------------------------------------------------------------*/
+#masthead {
+	button {
+		position: absolute;
+		right: 15px;
+		top: 15px;
+		z-index: 1;
+	}
+}
+
+.menu-toggle,
+.toggled #site-navigation ul {
+	display: block;
+}
+
+@include grid-media($large) {
+	.menu-toggle {
+		display: none;
+	}
+	#site-navigation ul {
+		display: block;
+	}
+}
+
+/*--------------------------------------------------------------
+# Hamburger menu
+--------------------------------------------------------------*/
+#masthead button {
+	background-color: transparent;
+	text-indent: -99999px;
+	height: 50px;
+	width: 50px;
+
+	&:hover,
+	&:focus {
+		background-color: transparent;
+		color: initial;
+	}
+
+	&.is-active {
+		span {
+  		background: white;
+			background: 0 0;
+			&:before,
+			&:after { 
+    		background: white;
+				transition-delay: 0s, .15s;
+			}
+			&:before {
+				top: 0;
+				transform: rotate(45deg);
+			}
+			&:after {
+				bottom: 0;
+				transform: rotate(-45deg);
+			}
+		}
+	}
+
+	span {
+		display: block;
+		position: absolute;
+		top: 24px;
+		left: 10px;
+		right: 10px;
+		height: 2px;
+		background: $red;
+		transition: background 0s .15s;
+
+		&:before,
+		&:after {
+			background-color: $red;
+			content: '';
+			display: block;
+			position: absolute;
+			left: 0;
+			height: 2px;
+			width: 100%;
+			transition-duration: .15s, .15s;
+			transition-delay: .15s, 0s
+		}
+
+		&:before {
+			transition-property: top, transform;
+			top: -10px;
+		}
+
+		&:after {
+			bottom: -10px;
+			transition-property: bottom, transform;
+		}
+	}
+}
