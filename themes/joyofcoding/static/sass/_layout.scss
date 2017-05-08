@@ -1,0 +1,89 @@
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.wrapper {
+	max-width: 95em;
+	margin: 0 auto;
+}
+
+.padding {
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	@include grid-media($large) {
+		padding-left: 3.75em;
+		padding-right: 3.75em;
+	}
+}
+
+body {
+	background-image: url('../img/bg_pattern_white.png');
+	background-position: center top;
+	background-repeat: repeat;
+	
+
+  main {
+		padding-top: 8em;
+    @include grid-container();
+    @include grid-collapse();
+    @extend .padding;
+
+  	@include grid-media($medium) {
+  		padding-top: 12.5em;
+  	}
+
+  	@include grid-media($large) {
+  		padding-top: 14em;
+  	}
+
+  	@include grid-media($xlarge) {
+  		padding-top: 16em;
+  	}
+
+    > article {
+  		text-align: center;
+      @include grid-column(12);
+
+    	@include grid-media($xlarge) {
+        @include grid-column(9);
+    	}
+
+    	@include grid-media($xxlarge) {
+        @include grid-column(8);
+    	}
+
+			.entry-content {
+  			margin-bottom: 3em;
+
+    		@include grid-media($medium) {
+          text-align: left;
+          margin-bottom: 5em;
+    		}
+
+    		@include grid-media($large) {
+          margin-bottom: 7em;
+    		}
+
+    		@include grid-media($xlarge) {
+          margin-bottom: 10em;
+    		}
+   		}
+    }
+  }
+}
