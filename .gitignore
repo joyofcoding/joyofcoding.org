@@ -1,5 +1,4 @@
-# OS generated files #
-######################
+# OS/editor generated files
 .DS_Store
 .DS_Store?
 ._*
@@ -9,8 +8,6 @@ Icon?
 ehthumbs.db
 Thumbs.db
 2016/scripts/.stack-work
-
-
-# Phpstorm #
-######################
+.[#]*[#]
+.[#]*
 .idea
