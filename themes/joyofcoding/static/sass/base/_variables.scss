@@ -1,0 +1,66 @@
+// Grid
+$neat-grid: (
+  columns: 12,
+  gutter: 3.75rem,
+);
+
+$nogutter: (
+  gutter: 0
+);
+
+
+// Breakpoints
+$small: (
+  media: 480px,
+);
+$medium: (
+  media: 768px,
+);
+$large: (
+  media: 1024px,
+);
+$xlarge: (
+  media: 1280px,
+);
+$xxlarge: (media: 1440px);
+
+// Typography
+$base-font-family: 'Poppins', $font-stack-system;
+$heading-font-family: $base-font-family;
+
+// Font Sizes
+$base-font-size: 1em;
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+
+// Other Sizes
+$base-border-radius: 0;
+$base-spacing: $base-line-height * 1em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+// Colors
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #ddd;
+
+$blue: hsl(228, 100%, 35%);
+$red: #ff2b5d;
+
+// Font Colors
+$base-font-color: $blue;
+$action-color: $blue;
+
+// Border
+$base-border-color: white;
+$base-border: 1px solid $base-border-color;
+
+// Background Colors
+$base-background-color: white;
+$secondary-background-color: tint($base-border-color, 75%);
+
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;

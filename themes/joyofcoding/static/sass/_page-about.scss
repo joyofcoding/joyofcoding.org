@@ -1,0 +1,156 @@
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.page_about {
+	background-image: url('../img/bg_about.jpg'),url('../img/bg_pattern_white.png');
+	background-position: center top, center top;
+	background-size: 100%, auto;
+	background-repeat: no-repeat, repeat;
+	
+	#organisation {
+  	@extend .wrapper;
+    
+    article {
+      @include grid-column(12);
+	  }
+	}
+	
+	.about_grid {
+  	@include grid-container();
+  	@include grid-collapse();
+  	
+  	> div {
+	  	margin-bottom: 3em;
+      @include grid-media($medium) {
+       	margin-bottom: 5em;
+      }
+  	}
+  	
+    /*--------------------------------------------------------------
+    # Person
+    --------------------------------------------------------------*/
+  	.ag_item {
+      border-top: 1px solid $blue;
+      position: relative;
+
+      @include grid-column(12);
+
+      @include grid-media($medium) {
+        @include grid-column(6);
+      }
+
+      @include grid-media($large) {
+        @include grid-column(4);
+      }
+      
+      @include grid-media($xlarge) {
+        @include grid-column(3);
+
+        &.ag_item_3 {
+          @include grid-push(3);
+       	}
+      	
+        &.ag_item_5 {
+          @include grid-push(3);
+        }
+      }
+      
+    	.ag_item_title {
+      	font-size: 2em;
+      	position: absolute;
+      	top: 9rem;
+      	padding-right: 1em;
+        @include grid-media($medium) {
+        	font-size: 2em;
+        }
+     	}
+    	
+    	img {
+      	display: block;
+      	margin-bottom: 3em;
+      	margin-left: auto;
+      	width: calc(100% - 3em);
+    	}
+    	
+    	.ag_item_content {
+      	font-size: .875em
+    	}
+    	
+    	.ag_item_social {
+   	    display: block;
+      	font-size: .875em;
+      	font-family: "Source Code Pro";
+      	font-weight: bold;
+      	text-decoration: underline;
+      	
+      	&:hover,
+      	&:active {
+        	text-decoration: none;
+      	}
+    	}
+  	}
+
+    /*--------------------------------------------------------------
+    # Callout
+    --------------------------------------------------------------*/
+    .ag_box {
+    	position: relative;
+    	overflow: visible;
+      background-position: left bottom;
+      background-repeat: no-repeat;
+      padding-bottom: 20em;
+      background-size: contain;
+
+      @include grid-column(12);
+      
+      @include grid-media($medium) {
+        padding-bottom: 0;
+        background-size: inherit;
+      }
+      
+      @include grid-media($xlarge) {
+        @include grid-column(6);
+      }
+      
+      &.ag_box_1 {
+        background-image: url('../img/photo_legal_stuff.jpg');
+      }
+
+      &.ag_box_2 {
+        background-image: url('../img/photo_thanks_alumni.jpg');
+      }
+
+      .ag_box_wrap {
+      	@include grid-container();
+      	@include grid-collapse();
+
+        .ag_box_content {
+          background-color: white;
+    			font-family: "Source Code Pro";
+    			font-size: .875em;
+          padding: 40px;
+          margin-bottom: 1.5em;
+    
+         	@include grid-column(12);
+
+          @include grid-media($medium) {
+          	@include grid-column(6);
+          	@include grid-push(6);
+          }
+
+    			p {
+    				line-height: 2.5em;
+    
+    				&:last-child {
+    					margin-bottom: 0;
+    				}
+    			}
+          
+          .ag_box_title {
+          	font-size: 2em;
+          }
+        }
+      }
+    }	
+	}
+}
