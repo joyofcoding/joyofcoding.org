@@ -176,8 +176,8 @@
       
       <guid>http://joyofcoding.org/schedule/</guid>
       <description>&lt;div id=&#34;container&#34; class=&#34;page_schedule&#34;&gt;
-    	&lt;div id=&#34;scroller&#34;&gt;
-    
+      &lt;div id=&#34;scroller&#34;&gt;
+
         &lt;main&gt;
           &lt;article&gt;
             &lt;div class=&#34;entry-content&#34;&gt;
@@ -185,20 +185,28 @@
               &lt;p&gt;Have a look at al the inspiring speakers that will come to Rotterdam on June 17th. Most slots are links to more detailed information.&lt;/p&gt;
             &lt;/div&gt;
           &lt;/article&gt;
-    
+
           &lt;section id=&#34;schedule&#34;&gt;
             &lt;article class=&#34;schedule-grid&#34;&gt;
-    
+
               &lt;!---------------------- timeslot 1 ----------------------&gt;
               &lt;ul class=&#34;sg_timeslot&#34;&gt;
-    
+
                 &lt;li class=&#34;sg_timeslot_header&#34;&gt;
                   &lt;div class=&#34;sg_event_meta&#34;&gt;08:30 - 09:20&lt;/div&gt;
                 &lt;/li&gt;
-    
+
                 &lt;!-- Location 1 --&gt;
-                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
+                &lt;li class=&#34;sg_event&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;
+                    &lt;span class=&#34;sg_event_time&#34;&gt;08:30 - 09:20&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;Walk in&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
                 &lt;!-- Location 2 --&gt;
                 &lt;li class=&#34;sg_event&#34;&gt;
                   &lt;div class=&#34;sg_event_meta&#34;&gt;
@@ -209,8 +217,8 @@
                     &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
-    
-                &lt;!-- Location 3 --&gt;
+
+                &lt;!-- Location 3
                 &lt;li class=&#34;sg_event&#34;&gt;
                   &lt;div class=&#34;sg_event_meta&#34;&gt;
                     &lt;span class=&#34;sg_event_type&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;08:30 - 09:20&lt;/span&gt;
@@ -219,487 +227,479 @@
                   &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
                     &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
                   &lt;/div&gt;
-                &lt;/li&gt;
-    
+                &lt;/li&gt; --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
                 &lt;!-- Location 4 --&gt;
                 &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
+
               &lt;/ul&gt;
-    
+
               &lt;!---------------------- timeslot 2 ----------------------&gt;
               &lt;ul class=&#34;sg_timeslot&#34;&gt;
-    
+
                 &lt;li class=&#34;sg_timeslot_header&#34;&gt;
                   &lt;div class=&#34;sg_event_meta&#34;&gt;09:20 - 09:30&lt;/div&gt;
                 &lt;/li&gt;
-    
+
                 &lt;!-- Location 1 --&gt;
                 &lt;li class=&#34;sg_event&#34;&gt;
                   &lt;div class=&#34;sg_event_meta&#34;&gt;
                     &lt;span class=&#34;sg_event_time&#34;&gt;09:20 - 09:30&lt;/span&gt;
                   &lt;/div&gt;
-                  &lt;div class=&#34;sg_event_title&#34;&gt;Opening en uitleg game&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;Opening and introduction to the A.I. Game Contest&lt;/div&gt;
                   &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
                     &lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
-    
+
                 &lt;!-- Location 2 --&gt;
                 &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
+
                 &lt;!-- Location 3 --&gt;
                 &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
+
                 &lt;!-- Location 4 --&gt;
                 &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
+
               &lt;/ul&gt;
-    
+
               &lt;!---------------------- timeslot 3 ----------------------&gt;
               &lt;ul class=&#34;sg_timeslot&#34;&gt;
-    
+
                 &lt;li class=&#34;sg_timeslot_header&#34;&gt;
                   &lt;div class=&#34;sg_event_meta&#34;&gt;09:30 - 10:10&lt;/div&gt;
                 &lt;/li&gt;
-    
-                 &lt;!-- Location 1 --&gt;
+
+                &lt;!-- Location 1 --&gt;
                 &lt;li class=&#34;sg_event sg_main&#34;&gt;
-                  &lt;a class=&#34;sg_event_link&#34; href=&#34;speaker_ted_neward.html&#34;&gt;
+                  &lt;a class=&#34;sg_event_link&#34; href=&#34;../speaker/ted-neward&#34;&gt;
                     &lt;div class=&#34;sg_event_meta&#34;&gt;
                       &lt;span class=&#34;sg_event_type&#34;&gt;Keynote&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;09:30 - 10:10&lt;/span&gt;
                     &lt;/div&gt;
-                    &lt;div class=&#34;sg_event_title&#34;&gt;Category theory for the working hacker&lt;/div&gt;
+                    &lt;div class=&#34;sg_event_title&#34;&gt;Ted Neward&lt;/div&gt;
                     &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                      &lt;span class=&#34;sg_event_speaker&#34;&gt;Ted Neward&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
+                      &lt;span class=&#34;sg_event_speaker&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
                     &lt;/div&gt;
                   &lt;/a&gt;
                 &lt;/li&gt;
-    
+
                 &lt;!-- Location 2 --&gt;
                 &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
+
                 &lt;!-- Location 3 --&gt;
                 &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
+
                 &lt;!-- Location 4 --&gt;
                 &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
+
               &lt;/ul&gt;
-    
+
               &lt;!---------------------- timeslot 4 ----------------------&gt;
               &lt;ul class=&#34;sg_timeslot&#34;&gt;
-    
+
                 &lt;li class=&#34;sg_timeslot_header&#34;&gt;
                   &lt;div class=&#34;sg_event_meta&#34;&gt;10:10 - 10:50&lt;/div&gt;
                 &lt;/li&gt;
-    
+
                 &lt;!-- Location 1 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+                &lt;!-- Location 2 --&gt;
                 &lt;li class=&#34;sg_event_break&#34;&gt;
                   &lt;div class=&#34;sg_event_meta&#34;&gt;
                     &lt;span class=&#34;sg_event_time&#34;&gt;10:10 - 10:50&lt;/span&gt;
                   &lt;/div&gt;
                   &lt;div class=&#34;sg_event_title&#34;&gt;Break&lt;/div&gt;
                   &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-    
-                &lt;!-- Location 2 --&gt;
-                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
-                &lt;!-- Location 3 --&gt;
-                &lt;li class=&#34;sg_event&#34;&gt;
-                  &lt;div class=&#34;sg_event_meta&#34;&gt;
-                    &lt;span class=&#34;sg_event_type&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;10:10 - 10:50&lt;/span&gt;
-                  &lt;/div&gt;
-                  &lt;div class=&#34;sg_event_title&#34;&gt;Speeddaten&lt;/div&gt;
-                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
                     &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
-    
-                &lt;!-- Location 4 --&gt;
+
+                &lt;!-- Location 3 --&gt;
                 &lt;li class=&#34;sg_event&#34;&gt;
                   &lt;div class=&#34;sg_event_meta&#34;&gt;
                     &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;10:10 - 10:50&lt;/span&gt;
                   &lt;/div&gt;
-                  &lt;div class=&#34;sg_event_title&#34;&gt;Title van de Game&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;A.I. Game Contest&lt;/div&gt;
                   &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
                     &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
-                
+
+                &lt;!-- Location 4 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+
               &lt;/ul&gt;
-    
+
               &lt;!---------------------- timeslot 5 ----------------------&gt;
               &lt;ul class=&#34;sg_timeslot&#34;&gt;
-    
+
                 &lt;li class=&#34;sg_timeslot_header&#34;&gt;
-                  &lt;div class=&#34;sg_event_meta&#34;&gt;11:00 - 11:40&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;10:50 - 11:30&lt;/div&gt;
                 &lt;/li&gt;
-    
+
                 &lt;!-- Location 1 --&gt;
                 &lt;li class=&#34;sg_event sg_main&#34;&gt;
-                  &lt;a class=&#34;sg_event_link&#34; href=&#34;speaker_jessica_kerr.html&#34;&gt;
+                  &lt;a class=&#34;sg_event_link&#34; href=&#34;../speaker/jessica-kerr&#34;&gt;
                     &lt;div class=&#34;sg_event_meta&#34;&gt;
-                      &lt;span class=&#34;sg_event_type&#34;&gt;Talk&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;11:00 - 11:40&lt;/span&gt;
+                      &lt;span class=&#34;sg_event_type&#34;&gt;Talk&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;10:50 - 11:30&lt;/span&gt;
                     &lt;/div&gt;
-                    &lt;div class=&#34;sg_event_title&#34;&gt;Internet of things that your non-dev brother can build&lt;/div&gt;
+                    &lt;div class=&#34;sg_event_title&#34;&gt;Jessica Kerr&lt;/div&gt;
                     &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                      &lt;span class=&#34;sg_event_speaker&#34;&gt;Jessica Kerr&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
+                      &lt;span class=&#34;sg_event_speaker&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
                     &lt;/div&gt;
                   &lt;/a&gt;
                 &lt;/li&gt;
-    
+
                 &lt;!-- Location 2 --&gt;
-                &lt;li class=&#34;sg_event&#34;&gt;
-                  &lt;div class=&#34;sg_event_meta&#34;&gt;
-                    &lt;span class=&#34;sg_event_type&#34;&gt;Lightning talk&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;11:00 - 11:40&lt;/span&gt;
-                  &lt;/div&gt;
-                  &lt;div class=&#34;sg_event_title&#34;&gt;Title Lightning Talk&lt;/div&gt;
-                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-    
-                &lt;!-- Location 3 --&gt;
                 &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
-                &lt;!-- Location 4 --&gt;
+
+                &lt;!-- Location 3 --&gt;
                 &lt;li class=&#34;sg_event&#34;&gt;
                   &lt;div class=&#34;sg_event_meta&#34;&gt;
-                    &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;11:00 - 11:40&lt;/span&gt;
+                    &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;10:50 - 11:30&lt;/span&gt;
                   &lt;/div&gt;
-                  &lt;div class=&#34;sg_event_title&#34;&gt;Title van de Game&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;A.I. Game Contest&lt;/div&gt;
                   &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
                     &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
-    
+
+                &lt;!-- Location 4 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
               &lt;/ul&gt;
-    
+
               &lt;!---------------------- timeslot 6 ----------------------&gt;
               &lt;ul class=&#34;sg_timeslot&#34;&gt;
-    
+
                 &lt;li class=&#34;sg_timeslot_header&#34;&gt;
-                  &lt;div class=&#34;sg_event_meta&#34;&gt;11:50 - 12:30&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;11:30 - 12:10&lt;/div&gt;
                 &lt;/li&gt;
-    
+
                 &lt;!-- Location 1 --&gt;
-                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
+                &lt;li class=&#34;sg_event&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;
+                    &lt;span class=&#34;sg_event_type&#34;&gt;Community&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;11:30 - 12:10&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;Lightning Talks&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
                 &lt;!-- Location 2 --&gt;
                 &lt;li class=&#34;sg_event&#34;&gt;
                   &lt;div class=&#34;sg_event_meta&#34;&gt;
-                    &lt;span class=&#34;sg_event_type&#34;&gt;Lightning talk&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;11:50 - 12:30&lt;/span&gt;
+                    &lt;span class=&#34;sg_event_type&#34;&gt;Networking&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;11:30 - 12:10&lt;/span&gt;
                   &lt;/div&gt;
-                  &lt;div class=&#34;sg_event_title&#34;&gt;Title Lightning Talk&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;Speed dates&lt;/div&gt;
                   &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
                     &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
-    
+
                 &lt;!-- Location 3 --&gt;
                 &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
+
                 &lt;!-- Location 4 --&gt;
-                &lt;li class=&#34;sg_event&#34;&gt;
-                  &lt;div class=&#34;sg_event_meta&#34;&gt;
-                    &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;11:50 - 12:30&lt;/span&gt;
-                  &lt;/div&gt;
-                  &lt;div class=&#34;sg_event_title&#34;&gt;Title van de Game&lt;/div&gt;
-                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-    
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
               &lt;/ul&gt;
-    
+
               &lt;!---------------------- timeslot 7 ----------------------&gt;
               &lt;ul class=&#34;sg_timeslot&#34;&gt;
-    
+
                 &lt;li class=&#34;sg_timeslot_header&#34;&gt;
-                  &lt;div class=&#34;sg_event_meta&#34;&gt;12:30 - 13:30&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;12:10 - 13:10&lt;/div&gt;
                 &lt;/li&gt;
-    
+
                 &lt;!-- Location 1 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+                &lt;!-- Location 2 --&gt;
                 &lt;li class=&#34;sg_event_break&#34;&gt;
                   &lt;div class=&#34;sg_event_meta&#34;&gt;
-                    &lt;span class=&#34;sg_event_time&#34;&gt;12:30 - 13:30&lt;/span&gt;
+                    &lt;span class=&#34;sg_event_time&#34;&gt;12:10 - 13:10&lt;/span&gt;
                   &lt;/div&gt;
                   &lt;div class=&#34;sg_event_title&#34;&gt;Lunch&lt;/div&gt;
                   &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
+                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
-    
-                &lt;!-- Location 2 --&gt;
-                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
+
                 &lt;!-- Location 3 --&gt;
-                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
-                &lt;!-- Location 4 --&gt;
                 &lt;li class=&#34;sg_event&#34;&gt;
                   &lt;div class=&#34;sg_event_meta&#34;&gt;
-                    &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;12:30 - 13:30&lt;/span&gt;
+                    &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;12:10 - 13:10&lt;/span&gt;
                   &lt;/div&gt;
-                  &lt;div class=&#34;sg_event_title&#34;&gt;Title van de Game&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;A.I. Game Contest&lt;/div&gt;
                   &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
                     &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
-    
+
+                &lt;!-- Location 4 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
               &lt;/ul&gt;
-    
+
               &lt;!---------------------- timeslot 8 ----------------------&gt;
               &lt;ul class=&#34;sg_timeslot&#34;&gt;
-    
+
                 &lt;li class=&#34;sg_timeslot_header&#34;&gt;
-                  &lt;div class=&#34;sg_event_meta&#34;&gt;13:30 - 14:10&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;13:10 - 13:50&lt;/div&gt;
                 &lt;/li&gt;
-    
+
                 &lt;!-- Location 1 --&gt;
                 &lt;li class=&#34;sg_event sg_main&#34;&gt;
-                  &lt;a class=&#34;sg_event_link&#34; href=&#34;speaker_neal_ford.html&#34;&gt;
+                  &lt;a class=&#34;sg_event_link&#34; href=&#34;../speaker/neal-ford&#34;&gt;
                     &lt;div class=&#34;sg_event_meta&#34;&gt;
-                      &lt;span class=&#34;sg_event_type&#34;&gt;Keynote&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;13:30 - 14:10&lt;/span&gt;
+                      &lt;span class=&#34;sg_event_type&#34;&gt;Keynote&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;13:10 - 13:50&lt;/span&gt;
                     &lt;/div&gt;
-                    &lt;div class=&#34;sg_event_title&#34;&gt;The marvel guide for developers&lt;/div&gt;
+                    &lt;div class=&#34;sg_event_title&#34;&gt;Neal Ford&lt;/div&gt;
                     &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                      &lt;span class=&#34;sg_event_speaker&#34;&gt;Neal Ford&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
+                      &lt;span class=&#34;sg_event_speaker&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
                     &lt;/div&gt;
                   &lt;/a&gt;
                 &lt;/li&gt;
-    
+
                 &lt;!-- Location 2 --&gt;
                 &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
+
                 &lt;!-- Location 3 --&gt;
                 &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
+
                 &lt;!-- Location 4 --&gt;
                 &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
+
               &lt;/ul&gt;
-    
+
               &lt;!---------------------- timeslot 9 ----------------------&gt;
               &lt;ul class=&#34;sg_timeslot&#34;&gt;
-    
+
                 &lt;li class=&#34;sg_timeslot_header&#34;&gt;
-                  &lt;div class=&#34;sg_event_meta&#34;&gt;14:20 - 15:00&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;13:50 - 14:30&lt;/div&gt;
                 &lt;/li&gt;
-    
+
                 &lt;!-- Location 1 --&gt;
                 &lt;li class=&#34;sg_event sg_main&#34;&gt;
-                  &lt;a class=&#34;sg_event_link&#34; href=&#34;speaker_llewellyn_falco.html&#34;&gt;
+                  &lt;a class=&#34;sg_event_link&#34; href=&#34;../speaker/llewellyn-falco&#34;&gt;
                     &lt;div class=&#34;sg_event_meta&#34;&gt;
-                      &lt;span class=&#34;sg_event_type&#34;&gt;Talk&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;14:20 - 15:00&lt;/span&gt;
+                      &lt;span class=&#34;sg_event_type&#34;&gt;Talk&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;13:50 - 14:30&lt;/span&gt;
                     &lt;/div&gt;
-                    &lt;div class=&#34;sg_event_title&#34;&gt;Mac virussen, maybe, and iOS malware, but no PC virusses!&lt;/div&gt;
+                    &lt;div class=&#34;sg_event_title&#34;&gt;Llewellyn Falco&lt;/div&gt;
                     &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                      &lt;span class=&#34;sg_event_speaker&#34;&gt;Llewellyn Falco&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
+                      &lt;span class=&#34;sg_event_speaker&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
                     &lt;/div&gt;
                   &lt;/a&gt;
                 &lt;/li&gt;
-    
+
                 &lt;!-- Location 2 --&gt;
-                &lt;li class=&#34;sg_event&#34;&gt;
-                  &lt;div class=&#34;sg_event_meta&#34;&gt;
-                    &lt;span class=&#34;sg_event_type&#34;&gt;Lightning talk&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;14:20 - 15:00&lt;/span&gt;
-                  &lt;/div&gt;
-                  &lt;div class=&#34;sg_event_title&#34;&gt;Title Lightning Talk&lt;/div&gt;
-                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-    
-                &lt;!-- Location 3 --&gt;
                 &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
-                &lt;!-- Location 4 --&gt;
+
+                &lt;!-- Location 3 --&gt;
                 &lt;li class=&#34;sg_event&#34;&gt;
                   &lt;div class=&#34;sg_event_meta&#34;&gt;
-                    &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;14:20 - 15:00&lt;/span&gt;
+                    &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;13:50 - 14:30&lt;/span&gt;
                   &lt;/div&gt;
-                  &lt;div class=&#34;sg_event_title&#34;&gt;Title van de Game&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;A.I. Game Contest&lt;/div&gt;
                   &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
                     &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
-    
+
+                &lt;!-- Location 4 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
               &lt;/ul&gt;
-    
+
               &lt;!---------------------- timeslot 10 ----------------------&gt;
               &lt;ul class=&#34;sg_timeslot&#34;&gt;
-    
+
                 &lt;li class=&#34;sg_timeslot_header&#34;&gt;
-                  &lt;div class=&#34;sg_event_meta&#34;&gt;15:10 - 15:50&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;14:30 - 15:10&lt;/div&gt;
                 &lt;/li&gt;
-    
+
                 &lt;!-- Location 1 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+                &lt;!-- Location 2 --&gt;
                 &lt;li class=&#34;sg_event_break&#34;&gt;
                   &lt;div class=&#34;sg_event_meta&#34;&gt;
-                    &lt;span class=&#34;sg_event_time&#34;&gt;15:10 - 15:50&lt;/span&gt;
+                    &lt;span class=&#34;sg_event_time&#34;&gt;14:30 - 15:10&lt;/span&gt;
                   &lt;/div&gt;
                   &lt;div class=&#34;sg_event_title&#34;&gt;Break&lt;/div&gt;
                   &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
+                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
-    
-                &lt;!-- Location 2 --&gt;
-                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
+
                 &lt;!-- Location 3 --&gt;
                 &lt;li class=&#34;sg_event&#34;&gt;
                   &lt;div class=&#34;sg_event_meta&#34;&gt;
-                    &lt;span class=&#34;sg_event_type&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;15:10 - 15:50&lt;/span&gt;
+                    &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;14:30 - 15:10&lt;/span&gt;
                   &lt;/div&gt;
-                  &lt;div class=&#34;sg_event_title&#34;&gt;Speeddaten&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;A.I. Game Contest&lt;/div&gt;
                   &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
                     &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
-    
+
                 &lt;!-- Location 4 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+              &lt;/ul&gt;
+
+              &lt;!---------------------- timeslot 11 ----------------------&gt;
+              &lt;ul class=&#34;sg_timeslot&#34;&gt;
+
+                &lt;li class=&#34;sg_timeslot_header&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;15:10 - 15:50&lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 1 --&gt;
+                &lt;li class=&#34;sg_event sg_main&#34;&gt;
+                  &lt;a class=&#34;sg_event_link&#34; href=&#34;../speaker/koshin-mariano&#34;&gt;
+                    &lt;div class=&#34;sg_event_meta&#34;&gt;
+                      &lt;span class=&#34;sg_event_type&#34;&gt;Talk&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;15:10 - 15:50&lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#34;sg_event_title&#34;&gt;Koshin Mariano&lt;/div&gt;
+                    &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                      &lt;span class=&#34;sg_event_speaker&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
+                    &lt;/div&gt;
+                  &lt;/a&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 2 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+                &lt;!-- Location 3 --&gt;
                 &lt;li class=&#34;sg_event&#34;&gt;
                   &lt;div class=&#34;sg_event_meta&#34;&gt;
                     &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;15:10 - 15:50&lt;/span&gt;
                   &lt;/div&gt;
-                  &lt;div class=&#34;sg_event_title&#34;&gt;Title van de Game&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;A.I. Game Contest&lt;/div&gt;
                   &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
                     &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
-                
-              &lt;/ul&gt;
-    
-              &lt;!---------------------- timeslot 11 ----------------------&gt;
-              &lt;ul class=&#34;sg_timeslot&#34;&gt;
-    
-                &lt;li class=&#34;sg_timeslot_header&#34;&gt;
-                  &lt;div class=&#34;sg_event_meta&#34;&gt;16:00 - 16:40&lt;/div&gt;
-                &lt;/li&gt;
-    
-                &lt;!-- Location 1 --&gt;
-                &lt;li class=&#34;sg_event sg_main&#34;&gt;
-                  &lt;a class=&#34;sg_event_link&#34; href=&#34;speaker_koshin_mariano.html&#34;&gt;
-                    &lt;div class=&#34;sg_event_meta&#34;&gt;
-                      &lt;span class=&#34;sg_event_type&#34;&gt;Talk&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;16:00 - 16:40&lt;/span&gt;
-                    &lt;/div&gt;
-                    &lt;div class=&#34;sg_event_title&#34;&gt;All you get paid to do is just type words on a Computer&lt;/div&gt;
-                    &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                      &lt;span class=&#34;sg_event_speaker&#34;&gt;Koshin Mariano&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
-                    &lt;/div&gt;
-                  &lt;/a&gt;
-                &lt;/li&gt;
-    
-                &lt;!-- Location 2 --&gt;
-                &lt;li class=&#34;sg_event&#34;&gt;
-                  &lt;div class=&#34;sg_event_meta&#34;&gt;
-                    &lt;span class=&#34;sg_event_type&#34;&gt;Lightning talk&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;16:00 - 16:40&lt;/span&gt;
-                  &lt;/div&gt;
-                  &lt;div class=&#34;sg_event_title&#34;&gt;Title Lightning Talk&lt;/div&gt;
-                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-    
-                &lt;!-- Location 3 --&gt;
-                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
+
                 &lt;!-- Location 4 --&gt;
-                &lt;li class=&#34;sg_event&#34;&gt;
-                  &lt;div class=&#34;sg_event_meta&#34;&gt;
-                    &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;16:00 - 16:40&lt;/span&gt;
-                  &lt;/div&gt;
-                  &lt;div class=&#34;sg_event_title&#34;&gt;Title van de Game&lt;/div&gt;
-                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-    
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
               &lt;/ul&gt;
-    
+
               &lt;!---------------------- timeslot 12 ----------------------&gt;
               &lt;ul class=&#34;sg_timeslot&#34;&gt;
-    
+
                 &lt;li class=&#34;sg_timeslot_header&#34;&gt;
-                  &lt;div class=&#34;sg_event_meta&#34;&gt;16:50 - 17:30&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;15:50 - 16:30&lt;/div&gt;
                 &lt;/li&gt;
-    
+
                 &lt;!-- Location 1 --&gt;
                 &lt;li class=&#34;sg_event sg_main&#34;&gt;
-                  &lt;a class=&#34;sg_event_link&#34; href=&#34;speaker_carin_meier.html&#34;&gt;
+                  &lt;a class=&#34;sg_event_link&#34; href=&#34;../speaker/carin-meier&#34;&gt;
                     &lt;div class=&#34;sg_event_meta&#34;&gt;
-                      &lt;span class=&#34;sg_event_type&#34;&gt;Keynote&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;16:50 - 17:30&lt;/span&gt;
+                      &lt;span class=&#34;sg_event_type&#34;&gt;Keynote&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;15:50 - 16:30&lt;/span&gt;
                     &lt;/div&gt;
-                    &lt;div class=&#34;sg_event_title&#34;&gt;Wervende titel van de Key Note van Carin Meier&lt;/div&gt;
+                    &lt;div class=&#34;sg_event_title&#34;&gt;Carin Meier&lt;/div&gt;
                     &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                      &lt;span class=&#34;sg_event_speaker&#34;&gt;Carin Meier&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
+                      &lt;span class=&#34;sg_event_speaker&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
                     &lt;/div&gt;
                   &lt;/a&gt;
                 &lt;/li&gt;
-    
+
                 &lt;!-- Location 2 --&gt;
                 &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
+
                 &lt;!-- Location 3 --&gt;
                 &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
+
                 &lt;!-- Location 4 --&gt;
                 &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
+
               &lt;/ul&gt;
-    
+
               &lt;!---------------------- timeslot 13 ----------------------&gt;
               &lt;ul class=&#34;sg_timeslot&#34;&gt;
-    
+
                 &lt;li class=&#34;sg_timeslot_header&#34;&gt;
-                  &lt;div class=&#34;sg_event_meta&#34;&gt;17:30&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;16:30 - 16:50&lt;/div&gt;
                 &lt;/li&gt;
-    
+
                 &lt;!-- Location 1 --&gt;
-                &lt;li class=&#34;sg_event_break&#34;&gt;
+                &lt;li class=&#34;sg_event&#34;&gt;
                   &lt;div class=&#34;sg_event_meta&#34;&gt;
-                    &lt;span class=&#34;sg_event_time&#34;&gt;17:30&lt;/span&gt;
+                    &lt;span class=&#34;sg_event_type&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;16:30 - 16:50&lt;/span&gt;
                   &lt;/div&gt;
-                  &lt;div class=&#34;sg_event_title&#34;&gt;Drinks by Rabobank&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;RoboCup Junior Demo&lt;/div&gt;
                   &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
+                    &lt;span class=&#34;sg_event_speaker&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
-    
+
                 &lt;!-- Location 2 --&gt;
                 &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
+
                 &lt;!-- Location 3 --&gt;
                 &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
-    
+
                 &lt;!-- Location 4 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+              &lt;/ul&gt;
+
+              &lt;!---------------------- timeslot 14 ----------------------&gt;
+              &lt;ul class=&#34;sg_timeslot&#34;&gt;
+
+                &lt;li class=&#34;sg_timeslot_header&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;16:50 - 20:00&lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 1 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+                &lt;!-- Location 2 --&gt;
+                &lt;li class=&#34;sg_event_break&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;
+                    &lt;span class=&#34;sg_event_time&#34;&gt;16:50 - 20:00&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;Drinks/Dinner&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 3 --&gt;
                 &lt;li class=&#34;sg_event&#34;&gt;
                   &lt;div class=&#34;sg_event_meta&#34;&gt;
                     &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;17:30&lt;/span&gt;
                   &lt;/div&gt;
-                  &lt;div class=&#34;sg_event_title&#34;&gt;Finales van de Game&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;Finals A.I. Game Contest&lt;/div&gt;
                   &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
                     &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
-    
+
+                &lt;!-- Location 4 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
               &lt;/ul&gt;
-    
+
               &lt;p&gt;
                 &lt;div class=&#34;btn_wrap&#34;&gt;
                   &lt;a href=&#34;http://inventid.to/joyofcoding&#34; target=&#34;_blank&#34; class=&#34;btn&#34;&gt;Tickets 2017&lt;/a&gt;
                 &lt;/div&gt;
               &lt;/p&gt;
-    
+
             &lt;/article&gt;
           &lt;/section&gt;
-    
-        &lt;/main&gt;</description>
+
+        &lt;/main&gt;
+</description>
     </item>
     
     <item>
