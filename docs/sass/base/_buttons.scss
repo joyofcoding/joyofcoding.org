@@ -1,0 +1,81 @@
+#{$all-buttons} {
+	appearance: none;
+	background-color: $action-color;
+	border: 0;
+	border-radius: $base-border-radius;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: $base-font-family;
+	font-size: $base-font-size;
+	-webkit-font-smoothing: antialiased;
+	font-weight: 600;
+	line-height: 1;
+	padding: $small-spacing;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: background-color $base-duration $base-timing;
+	user-select: none;
+	vertical-align: middle;
+	white-space: nowrap;
+
+	&:hover,
+	&:focus {
+		background-color: white;
+		color: $action-color;
+	}
+}
+
+.btn_wrap {
+	display: table;
+	margin: 3em auto;
+	text-align: center;
+	@include grid-media($medium) {
+		margin: 7em auto;
+	}
+	@include grid-media($xxlarge) {
+		margin: 10em auto;
+	}
+
+  a.btn {
+  	background-color: $action-color;
+  	box-shadow: .75em .75em rgba(shade($action-color,50%),.5);
+  	color: #fff;
+  	cursor: pointer;
+ 		display: inline-block;
+  	font-weight: 600;
+  	line-height: 1.5;
+  	margin: 0 1.5em 1.5em;
+  	padding: $base-spacing;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	transition: background-color $base-duration $base-timing, color $base-duration $base-timing;
+  	user-select: none;
+  	vertical-align: middle;
+  	white-space: normal;
+
+    @include grid-media($medium) {
+    	padding: $base-spacing * 1.25 $base-spacing * 1.75;
+      min-width: 12em;
+    }
+
+  	&:hover,
+  	&:focus {
+  		background-color: white;
+  		color: $action-color;
+    	text-decoration: none;
+  	}
+
+  	span {
+  		display: inline-block;
+  		@include grid-media($medium) {
+  			&:before {
+  				content: ' | ';
+  				padding: 0 .25em;
+  			}
+  		}
+  	}
+  }
+}
