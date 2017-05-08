@@ -140,7 +140,7 @@ After the workshop, you&amp;rsquo;ll have the opportunity to buy the equipment u
      
                 &lt;div class=&#34;ag_item ag_item_1&#34;&gt;
                   &lt;h3 class=&#34;ag_item_title&#34;&gt;Felienne&lt;br&gt;Hermans&lt;/h3&gt;
-                  &lt;img src=&#34;http://joyofcoding.org/img/staff_felienne_hermans.jpg&#34; alt=&#34;Felienne Hermans&#34;&gt;
+                  &lt;img src=&#34;./img/staff_felienne_hermans.jpg&#34; alt=&#34;Felienne Hermans&#34;&gt;
                   &lt;div class=&#34;ag_item_content&#34;&gt;
                     &lt;p&gt;I am assistant professor and speaker. I strive to make programming better and easier for non-programmers. I love functional programming and board games.&lt;/p&gt;
                   &lt;/div&gt;
@@ -149,7 +149,7 @@ After the workshop, you&amp;rsquo;ll have the opportunity to buy the equipment u
     
                 &lt;div class=&#34;ag_item ag_item_2&#34;&gt;
                   &lt;h3 class=&#34;ag_item_title&#34;&gt;Arne&lt;br&gt;Timmerman&lt;/h3&gt;
-                  &lt;img src=&#34;http://joyofcoding.org/img/staff_arne_timmerman.jpg&#34; alt=&#34;Arne Timmerman&#34;&gt;
+                  &lt;img src=&#34;./img/staff_arne_timmerman.jpg&#34; alt=&#34;Arne Timmerman&#34;&gt;
                   &lt;div class=&#34;ag_item_content&#34;&gt;
                     &lt;p&gt;Software engineer and community facilitator. I enjoy working in teams and crafting simple solutions that are fun to use. I&#39;m a proud board member of Devnology and organizer of the Joy of Coding conference since the first edition in 2013.&lt;/p&gt;
                   &lt;/div&gt;
@@ -172,7 +172,7 @@ After the workshop, you&amp;rsquo;ll have the opportunity to buy the equipment u
      
                 &lt;div class=&#34;ag_item ag_item_3&#34;&gt;
                   &lt;h3 class=&#34;ag_item_title&#34;&gt;Martin&lt;br&gt;van Amersfoorth&lt;/h3&gt;
-                  &lt;img src=&#34;http://joyofcoding.org/img/staff_martin_van_amersfoorth.jpg&#34; alt=&#34;Martin van Amersfoorth&#34;&gt;
+                  &lt;img src=&#34;./img/staff_martin_van_amersfoorth.jpg&#34; alt=&#34;Martin van Amersfoorth&#34;&gt;
                   &lt;div class=&#34;ag_item_content&#34;&gt;
                     &lt;p&gt;As do most of you, I enjoy coding - especially using a functional language, such as Clojure. I&#39;m married, with children, and outside of family life and coding I am coaching a soccer team of 9-year olds.&lt;/p&gt;
                   &lt;/div&gt;
@@ -181,7 +181,7 @@ After the workshop, you&amp;rsquo;ll have the opportunity to buy the equipment u
     
                 &lt;div class=&#34;ag_item ag_item_4&#34;&gt;
                   &lt;h3 class=&#34;ag_item_title&#34;&gt;Cies&lt;br&gt;Breijs&lt;/h3&gt;
-                  &lt;img src=&#34;http://joyofcoding.org/img/staff_cies_breijs.jpg&#34; alt=&#34;Cies Breijs&#34;&gt;
+                  &lt;img src=&#34;./img/staff_cies_breijs.jpg&#34; alt=&#34;Cies Breijs&#34;&gt;
                   &lt;div class=&#34;ag_item_content&#34;&gt;
                     &lt;p&gt;I&#39;m a dad and a husband and a firm believer in mass-enlightenment. An open source enthousiast who adheres to a mostly vegan diet and prefers to keep the brain immersed in techno music.&lt;/p&gt;
                   &lt;/div&gt;
@@ -200,7 +200,7 @@ After the workshop, you&amp;rsquo;ll have the opportunity to buy the equipment u
      
                 &lt;div class=&#34;ag_item ag_item_5&#34;&gt;
                   &lt;h3 class=&#34;ag_item_title&#34;&gt;Rino&lt;br&gt;Kadijk&lt;/h3&gt;
-                  &lt;img src=&#34;http://joyofcoding.org/img/staff_rino_kadijk.jpg&#34; alt=&#34;Rino Kadijk&#34;&gt;
+                  &lt;img src=&#34;./img/staff_rino_kadijk.jpg&#34; alt=&#34;Rino Kadijk&#34;&gt;
                   &lt;div class=&#34;ag_item_content&#34;&gt;
                     &lt;p&gt;believe that technology isn&#39;t the solution to every issue in the technology industry. I try to &#34;automate everything&#34; in my day job. In my spare time I contribute to the Axon CQRS framework.&lt;/p&gt;
                   &lt;/div&gt;
@@ -853,12 +853,12 @@ After the workshop, you&amp;rsquo;ll have the opportunity to buy the equipment u
                     &lt;p&gt;Since the venue is located right in front of the main station, &lt;em&gt;Rotterdam Centraal&lt;/em&gt;, the connections with various modes of public transport can not be any better. From the square in front of the station you will see the tall building of the Manhattan Hotel (soon to be the Marriott Hotel), the venue of the conference is right behind that building.&lt;/p&gt;
                   &lt;/div&gt;
                   &lt;div class=&#34;col-2&#34;&gt;
-                      &lt;img src=&#34;http://joyofcoding.org/img/photo_venue_01.jpg&#34; srcset=&#34;http://joyofcoding.org/img/photo_venue_01@2x.jpg 2x&#34; alt=&#34;Schouwburg Rotterdam - Grote Zaal&#34;&gt;
+                      &lt;img src=&#34;./img/photo_venue_01.jpg&#34; srcset=&#34;./img/photo_venue_01@2x.jpg 2x&#34; alt=&#34;Schouwburg Rotterdam - Grote Zaal&#34;&gt;
                   &lt;/div&gt;
                 &lt;/div&gt;
                 &lt;div class=&#34;row facilities&#34;&gt;
                   &lt;div class=&#34;col-1&#34;&gt;
-                      &lt;img src=&#34;http://joyofcoding.org/img/photo_venue_02.jpg&#34; srcset=&#34;http://joyofcoding.org/img/photo_venue_02@2x.jpg 2x&#34; alt=&#34;Schouwburg Rotterdam - Grote Zaal&#34;&gt;
+                      &lt;img src=&#34;./img/photo_venue_02.jpg&#34; srcset=&#34;./img/photo_venue_02@2x.jpg 2x&#34; alt=&#34;Schouwburg Rotterdam - Grote Zaal&#34;&gt;
                   &lt;/div&gt;
                   &lt;div class=&#34;col-2&#34;&gt;
                     &lt;h3&gt;Facilities&lt;/h3&gt;
@@ -872,7 +872,7 @@ After the workshop, you&amp;rsquo;ll have the opportunity to buy the equipment u
                     &lt;p&gt;Rotterdam is a a futuristic city, that is always being refactored. Just like in our code, old urban elements that no longer serve their purpose, are continuously being replaced by newer and ever more exciting structures. Such as the Erasmus bridge, Central Station, the Market Hall and the Timmerhuis. On the other hand, there is plenty of reuse also: there are many monumental buildings that are left intact, but repurposed for other ends, such as last year&#39;s venue, Van Nelle Factory.&lt;/p&gt;
                   &lt;/div&gt;
                   &lt;div class=&#34;col-2&#34;&gt;
-                    &lt;img src=&#34;http://joyofcoding.org/img/photo_venue_03.jpg&#34; srcset=&#34;http://joyofcoding.org/img/photo_venue_03@2x.jpg 2x&#34; alt=&#34;Schouwburg Rotterdam - Grote Zaal&#34;&gt;
+                    &lt;img src=&#34;./img/photo_venue_03.jpg&#34; srcset=&#34;./img/photo_venue_03@2x.jpg 2x&#34; alt=&#34;Schouwburg Rotterdam - Grote Zaal&#34;&gt;
                   &lt;/div&gt;
                 &lt;/div&gt;
               &lt;/div&gt;

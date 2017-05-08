@@ -2,7 +2,8 @@ languageCode = "en-us"
 title        = "Joy of Coding"
 baseURL      = "http://joyofcoding.org/"
 copyright    = "&copy; Joy of Coding 2017"
-canonifyurls = true
+canonifyURLs = false
+relativeURLs = true
 theme        = "joyofcoding"
 publishDir   = "docs"
 
