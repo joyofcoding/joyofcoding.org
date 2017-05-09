@@ -1,0 +1,170 @@
+/*--------------------------------------------------------------
+# Speaker box
+--------------------------------------------------------------*/
+.spkr {
+	position: relative;
+ 	margin-bottom: 6em;
+	@include grid-media($medium) {
+   	margin-bottom: 12.5em;
+	}
+
+
+	h3 {
+		padding-top: 3.75em;
+// 		text-align: right;
+		margin-bottom: .5em;
+		z-index: 1;
+		@include grid-media($medium) {
+			padding-top: 2.25em;
+			margin-bottom: 0;
+		}
+	}
+	
+  a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    &:active,
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  .spkr_number {
+		position: absolute;
+		top: -3em;
+  }
+  
+	img {
+    box-shadow: 57px 57px 177px 0 rgba($red,.2);
+		height: auto;
+		position: absolute;
+// 		left: -25px;
+		top: 0;
+// 		z-index: -1;
+
+		@include grid-media($small) {
+			max-width: 380px;	
+		}
+
+		@include grid-media($medium) {
+			max-width: none;
+			right: 0;
+			width: 46.155%;
+		}
+	}
+
+	blockquote {
+    position: relative;
+    display: none;
+		width: 80%;
+		@include grid-media($medium) {
+			display: block;
+		}
+	}
+	
+  .spkr_meta {
+//     text-shadow: 0 0 24px $red;
+  	font-size: .75em;
+  	position: absolute;
+  	text-transform: uppercase;
+  	top: 1em;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 100%;
+    text-align: center;  	
+  	.times {
+  		white-space: nowrap;
+  	}
+  }
+
+	.spkr_content {
+    position: relative;
+// 		margin-bottom: 2em;
+		@include grid-media($medium) {
+			width: 46.155%;
+		}
+	}
+	
+	.spkr_social {
+		font-family: "Source Code Pro";
+		font-size: .9375em;
+		font-weight: bold;
+		text-transform: uppercase;
+		@include grid-media($medium) {
+			position: absolute;
+			margin-top: -2em;
+			right: 0%;
+		}
+
+		a {
+			color: white;
+			text-decoration: none;
+			&:hover,
+			&:active {
+				text-decoration: underline;
+			}
+		}			
+	}
+	
+	&:before,
+	&:after {
+		border-top: $base-border;
+		content: '';
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		width: 100%;
+    z-index: 1;
+    @include grid-media($medium) {
+			width: 46.155%;
+			margin-left: 0;
+		}
+	}
+
+	&:before {
+		top: 0;
+	}
+
+	&:after {
+		margin-top: 4em;
+		@include grid-media($medium) {
+			margin-top: 0;
+		}
+	}
+}
+
+.spkr_alt {
+
+	h3 {
+		text-align: right;
+	}
+
+	img {
+  	right: auto;
+		left: 0;
+	}
+
+	.spkr {
+		&:before,
+		&:after {
+			@include grid-media($medium) {
+				margin-left: auto;
+				margin-right: 0;
+			}
+		}
+	}
+
+	.spkr_content {
+		@include grid-media($medium) {
+		    margin-left: auto;
+		}
+	}
+
+	.spkr_social {
+		@include grid-media($medium) {
+			left: 0;
+		}
+	}
+}

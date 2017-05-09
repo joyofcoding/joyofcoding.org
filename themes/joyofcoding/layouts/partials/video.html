@@ -1,0 +1,7 @@
+{{ with .Site.Params.youtube_video }}
+        <div id="video" class="videoWrapper js-videoWrapper">
+          <iframe class="videoIframe js-videoIframe" src="" allowfullscreen data-src="{{ . }}?autoplay=1&modestbranding=1&rel=0&hl=en-GB"></iframe>
+          <button class="videoPoster js-videoPoster">Play video</button>
+          <button class="videoClose" onclick="videoStop()"></button>
+        </div>
+{{ end }}
