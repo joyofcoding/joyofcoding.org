@@ -1,6 +1,3 @@
-**NOTICE:** If you see this page by browsing [joyofcoding.org](joyofcoding.org), the site is temporary "under construction" as we are publishing the new design and schedule content. Come back in a few minutes please.
-
-
 # JoC 2017 website
 
 Made with the [Hugo](https://gohugo.io) static site generator.
@@ -9,7 +6,6 @@ Kindly hosted by Github.
 
 ## Project overview
 
-  * `static/201?*/` — These dirs contain the websites of previous editions.
   * `themes/joyofcoding/`
     * `archetypes/` — Scaffold for new entries (only `speaker` for now) are defined in this folder.
     * `layouts/` — All templates are found here.
@@ -17,6 +13,7 @@ Kindly hosted by Github.
     * `theme.toml` — The description of the theme.
   * `content/` — Contains the "Hugo managed" content (some content, like the homepage, goes straight into the HTML).
   * `docs/` — As per convention of Github Pages this folder contains the generated files ready to be served.
+    * `201?*/` — These dirs contain the websites of previous editions.
   * `README.md` — This file.
   * `config.toml` — Hugo's configuration file.
 
