@@ -1,3 +1,6 @@
+**NOTICE:** If you see this page by browsing [joyofcoding.org](joyofcoding.org), the site is temporary "under construction" as we are publishing the new design and schedule content. Come back in a few minutes please.
+
+
 # JoC 2017 website
 
 Made with the [Hugo](https://gohugo.io) static site generator.
