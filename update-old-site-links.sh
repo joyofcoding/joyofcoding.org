@@ -15,7 +15,7 @@ echo Create links to folders...
 old_site_dirs=201?*
 for d in $old_site_dirs; do
   echo Creating docs/$d
-  (cd docs; ln -s ../$d .)
+  # (cd docs; ln -s ../$d .)
 done
 
 echo
