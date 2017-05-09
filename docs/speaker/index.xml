@@ -2,15 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Speakers on Joy of Coding</title>
-    <link>http://joyofcoding.org/speaker/</link>
+    <link>http://joyofcoding.org/speaker/index.xml</link>
     <description>Recent content in Speakers on Joy of Coding</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Joy of Coding 2017</copyright>
     <lastBuildDate>Sun, 07 May 2017 20:01:07 +0200</lastBuildDate>
-    
-	<atom:link href="http://joyofcoding.org/speaker/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="http://joyofcoding.org/speaker/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Carin Meier</title>
@@ -18,7 +16,15 @@
       <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
       
       <guid>http://joyofcoding.org/speaker/carin-meier/</guid>
-      <description>&amp;ldquo;I wish I could connect my lamp to the internet, but I know nothing about all that &amp;lsquo;technology&amp;rsquo; stuff that you do.&amp;rdquo; Sounds familiar? In my workshop I will be teaching the teachers: I&amp;rsquo;ll be giving you the tools to help your non-dev, non-technology-minded relatives have physical objects (lamps, motors, sensors) in their houses interact with the online world. We&amp;rsquo;ll be posting sensor readings on twitter and we&amp;rsquo;ll be activating lamps based on online weather forecasts.</description>
+      <description>
+
+&lt;p&gt;&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;talk-title-to-be-announced&#34;&gt;Talk title to be announced&lt;/h3&gt;
+
+&lt;p&gt;On Twitter she is known as &lt;a href=&#34;https://twitter.com/gigasquid&#34;&gt;@gigasquid&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -27,7 +33,15 @@
       <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
       
       <guid>http://joyofcoding.org/speaker/jessica-kerr/</guid>
-      <description>Talk title to be announced On twitter she is @jessitron</description>
+      <description>
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;talk-title-to-be-announced&#34;&gt;Talk title to be announced&lt;/h3&gt;
+
+&lt;p&gt;On twitter she is &lt;a href=&#34;https://twitter.com/jessitron&#34;&gt;@jessitron&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -36,7 +50,15 @@
       <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
       
       <guid>http://joyofcoding.org/speaker/koshin-mariano/</guid>
-      <description>Talk title to be announced On Twitter he is known as @Koshin_M</description>
+      <description>
+
+&lt;p&gt;&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;talk-title-to-be-announced&#34;&gt;Talk title to be announced&lt;/h3&gt;
+
+&lt;p&gt;On Twitter he is known as &lt;a href=&#34;https://twitter.com/Koshin_M&#34;&gt;@Koshin_M&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -45,8 +67,17 @@
       <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
       
       <guid>http://joyofcoding.org/speaker/llewellyn-falco/</guid>
-      <description>Talk title to be announced Llewellyn Falco is an independent agile coach. He discovered strong-style pair programming. He is creator of the open source testing tool ApprovalTests. He spends most of his time programming in Java and C# specializing in improving legacy code.He is also co-founder of TeachingKidsProgramming.org.
-On Twitter he is @llewellynfalco</description>
+      <description>
+
+&lt;p&gt;&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;talk-title-to-be-announced&#34;&gt;Talk title to be announced&lt;/h3&gt;
+
+&lt;p&gt;Llewellyn Falco is an independent agile coach. He discovered strong-style pair programming. He is creator of the open source testing tool &lt;a href=&#34;http://approvaltests.com/&#34;&gt;ApprovalTests&lt;/a&gt;. He spends most of his time programming in Java and C# specializing in improving legacy code.He is also co-founder of &lt;a href=&#34;http://teachingkidsprogramming.org/&#34;&gt;TeachingKidsProgramming.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;On Twitter he is &lt;a href=&#34;https://twitter.com/llewellynfalco&#34;&gt;@llewellynfalco&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -55,7 +86,12 @@ On Twitter he is @llewellynfalco</description>
       <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
       
       <guid>http://joyofcoding.org/speaker/neal-ford/</guid>
-      <description>Neal Ford is director, software architect, and meme wrangler at ThoughtWorks, a software company and a community of passionate, purpose-led individuals. He thinks disruptively to deliver technology to address the toughest challenges, all while seeking to revolutionize the IT industry and create positive social change. A speaker at hundreds of developer conferences worldwide, Neal is an internationally recognized expert on software development and delivery, particularly where agile engineering techniques and software architecture intersect.</description>
+      <description>&lt;p&gt;Neal Ford is director, software architect, and meme wrangler at ThoughtWorks, a software company and a community of passionate, purpose-led individuals. He thinks disruptively to deliver technology to address the toughest challenges, all while seeking to revolutionize the IT industry and create positive social change. A speaker at hundreds of developer conferences worldwide, Neal is an internationally recognized expert on software development and delivery, particularly where agile engineering techniques and software architecture intersect.&lt;/p&gt;
+
+&lt;p&gt;Neal has authored magazine articles, seven books (and counting), and dozens of video presentations. Neal’s topics include software architecture, continuous delivery, functional programming, and cutting-edge software innovations. Check out &lt;a href=&#34;nealford.com&#34;&gt;Neal’s website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;On twitter he&amp;rsquo;s known as &lt;a href=&#34;https://twitter.com/neal4d&#34;&gt;@neal4d&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -64,7 +100,15 @@ On Twitter he is @llewellynfalco</description>
       <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
       
       <guid>http://joyofcoding.org/speaker/ted-neward/</guid>
-      <description>Talk title to be announced On Twitter he is @tedneward</description>
+      <description>
+
+&lt;p&gt;&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;talk-title-to-be-announced&#34;&gt;Talk title to be announced&lt;/h3&gt;
+
+&lt;p&gt;On Twitter he is &lt;a href=&#34;https://twitter.com/tedneward&#34;&gt;@tedneward&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>
