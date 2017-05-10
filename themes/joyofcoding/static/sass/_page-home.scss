@@ -2,14 +2,14 @@
 # Homepage
 --------------------------------------------------------------*/
 body.home {
-	background-color: $red;
+  background-color: $red;
   color: white;
-	background-image: url('../img/bg_mobile.jpg'),url('../img/bg_pattern_pink.png');
-	background-position: center top, center top;
-	background-size: 100%, auto;
-	background-repeat: no-repeat, repeat;
-	@include grid-media($medium) {
-  	background-image: url('../img/bg_main.png'),url('../img/bg_pattern_pink.png');
+  background-image: url('../img/bg_mobile.jpg'),url('../img/bg_pattern_pink.png');
+  background-position: center top, center top;
+  background-size: 100%, auto;
+  background-repeat: no-repeat, repeat;
+  @include grid-media($medium) {
+    background-image: url('../img/bg_main.png'),url('../img/bg_pattern_pink.png');
   }
 
   #masthead {
@@ -20,16 +20,16 @@ body.home {
   }
   
   .entry-content {
-		strong {
-			font-size: 1.5em;
-			letter-spacing: -.06125em;
-		}
-		
-		.btn_wrap {
+    strong {
+      font-size: 1.5em;
+      letter-spacing: -.06125em;
+    }
+    
+    .btn_wrap {
       @include grid-media($large) {
         margin-left: 15%;
       }
-		}
+    }
   }
 
 
@@ -39,31 +39,31 @@ body.home {
   #lineup {
     @include grid-column(12);
 
-		.lineup_container {
-  		display: flex;
-  		flex-flow: row wrap;
-  		justify-content: center;
-  		@include grid-media($large) {
-  			justify-content: space-between;
-  		}
-		}
-  	
-  	article {
-  		position: relative;
-  		margin-left: auto;
-  		margin-right: auto;
-  	 	margin-top: 2.5em;	
-  	 	width: 100%;
+    .lineup_container {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      @include grid-media($large) {
+        justify-content: space-between;
+      }
+    }
+    
+    article {
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2.5em;  
+      width: 100%;
 
-   		@include grid-media($medium) {
-  		 	margin-top: 0;	
-  		 	width: 85%;
-  		}
-  		
-  		@include grid-media($large) {
-  		 	width: 46.155%;
-  		}
-  	}
+      @include grid-media($medium) {
+        margin-top: 0;  
+        width: 85%;
+      }
+      
+      @include grid-media($large) {
+        width: 46.155%;
+      }
+    }
   }
 
   /*--------------------------------------------------------------
@@ -71,60 +71,60 @@ body.home {
   --------------------------------------------------------------*/
   #lineup {
 
-  	article {
+    article {
   
-  		// Left/right alternation
-  		&:nth-child(4) { @extend .ca_alt;} // By devs
-  		&:nth-child(5) { @extend .spkr_alt; } // Neal Ford
-  		&:nth-child(6) { @extend .spkr_alt; } // Jessica Kerr
-  		&:nth-child(7) { @extend .ca_alt;} // Affordable
+      // Left/right alternation
+      &:nth-child(4) { @extend .ca_alt;} // By devs
+      &:nth-child(5) { @extend .spkr_alt; } // Neal Ford
+      &:nth-child(6) { @extend .spkr_alt; } // Jessica Kerr
+      &:nth-child(7) { @extend .ca_alt;} // Affordable
 
-  		// Shift left
-  		&:nth-child(1) {
-  			@include grid-media($xlarge) {
-  				margin-left: 51.845%;
-  			}
-  		}
+      // Shift left
+      &:nth-child(1) {
+        @include grid-media($xlarge) {
+          margin-left: 51.845%;
+        }
+      }
 
-  		// Shift top 
-  		&:nth-child(1) { @include grid-media($xlarge) { margin-top: -20em; } } // Carin
-  		&:nth-child(2) { @include grid-media($xlarge) { margin-top: -12em; } } // Ted
-  		&:nth-child(3) { @include grid-media($xlarge) { margin-top: 20em; } } // Neal
-  		&:nth-child(4) { @include grid-media($xlarge) { margin-top: -12em; } } // Kerr
-  		&:nth-child(5) { @include grid-media($xlarge) { margin-top: 20em; } } // Falco
-  		&:nth-child(6) { @include grid-media($xlarge) { margin-top: -8em; } } // Mariano
-  		&:nth-child(7) { @include grid-media($xlarge) { margin-top: 20em; } } // Why Join
-  		&:nth-child(8) { @include grid-media($xlarge) { margin-top: -12em; } } // Its by devs
-  		&:nth-child(9) { @include grid-media($xlarge) { margin-top: 25em; } } // Affordable
-  		&:nth-child(10) { @include grid-media($xlarge) { margin-top: -10em; } } // Code of
-  		&:nth-child(11) { @include grid-media($xlarge) { margin-top: 16em; } } // Previous
+      // Shift top 
+      &:nth-child(1) { @include grid-media($xlarge) { margin-top: -20em; } } // Carin Meier
+      &:nth-child(2) { @include grid-media($xlarge) { margin-top: -12em; } } // Ted Neward
+      &:nth-child(3) { @include grid-media($xlarge) { margin-top: 20em; } } // CA: Why Join 
+      &:nth-child(4) { @include grid-media($xlarge) { margin-top: -12em; } } // CA: Its by devs 
+      &:nth-child(5) { @include grid-media($xlarge) { margin-top: 20em; } } // Neal 
+      &:nth-child(6) { @include grid-media($xlarge) { margin-top: -8em; } } // Kerr 
+      &:nth-child(7) { @include grid-media($xlarge) { margin-top: 20em; } } // CA: Affordable
+      &:nth-child(8) { @include grid-media($xlarge) { margin-top: -12em; } } // CA: Code of 
+      &:nth-child(9) { @include grid-media($xlarge) { margin-top: 25em; } } // Falco    d d
+      &:nth-child(10) { @include grid-media($xlarge) { margin-top: -10em; } } // Mariano
+      &:nth-child(11) { @include grid-media($xlarge) { margin-top: 16em; } } // CA: Previous
 
       // Speaker numbers
-  		&:nth-child(1) { .spkr_wrap:before { content: url('../img/nr_carin_meier_zeven.png'); } }
-  		&:nth-child(2) { .spkr_wrap:before { content: url('../img/nr_neal_ford_een.png'); } }
-  		&:nth-child(3) { .spkr_wrap:before { content: url('../img/nr_koshin_mariano_nul.png'); } }
-  		&:nth-child(4) { .spkr_wrap:before { content: url('../img/nr_ted_neward_zes.png'); } }
-			&:nth-child(5) { .spkr_wrap:before { content: url('../img/nr_jessica_kerr_drie.png'); } }
-  		&:nth-child(6) { .spkr_wrap:before { content: url('../img/nr_koshin_mariano_nul.png'); } }
-  		
-  		&:last-child .callout {
-    		margin-bottom: 4em;
-  		}
-
-  		.spkr_wrap {
-
-  			&:before {
-  				position: absolute;
-  				top: -3.75rem;
-  				right: -2.5rem;
-  				@include grid-media($medium) {
-  					right: -2.5rem;
-  					left: 50%;
-            transform: translateX( -50% );
-  				}
-  		  }
+      &:nth-child(1) { .spkr_wrap:before { content: url('../img/nr_zeven.png'); } }
+      &:nth-child(2) { .spkr_wrap:before { content: url('../img/nr_een.png'); } }
+      &:nth-child(5) { .spkr_wrap:before { content: url('../img/nr_nul-v2.png'); } }
+      &:nth-child(6) { .spkr_wrap:before { content: url('../img/nr_zes.png'); } }
+      &:nth-child(9) { .spkr_wrap:before { content: url('../img/nr_drie.png'); } }
+      &:nth-child(10) { .spkr_wrap:before { content: url('../img/nr_nul.png'); } }
+      
+      &:last-child .callout {
+        margin-bottom: 4em;
       }
-  	}
+
+      .spkr_wrap {
+
+        &:before {
+          position: absolute;
+          top: -3.75rem;
+          right: -2.5rem;
+          @include grid-media($medium) {
+            right: -2.5rem;
+            left: 50%;
+            transform: translateX( -50% );
+          }
+        }
+      }
+    }
   }
 
 
@@ -135,92 +135,92 @@ body.home {
     @include clearfix();
     background-color: white;
     color: $blue;
-  	text-align: center;
+    text-align: center;
     > section {
-  		padding-top: 6em;
-    	padding-bottom: 2em;
+      padding-top: 6em;
+      padding-bottom: 2em;
       @include grid-column(12);
 
-    	@include grid-media($large) {
-    		padding-top: 12.5em;
+      @include grid-media($large) {
+        padding-top: 12.5em;
         padding-bottom: 7em;
-    	}
-    	
-    	h2 {
-      	margin-bottom: 2em;
-    	}
-    	
-    	p {
-    		margin-bottom: 2em;
-    	}
+      }
+      
+      h2 {
+        margin-bottom: 2em;
+      }
+      
+      p {
+        margin-bottom: 2em;
+      }
     
-    	ul {
-    		align-items: center;
-    		display: flex;
-    		flex-flow: row wrap;
-    		justify-content: center;
-    		margin: 0 auto;
-    		list-style: none;
-    		@include grid-media($large) {
-    			max-width: 66%;
-    			margin-bottom: 3em;
-    		}
-    		
-    		li {
-    			margin-bottom: 3em;
-  				flex-basis: 50%;
+      ul {
+        align-items: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        margin: 0 auto;
+        list-style: none;
+        @include grid-media($large) {
+          max-width: 66%;
+          margin-bottom: 3em;
+        }
+        
+        li {
+          margin-bottom: 3em;
+          flex-basis: 50%;
           padding: .5em .5em;
 
-  				@include grid-media($medium) {
+          @include grid-media($medium) {
             padding: .5em 1em;
-  				}
+          }
 
-  				@include grid-media($large) {
+          @include grid-media($large) {
             padding: .5em 1.5em;
-  				}
-    		}
+          }
+        }
     
     
-    		&#partner_logos {	
-     			max-width: 90%;
+        &#partner_logos { 
+          max-width: 90%;
 
-  				@include grid-media($medium) {
+          @include grid-media($medium) {
             max-width: 75%;
-  				}
+          }
 
-  				@include grid-media($large) {
+          @include grid-media($large) {
             max-width: 60%;
-  				}
+          }
 
-    			li {
-    				flex-basis: 100%;
+          li {
+            flex-basis: 100%;
  
-    				@include grid-media($medium) {
-    					flex-basis: 50%;
-    				}
-    			}
-    		}
+            @include grid-media($medium) {
+              flex-basis: 50%;
+            }
+          }
+        }
 
-    		&#sponsor_logos {		
-      		@include grid-media($large) {
-      			max-width: 70%;
-      		}
+        &#sponsor_logos {   
+          @include grid-media($large) {
+            max-width: 70%;
+          }
 
-    			li {
-    				flex-basis: 50%;
-    				@include grid-media($medium) {
-    					flex-basis: 33%;
-    				}
-    			}
-    		}
-    	}
+          li {
+            flex-basis: 50%;
+            @include grid-media($medium) {
+              flex-basis: 33%;
+            }
+          }
+        }
+      }
     }
 
-  	img {
-  		display: block;
-  		height: auto;
-  		width: 100%
-  	}
+    img {
+      display: block;
+      height: auto;
+      width: 100%
+    }
   }
   
   /*--------------------------------------------------------------
@@ -228,14 +228,14 @@ body.home {
   --------------------------------------------------------------*/
   #video {
     @include grid-column(12,$nogutter);
-  	@include aspect-ratio(16,9);
+    @include aspect-ratio(16,9);
     position: relative;
   
-  	iframe {
-  		@extend .ratio-content;
-  		width: 100%;
-  		height: 100%;
-  	}
+    iframe {
+      @extend .ratio-content;
+      width: 100%;
+      height: 100%;
+    }
   
     .videoPoster {
       background-image: url('../img/bg_video.jpg');
