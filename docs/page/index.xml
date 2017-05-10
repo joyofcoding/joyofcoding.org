@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Joy of Coding</title>
+    <link>http://joyofcoding.org/page/index.xml</link>
+    <description>Recent content in Pages on Joy of Coding</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Joy of Coding 2017</copyright>
+    <lastBuildDate>Wed, 29 Mar 2017 12:38:11 +0200</lastBuildDate>
+    <atom:link href="http://joyofcoding.org/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>http://joyofcoding.org/about/</link>
+      <pubDate>Wed, 29 Mar 2017 12:38:11 +0200</pubDate>
+      
+      <guid>http://joyofcoding.org/about/</guid>
+      <description>&lt;div id=&#34;container&#34; class=&#34;page_about&#34;&gt;
+    	&lt;div id=&#34;scroller&#34;&gt;
+    
+        &lt;main&gt;
+          &lt;article&gt;
+            &lt;div class=&#34;entry-content&#34;&gt;
+              &lt;h2&gt;We are organising for fun, not for profit.&lt;/h2&gt;
+              &lt;p&gt;The people behind Joy of Coding are an informal group, backed by a legal entity (the Devnology Foundation). We are organising this for fun, not for profit.&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/article&gt;
+    
+          &lt;section id=&#34;organisation&#34;&gt;
+            &lt;article&gt;
+              &lt;div class=&#34;about_grid&#34;&gt;
+     
+                &lt;div class=&#34;ag_item ag_item_1&#34;&gt;
+                  &lt;h3 class=&#34;ag_item_title&#34;&gt;Felienne&lt;br&gt;Hermans&lt;/h3&gt;
+                  &lt;img src=&#34;../img/staff_felienne_hermans.jpg&#34; alt=&#34;Felienne Hermans&#34;&gt;
+                  &lt;div class=&#34;ag_item_content&#34;&gt;
+                    &lt;p&gt;I am assistant professor and speaker. I strive to make programming better and easier for non-programmers. I love functional programming and board games.&lt;/p&gt;
+                  &lt;/div&gt;
+                  &lt;a class=&#34;ag_item_social&#34; href=&#34;https://twitter.com/felienne&#34; target=&#34;_blank&#34;&gt;@felienne&lt;/a&gt;
+                &lt;/div&gt;
+    
+                &lt;div class=&#34;ag_item ag_item_2&#34;&gt;
+                  &lt;h3 class=&#34;ag_item_title&#34;&gt;Arne&lt;br&gt;Timmerman&lt;/h3&gt;
+                  &lt;img src=&#34;../img/staff_arne_timmerman.jpg&#34; alt=&#34;Arne Timmerman&#34;&gt;
+                  &lt;div class=&#34;ag_item_content&#34;&gt;
+                    &lt;p&gt;Software engineer and community facilitator. I enjoy working in teams and crafting simple solutions that are fun to use. I&#39;m a proud board member of Devnology and organizer of the Joy of Coding conference since the first edition in 2013.&lt;/p&gt;
+                  &lt;/div&gt;
+                  &lt;a class=&#34;ag_item_social&#34; href=&#34;https://twitter.com/arnetim&#34; target=&#34;_blank&#34;&gt;@arnetim&lt;/a&gt;
+                &lt;/div&gt;
+                
+                &lt;div class=&#34;ag_box ag_box_1&#34;&gt;
+                   &lt;div class=&#34;ag_box_wrap&#34;&gt;
+                    &lt;div class=&#34;ag_box_content&#34;&gt;
+                        &lt;h4 class=&#34;ag_box_title&#34;&gt;Legal &lt;br&gt;&lt;strong&gt;Stuff&lt;/strong&gt;&lt;/h4&gt;
+                        &lt;hr data-bottom-top=&#34;width:20%;&#34; data-top=&#34;width: 100%;&#34;&gt;
+                        &lt;p&gt;Joy of Coding is organised by Stichting Devnology, a Dutch non-profit organisation registered with the Kamer van Koophandel (#17251880). Our VAT number is NL820757573B01.&lt;/p&gt;
+                        &lt;p&gt;Our mailing address:&lt;br&gt;
+                          Mauritsweg 26 A02&lt;br&gt;
+                          3012 JS Rotterdam&lt;br&gt;
+                          the Netherlands&lt;/p&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+     
+                &lt;div class=&#34;ag_item ag_item_3&#34;&gt;
+                  &lt;h3 class=&#34;ag_item_title&#34;&gt;Martin&lt;br&gt;van Amersfoorth&lt;/h3&gt;
+                  &lt;img src=&#34;../img/staff_martin_van_amersfoorth.jpg&#34; alt=&#34;Martin van Amersfoorth&#34;&gt;
+                  &lt;div class=&#34;ag_item_content&#34;&gt;
+                    &lt;p&gt;As do most of you, I enjoy coding - especially using a functional language, such as Clojure. I&#39;m married, with children, and outside of family life and coding I am coaching a soccer team of 9-year olds.&lt;/p&gt;
+                  &lt;/div&gt;
+                  &lt;a class=&#34;ag_item_social&#34; href=&#34;https://twitter.com/mamersfo&#34; target=&#34;_blank&#34;&gt;@mamersfo&lt;/a&gt;
+                &lt;/div&gt;
+    
+                &lt;div class=&#34;ag_item ag_item_4&#34;&gt;
+                  &lt;h3 class=&#34;ag_item_title&#34;&gt;Cies&lt;br&gt;Breijs&lt;/h3&gt;
+                  &lt;img src=&#34;../img/staff_cies_breijs.jpg&#34; alt=&#34;Cies Breijs&#34;&gt;
+                  &lt;div class=&#34;ag_item_content&#34;&gt;
+                    &lt;p&gt;I&#39;m a dad and a husband and a firm believer in mass-enlightenment. An open source enthousiast who adheres to a mostly vegan diet and prefers to keep the brain immersed in techno music.&lt;/p&gt;
+                  &lt;/div&gt;
+                  &lt;a class=&#34;ag_item_social&#34; href=&#34;https://twitter.com/cies010&#34; target=&#34;_blank&#34;&gt;@cies010&lt;/a&gt;
+                &lt;/div&gt;
+                
+                &lt;div class=&#34;ag_box ag_box_2&#34;&gt;
+                  &lt;div class=&#34;ag_box_wrap&#34;&gt;
+                    &lt;div class=&#34;ag_box_content&#34;&gt;
+                      &lt;h4 class=&#34;ag_box_title&#34;&gt;Thanks &lt;br&gt;&lt;strong&gt;Alumni&lt;/strong&gt;&lt;/h4&gt;
+                      &lt;hr data-bottom-top=&#34;width:20%;&#34; data-top=&#34;width: 100%;&#34;&gt;
+                      &lt;p&gt;Joy of Coding 2016 is the fourth in a series of conferences dedicated to software development. We are very grateful to everyone who has contributed to our conference in the previous editions: Freek Leemhuis, Anna Gos, Jacques Bouman, Mark van Straten, Daan van Berkel, Jettro Coenradie and Marc Lainez.&lt;/p&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+     
+                &lt;div class=&#34;ag_item ag_item_5&#34;&gt;
+                  &lt;h3 class=&#34;ag_item_title&#34;&gt;Rino&lt;br&gt;Kadijk&lt;/h3&gt;
+                  &lt;img src=&#34;../img/staff_rino_kadijk.jpg&#34; alt=&#34;Rino Kadijk&#34;&gt;
+                  &lt;div class=&#34;ag_item_content&#34;&gt;
+                    &lt;p&gt;believe that technology isn&#39;t the solution to every issue in the technology industry. I try to &#34;automate everything&#34; in my day job. In my spare time I contribute to the Axon CQRS framework.&lt;/p&gt;
+                  &lt;/div&gt;
+                  @dev/null
+                &lt;/div&gt;
+                
+             &lt;/div&gt;
+              &lt;p&gt;
+                &lt;div class=&#34;btn_wrap&#34;&gt;
+                  &lt;a href=&#34;http://inventid.to/joyofcoding&#34; target=&#34;_blank&#34; class=&#34;btn&#34;&gt;Tickets 2017&lt;/a&gt;
+                &lt;/div&gt;
+              &lt;/p&gt;
+            &lt;/article&gt;
+          &lt;/section&gt;
+        &lt;/main&gt;</description>
+    </item>
+    
+    <item>
+      <title>Code of Conduct</title>
+      <link>http://joyofcoding.org/code-of-conduct/</link>
+      <pubDate>Tue, 28 Mar 2017 12:38:11 +0200</pubDate>
+      
+      <guid>http://joyofcoding.org/code-of-conduct/</guid>
+      <description>&lt;div id=&#34;container&#34; class=&#34;page-code_conduct&#34;&gt;
+    	&lt;div id=&#34;scroller&#34;&gt;
+    
+        &lt;main&gt;
+          &lt;article&gt;
+            &lt;div class=&#34;entry-content&#34;&gt;
+              &lt;h2&gt;Celebrating the art, craft, science and joy of software development&lt;/h2&gt;
+              &lt;p&gt;―&amp;nbsp; Code of Conduct&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/article&gt;
+    
+          &lt;section id=&#34;code_conduct&#34;&gt;
+            &lt;article&gt;
+              &lt;div class=&#34;entry-content&#34;&gt;
+                &lt;div class=&#34;intro&#34;&gt;
+                  &lt;p&gt;
+                    All attendees, speakers, hosts, sponsors and volunteers (all these further referred to as participants) at our events are subject to the following code of conduct. We will enforce this code throughout all our events and are expecting cooperation from all participants to help ensuring a safe environment for everybody. 
+                  &lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class=&#34;harrassment&#34;&gt;
+                  &lt;h3&gt;No harrassment&lt;/h3&gt;
+                  &lt;p&gt;We are dedicated to providing harassment-free events for everyone, regardless of gender, age, sexual orientation, disability, physical appearance, body size, race, or religion (or lack thereof). We do not tolerate harassment of participants in any form.&lt;/p&gt;
+                  &lt;p&gt;Harassment includes offensive verbal comments related to gender, age, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.&lt;/p&gt;
+                  &lt;p&gt;Participants asked to stop any harassing behavior are expected to comply immediately.&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class=&#34;help&#34;&gt;
+                  &lt;h3&gt;We will help&lt;/h3&gt;
+                  &lt;p&gt;If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact one of the organisers immediately. We will make sure that during our conferences the organisers can be easily identified, for example through recognizable t-shirts.&lt;/p&gt;
+                  &lt;p&gt;If you are traveling to or from our event, and during the event, we will be happy to help you contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of our event. We value your attendance and will take serious any issue that is in breach of this code of conduct.&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class=&#34;offensive-content&#34;&gt;
+                  &lt;h3&gt;No offensive content&lt;/h3&gt;
+                  &lt;p&gt;It is not appropriate to associate offensive content such as sexual language and imagery with of our events in any form, including talks, workshops, parties, Twitter and other online media. Speakers are asked to review their material and be considerate and friendly to a diverse audience.&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class=&#34;alcohol&#34;&gt;
+                  &lt;h3&gt;No alcohol abuse&lt;/h3&gt;
+                  &lt;p&gt;Thanks to the help of our sponsors, there is usually some food and drinks available during or after our events. We hope this can be appreciated and used in good spirits, we do however ask you to drink responsibly.&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class=&#34;compliance&#34;&gt;
+                  &lt;h3&gt;Compliance&lt;/h3&gt;
+                  &lt;p&gt;We expect participants to follow these rules at all our events and related social events. Participants violating these rules may be expelled from the event without a refund at the discretion of the organisers.&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class=&#34;credits&#34;&gt;
+                  &lt;p&gt;We based the text of this code of conduct on &lt;a href=&#34;http://confcodeofconduct.com&#34;&gt;confcodeofconduct.com&lt;/a&gt;, we believe they did a good job.&lt;/p&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/article&gt;
+          &lt;/section&gt;
+    
+        &lt;/main&gt;</description>
+    </item>
+    
+    <item>
+      <title>Schedule 2017</title>
+      <link>http://joyofcoding.org/schedule/</link>
+      <pubDate>Tue, 28 Mar 2017 12:38:11 +0200</pubDate>
+      
+      <guid>http://joyofcoding.org/schedule/</guid>
+      <description>&lt;div id=&#34;container&#34; class=&#34;page_schedule&#34;&gt;
+      &lt;div id=&#34;scroller&#34;&gt;
+
+        &lt;main&gt;
+          &lt;article&gt;
+            &lt;div class=&#34;entry-content&#34;&gt;
+              &lt;h2&gt;Hi there, have a look at our 2017 schedule!&lt;/h2&gt;
+              &lt;p&gt;Have a look at al the inspiring speakers that will come to Rotterdam on June 17th. Most slots are links to more detailed information.&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/article&gt;
+
+          &lt;section id=&#34;schedule&#34;&gt;
+            &lt;article class=&#34;schedule-grid&#34;&gt;
+
+              &lt;!---------------------- timeslot 1 ----------------------&gt;
+              &lt;ul class=&#34;sg_timeslot&#34;&gt;
+
+                &lt;li class=&#34;sg_timeslot_header&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;08:30 - 09:20&lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 1 --&gt;
+                &lt;li class=&#34;sg_event&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;
+                    &lt;span class=&#34;sg_event_time&#34;&gt;08:30 - 09:20&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;Walk in&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 2 --&gt;
+                &lt;li class=&#34;sg_event&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;
+                    &lt;span class=&#34;sg_event_time&#34;&gt;08:30 - 09:20&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;Registration&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 3
+                &lt;li class=&#34;sg_event&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;
+                    &lt;span class=&#34;sg_event_type&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;08:30 - 09:20&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;Speeddaten&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt; --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+                &lt;!-- Location 4 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+              &lt;/ul&gt;
+
+              &lt;!---------------------- timeslot 2 ----------------------&gt;
+              &lt;ul class=&#34;sg_timeslot&#34;&gt;
+
+                &lt;li class=&#34;sg_timeslot_header&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;09:20 - 09:30&lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 1 --&gt;
+                &lt;li class=&#34;sg_event&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;
+                    &lt;span class=&#34;sg_event_time&#34;&gt;09:20 - 09:30&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;Opening and introduction to the AIsland Game Contest&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 2 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+                &lt;!-- Location 3 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+                &lt;!-- Location 4 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+              &lt;/ul&gt;
+
+              &lt;!---------------------- timeslot 3 ----------------------&gt;
+              &lt;ul class=&#34;sg_timeslot&#34;&gt;
+
+                &lt;li class=&#34;sg_timeslot_header&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;09:30 - 10:10&lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 1 --&gt;
+                &lt;li class=&#34;sg_event sg_main&#34;&gt;
+                  &lt;a class=&#34;sg_event_link&#34; href=&#34;../speaker/ted-neward&#34;&gt;
+                    &lt;div class=&#34;sg_event_meta&#34;&gt;
+                      &lt;span class=&#34;sg_event_type&#34;&gt;Keynote&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;09:30 - 10:10&lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#34;sg_event_title&#34;&gt;Ted Neward&lt;/div&gt;
+                    &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                      &lt;span class=&#34;sg_event_speaker&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
+                    &lt;/div&gt;
+                  &lt;/a&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 2 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+                &lt;!-- Location 3 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+                &lt;!-- Location 4 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+              &lt;/ul&gt;
+
+              &lt;!---------------------- timeslot 4 ----------------------&gt;
+              &lt;ul class=&#34;sg_timeslot&#34;&gt;
+
+                &lt;li class=&#34;sg_timeslot_header&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;10:10 - 10:50&lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 1 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+                &lt;!-- Location 2 --&gt;
+                &lt;li class=&#34;sg_event_break&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;
+                    &lt;span class=&#34;sg_event_time&#34;&gt;10:10 - 10:50&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;Break&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 3 --&gt;
+                &lt;li class=&#34;sg_event&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;
+                    &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;10:10 - 10:50&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;AIsland Game Contest&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 4 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+
+              &lt;/ul&gt;
+
+              &lt;!---------------------- timeslot 5 ----------------------&gt;
+              &lt;ul class=&#34;sg_timeslot&#34;&gt;
+
+                &lt;li class=&#34;sg_timeslot_header&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;10:50 - 11:30&lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 1 --&gt;
+                &lt;li class=&#34;sg_event sg_main&#34;&gt;
+                  &lt;a class=&#34;sg_event_link&#34; href=&#34;../speaker/jessica-kerr&#34;&gt;
+                    &lt;div class=&#34;sg_event_meta&#34;&gt;
+                      &lt;span class=&#34;sg_event_type&#34;&gt;Talk&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;10:50 - 11:30&lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#34;sg_event_title&#34;&gt;Jessica Kerr&lt;/div&gt;
+                    &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                      &lt;span class=&#34;sg_event_speaker&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
+                    &lt;/div&gt;
+                  &lt;/a&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 2 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+                &lt;!-- Location 3 --&gt;
+                &lt;li class=&#34;sg_event&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;
+                    &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;10:50 - 11:30&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;AIsland Game Contest&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 4 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+              &lt;/ul&gt;
+
+              &lt;!---------------------- timeslot 6 ----------------------&gt;
+              &lt;ul class=&#34;sg_timeslot&#34;&gt;
+
+                &lt;li class=&#34;sg_timeslot_header&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;11:30 - 12:10&lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 1 --&gt;
+                &lt;li class=&#34;sg_event&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;
+                    &lt;span class=&#34;sg_event_type&#34;&gt;Community&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;11:30 - 12:10&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;Lightning Talks&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 2 --&gt;
+                &lt;li class=&#34;sg_event&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;
+                    &lt;span class=&#34;sg_event_type&#34;&gt;Networking&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;11:30 - 12:10&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;Speed meeting&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 3 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+                &lt;!-- Location 4 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+              &lt;/ul&gt;
+
+              &lt;!---------------------- timeslot 7 ----------------------&gt;
+              &lt;ul class=&#34;sg_timeslot&#34;&gt;
+
+                &lt;li class=&#34;sg_timeslot_header&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;12:10 - 13:10&lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 1 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+                &lt;!-- Location 2 --&gt;
+                &lt;li class=&#34;sg_event_break&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;
+                    &lt;span class=&#34;sg_event_time&#34;&gt;12:10 - 13:10&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;Lunch&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 3 --&gt;
+                &lt;li class=&#34;sg_event&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;
+                    &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;12:10 - 13:10&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;AIsland Game Contest&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 4 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+              &lt;/ul&gt;
+
+              &lt;!---------------------- timeslot 8 ----------------------&gt;
+              &lt;ul class=&#34;sg_timeslot&#34;&gt;
+
+                &lt;li class=&#34;sg_timeslot_header&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;13:10 - 13:50&lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 1 --&gt;
+                &lt;li class=&#34;sg_event sg_main&#34;&gt;
+                  &lt;a class=&#34;sg_event_link&#34; href=&#34;../speaker/neal-ford&#34;&gt;
+                    &lt;div class=&#34;sg_event_meta&#34;&gt;
+                      &lt;span class=&#34;sg_event_type&#34;&gt;Keynote&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;13:10 - 13:50&lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#34;sg_event_title&#34;&gt;Neal Ford&lt;/div&gt;
+                    &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                      &lt;span class=&#34;sg_event_speaker&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
+                    &lt;/div&gt;
+                  &lt;/a&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 2 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+                &lt;!-- Location 3 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+                &lt;!-- Location 4 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+              &lt;/ul&gt;
+
+              &lt;!---------------------- timeslot 9 ----------------------&gt;
+              &lt;ul class=&#34;sg_timeslot&#34;&gt;
+
+                &lt;li class=&#34;sg_timeslot_header&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;13:50 - 14:30&lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 1 --&gt;
+                &lt;li class=&#34;sg_event sg_main&#34;&gt;
+                  &lt;a class=&#34;sg_event_link&#34; href=&#34;../speaker/llewellyn-falco&#34;&gt;
+                    &lt;div class=&#34;sg_event_meta&#34;&gt;
+                      &lt;span class=&#34;sg_event_type&#34;&gt;Talk&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;13:50 - 14:30&lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#34;sg_event_title&#34;&gt;Llewellyn Falco&lt;/div&gt;
+                    &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                      &lt;span class=&#34;sg_event_speaker&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
+                    &lt;/div&gt;
+                  &lt;/a&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 2 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+                &lt;!-- Location 3 --&gt;
+                &lt;li class=&#34;sg_event&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;
+                    &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;13:50 - 14:30&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;AIsland Game Contest&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 4 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+              &lt;/ul&gt;
+
+              &lt;!---------------------- timeslot 10 ----------------------&gt;
+              &lt;ul class=&#34;sg_timeslot&#34;&gt;
+
+                &lt;li class=&#34;sg_timeslot_header&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;14:30 - 15:10&lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 1 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+                &lt;!-- Location 2 --&gt;
+                &lt;li class=&#34;sg_event_break&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;
+                    &lt;span class=&#34;sg_event_time&#34;&gt;14:30 - 15:10&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;Break&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 3 --&gt;
+                &lt;li class=&#34;sg_event&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;
+                    &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;14:30 - 15:10&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;AIsland Game Contest&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 4 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+              &lt;/ul&gt;
+
+              &lt;!---------------------- timeslot 11 ----------------------&gt;
+              &lt;ul class=&#34;sg_timeslot&#34;&gt;
+
+                &lt;li class=&#34;sg_timeslot_header&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;15:10 - 15:50&lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 1 --&gt;
+                &lt;li class=&#34;sg_event sg_main&#34;&gt;
+                  &lt;a class=&#34;sg_event_link&#34; href=&#34;../speaker/koshin-mariano&#34;&gt;
+                    &lt;div class=&#34;sg_event_meta&#34;&gt;
+                      &lt;span class=&#34;sg_event_type&#34;&gt;Talk&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;15:10 - 15:50&lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#34;sg_event_title&#34;&gt;Koshin Mariano&lt;/div&gt;
+                    &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                      &lt;span class=&#34;sg_event_speaker&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
+                    &lt;/div&gt;
+                  &lt;/a&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 2 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+                &lt;!-- Location 3 --&gt;
+                &lt;li class=&#34;sg_event&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;
+                    &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;15:10 - 15:50&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;AIsland Game Contest&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 4 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+              &lt;/ul&gt;
+
+              &lt;!---------------------- timeslot 12 ----------------------&gt;
+              &lt;ul class=&#34;sg_timeslot&#34;&gt;
+
+                &lt;li class=&#34;sg_timeslot_header&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;15:50 - 16:30&lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 1 --&gt;
+                &lt;li class=&#34;sg_event sg_main&#34;&gt;
+                  &lt;a class=&#34;sg_event_link&#34; href=&#34;../speaker/carin-meier&#34;&gt;
+                    &lt;div class=&#34;sg_event_meta&#34;&gt;
+                      &lt;span class=&#34;sg_event_type&#34;&gt;Keynote&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;15:50 - 16:30&lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#34;sg_event_title&#34;&gt;Carin Meier&lt;/div&gt;
+                    &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                      &lt;span class=&#34;sg_event_speaker&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
+                    &lt;/div&gt;
+                  &lt;/a&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 2 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+                &lt;!-- Location 3 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+                &lt;!-- Location 4 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+              &lt;/ul&gt;
+
+              &lt;!---------------------- timeslot 13 ----------------------&gt;
+              &lt;ul class=&#34;sg_timeslot&#34;&gt;
+
+                &lt;li class=&#34;sg_timeslot_header&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;16:30 - 16:50&lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 1 --&gt;
+                &lt;li class=&#34;sg_event&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;
+                    &lt;span class=&#34;sg_event_type&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;16:30 - 16:50&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;RoboCup Junior Demo&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                    &lt;span class=&#34;sg_event_speaker&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 2 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+                &lt;!-- Location 3 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+                &lt;!-- Location 4 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+              &lt;/ul&gt;
+
+              &lt;!---------------------- timeslot 14 ----------------------&gt;
+              &lt;ul class=&#34;sg_timeslot&#34;&gt;
+
+                &lt;li class=&#34;sg_timeslot_header&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;16:50 - 20:00&lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 1 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+                &lt;!-- Location 2 --&gt;
+                &lt;li class=&#34;sg_event_break&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;
+                    &lt;span class=&#34;sg_event_time&#34;&gt;16:50 - 20:00&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;Drinks/Dinner&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 3 --&gt;
+                &lt;li class=&#34;sg_event&#34;&gt;
+                  &lt;div class=&#34;sg_event_meta&#34;&gt;
+                    &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;17:30&lt;/span&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;sg_event_title&#34;&gt;Finals AIsland Game Contest&lt;/div&gt;
+                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+                &lt;!-- Location 4 --&gt;
+                &lt;li class=&#34;sg_event_empty&#34;&gt;&lt;/li&gt;
+
+              &lt;/ul&gt;
+
+              &lt;p&gt;
+                &lt;div class=&#34;btn_wrap&#34;&gt;
+                  &lt;a href=&#34;http://inventid.to/joyofcoding&#34; target=&#34;_blank&#34; class=&#34;btn&#34;&gt;Tickets 2017&lt;/a&gt;
+                &lt;/div&gt;
+              &lt;/p&gt;
+
+            &lt;/article&gt;
+          &lt;/section&gt;
+
+        &lt;/main&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Venue</title>
+      <link>http://joyofcoding.org/venue/</link>
+      <pubDate>Tue, 28 Mar 2017 12:38:11 +0200</pubDate>
+      
+      <guid>http://joyofcoding.org/venue/</guid>
+      <description>&lt;div id=&#34;container&#34; class=&#34;page-venue&#34;&gt;
+      &lt;div id=&#34;scroller&#34;&gt;
+
+        &lt;main&gt;
+          &lt;article&gt;
+            &lt;div class=&#34;entry-content&#34;&gt;
+              &lt;h2&gt;Celebrating the art, craft, science and joy of software development&lt;/h2&gt;
+              &lt;p&gt;―&amp;nbsp; Our 2017 venue: De Rotterdamse Schouwburg&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/article&gt;
+
+          &lt;section id=&#34;venue&#34;&gt;
+            &lt;article&gt;
+              &lt;div class=&#34;entry-content&#34;&gt;
+                &lt;div class=&#34;row intro&#34;&gt;
+                  &lt;p&gt;Joy of Coding 2017 will take place at the &lt;a href=&#34;https://www.rotterdamseschouwburg.nl&#34;&gt;Rotterdamse Schouwburg&lt;/a&gt;, a theatre in the centre of Rotterdam. While this venue usually hosts dance, theatre and music theatre productions, it offers ideal conference facilities. The location is on the central Rotterdam square of the same name, &lt;em&gt;Schouwbergplein&lt;/em&gt;.&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;div class=&#34;row getting-there&#34;&gt;
+                  &lt;div class=&#34;col-1&#34;&gt;
+                    &lt;h3&gt;Getting there&lt;/h3&gt;
+                    &lt;p&gt;Address: Rotterdamse Schouwburg, Schouwburgplein 25, 3012 CL Rotterdam&lt;/p&gt;
+                    &lt;p&gt;The venue is five minutes’ walk from the front of &lt;em&gt;Rotterdam Centraal&lt;/em&gt; train station, so public transport links are ideal.&lt;/p&gt;
+                    &lt;h3&gt;Parking&lt;/h3&gt;
+                    &lt;p&gt;If you arrive by car, you can park in the &lt;a href=&#34;http://www.rotterdam.nl/ParkeergarageSchouwburgplein&#34;&gt;Schouwburgplein underground car park&lt;/a&gt;. There are two car park entrances: one on Schouwburgplein itself, and one via &lt;em&gt;parkeercluster Rotterdam Centraal&lt;/em&gt; from the entrance in the Weena tunnel in front of station Rotterdam Centraal. You can reserve parking with substantial discounts at &lt;a href=&#34;http://parkereninrotterdam.nl/parkeergarage/schouwburgplein/&#34;&gt;parkereninrotterdam.nl&lt;/a&gt;.&lt;/p&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;col-2&#34;&gt;
+                      &lt;img src=&#34;../img/photo_venue_01.jpg&#34; srcset=&#34;../img/photo_venue_01@2x.jpg 2x&#34; alt=&#34;Schouwburg Rotterdam - Grote Zaal&#34;&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&#34;row facilities&#34;&gt;
+                  &lt;div class=&#34;col-1&#34;&gt;
+                      &lt;img src=&#34;../img/photo_venue_02.jpg&#34; srcset=&#34;../img/photo_venue_02@2x.jpg 2x&#34; alt=&#34;Schouwburg Rotterdam - Grote Zaal&#34;&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;col-2&#34;&gt;
+                    &lt;h3&gt;Access&lt;/h3&gt;
+                    &lt;p&gt;The venue is fully wheelchair accessable. If you have special needs, please &lt;a href=&#34;mailto:info@joyofcoding.org&#34;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&#34;row about-rotterdam&#34;&gt;
+                  &lt;div class=&#34;col-1&#34;&gt;
+                    &lt;h3&gt;About Rotterdam&lt;/h3&gt;
+                    &lt;p&gt;Rotterdam is a city from the future that is undergoing constant refactoring. As in our code, legacy urban elements are continuously being replaced by more exciting modern structures. The Erasmus bridge, Central Station, the Market Hall and the Timmerhuis are recent examples, but not the last. Meanwhile, building reuse gives many historical monuments new roles.&lt;/p&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;col-2&#34;&gt;
+                    &lt;img src=&#34;../img/photo_venue_03.jpg&#34; srcset=&#34;../img/photo_venue_03@2x.jpg 2x&#34; alt=&#34;Schouwburg Rotterdam - Grote Zaal&#34;&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/article&gt;
+          &lt;/section&gt;
+
+        &lt;/main&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

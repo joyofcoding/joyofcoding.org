@@ -1,0 +1,161 @@
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@font-face {
+	font-family: 'Poppins';
+	src: url('../fonts/Poppins-Regular.woff') format('woff'),
+		url('../fonts/Poppins-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('../fonts/Poppins.woff') format('woff'),
+		url('../fonts/Poppins.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Source Code Pro';
+	src: url('../fonts/SourceCodePro-Regular.woff') format('woff'),
+		url('../fonts/SourceCodePro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Source Code Pro';
+	src: url('../fonts/SourceCodePro-Semibold.woff') format('woff'),
+		url('../fonts/SourceCodePro-Semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+body {
+	color: $base-font-color;
+	font-family: $base-font-family;
+	font-size: $base-font-size;
+	line-height: $base-line-height;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $heading-font-family;
+	line-height: $heading-line-height;
+	margin: 0 0 $small-spacing / 2;
+}
+
+h2 {
+	font-size: 2em;
+	letter-spacing: -0.046875em;
+	@include grid-media($medium) {
+		font-size: 3em;
+	}
+	@include grid-media($large) {
+		font-size: 3.75em;
+	}
+	@include grid-media($xlarge) {
+		font-size: 4.5em;	
+	}
+}
+
+h3 {
+	font-size: 3em;
+	letter-spacing: -0.0625em;
+	@include grid-media($medium) {
+		font-size: 5em;
+	}
+	@include grid-media($large) {
+		font-size: 4.5em;	
+	}
+}
+
+h4 {
+	font-weight: normal;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	letter-spacing: -0.0625em;
+}
+
+p, ul {
+	margin: 0 0 $base-spacing;
+	line-height: 1.75em;
+	font-size: .875em;
+	@include grid-media($medium) {
+		font-size: inherit;
+	}
+}
+
+blockquote {
+	font-size: 1.875em;
+	font-style: italic;
+	font-family: "Times New Roman", "Times", "Georgia", "Cambria", serif;
+	margin: 0 auto 1.5em;
+	line-height: 1.25em;
+	text-align: center;
+}
+
+a {
+	color: $action-color;
+	text-decoration: underline;
+	transition: color $base-duration $base-timing;
+	
+	&:active,
+	&:focus,
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+hr {
+	border-bottom: 2px solid $blue;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	margin: $base-spacing 0;
+	width: 33%;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+:focus {
+	outline: rgba( $red, .5 ) dotted 1px;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.social {
+	li {
+		float: left;
+		margin-right: .5em;
+		.icon {
+			 width: 1em;
+			 height: 1em;
+		}
+	}
+}

@@ -1,0 +1,103 @@
+/*--------------------------------------------------------------
+# Venue
+--------------------------------------------------------------*/
+.page-venue {
+
+  #venue {
+
+    article {
+      @extend .wrapper;
+
+      .entry-content > div {
+        margin-bottom: 2.5em;
+      }
+      
+      .row {
+        @include grid-container();
+        
+        img {
+          margin-bottom: 1.5em;
+          width: 100%;
+        }
+      }
+
+      .intro {
+        font-size: 1.25em;
+        @include grid-column(12);
+        @include grid-media($medium) {
+          @include grid-column(7);
+          @include grid-push(5);
+         	margin-bottom: 5em;
+        }
+      }
+
+      .getting-there {
+        .col-1 {
+          @include grid-column(12);
+          @include grid-media($medium) {
+            @include grid-column(6);
+          }
+          @include grid-media($large) {
+            @include grid-column(7);
+          }
+        }
+        .col-2 {
+          @include grid-column(12);
+          @include grid-media($medium) {
+            @include grid-column(6);
+          }
+          @include grid-media($large) {
+            @include grid-column(5);
+          }
+        }
+      }
+      
+      .facilities {
+        .col-1 {
+          @include grid-column(12);
+          @include grid-media($medium) {
+            @include grid-column(6);
+          }
+          @include grid-media($large) {
+            @include grid-column(5);
+          }
+        }
+        .col-2 {
+          @include grid-column(12);
+          @include grid-media($medium) {
+            @include grid-column(6);
+          }
+          @include grid-media($large) {
+            @include grid-column(7);
+          }
+        }
+      }
+      
+      .about-rotterdam {
+        .col-1 {
+          @include grid-column(12);
+          @include grid-media($medium) {
+            @include grid-column(6);
+          }
+          @include grid-media($large) {
+            @include grid-column(7);
+          }
+        }
+        .col-2 {
+          @include grid-column(12);
+          @include grid-media($medium) {
+            @include grid-column(6);
+          }
+          @include grid-media($large) {
+            @include grid-column(5);
+          }
+        }
+      }
+
+      h3 {
+        font-size: 1.5em;
+        letter-spacing: -1px;
+      }
+	  }
+  }
+}
