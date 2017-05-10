@@ -46,15 +46,14 @@ body.home {
   		@include grid-media($large) {
   			justify-content: space-between;
   		}
-  		
 		}
   	
   	article {
   		position: relative;
   		margin-left: auto;
   		margin-right: auto;
-  	 	width: 100%;
   	 	margin-top: 2.5em;	
+  	 	width: 100%;
 
    		@include grid-media($medium) {
   		 	margin-top: 0;	
@@ -74,21 +73,12 @@ body.home {
 
   	article {
   
-  		// Speakers
-  		&:nth-child(1) { order: 1; } 
-  		&:nth-child(2) { order: 2; } 
-  		&:nth-child(3) { order: 5; @extend .spkr_alt; }
-  		&:nth-child(4) { order: 6; @extend .spkr_alt; }
-  		&:nth-child(5) { order: 9; }
-  		&:nth-child(6) { order: 10; }
+  		// Left/right alternation
+  		&:nth-child(4) { @extend .ca_alt;} // By devs
+  		&:nth-child(5) { @extend .spkr_alt; } // Neal Ford
+  		&:nth-child(6) { @extend .spkr_alt; } // Jessica Kerr
+  		&:nth-child(7) { @extend .ca_alt;} // Affordable
 
-  		// Callouts
-  		&:nth-child(7) { order: 3; }
-  		&:nth-child(8) { order: 4; @extend .ca_alt;}
-  		&:nth-child(9) { order: 7; @extend .ca_alt;}
-  		&:nth-child(10) { order: 8; }
-  		&:nth-child(11) { order: 11; }
-  		
   		// Shift left
   		&:nth-child(1) {
   			@include grid-media($xlarge) {
@@ -121,12 +111,10 @@ body.home {
     		margin-bottom: 4em;
   		}
 
-      
   		.spkr_wrap {
 
   			&:before {
   				position: absolute;
-//   				z-index: -2;
   				top: -3.75rem;
   				right: -2.5rem;
   				@include grid-media($medium) {
@@ -199,17 +187,20 @@ body.home {
   				@include grid-media($medium) {
             max-width: 75%;
   				}
+
   				@include grid-media($large) {
             max-width: 60%;
   				}
 
     			li {
     				flex-basis: 100%;
+ 
     				@include grid-media($medium) {
     					flex-basis: 50%;
     				}
     			}
     		}
+
     		&#sponsor_logos {		
       		@include grid-media($large) {
       			max-width: 70%;
