@@ -32,7 +32,7 @@ $.stellar({
   parallaxElements: true,
 
   // Hide parallax elements that move outside the viewport
-  hideDistantElements: true,
+  hideDistantElements: false,
 
   // Customise how elements are shown and hidden
   hideElement: function($elem) {
