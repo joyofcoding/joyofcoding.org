@@ -15,7 +15,6 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-	overflow-x: hidden;
 }
 
 .wrapper {
@@ -24,8 +23,8 @@ body {
 }
 
 .padding {
-	padding-left: 1.5em;
-	padding-right: 1.5em;
+	padding-left: 2em;
+	padding-right: 2em;
 	@include grid-media($large) {
 		padding-left: 3.75em;
 		padding-right: 3.75em;
