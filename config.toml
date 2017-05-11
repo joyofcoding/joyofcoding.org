@@ -12,12 +12,12 @@ publishDir   = "docs"
   page = "/:filename/"
 
 [params]
-  ga_api_key    = "Google Analytics API key"
-  mail          = "your@address.here"
+  ga_api_key    = "UA-36101914-1"
+  mail          = "info@joyofcoding.org"
   github        = "http://github.com/joyofcoding"
-  twitter       = "https://twitter.com/username"
-  flickr        = "https://flickr.com/username"
-  linkedin      = "https://www.linkedin.com/in/username"
+  twitter       = "https://twitter.com/joyofcoding"
+  flickr        = "https://www.flickr.com/photos/joyofcoding"
+  linkedin      = "https://www.linkedin.com/organization/10620142"
   youtube_video = "https://www.youtube.com/embed/gSPV5ONN_7Q"
 
   [params.intro]
