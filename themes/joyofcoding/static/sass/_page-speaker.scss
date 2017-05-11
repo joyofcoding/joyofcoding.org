@@ -2,14 +2,37 @@
 # Speaker page
 --------------------------------------------------------------*/
 .page_speaker {
-	background-image: url('../img/nr_big_3.png'),url('../img/nr_big_3_cutoff.png'),url('../img/bg_pattern_white.png');
-	background-position: right top, left bottom, center top;
+	background-image: url('../img/nr_big_0.png'),url('../img/nr_big_0_cutoff.png'),url('../img/bg_pattern_white.png');
+	background-position: right top, left 150%, center top;
 	background-repeat: no-repeat, no-repeat, repeat;
 	background-size: 75%, auto, auto;
   @include grid-media($medium) {
   	background-size: auto, auto, auto;
   }
 
+  &.Neal {
+  	background-image: url('../img/nr_big_1.png'),url('../img/nr_big_1_cutoff.png'),url('../img/bg_pattern_white.png');
+  }
+
+  &.Carin {
+  	background-image: url('../img/nr_big_2.png'),url('../img/nr_big_2_cutoff.png'),url('../img/bg_pattern_white.png');
+  }
+
+  &.Ted {
+  	background-image: url('../img/nr_big_3.png'),url('../img/nr_big_3_cutoff.png'),url('../img/bg_pattern_white.png');
+  }
+
+  &.Jessica {
+  	background-image: url('../img/nr_big_4.png'),url('../img/nr_big_4_cutoff.png'),url('../img/bg_pattern_white.png');
+  }
+
+  &.Llewellyn {
+  	background-image: url('../img/nr_big_5.png'),url('../img/nr_big_5_cutoff.png'),url('../img/bg_pattern_white.png');
+  }
+
+  &.Koshin {
+  	background-image: url('../img/nr_big_6.png'),url('../img/nr_big_6_cutoff.png'),url('../img/bg_pattern_white.png');
+  }
 
   .speaker-content {
   	@extend .wrapper;
