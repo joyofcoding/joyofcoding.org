@@ -459,9 +459,9 @@
                     &lt;div class=&#34;sg_event_meta&#34;&gt;
                       &lt;span class=&#34;sg_event_type&#34;&gt;Keynote&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;13:10 - 13:50&lt;/span&gt;
                     &lt;/div&gt;
-                    &lt;div class=&#34;sg_event_title&#34;&gt;Neal Ford&lt;/div&gt;
+                    &lt;div class=&#34;sg_event_title&#34;&gt;Stories Every Developer Should Know&lt;/div&gt;
                     &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                      &lt;span class=&#34;sg_event_speaker&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
+                      &lt;span class=&#34;sg_event_speaker&#34;&gt;Neal Ford&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
                     &lt;/div&gt;
                   &lt;/a&gt;
                 &lt;/li&gt;
@@ -485,14 +485,14 @@
                 &lt;/li&gt;
 
                 &lt;!-- Location 1 --&gt;
-                &lt;li class=&#34;sg_event sg_main&#34;&gt;
+                &lt;li class=&#34;sg_event&#34;&gt;
                   &lt;a class=&#34;sg_event_link&#34; href=&#34;../speaker/llewellyn-falco&#34;&gt;
                     &lt;div class=&#34;sg_event_meta&#34;&gt;
                       &lt;span class=&#34;sg_event_type&#34;&gt;Talk&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;13:50 - 14:30&lt;/span&gt;
                     &lt;/div&gt;
-                    &lt;div class=&#34;sg_event_title&#34;&gt;Llewellyn Falco&lt;/div&gt;
+                    &lt;div class=&#34;sg_event_title&#34;&gt;Mob Programming&lt;/div&gt;
                     &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                      &lt;span class=&#34;sg_event_speaker&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
+                      &lt;span class=&#34;sg_event_speaker&#34;&gt;Llewellyn Falco&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
                     &lt;/div&gt;
                   &lt;/a&gt;
                 &lt;/li&gt;
@@ -561,7 +561,7 @@
                 &lt;/li&gt;
 
                 &lt;!-- Location 1 --&gt;
-                &lt;li class=&#34;sg_event sg_main&#34;&gt;
+                &lt;li class=&#34;sg_event&#34;&gt;
                   &lt;a class=&#34;sg_event_link&#34; href=&#34;../speaker/koshin-mariano&#34;&gt;
                     &lt;div class=&#34;sg_event_meta&#34;&gt;
                       &lt;span class=&#34;sg_event_type&#34;&gt;Talk&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;15:10 - 15:50&lt;/span&gt;
@@ -605,9 +605,9 @@
                     &lt;div class=&#34;sg_event_meta&#34;&gt;
                       &lt;span class=&#34;sg_event_type&#34;&gt;Keynote&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;15:50 - 16:30&lt;/span&gt;
                     &lt;/div&gt;
-                    &lt;div class=&#34;sg_event_title&#34;&gt;Carin Meier&lt;/div&gt;
+                    &lt;div class=&#34;sg_event_title&#34;&gt;The Joy of Stochastic Gradient Descent&lt;/div&gt;
                     &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                      &lt;span class=&#34;sg_event_speaker&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
+                      &lt;span class=&#34;sg_event_speaker&#34;&gt;Carin Meier&lt;/span&gt;&lt;span class=&#34;sg_event_location&#34;&gt;@ Main hall&lt;/span&gt;
                     &lt;/div&gt;
                   &lt;/a&gt;
                 &lt;/li&gt;
