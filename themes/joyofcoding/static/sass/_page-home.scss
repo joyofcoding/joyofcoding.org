@@ -79,7 +79,7 @@ body.home {
       &:nth-child(6) { @extend .spkr_alt; } // Jessica Kerr
       &:nth-child(7) { @extend .ca_alt;} // Affordable
 
-      // Shift left
+      // Shift first right
       &:nth-child(1) {
         @include grid-media($xlarge) {
           margin-left: 51.845%;
@@ -91,37 +91,28 @@ body.home {
       &:nth-child(2) { @include grid-media($xlarge) { margin-top: -12em; } } // Ted Neward
       &:nth-child(3) { @include grid-media($xlarge) { margin-top: 20em; } } // CA: Why Join 
       &:nth-child(4) { @include grid-media($xlarge) { margin-top: -12em; } } // CA: Its by devs 
-      &:nth-child(5) { @include grid-media($xlarge) { margin-top: 20em; } } // Neal 
-      &:nth-child(6) { @include grid-media($xlarge) { margin-top: -8em; } } // Kerr 
+      &:nth-child(5) { @include grid-media($xlarge) { margin-top: 20em; } } // Neal Ford 
+      &:nth-child(6) { @include grid-media($xlarge) { margin-top: -8em; } } // Jessica Kerr 
       &:nth-child(7) { @include grid-media($xlarge) { margin-top: 20em; } } // CA: Affordable
       &:nth-child(8) { @include grid-media($xlarge) { margin-top: -12em; } } // CA: Code of 
-      &:nth-child(9) { @include grid-media($xlarge) { margin-top: 25em; } } // Falco    d d
-      &:nth-child(10) { @include grid-media($xlarge) { margin-top: -10em; } } // Mariano
+      &:nth-child(9) { @include grid-media($xlarge) { margin-top: 25em; } } // Llewellyn Falco 
+      &:nth-child(10) { @include grid-media($xlarge) { margin-top: -10em; } } // Koshin Mariano
       &:nth-child(11) { @include grid-media($xlarge) { margin-top: 16em; } } // CA: Previous
 
       // Speaker numbers
-      &:nth-child(1) { .spkr_wrap:before { content: url('../img/nr_zeven.png'); } }
-      &:nth-child(2) { .spkr_wrap:before { content: url('../img/nr_een.png'); } }
-      &:nth-child(5) { .spkr_wrap:before { content: url('../img/nr_nul-v2.png'); } }
-      &:nth-child(6) { .spkr_wrap:before { content: url('../img/nr_zes.png'); } }
-      &:nth-child(9) { .spkr_wrap:before { content: url('../img/nr_drie.png'); } }
-      &:nth-child(10) { .spkr_wrap:before { content: url('../img/nr_nul.png'); } }
+      &:nth-child(1)  { &:before { content: url('../img/nr_zeven.png'); } } 
+      &:nth-child(2)  { &:before { content: url('../img/nr_een.png'); } }
+      &:nth-child(5)  { &:before { content: url('../img/nr_nul-v2.png'); } }
+      &:nth-child(6)  { &:before { content: url('../img/nr_zes.png'); } }
+      &:nth-child(9)  { &:before { content: url('../img/nr_drie.png'); } }
+      &:nth-child(10) { &:before { content: url('../img/nr_nul.png'); } }
       
-      &:last-child .callout {
-        margin-bottom: 4em;
-      }
-
-      .spkr_wrap {
-
-        &:before {
-          position: absolute;
-          top: -3.75rem;
-          right: -2.5rem;
-          @include grid-media($medium) {
-            right: -2.5rem;
-            left: 50%;
-            transform: translateX( -50% );
-          }
+      &.spkr:before {
+        position: absolute;
+        top: -1.5rem;
+        @include grid-media($medium) {
+          left: 50%;
+          transform: translateX( -50% );
         }
       }
     }
@@ -136,6 +127,7 @@ body.home {
     background-color: white;
     color: $blue;
     text-align: center;
+
     > section {
       padding-top: 6em;
       padding-bottom: 2em;
@@ -145,15 +137,15 @@ body.home {
         padding-top: 12.5em;
         padding-bottom: 7em;
       }
-      
+
       h2 {
         margin-bottom: 2em;
       }
-      
+
       p {
         margin-bottom: 2em;
       }
-    
+
       ul {
         align-items: center;
         display: flex;
@@ -165,7 +157,7 @@ body.home {
           max-width: 66%;
           margin-bottom: 3em;
         }
-        
+
         li {
           margin-bottom: 3em;
           flex-basis: 50%;
@@ -179,8 +171,7 @@ body.home {
             padding: .5em 1.5em;
           }
         }
-    
-    
+
         &#partner_logos { 
           max-width: 90%;
 
