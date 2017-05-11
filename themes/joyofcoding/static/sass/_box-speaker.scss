@@ -51,7 +51,6 @@
     position: absolute;
     top: 0;
     right: -2em;
-    width: 100%;
 
     @include grid-media($medium) {
       right: 0;
