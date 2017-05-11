@@ -57,10 +57,13 @@ body.home {
 
       @include grid-media($medium) {
         margin-top: 0;  
-        width: 85%;
       }
       
       @include grid-media($large) {
+        width: 85%;
+      }
+      
+      @include grid-media($xlarge) {
         width: 46.155%;
       }
     }
@@ -86,7 +89,7 @@ body.home {
         }
       }
 
-      // Shift top 
+      // Shift vertical 
       &:nth-child(1) { @include grid-media($xlarge) { margin-top: -20em; } } // Carin Meier
       &:nth-child(2) { @include grid-media($xlarge) { margin-top: -12em; } } // Ted Neward
       &:nth-child(3) { @include grid-media($xlarge) { margin-top: 20em; } } // CA: Why Join 
@@ -115,6 +118,10 @@ body.home {
           transform: translateX( -50% );
         }
       }
+      
+      &:last-child {
+    		margin-bottom: 2em;
+  		}
     }
   }
 

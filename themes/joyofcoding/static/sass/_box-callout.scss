@@ -5,7 +5,7 @@
   color: $blue;
   margin-bottom: 7.5em;
 
-  @include grid-media($medium) {
+  @include grid-media($xlarge) {
     margin-bottom: 12.5em;
   }
 
