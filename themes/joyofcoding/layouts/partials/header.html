@@ -14,14 +14,18 @@
     <link rel="stylesheet" href="/css/style-min.css">
   </head>
   <body>
-
+    <script>
+      if(location.pathname == "/") {
+        document.body.classList.toggle('home');
+      }
+    </script>
     <header id="masthead">
       <a href="/" id="site-branding" rel="home">
         <h1 class="title">Joy of coding</h1>
         <svg aria-hidden="true" role="img"><use data-href="#logo-joyofcoding" xlink:href="#logo-joyofcoding" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg>
       </a>
       <nav id="site-navigation">
-		<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><span>Menu</span></button> 
+        <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><span>Menu</span></button> 
         <ul id="primary-menu">
           <li><a href="/schedule">Schedule 2017</a></li>
           <li><a href="/about">About Us</a></li>
