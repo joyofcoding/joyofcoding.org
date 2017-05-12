@@ -21,7 +21,9 @@
 &lt;p&gt;&lt;br/&gt;
 &lt;br/&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;talk-title-to-be-announced&#34;&gt;Talk title to be announced&lt;/h3&gt;
+&lt;h3 id=&#34;the-joy-of-stochastic-gradient-descent&#34;&gt;The Joy of Stochastic Gradient Descent&lt;/h3&gt;
+
+&lt;p&gt;We’ll take a look at the joys of Deep Learning from its simple, elegant fundamentals to its feats of impressive power. Along the way, we’ll discuss how Deep Learning is changing how we approach programming, communicate with each other, and even what it means to be human.&lt;/p&gt;
 
 &lt;p&gt;On Twitter she is known as &lt;a href=&#34;https://twitter.com/gigasquid&#34;&gt;@gigasquid&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -72,11 +74,15 @@
 &lt;p&gt;&lt;br/&gt;
 &lt;br/&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;talk-title-to-be-announced&#34;&gt;Talk title to be announced&lt;/h3&gt;
+&lt;h3 id=&#34;mob-programming&#34;&gt;Mob Programming&lt;/h3&gt;
 
-&lt;p&gt;Llewellyn Falco is an independent agile coach. He discovered strong-style pair programming. He is creator of the open source testing tool &lt;a href=&#34;http://approvaltests.com/&#34;&gt;ApprovalTests&lt;/a&gt;. He spends most of his time programming in Java and C# specializing in improving legacy code.He is also co-founder of &lt;a href=&#34;http://teachingkidsprogramming.org/&#34;&gt;TeachingKidsProgramming.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you think pair programming (2 people on 1 computer) is crazy, hold onto your hats; it’s time for Mob Programming.&lt;/p&gt;
 
-&lt;p&gt;On Twitter he is &lt;a href=&#34;https://twitter.com/llewellynfalco&#34;&gt;@llewellynfalco&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mob Programming: All the brilliant people working on the same thing, at the same time, in the same place, and on the same computer.&lt;/p&gt;
+
+&lt;p&gt;We are going to take a look at a new way of working, what it looks like, and why it can work. More importantly, we’ll have a (very) short session of actual mobbing, so you can see for yourself and come to your own conclusions.&lt;/p&gt;
+
+&lt;p&gt;Find Llewellyn on Twitter as &lt;a href=&#34;https://twitter.com/llewellynfalco&#34;&gt;@llewellynfalco&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -86,9 +92,22 @@
       <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
       
       <guid>http://joyofcoding.org/speaker/neal-ford/</guid>
-      <description>&lt;p&gt;Neal Ford is director, software architect, and meme wrangler at ThoughtWorks, a software company and a community of passionate, purpose-led individuals. He thinks disruptively to deliver technology to address the toughest challenges, all while seeking to revolutionize the IT industry and create positive social change. A speaker at hundreds of developer conferences worldwide, Neal is an internationally recognized expert on software development and delivery, particularly where agile engineering techniques and software architecture intersect.&lt;/p&gt;
+      <description>
 
-&lt;p&gt;Neal has authored magazine articles, seven books (and counting), and dozens of video presentations. Neal’s topics include software architecture, continuous delivery, functional programming, and cutting-edge software innovations. Check out &lt;a href=&#34;nealford.com&#34;&gt;Neal’s website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;stories-every-developer-should-know&#34;&gt;Stories Every Developer Should Know&lt;/h3&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;em&gt;&amp;ldquo;Those who cannot remember the past are condemned to repeat it.&amp;rdquo;&lt;/em&gt; &lt;br /&gt;– George Santayana
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;em&gt;&amp;ldquo;The past is never dead. It’s not even past.&amp;rdquo;&lt;/em&gt; &lt;br /&gt;– William Faulkner
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Most architects and developers pursue the Latest and Greatest with great fervor, yet the history of engineering, including software projects, contains rich lessons that we risk repeating ad nauseam. This keynote recounts a variety of stories of projects that failed architecturally…and why. Ranging from the Vasa in 1628 to Knight Capital in 2012, each story tells of a mistaken interpretation of some architectural fundamental principle and the consequences–some good, some less so. I also look at the common threads for these stories, which points to pitfalls to avoid when looking into the future.&lt;/p&gt;
 
 &lt;p&gt;On twitter he&amp;rsquo;s known as &lt;a href=&#34;https://twitter.com/neal4d&#34;&gt;@neal4d&lt;/a&gt;&lt;/p&gt;
 </description>

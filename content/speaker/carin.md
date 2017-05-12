@@ -1,5 +1,6 @@
 +++
 type         = "speaker"
+sessionType  = "keynote"
 keynoteStart = "15:50"
 keynoteEnd   = "16:30"
 speakerImage = "spkr_carin_meier-blue.png"
@@ -14,6 +15,8 @@ bio          = "Carin started off as a professional ballet dancer, studied Physi
 <br/>
 <br/>
 
-### Talk title to be announced
+### The Joy of Stochastic Gradient Descent
+
+We’ll take a look at the joys of Deep Learning from its simple, elegant fundamentals to its feats of impressive power. Along the way, we’ll discuss how Deep Learning is changing how we approach programming, communicate with each other, and even what it means to be human. 
 
 On Twitter she is known as [@gigasquid](https://twitter.com/gigasquid)
