@@ -14,14 +14,18 @@
     <link rel="stylesheet" href="../css/style-min.css">
   </head>
   <body>
-
+    <script>
+      if(location.pathname == "/") {
+        document.body.classList.toggle('home');
+      }
+    </script>
     <header id="masthead">
       <a href="../" id="site-branding" rel="home">
         <h1 class="title">Joy of coding</h1>
         <svg aria-hidden="true" role="img"><use data-href="#logo-joyofcoding" xlink:href="#logo-joyofcoding" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg>
       </a>
       <nav id="site-navigation">
-		<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><span>Menu</span></button> 
+        <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><span>Menu</span></button> 
         <ul id="primary-menu">
           <li><a href="../schedule">Schedule 2017</a></li>
           <li><a href="../about">About Us</a></li>
@@ -33,57 +37,56 @@
     </header>
 
 <div id="container" class="page-venue">
-      <div id="scroller">
 
-        <main>
+      <main>
+        <article>
+          <div class="entry-content">
+            <h2>Celebrating the art, craft, science and joy of software development</h2>
+            <p>―&nbsp; Our 2017 venue: De Rotterdamse Schouwburg</p>
+          </div>
+        </article>
+
+        <section id="venue">
           <article>
             <div class="entry-content">
-              <h2>Celebrating the art, craft, science and joy of software development</h2>
-              <p>―&nbsp; Our 2017 venue: De Rotterdamse Schouwburg</p>
-            </div>
-          </article>
-
-          <section id="venue">
-            <article>
-              <div class="entry-content">
-                <div class="row intro">
-                  <p>Joy of Coding 2017 will take place at the <a href="https://www.rotterdamseschouwburg.nl">Rotterdamse Schouwburg</a>, a theatre in the centre of Rotterdam. While this venue usually hosts dance, theatre and music theatre productions, it offers ideal conference facilities. The location is on the central Rotterdam square of the same name, <em>Schouwbergplein</em>.</p>
+              <div class="row intro">
+                <p>Joy of Coding 2017 will take place at the <a href="https://www.rotterdamseschouwburg.nl">Rotterdamse Schouwburg</a>, a theatre in the centre of Rotterdam. While this venue usually hosts dance, theatre and music theatre productions, it offers ideal conference facilities. The location is on the central Rotterdam square of the same name, <em>Schouwbergplein</em>.</p>
+              </div>
+              <div class="row getting-there">
+                <div class="col-1">
+                  <h3>Getting there</h3>
+                  <p>Address: Rotterdamse Schouwburg, Schouwburgplein 25, 3012 CL Rotterdam</p>
+                  <p>The venue is five minutes’ walk from the front of <em>Rotterdam Centraal</em> train station, so public transport links are ideal.</p>
+                  <h3>Parking</h3>
+                  <p>If you arrive by car, you can park in the <a href="http://www.rotterdam.nl/ParkeergarageSchouwburgplein">Schouwburgplein underground car park</a>. There are two car park entrances: one on Schouwburgplein itself, and one via <em>parkeercluster Rotterdam Centraal</em> from the entrance in the Weena tunnel in front of station Rotterdam Centraal. You can reserve parking with substantial discounts at <a href="http://parkereninrotterdam.nl/parkeergarage/schouwburgplein/">parkereninrotterdam.nl</a>.</p>
                 </div>
-                <div class="row getting-there">
-                  <div class="col-1">
-                    <h3>Getting there</h3>
-                    <p>Address: Rotterdamse Schouwburg, Schouwburgplein 25, 3012 CL Rotterdam</p>
-                    <p>The venue is five minutes’ walk from the front of <em>Rotterdam Centraal</em> train station, so public transport links are ideal.</p>
-                    <h3>Parking</h3>
-                    <p>If you arrive by car, you can park in the <a href="http://www.rotterdam.nl/ParkeergarageSchouwburgplein">Schouwburgplein underground car park</a>. There are two car park entrances: one on Schouwburgplein itself, and one via <em>parkeercluster Rotterdam Centraal</em> from the entrance in the Weena tunnel in front of station Rotterdam Centraal. You can reserve parking with substantial discounts at <a href="http://parkereninrotterdam.nl/parkeergarage/schouwburgplein/">parkereninrotterdam.nl</a>.</p>
-                  </div>
-                  <div class="col-2">
-                      <img src="../img/photo_venue_01.jpg" srcset="../img/photo_venue_01@2x.jpg 2x" alt="Schouwburg Rotterdam - Grote Zaal">
-                  </div>
-                </div>
-                <div class="row facilities">
-                  <div class="col-1">
-                      <img src="../img/photo_venue_02.jpg" srcset="../img/photo_venue_02@2x.jpg 2x" alt="Schouwburg Rotterdam - Grote Zaal">
-                  </div>
-                  <div class="col-2">
-                    <h3>Access</h3>
-                    <p>The venue is fully wheelchair accessable. If you have special needs, please <a href="mailto:info@joyofcoding.org">contact us</a>.</p>
-                  </div>
-                </div>
-                <div class="row about-rotterdam">
-                  <div class="col-1">
-                    <h3>About Rotterdam</h3>
-                    <p>Rotterdam is a city from the future that is undergoing constant refactoring. As in our code, legacy urban elements are continuously being replaced by more exciting modern structures. The Erasmus bridge, Central Station, the Market Hall and the Timmerhuis are recent examples, but not the last. Meanwhile, building reuse gives many historical monuments new roles.</p>
-                  </div>
-                  <div class="col-2">
-                    <img src="../img/photo_venue_03.jpg" srcset="../img/photo_venue_03@2x.jpg 2x" alt="Schouwburg Rotterdam - Grote Zaal">
-                  </div>
+                <div class="col-2">
+                    <img src="../img/photo_venue_01.jpg" srcset="../img/photo_venue_01@2x.jpg 2x" alt="Schouwburg Rotterdam - Grote Zaal">
                 </div>
               </div>
-            </article>
-          </section>
+              <div class="row facilities">
+                <div class="col-1">
+                    <img src="../img/photo_venue_02.jpg" srcset="../img/photo_venue_02@2x.jpg 2x" alt="Schouwburg Rotterdam - Grote Zaal">
+                </div>
+                <div class="col-2">
+                  <h3>Access</h3>
+                  <p>The venue is fully wheelchair accessable. If you have special needs, please <a href="mailto:info@joyofcoding.org">contact us</a>.</p>
+                </div>
+              </div>
+              <div class="row about-rotterdam">
+                <div class="col-1">
+                  <h3>About Rotterdam</h3>
+                  <p>Rotterdam is a city from the future that is undergoing constant refactoring. As in our code, legacy urban elements are continuously being replaced by more exciting modern structures. The Erasmus bridge, Central Station, the Market Hall and the Timmerhuis are recent examples, but not the last. Meanwhile, building reuse gives many historical monuments new roles.</p>
+                </div>
+                <div class="col-2">
+                  <img src="../img/photo_venue_03.jpg" srcset="../img/photo_venue_03@2x.jpg 2x" alt="Schouwburg Rotterdam - Grote Zaal">
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
 
-        </main>
+      </main>
 
 
         <aside id="footer">
@@ -114,19 +117,18 @@
           </div>
         </aside>
 
-        <footer id="socket">
-          <span>
-            &copy; <a href="http://devnology.nl" target="_blank">Stichting Devnology</a> 2017
-          </span>
-          <span>
-            Design by: <a href="http://arnohartensveld.nl" target="_blank">Arno Hartensveld</a>
-          </span>
-          <span>
-            Build by: <a href="https://middelham.nl" target="_blank">Bas Middelham</a>
-          </span>
-        </footer>
-  
-    	</div>
+      <footer id="socket">
+        <span>
+          &copy; <a href="http://devnology.nl" target="_blank">Stichting Devnology</a> 2017
+        </span>
+        <span>
+          Design by: <a href="http://arnohartensveld.nl" target="_blank">Arno Hartensveld</a>
+        </span>
+        <span>
+          Build by: <a href="https://middelham.nl" target="_blank">Bas Middelham</a>
+        </span>
+      </footer>
+
     </div>
 
     <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">

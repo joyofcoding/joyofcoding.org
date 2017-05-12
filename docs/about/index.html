@@ -14,14 +14,18 @@
     <link rel="stylesheet" href="../css/style-min.css">
   </head>
   <body>
-
+    <script>
+      if(location.pathname == "/") {
+        document.body.classList.toggle('home');
+      }
+    </script>
     <header id="masthead">
       <a href="../" id="site-branding" rel="home">
         <h1 class="title">Joy of coding</h1>
         <svg aria-hidden="true" role="img"><use data-href="#logo-joyofcoding" xlink:href="#logo-joyofcoding" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg>
       </a>
       <nav id="site-navigation">
-		<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><span>Menu</span></button> 
+        <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><span>Menu</span></button> 
         <ul id="primary-menu">
           <li><a href="../schedule">Schedule 2017</a></li>
           <li><a href="../about">About Us</a></li>
@@ -33,98 +37,94 @@
     </header>
 
 <div id="container" class="page_about">
-    	<div id="scroller">
     
-        <main>
+      <main>
+        <article>
+          <div class="entry-content">
+            <h2>We are organising for fun, not for profit.</h2>
+            <p>The people behind Joy of Coding are an informal group, backed by a legal entity (the Devnology Foundation). We are organising this for fun, not for profit.</p>
+          </div>
+        </article>
+  
+        <section id="organisation">
           <article>
-            <div class="entry-content">
-              <h2>We are organising for fun, not for profit.</h2>
-              <p>The people behind Joy of Coding are an informal group, backed by a legal entity (the Devnology Foundation). We are organising this for fun, not for profit.</p>
+            <div class="about_grid">
+   
+              <div class="ag_item ag_item_1">
+                <h3 class="ag_item_title">Felienne<br>Hermans</h3>
+                <img src="../img/staff_felienne_hermans.jpg" alt="Felienne Hermans">
+                <div class="ag_item_content">
+                  <p>I am assistant professor and speaker. I strive to make programming better and easier for non-programmers. I love functional programming and board games.</p>
+                </div>
+                <a class="ag_item_social" href="https://twitter.com/felienne" target="_blank">@felienne</a>
+              </div>
+  
+              <div class="ag_item ag_item_2">
+                <h3 class="ag_item_title">Arne<br>Timmerman</h3>
+                <img src="../img/staff_arne_timmerman.jpg" alt="Arne Timmerman">
+                <div class="ag_item_content">
+                  <p>Software engineer and community facilitator. I enjoy working in teams and crafting simple solutions that are fun to use. I'm a proud board member of Devnology and organizer of the Joy of Coding conference since the first edition in 2013.</p>
+                </div>
+                <a class="ag_item_social" href="https://twitter.com/arnetim" target="_blank">@arnetim</a>
+              </div>
+              
+              <div class="ag_box ag_box_1">
+                <div class="ag_box_wrap">
+                  <div class="ag_box_content">
+                    <h4 class="ag_box_title">Legal <br><strong>Stuff</strong></h4>
+                    <hr data-bottom-top="width:20%;" data-top="width: 100%;">
+                    <p>Joy of Coding is organised by Stichting Devnology, a Dutch non-profit organisation registered with the Kamer van Koophandel (#17251880). Our VAT number is NL820757573B01.</p>
+                    <p>Our mailing address:<br>
+                      Mauritsweg 26 A02<br>
+                      3012 JS Rotterdam<br>
+                      the Netherlands</p>
+                  </div>
+                </div>
+              </div>
+   
+              <div class="ag_item ag_item_3">
+                <h3 class="ag_item_title">Martin<br>van Amersfoorth</h3>
+                <img src="../img/staff_martin_van_amersfoorth.jpg" alt="Martin van Amersfoorth">
+                <div class="ag_item_content">
+                  <p>As do most of you, I enjoy coding - especially using a functional language, such as Clojure. I'm married, with children, and outside of family life and coding I am coaching a soccer team of 9-year olds.</p>
+                </div>
+                <a class="ag_item_social" href="https://twitter.com/mamersfo" target="_blank">@mamersfo</a>
+              </div>
+  
+              <div class="ag_item ag_item_4">
+                <h3 class="ag_item_title">Cies<br>Breijs</h3>
+                <img src="../img/staff_cies_breijs.jpg" alt="Cies Breijs">
+                <div class="ag_item_content">
+                  <p>I'm a dad and a husband and a firm believer in mass-enlightenment. An open source enthousiast who adheres to a mostly vegan diet and prefers to keep the brain immersed in techno music.</p>
+                </div>
+                <a class="ag_item_social" href="https://twitter.com/cies010" target="_blank">@cies010</a>
+              </div>
+              
+              <div class="ag_box ag_box_2">
+                <div class="ag_box_wrap">
+                  <div class="ag_box_content">
+                    <h4 class="ag_box_title">Thanks <br><strong>Alumni</strong></h4>
+                    <hr data-bottom-top="width:20%;" data-top="width: 100%;">
+                    <p>Joy of Coding 2016 is the fourth in a series of conferences dedicated to software development. We are very grateful to everyone who has contributed to our conference in the previous editions: Freek Leemhuis, Anna Gos, Jacques Bouman, Mark van Straten, Daan van Berkel, Jettro Coenradie and Marc Lainez.</p>
+                  </div>
+                </div>
+              </div>
+   
+              <div class="ag_item ag_item_5">
+                <h3 class="ag_item_title">Rino<br>Kadijk</h3>
+                <img src="../img/staff_rino_kadijk.jpg" alt="Rino Kadijk">
+                <div class="ag_item_content">
+                  <p>believe that technology isn't the solution to every issue in the technology industry. I try to "automate everything" in my day job. In my spare time I contribute to the Axon CQRS framework.</p>
+                </div>
+                @dev/null
+              </div>
+            </div><!-- End about-grid -->
+            <div class="btn_wrap">
+              <a href="http://inventid.to/joyofcoding" target="_blank" class="btn">Tickets 2017</a>
             </div>
           </article>
-    
-          <section id="organisation">
-            <article>
-              <div class="about_grid">
-     
-                <div class="ag_item ag_item_1">
-                  <h3 class="ag_item_title">Felienne<br>Hermans</h3>
-                  <img src="../img/staff_felienne_hermans.jpg" alt="Felienne Hermans">
-                  <div class="ag_item_content">
-                    <p>I am assistant professor and speaker. I strive to make programming better and easier for non-programmers. I love functional programming and board games.</p>
-                  </div>
-                  <a class="ag_item_social" href="https://twitter.com/felienne" target="_blank">@felienne</a>
-                </div>
-    
-                <div class="ag_item ag_item_2">
-                  <h3 class="ag_item_title">Arne<br>Timmerman</h3>
-                  <img src="../img/staff_arne_timmerman.jpg" alt="Arne Timmerman">
-                  <div class="ag_item_content">
-                    <p>Software engineer and community facilitator. I enjoy working in teams and crafting simple solutions that are fun to use. I'm a proud board member of Devnology and organizer of the Joy of Coding conference since the first edition in 2013.</p>
-                  </div>
-                  <a class="ag_item_social" href="https://twitter.com/arnetim" target="_blank">@arnetim</a>
-                </div>
-                
-                <div class="ag_box ag_box_1">
-                   <div class="ag_box_wrap">
-                    <div class="ag_box_content">
-                        <h4 class="ag_box_title">Legal <br><strong>Stuff</strong></h4>
-                        <hr data-bottom-top="width:20%;" data-top="width: 100%;">
-                        <p>Joy of Coding is organised by Stichting Devnology, a Dutch non-profit organisation registered with the Kamer van Koophandel (#17251880). Our VAT number is NL820757573B01.</p>
-                        <p>Our mailing address:<br>
-                          Mauritsweg 26 A02<br>
-                          3012 JS Rotterdam<br>
-                          the Netherlands</p>
-                      </div>
-                    </div>
-                </div>
-     
-                <div class="ag_item ag_item_3">
-                  <h3 class="ag_item_title">Martin<br>van Amersfoorth</h3>
-                  <img src="../img/staff_martin_van_amersfoorth.jpg" alt="Martin van Amersfoorth">
-                  <div class="ag_item_content">
-                    <p>As do most of you, I enjoy coding - especially using a functional language, such as Clojure. I'm married, with children, and outside of family life and coding I am coaching a soccer team of 9-year olds.</p>
-                  </div>
-                  <a class="ag_item_social" href="https://twitter.com/mamersfo" target="_blank">@mamersfo</a>
-                </div>
-    
-                <div class="ag_item ag_item_4">
-                  <h3 class="ag_item_title">Cies<br>Breijs</h3>
-                  <img src="../img/staff_cies_breijs.jpg" alt="Cies Breijs">
-                  <div class="ag_item_content">
-                    <p>I'm a dad and a husband and a firm believer in mass-enlightenment. An open source enthousiast who adheres to a mostly vegan diet and prefers to keep the brain immersed in techno music.</p>
-                  </div>
-                  <a class="ag_item_social" href="https://twitter.com/cies010" target="_blank">@cies010</a>
-                </div>
-                
-                <div class="ag_box ag_box_2">
-                  <div class="ag_box_wrap">
-                    <div class="ag_box_content">
-                      <h4 class="ag_box_title">Thanks <br><strong>Alumni</strong></h4>
-                      <hr data-bottom-top="width:20%;" data-top="width: 100%;">
-                      <p>Joy of Coding 2016 is the fourth in a series of conferences dedicated to software development. We are very grateful to everyone who has contributed to our conference in the previous editions: Freek Leemhuis, Anna Gos, Jacques Bouman, Mark van Straten, Daan van Berkel, Jettro Coenradie and Marc Lainez.</p>
-                    </div>
-                  </div>
-                </div>
-     
-                <div class="ag_item ag_item_5">
-                  <h3 class="ag_item_title">Rino<br>Kadijk</h3>
-                  <img src="../img/staff_rino_kadijk.jpg" alt="Rino Kadijk">
-                  <div class="ag_item_content">
-                    <p>believe that technology isn't the solution to every issue in the technology industry. I try to "automate everything" in my day job. In my spare time I contribute to the Axon CQRS framework.</p>
-                  </div>
-                  @dev/null
-                </div>
-                
-             </div>
-              <p>
-                <div class="btn_wrap">
-                  <a href="http://inventid.to/joyofcoding" target="_blank" class="btn">Tickets 2017</a>
-                </div>
-              </p>
-            </article>
-          </section>
-        </main>
+        </section>
+      </main>
 
         <aside id="footer">
           <section id="contact">
@@ -154,19 +154,18 @@
           </div>
         </aside>
 
-        <footer id="socket">
-          <span>
-            &copy; <a href="http://devnology.nl" target="_blank">Stichting Devnology</a> 2017
-          </span>
-          <span>
-            Design by: <a href="http://arnohartensveld.nl" target="_blank">Arno Hartensveld</a>
-          </span>
-          <span>
-            Build by: <a href="https://middelham.nl" target="_blank">Bas Middelham</a>
-          </span>
-        </footer>
-  
-    	</div>
+      <footer id="socket">
+        <span>
+          &copy; <a href="http://devnology.nl" target="_blank">Stichting Devnology</a> 2017
+        </span>
+        <span>
+          Design by: <a href="http://arnohartensveld.nl" target="_blank">Arno Hartensveld</a>
+        </span>
+        <span>
+          Build by: <a href="https://middelham.nl" target="_blank">Bas Middelham</a>
+        </span>
+      </footer>
+
     </div>
 
     <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
