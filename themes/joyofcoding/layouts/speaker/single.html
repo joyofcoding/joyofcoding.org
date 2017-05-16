@@ -5,33 +5,33 @@
       <div class="speaker-content">
         <article>
           <header>
-  
+
             <!---------  Schedule time ----------->
             <div class="spkr_meta"><strong>Keynote</strong> {{ .Params.keynoteStart }} - {{ .Params.keynoteEnd }}</div>
-  
+
             <!---------  Speaker photo ----------->
             <img class="spkr_image" src="/img/{{ .Params.speakerImage }}">
-  
+
             <!---------  Speaker name ----------->
             <h2 class="spkr_title">{{ .Params.name }}</h2>
-  
+
             <!---------  Speaker tagline ----------->
             <blockquote>{{ .Params.quote }}</blockquote>
-  
+
           </header>
           <div class="row">
             <div class="bio">
-  
+
               <!---------  Speaker content ----------->
               {{ .Content }}
 
-  
+
               <p>
                 <div class="btn_wrap">
-                  <a href="schedule.html" class="btn">Schedule 2017</a>
+                  <a href="../../schedule" class="btn">Schedule 2017</a>
                 </div>
               </p>
-            </div> 
+            </div>
             <aside>
               <section>
                 <!---------  Speaker bio ----------->
