@@ -2,13 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Speakers on Joy of Coding</title>
-    <link>http://joyofcoding.org/speaker/index.xml</link>
+    <link>http://joyofcoding.org/speaker/</link>
     <description>Recent content in Speakers on Joy of Coding</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Joy of Coding 2017</copyright>
     <lastBuildDate>Sun, 07 May 2017 20:01:07 +0200</lastBuildDate>
-    <atom:link href="http://joyofcoding.org/speaker/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://joyofcoding.org/speaker/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Carin Meier</title>
@@ -16,17 +18,8 @@
       <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
       
       <guid>http://joyofcoding.org/speaker/carin-meier/</guid>
-      <description>
-
-&lt;p&gt;&lt;br/&gt;
-&lt;br/&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;the-joy-of-stochastic-gradient-descent&#34;&gt;The Joy of Stochastic Gradient Descent&lt;/h3&gt;
-
-&lt;p&gt;We’ll take a look at the joys of Deep Learning from its simple, elegant fundamentals to its feats of impressive power. Along the way, we’ll discuss how Deep Learning is changing how we approach programming, communicate with each other, and even what it means to be human.&lt;/p&gt;
-
-&lt;p&gt;On Twitter she is known as &lt;a href=&#34;https://twitter.com/gigasquid&#34;&gt;@gigasquid&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>The Joy of Stochastic Gradient Descent We’ll take a look at the joys of Deep Learning from its simple, elegant fundamentals to its feats of impressive power. Along the way, we’ll discuss how Deep Learning is changing how we approach programming, communicate with each other, and even what it means to be human.
+On Twitter she is known as @gigasquid</description>
     </item>
     
     <item>
@@ -35,15 +28,7 @@
       <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
       
       <guid>http://joyofcoding.org/speaker/jessica-kerr/</guid>
-      <description>
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;talk-title-to-be-announced&#34;&gt;Talk title to be announced&lt;/h3&gt;
-
-&lt;p&gt;On twitter she is &lt;a href=&#34;https://twitter.com/jessitron&#34;&gt;@jessitron&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Shaving the Golden Yak Programming is a series of frustrations. Everything we do, we could do better or faster if we only had our tools set up just so. If our error messages were a little better, our code a little cleaner, our tests a lot wider. How do you balance the work you’re supposed to be doing with the work that makes your work, work? Dive into the yak stack with me.</description>
     </item>
     
     <item>
@@ -52,15 +37,7 @@
       <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
       
       <guid>http://joyofcoding.org/speaker/koshin-mariano/</guid>
-      <description>
-
-&lt;p&gt;&lt;br/&gt;
-&lt;br/&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;talk-title-to-be-announced&#34;&gt;Talk title to be announced&lt;/h3&gt;
-
-&lt;p&gt;On Twitter he is known as &lt;a href=&#34;https://twitter.com/Koshin_M&#34;&gt;@Koshin_M&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Talk title to be announced On Twitter he is known as @Koshin_M</description>
     </item>
     
     <item>
@@ -69,21 +46,9 @@
       <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
       
       <guid>http://joyofcoding.org/speaker/llewellyn-falco/</guid>
-      <description>
-
-&lt;p&gt;&lt;br/&gt;
-&lt;br/&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;mob-programming&#34;&gt;Mob Programming&lt;/h3&gt;
-
-&lt;p&gt;If you think pair programming (2 people on 1 computer) is crazy, hold onto your hats; it’s time for Mob Programming.&lt;/p&gt;
-
-&lt;p&gt;Mob Programming: All the brilliant people working on the same thing, at the same time, in the same place, and on the same computer.&lt;/p&gt;
-
-&lt;p&gt;We are going to take a look at a new way of working, what it looks like, and why it can work. More importantly, we’ll have a (very) short session of actual mobbing, so you can see for yourself and come to your own conclusions.&lt;/p&gt;
-
-&lt;p&gt;Find Llewellyn on Twitter as &lt;a href=&#34;https://twitter.com/llewellynfalco&#34;&gt;@llewellynfalco&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Mob Programming If you think pair programming (2 people on 1 computer) is crazy, hold onto your hats; it’s time for Mob Programming.
+Mob Programming: All the brilliant people working on the same thing, at the same time, in the same place, and on the same computer.
+We are going to take a look at a new way of working, what it looks like, and why it can work.</description>
     </item>
     
     <item>
@@ -92,25 +57,9 @@
       <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
       
       <guid>http://joyofcoding.org/speaker/neal-ford/</guid>
-      <description>
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;stories-every-developer-should-know&#34;&gt;Stories Every Developer Should Know&lt;/h3&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;em&gt;&amp;ldquo;Those who cannot remember the past are condemned to repeat it.&amp;rdquo;&lt;/em&gt; &lt;br /&gt;– George Santayana
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;em&gt;&amp;ldquo;The past is never dead. It’s not even past.&amp;rdquo;&lt;/em&gt; &lt;br /&gt;– William Faulkner
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Most architects and developers pursue the Latest and Greatest with great fervor, yet the history of engineering, including software projects, contains rich lessons that we risk repeating ad nauseam. This keynote recounts a variety of stories of projects that failed architecturally…and why. Ranging from the Vasa in 1628 to Knight Capital in 2012, each story tells of a mistaken interpretation of some architectural fundamental principle and the consequences–some good, some less so. I also look at the common threads for these stories, which points to pitfalls to avoid when looking into the future.&lt;/p&gt;
-
-&lt;p&gt;On twitter he&amp;rsquo;s known as &lt;a href=&#34;https://twitter.com/neal4d&#34;&gt;@neal4d&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Stories Every Developer Should Know  &amp;ldquo;Those who cannot remember the past are condemned to repeat it.&amp;rdquo; – George Santayana 
+ &amp;ldquo;The past is never dead. It’s not even past.&amp;rdquo; – William Faulkner 
+Most architects and developers pursue the Latest and Greatest with great fervor, yet the history of engineering, including software projects, contains rich lessons that we risk repeating ad nauseam. This keynote recounts a variety of stories of projects that failed architecturally…and why.</description>
     </item>
     
     <item>
@@ -119,15 +68,7 @@
       <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
       
       <guid>http://joyofcoding.org/speaker/ted-neward/</guid>
-      <description>
-
-&lt;p&gt;&lt;br/&gt;
-&lt;br/&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;talk-title-to-be-announced&#34;&gt;Talk title to be announced&lt;/h3&gt;
-
-&lt;p&gt;On Twitter he is &lt;a href=&#34;https://twitter.com/tedneward&#34;&gt;@tedneward&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Talk title to be announced On Twitter he is @tedneward</description>
     </item>
     
   </channel>
