@@ -8,7 +8,7 @@ title        = "AIsland"
 slug         = "a-i-sland"
 date         = "2017-05-07T20:01:07+02:00"
 quote        = ""
-bio          = "This AIsland Game has been created by Dion van Dam, as part of his graduatin project generously sponsored by Finalist."
+bio          = "Dion van Dam created the AIsland Game as part of his graduation project, generously sponsored by Finalist."
 +++
 
 <br/>
@@ -16,4 +16,5 @@ bio          = "This AIsland Game has been created by Dion van Dam, as part of h
 
 **By Dion van Dam**
 
-During the conference, the huge video wall will be running an AI programming challenge. Code your own bot on your laptop and watch it compete with other people’s bots on the big screen.
+During the conference, the huge video wall will be running an AI programming challenge.
+Code your own bot on your laptop and watch it compete with other people’s bots on the big screen.
