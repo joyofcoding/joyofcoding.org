@@ -2,15 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Speakers on Joy of Coding</title>
-    <link>http://joyofcoding.org/speaker/</link>
+    <link>http://joyofcoding.org/speaker/index.xml</link>
     <description>Recent content in Speakers on Joy of Coding</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Joy of Coding 2017</copyright>
     <lastBuildDate>Sun, 07 May 2017 20:01:07 +0200</lastBuildDate>
+    <atom:link href="http://joyofcoding.org/speaker/index.xml" rel="self" type="application/rss+xml" />
     
-	<atom:link href="http://joyofcoding.org/speaker/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>AIsland</title>
+      <link>http://joyofcoding.org/speaker/a-i-sland/</link>
+      <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
+      
+      <guid>http://joyofcoding.org/speaker/a-i-sland/</guid>
+      <description>&lt;p&gt;&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;By Dion van Dam&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;During the conference, the huge video wall will be running an AI programming challenge. Code your own bot on your laptop and watch it compete with other people’s bots on the big screen.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Carin Meier</title>
@@ -18,8 +31,17 @@
       <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
       
       <guid>http://joyofcoding.org/speaker/carin-meier/</guid>
-      <description>The Joy of Stochastic Gradient Descent We’ll take a look at the joys of Deep Learning from its simple, elegant fundamentals to its feats of impressive power. Along the way, we’ll discuss how Deep Learning is changing how we approach programming, communicate with each other, and even what it means to be human.
-On Twitter she is known as @gigasquid</description>
+      <description>
+
+&lt;p&gt;&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;the-joy-of-stochastic-gradient-descent&#34;&gt;The Joy of Stochastic Gradient Descent&lt;/h3&gt;
+
+&lt;p&gt;We’ll take a look at the joys of Deep Learning from its simple, elegant fundamentals to its feats of impressive power. Along the way, we’ll discuss how Deep Learning is changing how we approach programming, communicate with each other, and even what it means to be human.&lt;/p&gt;
+
+&lt;p&gt;On Twitter she is known as &lt;a href=&#34;https://twitter.com/gigasquid&#34;&gt;@gigasquid&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -28,7 +50,21 @@ On Twitter she is known as @gigasquid</description>
       <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
       
       <guid>http://joyofcoding.org/speaker/jessica-kerr/</guid>
-      <description>Shaving the Golden Yak Programming is a series of frustrations. Everything we do, we could do better or faster if we only had our tools set up just so. If our error messages were a little better, our code a little cleaner, our tests a lot wider. How do you balance the work you’re supposed to be doing with the work that makes your work, work? Dive into the yak stack with me.</description>
+      <description>
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;shaving-the-golden-yak&#34;&gt;Shaving the Golden Yak&lt;/h3&gt;
+
+&lt;p&gt;Programming is a series of frustrations. Everything we do, we could do better or faster if we only had our tools set up just so. If our error messages were a little better, our code a little cleaner, our tests a lot wider.
+How do you balance the work you’re supposed to be doing with the work that makes your work, work?
+Dive into the yak stack with me. I’ll get bored with writing code, and write code to write code for me, and then write code to make that easier. Somewhere down here is the golden yak, the one with secret wisdom engraved on its skin.&lt;/p&gt;
+
+&lt;p&gt;This session will give you reasons to spend time smoothing your development experience, and clues for where to spend that time in ways that help your whole team.&lt;/p&gt;
+
+&lt;p&gt;On Twitter, Jessica is &lt;a href=&#34;https://twitter.com/jessitron&#34;&gt;@jessitron&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -37,7 +73,15 @@ On Twitter she is known as @gigasquid</description>
       <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
       
       <guid>http://joyofcoding.org/speaker/koshin-mariano/</guid>
-      <description>Talk title to be announced On Twitter he is known as @Koshin_M</description>
+      <description>
+
+&lt;p&gt;&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;talk-title-to-be-announced&#34;&gt;Talk title to be announced&lt;/h3&gt;
+
+&lt;p&gt;On Twitter he is known as &lt;a href=&#34;https://twitter.com/Koshin_M&#34;&gt;@Koshin_M&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -46,9 +90,21 @@ On Twitter she is known as @gigasquid</description>
       <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
       
       <guid>http://joyofcoding.org/speaker/llewellyn-falco/</guid>
-      <description>Mob Programming If you think pair programming (2 people on 1 computer) is crazy, hold onto your hats; it’s time for Mob Programming.
-Mob Programming: All the brilliant people working on the same thing, at the same time, in the same place, and on the same computer.
-We are going to take a look at a new way of working, what it looks like, and why it can work.</description>
+      <description>
+
+&lt;p&gt;&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;mob-programming&#34;&gt;Mob Programming&lt;/h3&gt;
+
+&lt;p&gt;If you think pair programming (2 people on 1 computer) is crazy, hold onto your hats; it’s time for Mob Programming.&lt;/p&gt;
+
+&lt;p&gt;Mob Programming: All the brilliant people working on the same thing, at the same time, in the same place, and on the same computer.&lt;/p&gt;
+
+&lt;p&gt;We are going to take a look at a new way of working, what it looks like, and why it can work. More importantly, we’ll have a (very) short session of actual mobbing, so you can see for yourself and come to your own conclusions.&lt;/p&gt;
+
+&lt;p&gt;Find Llewellyn on Twitter as &lt;a href=&#34;https://twitter.com/llewellynfalco&#34;&gt;@llewellynfalco&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -57,9 +113,42 @@ We are going to take a look at a new way of working, what it looks like, and why
       <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
       
       <guid>http://joyofcoding.org/speaker/neal-ford/</guid>
-      <description>Stories Every Developer Should Know  &amp;ldquo;Those who cannot remember the past are condemned to repeat it.&amp;rdquo; – George Santayana 
- &amp;ldquo;The past is never dead. It’s not even past.&amp;rdquo; – William Faulkner 
-Most architects and developers pursue the Latest and Greatest with great fervor, yet the history of engineering, including software projects, contains rich lessons that we risk repeating ad nauseam. This keynote recounts a variety of stories of projects that failed architecturally…and why.</description>
+      <description>
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;stories-every-developer-should-know&#34;&gt;Stories Every Developer Should Know&lt;/h3&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;em&gt;&amp;ldquo;Those who cannot remember the past are condemned to repeat it.&amp;rdquo;&lt;/em&gt; &lt;br /&gt;– George Santayana
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;em&gt;&amp;ldquo;The past is never dead. It’s not even past.&amp;rdquo;&lt;/em&gt; &lt;br /&gt;– William Faulkner
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Most architects and developers pursue the Latest and Greatest with great fervor, yet the history of engineering, including software projects, contains rich lessons that we risk repeating ad nauseam. This keynote recounts a variety of stories of projects that failed architecturally…and why. Ranging from the Vasa in 1628 to Knight Capital in 2012, each story tells of a mistaken interpretation of some architectural fundamental principle and the consequences–some good, some less so. I also look at the common threads for these stories, which points to pitfalls to avoid when looking into the future.&lt;/p&gt;
+
+&lt;p&gt;On twitter he&amp;rsquo;s known as &lt;a href=&#34;https://twitter.com/neal4d&#34;&gt;@neal4d&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Speed Meeting</title>
+      <link>http://joyofcoding.org/speaker/speed-meeting/</link>
+      <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
+      
+      <guid>http://joyofcoding.org/speaker/speed-meeting/</guid>
+      <description>&lt;p&gt;&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;By Linda van der Pal&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Whether you’ve never attended a developer conference before, or if you’ve been around the circuit for years, occasionally they can be a lonely experience.&lt;/p&gt;
+
+&lt;p&gt;Joy of Coding tries to remove that feeling with a session of Speed Meeting. In this session you will introduce yourself to several other conference attendees in short introductions of a few minutes each. In this introduction you are invited to talk with one other participant about who you both are, and why you are here. There&amp;rsquo;s no need to prepare yourself, as it&amp;rsquo;s all very informal. But the end result should be that you will know several persons at the conference, even when you knew nobody at all beforehand. And who knows what this networking session will result in? It might just be a few persons you feel comfortable talking to, or it might be the beginning of a new friendship or even working relation!&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -68,7 +157,15 @@ Most architects and developers pursue the Latest and Greatest with great fervor,
       <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
       
       <guid>http://joyofcoding.org/speaker/ted-neward/</guid>
-      <description>Talk title to be announced On Twitter he is @tedneward</description>
+      <description>
+
+&lt;p&gt;&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;talk-title-to-be-announced&#34;&gt;Talk title to be announced&lt;/h3&gt;
+
+&lt;p&gt;On Twitter he is &lt;a href=&#34;https://twitter.com/tedneward&#34;&gt;@tedneward&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>
