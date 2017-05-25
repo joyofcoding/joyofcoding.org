@@ -484,13 +484,15 @@ Dive into the yak stack with me. I’ll get bored with writing code, and write c
 
                 &lt;!-- Location 3 --&gt;
                 &lt;li class=&#34;sg_event&#34;&gt;
-                  &lt;div class=&#34;sg_event_meta&#34;&gt;
-                    &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;10:10 - 10:50&lt;/span&gt;
-                  &lt;/div&gt;
-                  &lt;div class=&#34;sg_event_title&#34;&gt;AIsland Game Contest&lt;/div&gt;
-                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
-                  &lt;/div&gt;
+                  &lt;a class=&#34;sg_event_link&#34; href=&#34;../speaker/a-i-sland/&#34;&gt;
+                    &lt;div class=&#34;sg_event_meta&#34;&gt;
+                        &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;10:10 - 10:50&lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#34;sg_event_title&#34;&gt;AIsland Game Contest&lt;/div&gt;
+                    &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                        &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
+                    &lt;/div&gt;
+                  &lt;/a&gt;
                 &lt;/li&gt;
 
                 &lt;!-- Location 4 --&gt;
@@ -524,13 +526,15 @@ Dive into the yak stack with me. I’ll get bored with writing code, and write c
 
                 &lt;!-- Location 3 --&gt;
                 &lt;li class=&#34;sg_event&#34;&gt;
-                  &lt;div class=&#34;sg_event_meta&#34;&gt;
-                    &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;10:50 - 11:30&lt;/span&gt;
-                  &lt;/div&gt;
-                  &lt;div class=&#34;sg_event_title&#34;&gt;AIsland Game Contest&lt;/div&gt;
-                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
-                  &lt;/div&gt;
+                  &lt;a class=&#34;sg_event_link&#34; href=&#34;../speaker/a-i-sland/&#34;&gt;
+                    &lt;div class=&#34;sg_event_meta&#34;&gt;
+                        &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;10:50 - 11:30&lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#34;sg_event_title&#34;&gt;AIsland Game Contest&lt;/div&gt;
+                    &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                        &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
+                    &lt;/div&gt;
+                  &lt;/a&gt;
                 &lt;/li&gt;
 
                 &lt;!-- Location 4 --&gt;
@@ -558,13 +562,15 @@ Dive into the yak stack with me. I’ll get bored with writing code, and write c
 
                 &lt;!-- Location 2 --&gt;
                 &lt;li class=&#34;sg_event&#34;&gt;
-                  &lt;div class=&#34;sg_event_meta&#34;&gt;
-                    &lt;span class=&#34;sg_event_type&#34;&gt;Networking&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;11:30 - 12:10&lt;/span&gt;
-                  &lt;/div&gt;
-                  &lt;div class=&#34;sg_event_title&#34;&gt;Speed meeting&lt;/div&gt;
-                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
-                  &lt;/div&gt;
+                  &lt;a class=&#34;sg_event_link&#34; href=&#34;../speaker/speed-meeting/&#34;&gt;
+                    &lt;div class=&#34;sg_event_meta&#34;&gt;
+                      &lt;span class=&#34;sg_event_type&#34;&gt;Networking&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;11:30 - 12:10&lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#34;sg_event_title&#34;&gt;Speed meeting&lt;/div&gt;
+                    &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                      &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
+                    &lt;/div&gt;
+                  &lt;/a&gt;
                 &lt;/li&gt;
 
                 &lt;!-- Location 3 --&gt;
@@ -598,13 +604,15 @@ Dive into the yak stack with me. I’ll get bored with writing code, and write c
 
                 &lt;!-- Location 3 --&gt;
                 &lt;li class=&#34;sg_event&#34;&gt;
-                  &lt;div class=&#34;sg_event_meta&#34;&gt;
-                    &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;12:10 - 13:10&lt;/span&gt;
-                  &lt;/div&gt;
-                  &lt;div class=&#34;sg_event_title&#34;&gt;AIsland Game Contest&lt;/div&gt;
-                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
-                  &lt;/div&gt;
+                  &lt;a class=&#34;sg_event_link&#34; href=&#34;../speaker/a-i-sland/&#34;&gt;
+                    &lt;div class=&#34;sg_event_meta&#34;&gt;
+                      &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;12:10 - 13:10&lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#34;sg_event_title&#34;&gt;AIsland Game Contest&lt;/div&gt;
+                    &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                      &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
+                    &lt;/div&gt;
+                  &lt;/a&gt;
                 &lt;/li&gt;
 
                 &lt;!-- Location 4 --&gt;
@@ -668,13 +676,15 @@ Dive into the yak stack with me. I’ll get bored with writing code, and write c
 
                 &lt;!-- Location 3 --&gt;
                 &lt;li class=&#34;sg_event&#34;&gt;
-                  &lt;div class=&#34;sg_event_meta&#34;&gt;
-                    &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;13:50 - 14:30&lt;/span&gt;
-                  &lt;/div&gt;
-                  &lt;div class=&#34;sg_event_title&#34;&gt;AIsland Game Contest&lt;/div&gt;
-                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
-                  &lt;/div&gt;
+                  &lt;a class=&#34;sg_event_link&#34; href=&#34;../speaker/a-i-sland/&#34;&gt;
+                    &lt;div class=&#34;sg_event_meta&#34;&gt;
+                        &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;13:50 - 14:30&lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#34;sg_event_title&#34;&gt;AIsland Game Contest&lt;/div&gt;
+                    &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                        &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
+                    &lt;/div&gt;
+                  &lt;/a&gt;
                 &lt;/li&gt;
 
                 &lt;!-- Location 4 --&gt;
@@ -705,13 +715,15 @@ Dive into the yak stack with me. I’ll get bored with writing code, and write c
 
                 &lt;!-- Location 3 --&gt;
                 &lt;li class=&#34;sg_event&#34;&gt;
-                  &lt;div class=&#34;sg_event_meta&#34;&gt;
-                    &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;14:30 - 15:10&lt;/span&gt;
-                  &lt;/div&gt;
-                  &lt;div class=&#34;sg_event_title&#34;&gt;AIsland Game Contest&lt;/div&gt;
-                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
-                  &lt;/div&gt;
+                  &lt;a class=&#34;sg_event_link&#34; href=&#34;../speaker/a-i-sland/&#34;&gt;
+                    &lt;div class=&#34;sg_event_meta&#34;&gt;
+                        &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;14:30 - 15:10&lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#34;sg_event_title&#34;&gt;AIsland Game Contest&lt;/div&gt;
+                    &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                        &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
+                    &lt;/div&gt;
+                  &lt;/a&gt;
                 &lt;/li&gt;
 
                 &lt;!-- Location 4 --&gt;
@@ -744,13 +756,15 @@ Dive into the yak stack with me. I’ll get bored with writing code, and write c
 
                 &lt;!-- Location 3 --&gt;
                 &lt;li class=&#34;sg_event&#34;&gt;
-                  &lt;div class=&#34;sg_event_meta&#34;&gt;
-                    &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;15:10 - 15:50&lt;/span&gt;
-                  &lt;/div&gt;
-                  &lt;div class=&#34;sg_event_title&#34;&gt;AIsland Game Contest&lt;/div&gt;
-                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
-                  &lt;/div&gt;
+                  &lt;a class=&#34;sg_event_link&#34; href=&#34;../speaker/a-i-sland/&#34;&gt;
+                    &lt;div class=&#34;sg_event_meta&#34;&gt;
+                        &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;15:10 - 15:50&lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#34;sg_event_title&#34;&gt;AIsland Game Contest&lt;/div&gt;
+                    &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                        &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
+                    &lt;/div&gt;
+                  &lt;/a&gt;
                 &lt;/li&gt;
 
                 &lt;!-- Location 4 --&gt;
@@ -841,13 +855,15 @@ Dive into the yak stack with me. I’ll get bored with writing code, and write c
 
                 &lt;!-- Location 3 --&gt;
                 &lt;li class=&#34;sg_event&#34;&gt;
-                  &lt;div class=&#34;sg_event_meta&#34;&gt;
-                    &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;17:30&lt;/span&gt;
-                  &lt;/div&gt;
-                  &lt;div class=&#34;sg_event_title&#34;&gt;Finals AIsland Game Contest&lt;/div&gt;
-                  &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
-                    &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
-                  &lt;/div&gt;
+                  &lt;a class=&#34;sg_event_link&#34; href=&#34;../speaker/a-i-sland/&#34;&gt;
+                    &lt;div class=&#34;sg_event_meta&#34;&gt;
+                        &lt;span class=&#34;sg_event_type&#34;&gt;Game&lt;/span&gt;&lt;span class=&#34;sg_event_time&#34;&gt;17:30&lt;/span&gt;
+                    &lt;/div&gt;
+                    &lt;div class=&#34;sg_event_title&#34;&gt;Finals AIsland Game Contest&lt;/div&gt;
+                    &lt;div class=&#34;sg_event_meta meta_2&#34;&gt;
+                        &lt;span class=&#34;sg_event_location&#34;&gt;@ Foyer&lt;/span&gt;
+                    &lt;/div&gt;
+                  &lt;/a&gt;
                 &lt;/li&gt;
 
                 &lt;!-- Location 4 --&gt;
