@@ -2,7 +2,7 @@
 type         = "speaker"
 keynoteStart = "16:30"
 keynoteEnd   = "16:50"
-speakerImage = ""
+speakerImage = "extra_robocup.jpg"
 name         = "RoboCup Junior"
 title        = "RoboCup Junior"
 slug         = "robocup"
