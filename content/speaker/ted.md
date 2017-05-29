@@ -14,7 +14,10 @@ bio          = "Ted Neward is the CTO of iTrellis, a polyglot consultancy, and i
 <br/>
 <br/>
 
-### Talk title to be announced
+### Living the Good Life
+
+Most people imagine the ancient Greek philosophers to be white-haired old men with nothing better to do, running around trying to solve impossible questions like, ‘How do we know the world exists if we have no senses?’ or ‘If a tree falls in a forest, with no one around to hear it, does it still make noise?’. Most of the time, we consider these questions nonsensical, inane, and not really worth the time to debate except when really, really drunk.
+
+Contrary to popular belief, the ‘Big Three’ of the Greek philosophical set - Plato, Socrates and Aristotle - spent most of their time discussing what constituted ‘the good life’: Eudaimonia. It turns out that eudaimonia is not only the central quest of most of the schools of the dead Greeks but of most of the rest of the world, as well. The search for what makes up ‘the good life’ is one that software developers wrestle with, and if it’s not to be found in code (hint: despite the title of the conference, it’s not), then where?
 
 On Twitter he is [@tedneward](https://twitter.com/tedneward)
-
