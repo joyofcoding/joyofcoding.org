@@ -21,3 +21,4 @@ Whether you’ve never attended a developer conference before, or if you’ve be
 
 Joy of Coding tries to remove that feeling with a session of Speed Meeting. In this session you will introduce yourself to several other conference attendees in short introductions of a few minutes each. In this introduction you are invited to talk with one other participant about who you both are, and why you are here. There's no need to prepare yourself, as it's all very informal. But the end result should be that you will know several persons at the conference, even when you knew nobody at all beforehand. And who knows what this networking session will result in? It might just be a few persons you feel comfortable talking to, or it might be the beginning of a new friendship or even working relation!
 
+On Twitter Linda is [@DuchessFounder](https://twitter.com/DuchessFounder)
