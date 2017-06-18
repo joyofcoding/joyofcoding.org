@@ -34,6 +34,15 @@ On Twitter she is known as @gigasquid</description>
     </item>
     
     <item>
+      <title>How to hire and work with people who aren’t like you</title>
+      <link>http://joyofcoding.org/speaker/koshin-mariano/</link>
+      <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
+      
+      <guid>http://joyofcoding.org/speaker/koshin-mariano/</guid>
+      <description>How to hire and work with people who aren’t like you Diversity and Inclusion initiatives have cost many technology companies hundreds of millions but there has been little change in who works in tech. This talk will examine conventional wisdom in changing the workforce makeup in tech, how we got to our current state and what practical actions companies can take so that diversity is built into their cultural operation system.</description>
+    </item>
+    
+    <item>
       <title>Jessica Kerr</title>
       <link>http://joyofcoding.org/speaker/jessica-kerr/</link>
       <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
@@ -43,16 +52,16 @@ On Twitter she is known as @gigasquid</description>
     </item>
     
     <item>
-      <title>Koshin Mariano</title>
-      <link>http://joyofcoding.org/speaker/koshin-mariano/</link>
+      <title>Living the Good Life</title>
+      <link>http://joyofcoding.org/speaker/ted-neward/</link>
       <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
       
-      <guid>http://joyofcoding.org/speaker/koshin-mariano/</guid>
-      <description>Talk title to be announced On Twitter he is known as @Koshin_M</description>
+      <guid>http://joyofcoding.org/speaker/ted-neward/</guid>
+      <description>Living the Good Life Most people imagine the ancient Greek philosophers to be white-haired old men with nothing better to do, running around trying to solve impossible questions like, ‘How do we know the world exists if we have no senses?’ or ‘If a tree falls in a forest, with no one around to hear it, does it still make noise?’. Most of the time, we consider these questions nonsensical, inane, and not really worth the time to debate except when really, really drunk.</description>
     </item>
     
     <item>
-      <title>Llewellyn Falco</title>
+      <title>Mob Programming</title>
       <link>http://joyofcoding.org/speaker/llewellyn-falco/</link>
       <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
       
@@ -92,15 +101,6 @@ Teams that compete in the dance division create both a robot and a dance composi
       <description>By Linda van der Pal
 Whether you’ve never attended a developer conference before, or if you’ve been around the circuit for years, occasionally they can be a lonely experience.
 Joy of Coding tries to remove that feeling with a session of Speed Meeting. In this session you will introduce yourself to several other conference attendees in short introductions of a few minutes each. In this introduction you are invited to talk with one other participant about who you both are, and why you are here.</description>
-    </item>
-    
-    <item>
-      <title>Ted Neward</title>
-      <link>http://joyofcoding.org/speaker/ted-neward/</link>
-      <pubDate>Sun, 07 May 2017 20:01:07 +0200</pubDate>
-      
-      <guid>http://joyofcoding.org/speaker/ted-neward/</guid>
-      <description>Living the Good Life Most people imagine the ancient Greek philosophers to be white-haired old men with nothing better to do, running around trying to solve impossible questions like, ‘How do we know the world exists if we have no senses?’ or ‘If a tree falls in a forest, with no one around to hear it, does it still make noise?’. Most of the time, we consider these questions nonsensical, inane, and not really worth the time to debate except when really, really drunk.</description>
     </item>
     
   </channel>

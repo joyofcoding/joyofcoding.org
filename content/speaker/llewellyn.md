@@ -5,7 +5,7 @@ keynoteStart = "13:50"
 keynoteEnd   = "14:30"
 speakerImage = "spkr_llewellyn_falco-blue.png"
 name         = "Llewellyn Falco"
-title        = "Llewellyn Falco"
+title        = "Mob Programming"
 slug         = "llewellyn-falco"
 date         = "2017-05-07T20:01:07+02:00"
 quote        = "Why we did a speed meet at our conference and why you should too!"
@@ -19,7 +19,7 @@ bio          = "Llewellyn Falco is an independent agile coach. He discovered str
 
 If you think pair programming (2 people on 1 computer) is crazy, hold onto your hats; it’s time for Mob Programming.
 
-Mob Programming: All the brilliant people working on the same thing, at the same time, in the same place, and on the same computer. 
+Mob Programming: All the brilliant people working on the same thing, at the same time, in the same place, and on the same computer.
 
 We are going to take a look at a new way of working, what it looks like, and why it can work. More importantly, we’ll have a (very) short session of actual mobbing, so you can see for yourself and come to your own conclusions.
 
