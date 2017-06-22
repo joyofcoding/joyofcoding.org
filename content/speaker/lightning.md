@@ -22,6 +22,8 @@ bio          = "Seven community members will give five-minute lightning talks"
    Herman Peeren - [@HermanPeeren](http://twitter.com/HermanPeeren)
 1. _What comes after Rock, Paper, Scissors, (Lizard, Spock)_  
    Daan van Berkel - [@daan_van_berkel](http://twitter.com/daan_van_berkel)
+1. _The joy of a microservices monorepo_  
+   Alex Nederlof - [@alexnederlof](http://twitter.com/alexnederlof)
 1. _The cool things we learn in our Coderclass_  
    Israh Emara - [@metiscoderclass](http://twitter.com/metiscoderclass)
 1. _The Joy of Joggling_  
