@@ -15,7 +15,7 @@ bio          = "Seven community members will give five-minute lightning talks"
 <br/>
 
 1. _Can everyone be a programmer?_  
-   Shiva Schreuders
+   Shiva Schroders
 1. _Everyone has something of value_  
    Adrian Cole - [@adrianfcole](http://twitter.com/adrianfcole)
 1. _Event Sourcing from 1918 and before_  
