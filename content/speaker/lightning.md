@@ -25,6 +25,6 @@ bio          = "Seven community members will give five-minute lightning talks"
 1. _The joy of a microservices monorepo_  
    Alex Nederlof - [@alexnederlof](http://twitter.com/alexnederlof)
 1. _The cool things we learn in our Coderclass_  
-   Israh Emara - [@metiscoderclass](http://twitter.com/metiscoderclass)
+   Israh Emara & Jochem Baas - [@metiscoderclass](http://twitter.com/metiscoderclass)
 1. _The Joy of Joggling_  
    Roy van Rijn - [@royvanrijn](http://twitter.com/royvanrijn)
