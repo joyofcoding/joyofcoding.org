@@ -16,6 +16,8 @@ bio          = "Dion van Dam created the AIsland Game as part of his graduation 
 
 **By Dion van Dam**
 
+**[⮩ API documentation on Github](https://github.com/mamersfo/aisland-doc)**
+
 During the conference, the huge video wall will be running an AI programming challenge.
 Code your own bot on your laptop and watch it compete with other people’s bots on the big screen.
 
