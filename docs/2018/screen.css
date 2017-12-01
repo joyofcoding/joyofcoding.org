@@ -6,8 +6,9 @@ header svg { width: 100%; height: 26vw; padding: 5vw 0; margin: 0; }
 header p { margin: 0; }
 header:after { height:2em; width: 100%; display:block; content:' '}
 
-footer { width: 20em; margin:auto; }
-footer li { display:inline-block; }
+footer ul { display: flex; justify-content: center; }
+footer svg { height: 2.5em; width: 4vw; border:3px solid white; padding:1vw; border-radius:1vw; margin:0 2vw; }
+footer a { margin:0 1vw; }
 
 /* Text */
 
@@ -21,6 +22,7 @@ footer li { list-style:none; font-size:1em; }
 
 body { background-color:black; color: white; }
 header { background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 88%, rgba(0, 0, 0, 0)) }
+footer svg { background-color:rgba(0, 0, 0, 0.5) }
 
 /* Images */
 
