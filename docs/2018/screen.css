@@ -1,0 +1,19 @@
+/* Boxes */
+
+header h1 { display: none; }
+header svg { width: 72vw; height: 36vw; }
+header p { margin: 0; }
+
+/* Text */
+
+body { font-family: "Helvetica Neue", Helvetica, sans-serif; }
+
+header { text-align: center; font-size: 4vw; }
+
+/* Colour */
+
+body { background-color:black; color: white; }
+
+/* Debug */
+
+header svg { background-color: pinkx; }
