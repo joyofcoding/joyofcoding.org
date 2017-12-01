@@ -6,10 +6,16 @@ header svg { width: 100%; height: 26vw; padding: 5vw 0; margin: 0; }
 header p { margin: 0; }
 header:after { height:2em; width: 100%; display:block; content:' '}
 
+footer { width: 20em; margin:auto; }
+footer li { display:inline-block; }
+
 /* Text */
 
 body { font-family: 'Poppins', sans-serif; }
 header { text-align: center; font-size: 2.5vw; font-weight: bold; text-transform: uppercase; letter-spacing: 0.2em; line-height: 1.5em; }
+footer li { list-style:none; font-size:1em; }
+
+@media (max-width: 640px) and (orientation: portrait) { header { font-size: 7vw; } }
 
 /* Colour */
 
