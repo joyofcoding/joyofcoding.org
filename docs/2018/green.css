@@ -1,0 +1,55 @@
+/* Layout */
+
+html { padding:2vh 1vw; }
+
+body { 
+  display:flex;
+  flex-wrap:wrap;
+  margin:1vh 1vw;
+  border: 3px solid;
+  border-radius: 2vw;
+  padding: 2vh 2vw;
+  min-height:90vh;
+}
+
+nav { width:100%; }
+nav li { display:inline-block; margin-right:0.3em; }
+
+h1, h2 { margin:1.5em 0 1em 0;}
+
+p, li { max-width:40em; line-height:1.5em; }
+
+ul { padding:0; }
+li:before { margin-right:0.2em; }
+li { margin-bottom:0.5em;}
+
+.diagram { text-align:center; }
+
+/* Text */
+
+@font-face {
+  font-family: "din";
+  src: url(din1451alt.ttf);
+}
+body { font-family: "din"; }
+
+nav a { text-decoration:none; }
+nav a:hover { text-decoration:underline; }
+nav li:first-child:before { display:none; }
+
+header p { }
+
+h1:before { content:'# '; }
+h2:before { content:'## '; }
+
+li { list-style-type:none; }
+li:before { content:'* '; }
+
+
+/* Colour */
+
+body { color:#080; border-color:#080; }
+
+a { color:inherit; }
+a:hover { color:#04c; }
+.diagram a { color:#080; }
