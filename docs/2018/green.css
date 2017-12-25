@@ -28,7 +28,7 @@ h1 { margin-bottom:0;}
 header { margin-bottom:1em; }
 h2 { margin:1em 0 0.5em 0;}
 
-p, li { max-width:40em; line-height:1.5em; }
+p, li { max-width:40em; }
 
 li:before { margin-right:0.2em; }
 li { margin-bottom:0.5em;}
@@ -39,7 +39,7 @@ li { margin-bottom:0.5em;}
 
 @media (max-width: 640px) and (orientation: portrait) {
   nav, header, article, section, footer { padding: auto 3vw; }
-  h1, h2 { margin:1em 0 0.5em 0;}
+  header, h1, h2 { margin-bottom:0; }
 }
 
 /* Text */
@@ -51,16 +51,19 @@ li { margin-bottom:0.5em;}
 body { font-family: "din", sans-serif; font-weight:500; }
 
 h1, h2 { font-family: "Dosis" }
-h1 { font-size:350%; font-weight:200; }
-h2 { font-size:200%; font-weight:300; }
+h1 { font-size:360%; font-weight:200; }
+h2 { font-size:240%; font-weight:300; }
 
 nav a, footer a { text-decoration:none; }
 nav a:hover, footer a:hover { text-decoration:underline; }
 nav li:first-child:before { display:none; }
 
+p, li { line-height:1.5em; }
+
 @media (max-width: 640px) and (orientation: portrait) {
-  h1 { font-size:1.5em; }
-  h2 { font-size:1.2em; }
+  h1 { font-size:200%; font-weight:300; }
+  h2 { font-size:150%; }
+  p, li { line-height:inherit; }
 }
 
 
