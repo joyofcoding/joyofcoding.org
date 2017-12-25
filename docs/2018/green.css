@@ -25,6 +25,7 @@ nav li:last-child:after, footer li:last-child:after { display:none; }
 footer { margin-top:2em; border-top: 2px solid; }
 
 h1, h2 { margin:1.5em 0 1em 0;}
+h1 { margin-top:1em; }
 
 p, li { max-width:40em; line-height:1.5em; }
 
@@ -46,13 +47,15 @@ li { margin-bottom:0.5em;}
   font-family: "din";
   src: url(din1451alt.ttf);
 }
-body { font-family: "din"; }
+body { font-family: "Dosis", sans-serif; font-weight:500; font-size:110%; }
+
+h1, h2 { }
+h1 { font-size:300%; font-weight:200; }
+h2 { font-size:200%; font-weight:300; }
 
 nav a, footer a { text-decoration:none; }
 nav a:hover, footer a:hover { text-decoration:underline; }
 nav li:first-child:before { display:none; }
-
-header p { }
 
 @media (max-width: 640px) and (orientation: portrait) {
   h1 { font-size:1.5em; }
