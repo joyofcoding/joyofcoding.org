@@ -50,7 +50,7 @@ li { margin-bottom:0.5em;}
 }
 body { font-family: "din", sans-serif; font-weight:500; }
 
-h1, h2 { font-family: "Dosis" }
+h1, h2 { font-family: "Dosis", sans-serif; }
 h1 { font-size:360%; font-weight:200; }
 h2 { font-size:240%; font-weight:300; }
 
@@ -71,8 +71,8 @@ p, li { line-height:1.5em; }
 
 /* Colour */
 
-body { color:#080; border-color:#080; }
+body { background:#147; color:white; border-color:white; }
 
 a { color:inherit; }
-a:hover, .diagram a:hover { color:#04c; }
+a:hover, .diagram a:hover { color:#fe0; }
 .diagram a { color:inherit; }
