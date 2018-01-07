@@ -39,6 +39,9 @@ li { margin-bottom:0.5em;}
 .diagram { text-align:center; }
 .diagram img { max-width:100%; }
 
+body.index header { margin:3em 0;}
+body.index header * { max-width:100%; text-align:center; margin:0; }
+body.index header img { width:18em; }
 
 @media (max-width: 640px) and (orientation: portrait) {
   nav, header, article, section, footer { padding: auto 3vw; }
