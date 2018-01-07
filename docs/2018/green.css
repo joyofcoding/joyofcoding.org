@@ -14,15 +14,16 @@ body {
 nav, header, article, section, footer { padding: 0 2vw; }
 nav, header, footer { width:100%; }
 
-nav, footer { padding-top:1em; padding-bottom:0.5em; }
+nav { padding-top:0.5em; padding-bottom:0.2em; display:flex; align-items:center; }
 nav { border-bottom: 2px solid; }
 
+nav img { width:4em; margin-right:0.5em; }
 nav ul, footer ul { margin:0; padding-left:0; }
 nav li, footer li { display:inline-block; margin-right:0.3em; }
 nav li:after, footer li:after { content:'•'; margin-left:0.5em; }
 nav li:last-child:after, footer li:last-child:after { display:none; }
 
-footer { margin-top:2em; border-top: 2px solid; }
+footer { margin-top:2em; border-top: 2px solid; padding-top:1em; padding-bottom:0.5em; }
 
 h1 { margin-bottom:0;}
 header { margin-bottom:1em; }
