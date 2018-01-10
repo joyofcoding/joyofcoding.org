@@ -13,9 +13,8 @@ body {
 }
 
 nav, footer { flex-grow:0; }
-main { flex-grow:0; }
+main { display:flex; flex-wrap:wrap; justify-content:space-between; }
 nav, header, article, section, footer { padding: 0 2vw; }
-/*nav, header, footer { width:100%; }*/
 
 nav { padding-top:0.5em; padding-bottom:0.2em; display:flex; align-items:center; }
 nav { border-bottom: 2px solid; }
@@ -42,7 +41,7 @@ li { margin-bottom:0.5em;}
 .diagram { text-align:center; }
 .diagram img { max-width:100%; }
 
-body.index main { display:flex; justify-content:space-around; }
+body.index main { justify-content:space-around; }
 body.index main p { max-width:inherit; }
 body.index main article { max-width:9em; }
 body.index header { margin:3em 0; width:inherit; }
