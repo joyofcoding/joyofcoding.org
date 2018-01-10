@@ -4,15 +4,18 @@ html { padding:2vw; }
 
 body { 
   display:flex;
-  flex-wrap:wrap;
+  flex-direction:column;
+  justify-content:space-between; 
   margin:0;
   border: 2px solid;
   border-radius: 2vw;
-  min-height:90vh;
+  min-height:92vh;
 }
 
+nav, footer { flex-grow:0; }
+main { flex-grow:0; }
 nav, header, article, section, footer { padding: 0 2vw; }
-nav, header, footer { width:100%; }
+/*nav, header, footer { width:100%; }*/
 
 nav { padding-top:0.5em; padding-bottom:0.2em; display:flex; align-items:center; }
 nav { border-bottom: 2px solid; }
@@ -39,9 +42,12 @@ li { margin-bottom:0.5em;}
 .diagram { text-align:center; }
 .diagram img { max-width:100%; }
 
-body.index header { margin:3em 0;}
-body.index header * { max-width:100%; text-align:center; margin:0; }
-body.index header img { width:18em; }
+body.index main { display:flex; justify-content:space-around; }
+body.index main p { max-width:inherit; }
+body.index main article { max-width:9em; }
+body.index header { margin:3em 0; width:inherit; }
+body.index header { text-align:center;}
+body.index header svg { height:15em; width:18em; }
 
 @media (max-width: 640px) and (orientation: portrait) {
   nav, header, article, section, footer { padding: auto 3vw; }
@@ -68,6 +74,8 @@ p, li { line-height:1.5em; }
 address { font-style:normal; margin-left: 2em; }
 
 .diagram { font-family:"Dosis", sans-serif; }
+
+body.index article { font-family: "Dosis"; font-size:240%; font-weight:300; }
 
 @media (max-width: 640px) and (orientation: portrait) {
   h1 { font-size:200%; font-weight:300; }
