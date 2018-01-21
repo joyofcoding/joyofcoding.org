@@ -40,7 +40,7 @@ section a:hover, footer svg:hover { color:white; background-color:rgba(0, 0, 255
 /* Images */
 
 body { background: no-repeat center center fixed; background-size: cover; }
-@media (max-width: 960px) and (orientation: landscape) { body { background-image: url(background/doelen-stage-landscape-small.jpg) }}
-@media (min-width: 960px) and (orientation: landscape) { body { background-image: url(background/doelen-stage-landscape.jpg) }}
-@media (max-width: 640px) and (orientation: portrait) { body { background-image: url(background/doelen-stage-portrait-small.jpg) }}
-@media (min-width: 640px) and (orientation: portrait) { body { background-image: url(background/doelen-stage-portrait.jpg) }}
+@media (max-width: 960px) and (orientation: landscape) { body { background-image: url(doelen-stage-landscape-small.jpg) }}
+@media (min-width: 960px) and (orientation: landscape) { body { background-image: url(doelen-stage-landscape.jpg) }}
+@media (max-width: 640px) and (orientation: portrait) { body { background-image: url(doelen-stage-portrait-small.jpg) }}
+@media (min-width: 640px) and (orientation: portrait) { body { background-image: url(doelen-stage-portrait.jpg) }}
