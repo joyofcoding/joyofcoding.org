@@ -41,6 +41,9 @@ li { margin-bottom:0.5em;}
 .diagram { text-align:center; }
 .diagram img { max-width:100%; }
 
+.boxed { display:flex;  flex-wrap: wrap; justify-content:space-around; }
+.box { margin:0 1em; }
+
 body.index main { justify-content:space-around; }
 body.index main p { max-width:inherit; }
 body.index main article { max-width:9em; }
@@ -71,6 +74,8 @@ nav li:first-child:before { display:none; }
 
 p, li { line-height:1.5em; }
 address { font-style:normal; margin-left: 2em; }
+
+.box { text-align:center; }
 
 .diagram { font-family:"Dosis", sans-serif; }
 
