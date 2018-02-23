@@ -46,7 +46,7 @@ li { margin-bottom:0.5em;}
 
 body.index main { justify-content:space-around; }
 body.index main p { max-width:inherit; }
-body.index main article { max-width:9em; }
+body.index main article { max-width:10em; }
 body.index header { margin:3em 0; width:inherit; }
 body.index header { text-align:center;}
 body.index header svg { height:15em; width:18em; }
