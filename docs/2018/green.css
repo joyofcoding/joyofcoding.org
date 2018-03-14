@@ -76,8 +76,8 @@ p, li { line-height:1.5em; }
 address { font-style:normal; margin-left: 2em; }
 
 .box { text-align:center; }
-
 .diagram { font-family:"Dosis", sans-serif; }
+.big { font-family: "Dosis"; font-size:240%; }
 
 body.index article { font-family: "Dosis"; font-size:240%; font-weight:300; }
 
