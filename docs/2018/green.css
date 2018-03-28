@@ -31,6 +31,10 @@ h1 { margin-bottom:0;}
 header { margin-bottom:1em; }
 h2 { margin:1em 0 0.5em 0;}
 
+table { border-collapse: collapse; margin-bottom: 1em; }
+table, th, td { border: 1px solid; }
+th, td { padding:0.5em; }
+
 .columns, p, li { max-width:36em; }
 
 li:before { margin-right:0.2em; }
