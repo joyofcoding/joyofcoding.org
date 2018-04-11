@@ -60,6 +60,7 @@ body.index .sponsors img { width:20vw; vertical-align: middle; margin:1vw; }
 @media (max-width: 640px) and (orientation: portrait) {
   nav, header, article, section, footer { padding: auto 3vw; }
   header, h1, h2 { margin-bottom:0; }
+  body.index .sponsors img { width:40vw;}
 }
 
 /* Text */
@@ -91,6 +92,7 @@ body.index article { font-family: "Dosis"; font-size:240%; font-weight:300; }
   h1 { font-size:200%; font-weight:300; }
   h2 { font-size:150%; }
   p, li { line-height:inherit; }
+  body.index article { font-size:200%; }
 }
 
 
