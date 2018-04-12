@@ -48,6 +48,9 @@ li { margin-bottom:0.5em;}
 .boxed { display:flex;  flex-wrap: wrap; justify-content:space-around; }
 .box { margin:0 1em; }
 
+.info .text { display:none; position:absolute; max-width:36em; padding:0.5em; border: 2px solid; border-radius:0.5em; }
+.info:hover .text { display:block; }
+
 body.index main { justify-content:space-around; }
 body.index main p { max-width:inherit; }
 body.index main article { max-width:10em; }
@@ -103,3 +106,5 @@ body { color:#080; border-color:#080; }
 a { color:inherit; }
 a:hover, .diagram a:hover { color:#04c; }
 .diagram a { color:inherit; }
+
+.info .text { background-color:#080; color:white; }
