@@ -31,9 +31,9 @@ h1 { margin-bottom:0;}
 header { margin-bottom:1em; }
 h2 { margin:1em 0 0.5em 0;}
 
-table { border-collapse: collapse; margin-bottom: 1em; }
-table, th, td { border: 1px solid; }
-th, td { padding:0.5em; }
+table { border-collapse:collapse; margin-bottom:1em; }
+table, th, td { border-width: 1px 0; border-style:dashed;; }
+th, td { padding:0.4em 0.5em 0.4em 0; }
 
 .columns, p, li { max-width:36em; }
 
@@ -55,9 +55,7 @@ body.index main { justify-content:space-around; }
 body.index main p { max-width:inherit; }
 body.index main article { max-width:10em; }
 body.index header { margin:3em 0; width:inherit; }
-body.index header { text-align:center;}
 body.index header svg { height:15em; width:18em; }
-body.index .sponsors { text-align:center; }
 body.index .sponsors img { width:20vw; vertical-align: middle; margin:1vw; }
 
 @media (max-width: 640px) and (orientation: portrait) {
@@ -84,6 +82,10 @@ nav li:first-child:before { display:none; }
 
 p, li { line-height:1.5em; }
 address { font-style:normal; margin-left: 2em; }
+th {text-align: left; }
+body.index header { text-align:center;}
+body.index .sponsors { text-align:center; }
+body.sponsorship th { text-align:center; }
 
 .box { text-align:center; }
 .diagram { font-family:"Dosis", sans-serif; }
