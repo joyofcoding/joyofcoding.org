@@ -56,6 +56,7 @@ body.index main p { max-width:inherit; }
 body.index main article { max-width:10em; }
 body.index header { margin:3em 0; width:inherit; }
 body.index header svg { height:15em; width:18em; }
+body.index .sponsors p { max-width:100%; }
 body.index .sponsors img { width:20vw; vertical-align: middle; margin:1vw; }
 
 @media (max-width: 640px) and (orientation: portrait) {
