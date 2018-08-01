@@ -71,6 +71,16 @@ body.index .sponsors img { width:20vw; vertical-align: middle; margin:1vw; }
   font-family: "din";
   src: url(din1451alt.ttf);
 }
+@font-face {
+  font-family: "Dosis";
+  src: url(Dosis-ExtraLight.ttf);
+	font-weight: 200;
+}
+@font-face {
+  font-family: "Dosis";
+  src: url(Dosis-Light.ttf);
+	font-weight: 300;
+}
 body { font-family: "din", sans-serif; font-weight:500; }
 
 h1, h2 { font-family: "Dosis" }
