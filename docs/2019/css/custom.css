@@ -1,0 +1,67 @@
+.nav-blocks li {
+	float: left;
+    margin-bottom: 0px;
+}
+
+.nav span {
+	position: relative;
+    display: block;
+    padding: 10px 15px;
+    color: #668;
+    cursor: not-allowed;
+}
+
+.skyblue {
+	background-color: #67a7e5;
+	color: #243a4f;
+}
+
+.skyblue a {
+	color: #243a4f;
+}
+
+.skywhite {
+	background-color: #FFF;
+}
+
+.the-robots-are-coming {
+	padding-top: 140px;
+	padding-bottom: 64px;
+	background-image: url('../img/joc-euromast-1.jpg');
+	background-size: cover;
+	background-position: center
+}
+
+.joc-logo {
+	height: 320px;
+}
+
+@media only screen and (max-width: 420px) {
+	.the-robots-are-coming {
+		padding-top: 64px;
+		padding-bottom: 64px;
+	}
+	.joc-logo {
+		height: 128px;
+	}
+}
+
+.joc-title {
+	color: #FFF;
+	text-shadow: 2px 3px #000000;
+	font-size: 32pt;
+	text-align: center;
+}
+.joc-motto {
+	color: #FFF;
+	text-shadow: 2px 3px #000000;
+	font-size: 24pt;
+	text-align: center;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
