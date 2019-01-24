@@ -40,6 +40,22 @@
 	background-position: 50% 40%
 }
 
+.code-of-conduct {
+	padding-top: 128px;
+	padding-bottom: 140px;
+	background-image: url('../img/joc-euromast-2.jpg');
+	background-size: cover;
+	background-position: 50% 40%;
+}
+
+.contact-us {
+	padding-top: 128px;
+	padding-bottom: 140px;
+	background-image: url('../img/joc-euromast-3.jpg');
+	background-size: cover;
+	background-position: 50% 40%;
+}
+
 .joc-logo {
 	height: 320px;
 }
@@ -91,4 +107,9 @@
 
 .photo-background {
   background-color: #EEE;
+}
+
+article {
+	margin-top: 16px;
+	margin-bottom: 64px;	
 }
