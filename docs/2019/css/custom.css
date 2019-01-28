@@ -31,6 +31,9 @@
 	background-size: cover;
 	background-position: center
 }
+.the-robots-are-coming a {
+	color: #EEE;
+}
 
 .the-robots-are-coming-small {
 	padding-top: 128px;
@@ -112,4 +115,26 @@
 article {
 	margin-top: 16px;
 	margin-bottom: 64px;	
+}
+
+.speaker {
+	margin-top: 16px;
+	margin-bottom: 16px;	
+}
+
+.speaker h2 {
+	margin-top: 0px;
+}
+
+.speaker-photo {
+    max-width: 100%;	
+}
+
+.center {
+	text-align: center;
+}
+
+.tickets {
+	margin-top: 32px;
+	margin-bottom: 32px;
 }
