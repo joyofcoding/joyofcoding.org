@@ -127,7 +127,7 @@ article {
 }
 
 .speaker-photo {
-    max-height: 16em;	
+    max-width: 100%;
 }
 
 .center {
