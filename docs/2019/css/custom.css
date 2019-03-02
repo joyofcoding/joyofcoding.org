@@ -126,8 +126,46 @@ article {
 	margin-top: 0px;
 }
 
+.lightning a {
+	font-size: 14pt; 
+}
+
 .speaker-photo {
     max-width: 100%;
+}
+
+.partner {
+	margin-top: 16px;
+	margin-bottom: 16px;	
+}
+
+.partner h1 {
+	margin-top: 64px;
+}
+
+.partner-logo {
+    max-width: 100%;
+}
+
+.partner-logo-space {
+    max-width: 90%;
+}
+
+.sponsor {
+	margin-top: 16px;
+	margin-bottom: 16px;	
+}
+
+.sponsor h1 {
+	margin-top: 64px;
+}
+
+.sponsor-logo {
+    max-width: 100%;
+}
+
+.sponsor-logo-space {
+    max-width: 80%;
 }
 
 .center {
