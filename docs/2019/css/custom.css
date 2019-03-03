@@ -59,6 +59,22 @@
 	background-position: 50% 40%;
 }
 
+.venue-de-doelen {
+	padding-top: 128px;
+	padding-bottom: 140px;
+	background-image: url('../img/joc-venue.jpg');
+	background-size: cover;
+	background-position: 50% 40%;
+}
+
+.venue-de-doelen2 {
+	padding-top: 128px;
+	padding-bottom: 140px;
+	background-image: url('../img/joc-doelen.jpg');
+	background-size: cover;
+	background-position: 50% 40%;
+}
+
 .joc-logo {
 	height: 320px;
 }
@@ -176,3 +192,25 @@ article {
 	margin-top: 32px;
 	margin-bottom: 32px;
 }
+
+.info i {
+	border: 5px solid #67a7e5;
+	border-radius: 0.5em;
+	background-color: #67a7e5;
+	color: #243a4f;
+}
+.info i:before {
+	font-weight:bold;
+	content:"i"
+}
+.info .text { 
+	display:none; 
+	position:absolute;
+	max-width:36em; 
+	padding:0.5em; 
+	border: 2px solid; 
+	border-radius:0.5em; 
+	background-color: #67a7e5;
+	color: #243a4f;
+}
+.info:hover .text { display:block; }
