@@ -215,3 +215,40 @@ article {
 	color: #243a4f;
 }
 .info:hover .text { display:block; }
+
+.schedule-talk .speaker-talk {
+	font-size: 12pt;
+}
+
+.schedule {
+	margin-top: 1em;
+}
+
+.schedule h3 {
+	padding-left: 0.25em;
+}
+
+.schedule .selected {
+	color: #FFF;
+	background-color: #67a7e5;	
+}
+
+.timeslot {
+	padding-left: 0.5em;
+	margin-top: 0.5em;
+	font-size: 12pt;
+}
+
+.schedule-talk .speaker-bio {
+	font-size: 12pt;
+}
+
+.speaker-bio-photo {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.speaker-bio-photo img {
+	height: 192px;
+}
+
