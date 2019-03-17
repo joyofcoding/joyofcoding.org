@@ -168,9 +168,36 @@ article {
     max-width: 90%;
 }
 
+.introslide-partner {
+	max-height: 192px;
+}
+
+.introslide-partner-small {
+	max-height: 160px;
+}
+
+
+.introslide-sponsor {
+	max-height: 72px;
+}
+
+.footer .partner {
+	margin-bottom: 64px;
+}
+
 .sponsor {
 	margin-top: 16px;
 	margin-bottom: 16px;	
+}
+
+.sponsor span {
+	margin-left: 32px;
+	margin-right: 32px;
+}
+
+.partner span {
+	margin-left: 64px;
+	margin-right: 64px;
 }
 
 .sponsor h1 {
@@ -183,6 +210,10 @@ article {
 
 .sponsor-logo-space {
     max-width: 80%;
+}
+
+.sponsor-logo-space2 {
+    max-width: 60%;
 }
 
 .center {
