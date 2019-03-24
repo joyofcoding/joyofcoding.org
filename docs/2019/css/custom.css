@@ -253,6 +253,7 @@ article {
 
 .schedule {
 	margin-top: 1em;
+	display: none;
 }
 
 .schedule h3 {
@@ -283,3 +284,7 @@ article {
 	height: 192px;
 }
 
+.speedmeeting img {
+	margin-top: 1em;
+	margin-right: 0.5em;
+}
