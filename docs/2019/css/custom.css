@@ -59,6 +59,14 @@
 	background-position: 50% 40%;
 }
 
+.spnsoring {
+	padding-top: 128px;
+	padding-bottom: 140px;
+	background-image: url('../img/joc-spnsoring.jpg');
+	background-size: cover;
+	background-position: 50% 40%;
+}
+
 .venue-de-doelen {
 	padding-top: 128px;
 	padding-bottom: 140px;
@@ -287,4 +295,31 @@ article {
 .speedmeeting img {
 	margin-top: 1em;
 	margin-right: 0.5em;
+}
+
+.sponsoring-table {
+	margin: 1em auto;
+	table-layout: fixed;
+	background-color: #eee;
+}
+
+.sponsoring-table .price {
+	border-top: 1px solid #fff;
+	font-weight: bold;
+}
+
+.sponsoring-table th {
+	font-weight:bold;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border-bottom: 1px solid #fff;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+.sponsoring-table td {
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
 }
