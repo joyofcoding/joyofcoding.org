@@ -83,6 +83,14 @@
 	background-position: 50% 40%;
 }
 
+.accessibility {
+	padding-top: 128px;
+	padding-bottom: 140px;
+	background-image: url('../img/joc-accessibility.png');
+	background-size: cover;
+	background-position: 50% 40%;
+}
+
 .joc-logo {
 	height: 320px;
 }
