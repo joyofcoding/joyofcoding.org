@@ -269,7 +269,6 @@ article {
 
 .schedule {
 	margin-top: 1em;
-	display: none;
 }
 
 .schedule h3 {
@@ -281,10 +280,46 @@ article {
 	background-color: #67a7e5;	
 }
 
+.schedule .selected a {
+	color: #FF8;
+}
+
 .timeslot {
 	padding-left: 0.5em;
 	margin-top: 0.5em;
 	font-size: 12pt;
+}
+
+.startslot {
+	border-left: 4px solid #FFF;
+}
+
+.endslot {
+	border-left: 4px solid #FFF;
+}
+
+.shortslot {
+	border-left: 4px solid #888;
+}
+
+.singleslot {
+	min-height: 2em;
+	border-left: 4px solid #888;
+	padding-top: 0.30em;
+}
+.timeslot:hover {
+	color: #FFF;
+	background-color: #67a7e5;	
+}
+
+.timeslot:hover a {
+	color: #FF8;
+}
+
+.doubleslot {
+	min-height: 3em;
+	border-left: 4px solid #888;
+	padding-top: 0.75em;
 }
 
 .schedule-talk .speaker-bio {
