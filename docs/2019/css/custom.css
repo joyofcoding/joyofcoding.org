@@ -43,6 +43,14 @@
 	background-position: 50% 40%
 }
 
+.introslide-the-robots-are-coming {
+	padding-top: 80px;
+	padding-bottom: 64px;
+	background-image: url('../img/joc-euromast-1.jpg');
+	background-size: cover;
+	background-position: center
+}
+
 .code-of-conduct {
 	padding-top: 128px;
 	padding-bottom: 140px;
@@ -185,6 +193,8 @@ article {
 }
 
 .introslide-partner {
+    margin-top: 24px;
+    margin-bottom: 24px;
 	max-height: 192px;
 }
 
@@ -194,12 +204,7 @@ article {
 
 .introslide-sponsor {
 	max-height: 72px;
-	margin-top: 32px;
 	margin-bottom: 32px;
-}
-
-.introslide-partners {
-    padding-top:32px;
 }
 
 .introslide-title {
@@ -207,10 +212,6 @@ article {
 	text-shadow: 3px 4px #000000;
 	font-size: 42pt;
 	text-align: center;
-}
-
-.footer .partner {
-	margin-bottom: 64px;
 }
 
 .sponsor {
