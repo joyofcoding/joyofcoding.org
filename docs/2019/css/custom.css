@@ -192,9 +192,21 @@ article {
 	max-height: 160px;
 }
 
-
 .introslide-sponsor {
 	max-height: 72px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+.introslide-partners {
+    padding-top:32px;
+}
+
+.introslide-title {
+	color: #FFF;
+	text-shadow: 3px 4px #000000;
+	font-size: 42pt;
+	text-align: center;
 }
 
 .footer .partner {
