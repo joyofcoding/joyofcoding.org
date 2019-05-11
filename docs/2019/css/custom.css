@@ -398,3 +398,12 @@ article {
 	font-size: 12pt;
 	margin-top: 32px;
 }
+
+.lightningtalks h3 {
+	margin-top: 32px;
+	font-size: 16pt;
+}
+
+.lightningtalks h4 {
+	font-size: 12pt;
+}
