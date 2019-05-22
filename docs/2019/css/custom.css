@@ -205,7 +205,7 @@ article {
 .introslide-partner {
     margin-top: 24px;
     margin-bottom: 24px;
-	max-height: 192px;
+	max-height: 160px;
 }
 
 .introslide-partner-small {
@@ -213,8 +213,23 @@ article {
 }
 
 .introslide-sponsor {
-	max-height: 72px;
-	margin-bottom: 32px;
+	max-height: 64px;
+}
+
+.announcement {
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 36%;
+	font-weight: bold;
+	font-size: 16pt;
+}
+.announcement span {
+	color: #FFF;
+	text-shadow: 1px 2px #243a4f;
+}
+
+.bottom {
+	margin-bottom: 16px;
 }
 
 .introslide-title {
