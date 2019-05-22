@@ -408,6 +408,10 @@ article {
 	font-size: 12pt;
 }
 
+.cancelled {
+	text-decoration: line-through;
+}
+
 .ribbon {
   position: absolute;
   left: -5px; top: -5px;
