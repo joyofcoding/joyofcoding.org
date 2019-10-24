@@ -35,6 +35,17 @@
 	color: #EEE;
 }
 
+.the-robots-are-coming-2020 {
+	padding-top: 110px;
+	padding-bottom: 64px;
+	background-image: url('../img/joc-euromast-2.jpg');
+	background-size: cover;
+	background-position: center
+}
+.the-robots-are-coming-2020 a {
+	color: #EEE;
+}
+
 .the-robots-are-coming-small {
 	padding-top: 128px;
 	padding-bottom: 140px;
