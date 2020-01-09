@@ -12,8 +12,20 @@ body {
 	background-size: cover;
 }
 
+.small-erasmus {
+	background-image: url('../img/erasmus.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
 .main-background {
 	background-image: url('../img/background-main.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+.alt-background {
+	background-image: url('../img/background2.jpg');
 	background-position: center;
 	background-size: cover;
 }
@@ -44,6 +56,26 @@ body {
 	padding-top: 25px;
 	padding-bottom: 20px;
 	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+
+
+.small-title-row {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.small-dayof {
+	background-color: white;
+	color: black;
+	font-family: 'Teko', sans-serif;
+	font-weight: 400;
+	font-size: 25pt;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 	text-transform: uppercase;
 }
 
@@ -163,3 +195,39 @@ h3 {
 	margin-right: 15px;
 }
 
+.team {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.team .member {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 45px;
+	padding-right: 45px;
+	margin-right: 15px;	
+	margin-left: 15px;	
+	background-color: white;
+	color: black;
+}
+
+.organization {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.alumni, .legal, .editions  {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: white;
+	color: black;
+	height: 24em;
+} 
+
+pre {
+	font-family: 'Open Sans', sans-serif;
+	border: 0;
+	background-color: white;
+}
