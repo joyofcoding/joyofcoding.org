@@ -1,5 +1,6 @@
 body {
 	font-family: 'Open Sans', sans-serif;
+	line-height: 2em;
 }
 
 .clear {
@@ -84,7 +85,9 @@ body {
 	font-weight: 300;
 	font-size: 34pt;
 	text-align: center;
-	padding-top: 25px;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	text-transform: uppercase;
 }
 
 .nav {
@@ -148,10 +151,13 @@ h3 {
 }
 
 .title {
-	margin-top: 25px;
+	margin-top: 50px;
+	margin-bottom: 25px;
 	text-align: center;
 	color: white;
 }
+
+
 .title h1 {
 	background-color: #e95295;
 	display: inline;
@@ -196,8 +202,12 @@ h3 {
 }
 
 .team {
-	margin-top: 25px;
+	margin-top: 50px;
 	margin-bottom: 25px;
+}
+
+.team a {
+	color: black;
 }
 
 .team .member {
@@ -206,14 +216,28 @@ h3 {
 	padding-left: 45px;
 	padding-right: 45px;
 	margin-right: 15px;	
-	margin-left: 15px;	
 	background-color: white;
 	color: black;
+	font-size: 12pt;
+	min-height: 42em;
+}
+
+.team .member h2 {
+	font-size: 42pt;
+	text-transform: none;
+}
+
+.team .member .twitter {
+	min-height: 2em;
 }
 
 .organization {
 	margin-top: 25px;
 	margin-bottom: 25px;
+}
+
+.organization a {
+	color: black;
 }
 
 .alumni, .legal, .editions  {
@@ -224,7 +248,16 @@ h3 {
 	background-color: white;
 	color: black;
 	height: 24em;
+	line-height: 1.5em;
 } 
+
+.alumni {
+}
+
+.legal {
+	margin-left: 15px;
+}
+
 
 pre {
 	font-family: 'Open Sans', sans-serif;
