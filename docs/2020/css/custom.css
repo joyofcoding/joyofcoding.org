@@ -31,6 +31,23 @@ body {
 	background-size: cover;
 }
 
+.alt-background .twocol {
+	background-color: white;
+}
+
+.twocol {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+    font-size: 12pt;
+}
+
+.twocol h2 {
+	font-size: 42pt;
+	text-transform: none;
+}
+
 .top-space {
 	margin-top: 158px;
 }
@@ -64,6 +81,11 @@ body {
 .small-title-row {
 	padding-top: 15px;
 	padding-bottom: 15px;
+	text-align: center;
+}
+
+.small-title-row img {
+	max-height: 256px;
 }
 
 .small-dayof {
@@ -95,9 +117,10 @@ body {
 	display: inline-block;
 }
 
-.navigation a {
-	color: black;
+a {
+	color:black;
 }
+
 .navigation .nav li a:hover {
 	color: #e95295;
 	background: none;
@@ -201,13 +224,9 @@ h3 {
 	margin-right: 15px;
 }
 
-.team {
+.team, .content {
 	margin-top: 50px;
 	margin-bottom: 25px;
-}
-
-.team a {
-	color: black;
 }
 
 .team .member {
@@ -234,10 +253,6 @@ h3 {
 .organization {
 	margin-top: 25px;
 	margin-bottom: 25px;
-}
-
-.organization a {
-	color: black;
 }
 
 .alumni, .legal, .editions  {
