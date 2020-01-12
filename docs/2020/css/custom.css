@@ -287,6 +287,36 @@ pre {
 	background-color: white;
 }
 
+/* sponsor table */
+
+.sponsoring-table {
+	margin: 1em auto;
+	table-layout: fixed;
+	background-color: #eee;
+}
+
+.sponsoring-table .price {
+	border-top: 1px solid #fff;
+	font-weight: bold;
+}
+
+.sponsoring-table th {
+	font-weight:bold;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border-bottom: 1px solid #fff;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+.sponsoring-table td {
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+
 
 /* dropdown */
 
