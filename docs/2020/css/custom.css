@@ -209,7 +209,7 @@ h3 {
 	margin-top: 50px;
 }
 
-.partners, .sponsors {
+.partners, .sponsors, .lightningtalk {
 	margin-left: 30px;
 	margin-right: 30px;
 	margin-top: 50px;
@@ -223,6 +223,9 @@ h3 {
 	text-align: center;
 }
 
+.lightningtalk {
+	font-size: 14pt;
+}
 
 .image-container {
 	display: inline-block;
