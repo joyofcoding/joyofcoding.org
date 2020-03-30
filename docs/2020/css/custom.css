@@ -372,3 +372,6 @@ li .separator {
 
 .dropdown:hover .dropdown-content-b {display: block;}
 
+.cancelled {
+	text-decoration: line-through;
+}
