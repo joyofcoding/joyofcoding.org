@@ -175,6 +175,10 @@ h3 {
 	margin-bottom: 20px;
 }
 
+.about a {
+	color: #CCF
+}
+
 .about span {
 	display: block;
 	padding-bottom: 8px;
