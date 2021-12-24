@@ -239,6 +239,13 @@ h3 {
 	margin-right: 15px;
 }
 
+.image-container-reduced {
+	display: inline-block;
+	max-width: 96px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
 .team, .content {
 	margin-top: 50px;
 	margin-bottom: 25px;
