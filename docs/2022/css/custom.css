@@ -210,6 +210,13 @@ h3 {
 	margin-top: 75px;
 }
 
+.speaker-unknown {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border: 1px solid #e9c153;
+}
+
 .speakers {
 	margin-top: 50px;
 }
