@@ -242,6 +242,7 @@ h3 {
 .image-container {
 	display: inline-block;
 	max-width: 128px;
+	min-width: 96px;
 	margin-left: 15px;
 	margin-right: 15px;
 	padding-bottom: 15px;
