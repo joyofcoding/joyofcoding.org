@@ -350,7 +350,23 @@ pre {
 	padding-right: 0.5em;
 }
 
-
+.about .button {
+	margin-top: 5em;
+    background-color: #bab4a8;
+    color: black;
+    padding: 8px 20px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+}
+.about .button:hover {
+    color: white;
+    text-decoration: none;
+}
+.dedoelen {
+	margin-bottom: 1em;
+}
 
 /* dropdown */
 
