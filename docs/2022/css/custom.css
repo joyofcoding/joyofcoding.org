@@ -251,6 +251,7 @@ h3 {
 .image-container-reduced {
 	display: inline-block;
 	max-width: 80px;
+	min-width: 60px;
 	margin-left: 15px;
 	margin-right: 15px;
 	padding-bottom: 15px;
