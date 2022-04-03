@@ -427,3 +427,45 @@ li .separator {
 .cancelled {
 	text-decoration: line-through;
 }
+
+.schedule {
+	font-size: 14pt;
+}
+
+.schedule .row {
+	padding-bottom: 0.25em;
+	padding-top: 0.25em;
+}
+
+.schedule .odd {
+	background-color: #05d7f2;
+}
+
+.schedule .odder {
+	background-color: #000;
+	color: white;
+}
+
+.schedule A {
+	text-decoration: underline;
+}
+
+.talk {
+	font-size: 12pt;
+	background-color: #FFF;	
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.talk h2 {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;	
+}
+
+.talk .speaker-photo {
+	width: 12em;
+	height: 12em;
+	float: right;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
