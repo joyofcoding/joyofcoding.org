@@ -469,3 +469,19 @@ li .separator {
 	margin-left: 1em;
 	margin-bottom: 1em;
 }
+
+.introslide  .container {
+	width: 1800px;
+	overflow: hidden;
+}
+
+.introslide a {
+	text-decoration: none;
+}
+
+.introslide .content .row {
+	font-size: 11pt;
+	padding-bottom: 0em;
+	padding-top: 0em;
+	line-height: 1.6em;
+}
