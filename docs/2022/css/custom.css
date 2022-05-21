@@ -475,13 +475,27 @@ li .separator {
 	overflow: hidden;
 }
 
+.introcontent {
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
 .introslide a {
 	text-decoration: none;
 }
 
-.introslide .content .row {
-	font-size: 11pt;
+.introslide .introcontent .row {
+	font-size: 14pt;
 	padding-bottom: 0em;
 	padding-top: 0em;
 	line-height: 1.6em;
 }
+
+.sponsortable img {
+	height: 6em;
+}
+.introslide .sponsortable .row {
+	margin-top: 1em;
+	font-size: 14pt;
+}
+
