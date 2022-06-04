@@ -248,6 +248,15 @@ h3 {
 	padding-bottom: 15px;
 }
 
+.image-container-small {
+	display: inline-block;
+	max-width: 96px;
+	min-width: 60px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-bottom: 15px;
+}
+
 .image-container-reduced {
 	display: inline-block;
 	max-width: 80px;
