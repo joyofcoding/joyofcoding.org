@@ -8,5 +8,5 @@ From 2018 onwards, all URL paths except `/index.html` shall start with a year di
 ## Joy of Coding 2018
 
 The web site for 2018 will probably be hand-coded static HTML and CSS, with no JavaScript.
-The rationale for this choice is that there is too little content and two few changes over time to justify the development and maintenance effort of using any kind of framework or sitebuilder.
+The rationale for this choice is that there is too little content and too few changes over time to justify the development and maintenance effort of using any kind of framework or sitebuilder.
 For the CSS, flexbox layout’s browser support is good enough to make a CSS framework unecessary.
