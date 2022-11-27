@@ -1,12 +1,14 @@
 ## 2023 Website backlog
 - [x] Base frame (copy 2022)
 - [x] Initial  coming soon homepage + link
-- [ ] Homepage sync with 2023 homepage
+- [x] Homepage sync with 2023 homepage
+   - WIP
+- [ ] Team
+   - WIP
 - [ ] Logo
 - [ ] Colors
 - [ ] Speakers
 - [ ] Sponsors
-- [ ] Team
 - [ ] Venue
 - [ ] Pre-party info
 - [ ] Schedule
