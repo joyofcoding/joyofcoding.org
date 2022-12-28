@@ -8,13 +8,13 @@ body {
 }
 
 .erasmus {
-	background-image: url('../img/erasmus-glitch3.jpg');
+	background-image: url('../img/erasmus-night.png');
 	background-position: center;
 	background-size: cover;
 }
 
 .small-erasmus {
-	background-image: url('../img/erasmus-glitch3.jpg');
+	background-image: url('../img/erasmus-night.png');
 	background-position: center;
 	background-size: cover;
 }
@@ -53,11 +53,10 @@ body {
 }
 
 .subtitle {
-	background-color: white;
-	color: black;
+	color: white;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
-	font-size: 14pt;
+	font-size: 16pt;
 	font-style: italic;
 	line-height: 1em;
 	padding: 14px 30px 14px 40px;
@@ -66,7 +65,7 @@ body {
 
 .dayof {
 	/*background-color: #e95295;*/
-	background-color: #e9c153;
+	background-color: #824d67;
 	color: white;
 	font-family: 'Teko', sans-serif;
 	font-weight: 400;
@@ -130,7 +129,7 @@ a {
 }
 
 .navigation .nav li a:hover {
-	color: #e9c153;
+	color: #824d67;
 	background: none;
 }
 
@@ -168,11 +167,11 @@ h3 {
 
 .about {
 	color: white;
-	background-color: #08466f;
+	background-color: #824d67;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-top: 40px; 
-	padding-bottom: 40px; 
+	padding-top: 40px;
+	padding-bottom: 40px;
 	margin-bottom: 20px;
 }
 
@@ -194,13 +193,13 @@ h3 {
 
 
 .title h1 {
-	background-color: #e9c153;
+	background-color: #824d67;
 	display: inline;
 	padding-left: 25px;
 	padding-right: 25px;
 }
 .title h2 {
-	background-color: #e9c153;
+	background-color: #824d67;
 	display: inline;
 	padding-left: 25px;
 	padding-right: 25px;
@@ -214,7 +213,7 @@ h3 {
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	border: 1px solid #e9c153;
+	border: 1px solid #824d67;
 }
 
 .speakers {
@@ -231,7 +230,7 @@ h3 {
 	padding-top: 25px;
 	padding-bottom: 25px;
 	padding-left: 15px;
-	padding-right: 15px;	
+	padding-right: 15px;
 	text-align: center;
 }
 
@@ -285,7 +284,7 @@ h3 {
 	padding-bottom: 25px;
 	padding-left: 45px;
 	padding-right: 45px;
-	margin-right: 15px;	
+	margin-right: 15px;
 	background-color: white;
 	color: black;
 	font-size: 12pt;
@@ -315,7 +314,7 @@ h3 {
 	color: black;
 	height: 24em;
 	line-height: 1.5em;
-} 
+}
 
 .alumni {
 }
@@ -421,7 +420,7 @@ li .separator {
 }
 
 .dropbtn {
-  color: black;	
+  color: black;
   cursor: pointer;
 }
 
@@ -461,14 +460,14 @@ li .separator {
 
 .talk {
 	font-size: 12pt;
-	background-color: #FFF;	
+	background-color: #FFF;
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
 
 .talk h2 {
 	padding-top: 0.5em;
-	padding-bottom: 0.5em;	
+	padding-bottom: 0.5em;
 }
 
 .talk .speaker-photo {
@@ -507,4 +506,3 @@ li .separator {
 	margin-top: 1em;
 	font-size: 14pt;
 }
-
