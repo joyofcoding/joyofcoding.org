@@ -1,0 +1,20 @@
+## 2023 Website backlog
+- [x] Base frame (copy 2022)
+- [x] Initial  coming soon homepage + link
+- [x] Homepage sync with 2023 homepage
+   - WIP
+- [x] Team
+   - WIP
+- [ ] Logo
+- [ ] Colors
+- [ ] Speakers
+   - WIP
+- [ ] Sponsors
+- [ ] Venue
+- [ ] Pre-party info
+- [ ] Schedule
+- [ ] Information
+- [ ] Price and Tickets
+- [ ] Covid info
+- [ ] Review 2023
+- In each speaker html change the schedule

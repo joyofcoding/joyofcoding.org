@@ -1,0 +1,518 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 2em;
+}
+
+.clear {
+	clear: both;
+}
+
+.erasmus {
+	background-image: url('../img/erasmus-night.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.small-erasmus {
+	background-image: url('../img/erasmus-night.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.main-background {
+	background-image: url('../img/background-main.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+.alt-background {
+	background-image: url('../img/background2.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+.alt-background .twocol {
+	background-color: white;
+}
+
+.twocol {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+    font-size: 12pt;
+}
+
+.twocol h2 {
+	font-size: 42pt;
+	text-transform: none;
+}
+
+.top-space {
+	margin-top: 158px;
+}
+
+.subtitle {
+	background-color: rgba(0, 27, 74, 0.6);
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 16pt;
+	font-style: italic;
+	line-height: 1em;
+	padding: 14px 30px 14px 40px;
+	margin-bottom: 20px;
+}
+
+.dayof {
+	/*background-color: #e95295;*/
+	background-color: #824d67;
+	color: white;
+	font-family: 'Teko', sans-serif;
+	font-weight: 400;
+	font-size: 34pt;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+
+
+.small-title-row {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+.small-title-row img {
+	max-height: 256px;
+}
+
+.small-dayof {
+	background-color: white;
+	color: black;
+	font-family: 'Teko', sans-serif;
+	font-weight: 400;
+	font-size: 25pt;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+
+.navigation {
+	font-family: 'Teko', sans-serif;
+	font-weight: 300;
+	font-size: 34pt;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	text-transform: uppercase;
+}
+
+.nav {
+	float:none;
+	display: inline-block;
+}
+
+.navbar-nav > li  div {
+	padding: 10px 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
+}
+
+a {
+	color:black;
+}
+
+.navigation .nav li a:hover {
+	color: #824d67;
+	background: none;
+}
+
+img {
+	max-width:100%;
+	max-height:100%;
+}
+
+h1 {
+	font-family: 'Teko', sans-serif;
+	font-weight: 400;
+	font-size: 44pt;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: 'Teko', sans-serif;
+	font-weight: 400;
+	font-size: 24pt;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-family: 'Teko', sans-serif;
+	font-weight: 400;
+	font-size: 20pt;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+
+.about {
+	color: white;
+	background-color: #824d67;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-bottom: 20px;
+}
+
+.about a {
+	color: #CCF
+}
+
+.about span {
+	display: block;
+	padding-bottom: 8px;
+}
+
+.title {
+	margin-top: 50px;
+	margin-bottom: 25px;
+	text-align: center;
+	color: white;
+}
+
+
+.title h1 {
+	background-color: #824d67;
+	display: inline;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.title h2 {
+	background-color: #824d67;
+	display: inline;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.sponsor-title {
+	margin-top: 75px;
+}
+
+.speaker-unknown {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border: 1px solid #824d67;
+}
+
+.speakers {
+	margin-top: 50px;
+}
+
+.partners, .sponsors, .lightningtalk {
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: white;
+	box-shadow: 15px 15px #bab4a8;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+}
+
+.lightningtalk {
+	font-size: 14pt;
+}
+
+.image-container {
+	display: inline-block;
+	max-width: 128px;
+	min-width: 96px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-bottom: 15px;
+}
+
+.image-container-small {
+	display: inline-block;
+	max-width: 96px;
+	min-width: 60px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-bottom: 15px;
+}
+
+.image-container-reduced {
+	display: inline-block;
+	max-width: 80px;
+	min-width: 60px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-bottom: 15px;
+}
+
+.image-container-wide {
+	display: inline-block;
+	max-width: 160px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-bottom: 15px;
+}
+
+
+.team, .content {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.team .member {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 45px;
+	padding-right: 45px;
+	margin-right: 15px;
+	background-color: white;
+	color: black;
+	font-size: 12pt;
+	/* min-height: 42em; */
+}
+
+.team .member h2 {
+	font-size: 42pt;
+	text-transform: none;
+}
+
+.team .member .twitter {
+	min-height: 2em;
+}
+
+.organizer-photo {
+	width: 11em;
+	height: 11em;
+	float: left;
+	margin-right: 1em;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+.organization {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.alumni, .legal, .editions  {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: white;
+	color: black;
+	height: 24em;
+	line-height: 1.5em;
+}
+
+.alumni {
+}
+
+.legal {
+	margin-left: 15px;
+}
+
+
+pre {
+	font-family: 'Open Sans', sans-serif;
+	border: 0;
+	background-color: white;
+}
+
+/* sponsor table */
+
+.sponsoring-table {
+	margin: 1em auto;
+	table-layout: fixed;
+	background-color: #eee;
+}
+
+.sponsoring-table .price {
+	border-top: 1px solid #fff;
+	font-weight: bold;
+}
+
+.sponsoring-table th {
+	font-weight:bold;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border-bottom: 1px solid #fff;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+.sponsoring-table td {
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+.about .button {
+	margin-top: 5em;
+    background-color: #bab4a8;
+    color: black;
+    padding: 8px 20px;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+}
+.about .button:hover {
+    color: white;
+    text-decoration: none;
+}
+.dedoelen {
+	margin-bottom: 1em;
+}
+
+/* dropdown */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+li .separator {
+	border: 1px solid black;
+}
+
+.dropdown-content {
+	background-color: #0aaaca;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    list-style: none;
+    padding-left: 0;
+    font-size: 24pt;
+}
+
+.dropdown-content-b {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    list-style: none;
+    padding-left: 0;
+    font-size: 24pt;
+    background-color: #faf3e1;
+}
+
+.dropdown-content a, .dropdown-content-b a {
+  padding: 12px 16px;
+  display: block;
+}
+
+.dropdown-content a:hover, .dropdown-content-b a:hover {
+  text-decoration: none;
+}
+
+.dropbtn {
+  color: black;
+  cursor: pointer;
+}
+
+.disabled {
+  color: #444;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropdown-content-b {display: block;}
+
+.cancelled {
+	text-decoration: line-through;
+}
+
+.schedule {
+	font-size: 14pt;
+}
+
+.schedule .row {
+	padding-bottom: 0.25em;
+	padding-top: 0.25em;
+}
+
+.schedule .odd {
+	background-color: #05d7f2;
+}
+
+.schedule .odder {
+	background-color: #000;
+	color: white;
+}
+
+.schedule A {
+	text-decoration: underline;
+}
+
+.talk {
+	font-size: 12pt;
+	background-color: #FFF;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.talk h2 {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.talk .speaker-photo {
+	width: 12em;
+	height: 12em;
+	float: right;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+.introslide  .container {
+	width: 1800px;
+	overflow: hidden;
+}
+
+.introcontent {
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+.introslide a {
+	text-decoration: none;
+}
+
+.introslide .introcontent .row {
+	font-size: 14pt;
+	padding-bottom: 0em;
+	padding-top: 0em;
+	line-height: 1.6em;
+}
+
+.sponsortable img {
+	height: 6em;
+}
+.introslide .sponsortable .row {
+	margin-top: 1em;
+	font-size: 14pt;
+}
