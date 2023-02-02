@@ -40,7 +40,7 @@ body {
 	padding-right: 25px;
 	padding-top: 25px;
 	padding-bottom: 25px;
-    font-size: 12pt;
+  font-size: 12pt;
 }
 
 .twocol h2 {
@@ -65,7 +65,6 @@ body {
 }
 
 .dayof {
-	/*background-color: #e95295;*/
 	background-color: #824d67;
 	color: white;
 	font-family: 'Teko', sans-serif;
@@ -120,19 +119,21 @@ body {
 
 .navbar-nav > li  div {
 	padding: 10px 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    line-height: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 20px;
+  color: #bcdcfc;
 }
 
 a {
 	color:black;
 }
 
-.navigation .nav li a:hover {
-	color: #824d67;
+.navigation .nav li a {
+	color: #bcdcfc;
 	background: none;
 }
+
 
 img {
 	max-width:100%;
@@ -417,7 +418,7 @@ li .separator {
     list-style: none;
     padding-left: 0;
     font-size: 24pt;
-    background-color: #faf3e1;
+    background-color: #001b4a;
 }
 
 .dropdown-content a, .dropdown-content-b a {
