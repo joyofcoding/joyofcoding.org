@@ -143,6 +143,12 @@ a {
 	color:black;
 }
 
+#subscribe a {
+	color: #824d67;
+	font-family: system-ui;
+	font-weight: bolder;
+}
+
 .navigation .nav li a {
 	color: #bcdcfc;
 	background: none;
@@ -531,3 +537,5 @@ li .separator {
 	margin-top: 1em;
 	font-size: 14pt;
 }
+
+
