@@ -143,9 +143,9 @@ a {
 	color:black;
 }
 
-#subscribe a {
+.redirect a {
 	color: #824d67;
-	font-family: system-ui;
+	font-family: sans-serif;
 	font-weight: bolder;
 }
 
