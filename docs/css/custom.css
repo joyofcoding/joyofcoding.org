@@ -143,6 +143,12 @@ a {
 	color:black;
 }
 
+.redirect a {
+	color: #824d67;
+	font-family: sans-serif;
+	font-weight: bolder;
+}
+
 .navigation .nav li a {
 	color: #bcdcfc;
 	background: none;
