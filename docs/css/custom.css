@@ -242,6 +242,12 @@ h3 {
 	margin-top: 50px;
 }
 
+.speaker {
+	background-color: white;
+	margin: 5px;
+	padding: 30px;
+}
+
 .partners, .sponsors, .lightningtalk {
 	margin-left: 30px;
 	margin-right: 30px;
@@ -502,8 +508,8 @@ li .separator {
 }
 
 .talk .speaker-photo {
-	width: 12em;
-	height: 12em;
+	width: 10em;
+	height: 10em;
 	float: right;
 	margin-left: 1em;
 	margin-bottom: 1em;
