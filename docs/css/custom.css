@@ -77,7 +77,6 @@ body {
 	text-transform: uppercase;
 }
 
-
 .small-title-row {
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -141,6 +140,19 @@ body {
 
 a {
 	color:black;
+}
+
+.redirect {
+	background-color: white;
+	color: black;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 12pt;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+	text-transform: uppercase;
 }
 
 .redirect a {
