@@ -509,12 +509,12 @@ li .separator {
 }
 
 .schedule .odd {
-	background-color: #05d7f2;
+	background-color: #bcdcfc;
 }
 
 .schedule .odder {
-	background-color: #000;
-	color: white;
+	background-color: #001b4a;
+	color: #bcdcfc;
 }
 
 .schedule A {
@@ -568,4 +568,10 @@ li .separator {
 .introslide .sponsortable .row {
 	margin-top: 1em;
 	font-size: 14pt;
+}
+
+.fa .fa-envelope a {
+	color: #824d67;
+	font-family: sans-serif;
+	font-weight: bolder;
 }
