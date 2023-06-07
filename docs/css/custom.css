@@ -25,6 +25,20 @@ body {
 	background-size: cover;
 }
 
+.main-background h2 {
+	color: white;
+	font-family: 'Teko', sans-serif;
+	font-weight: 400;
+	font-size: 24pt;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+
+.main-background p {
+	color: white;
+}
+
 .alt-background {
 	background-image: url('../img/background2.jpg');
 	background-position: center;
@@ -574,4 +588,14 @@ li .separator {
 	color: #824d67;
 	font-family: sans-serif;
 	font-weight: bolder;
+}
+
+.mb-link {
+	color: #824d67;
+	font-weight: bold;
+}
+
+.ab-link {
+	color: #33689d;
+	font-weight: bold;
 }
