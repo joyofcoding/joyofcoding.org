@@ -360,6 +360,7 @@ h3 {
 }
 
 .team .member h2 {
+	color: black;
 	font-size: 42pt;
 	text-transform: none;
 }
@@ -598,4 +599,8 @@ li .separator {
 .ab-link {
 	color: #33689d;
 	font-weight: bold;
+}
+
+.blacktext h2 {
+	color: black;
 }
