@@ -4,65 +4,9 @@ layout: default
 
 <main id="main" class="main-content" aria-label="Content">
 
-  <div class="erasmus">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="top-space"></div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-4">
-          <img src="./img/logo.png" alt="Joy of Coding Logo">
-        </div>
-        <div class="col-md-4">
-          <img src="./img/logo-text.png" alt="Joy of Coding">
-        </div>
-        <div class="col-md-2"></div>
-      </div>
-      <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
-          <div class="subtitle center">
-            <span>Celebrating the art, craft, science and joy of software development</span>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-4">
-          <div class="dayof rounded">
-            <span class="">Coming June 23rd, 2023</span>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="dayof rounded">
-            <span class=""><a href="https://joyofcoding.stager.nl/web/tickets/111247858" target="_blank"
-                class="text-light">Get your tickets!</a></span>
-          </div>
-        </div>
-        <div class="col-md-2"></div>
-      </div>
-    </div>
-  </div>
+  {% include page_header.html %}
 
-  <div class="main-background">
-    <nav class="container">
-      <div class="row navigation justify-content-center">
-        <ul class="nav navbar-nav">
-          <li class="dropdown"><div><a href="./index.html">Home</a></div></li>
-          <li class="dropdown"><div><a href="./schedule.html">Schedule</a></div></li>
-          <li class="dropdown"><div><a href="./sponsoring.html">Sponsoring</a></div></li>
-          <li class="dropdown"><div><a href="./practical.html">Practical</a></div></li>
-          <li class="dropdown"><div><a href="./venue.html">Venue</a></div></li>
-          <li class="dropdown"><div><a href="./contact.html">Contact</a></div></li>
-          <li class="dropdown"><div><a href="https://joyofcoding.stager.nl/web/tickets/111247858" target="_blank">Tickets</a></div></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-
+  {% include menu.html %}
 
   {{ content }}
 
