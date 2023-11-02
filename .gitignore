@@ -14,3 +14,5 @@ Thumbs.db
 
 *.codekit3
 _site
+
+node_modules/
