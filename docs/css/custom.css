@@ -1,3 +1,16 @@
+:root {
+	--deep-orange: #E57330;       /* Deep Orange */
+	--darker-orange: #D84315;     /* Darker Orange */
+	--plum-purple: #8E24AA;       /* Plum Purple */
+	--leave-green: #388E3CFF;
+	--leave-green-rgba: 56, 142, 60;
+	--black: #000;
+	--white: #FFF;
+
+	--dark-brown: #4E342E;         /* Dark Brown */
+	--pale-peach: #FBE9E7;   /* Pale Peach */
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 2em;
@@ -20,13 +33,13 @@ body {
 }
 
 .main-background {
-	background-image: url('../img/background-main.jpg');
 	background-position: center;
 	background-size: cover;
+	background-color: var(--dark-brown);
 }
 
 .main-background h2 {
-	color: white;
+	color: var(--pale-peach);
 	font-family: 'Teko', sans-serif;
 	font-weight: 400;
 	font-size: 24pt;
@@ -36,7 +49,25 @@ body {
 }
 
 .main-background p {
-	color: white;
+	color: var(--pale-peach);
+}
+
+.main-title {
+	font-family: 'Teko', sans-serif;
+	line-height: 1.0;
+	font-weight: 400;
+	font-size: 100px;
+	text-transform: uppercase;
+	text-shadow: 5px 5px var(--deep-orange);
+}
+
+.right-title {
+	font-family: 'Teko', sans-serif;
+	line-height: 1.0;
+	font-weight: 400;
+	font-size: 70px;
+	text-transform: uppercase;
+	text-shadow: 5px 5px var(--deep-orange);
 }
 
 .alt-background {
@@ -46,7 +77,7 @@ body {
 }
 
 .alt-background .twocol {
-	background-color: white;
+	background-color: var(--white);
 }
 
 .twocol {
@@ -67,8 +98,8 @@ body {
 }
 
 .subtitle {
-	background-color: rgba(0, 27, 74, 0.6);
-	color: white;
+	background-color: rgba(var(--leave-green-rgba), 0.6);
+	color: var(--white);
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	font-size: 16pt;
@@ -79,8 +110,8 @@ body {
 }
 
 .dayof {
-	background-color: #824d67;
-	color: white;
+	background-color: var(--deep-orange);
+	color: var(--pale-peach);
 	font-family: 'Teko', sans-serif;
 	font-weight: 400;
 	font-size: 34pt;
@@ -102,8 +133,8 @@ body {
 }
 
 .small-dayof {
-	background-color: white;
-	color: black;
+	background-color: var(--pale-peach);
+	color: var(--black);
 	font-family: 'Teko', sans-serif;
 	font-weight: 400;
 	font-size: 25pt;
@@ -116,8 +147,8 @@ body {
 }
 
 .small-dayof-title {
-	background-color: #824d67;
-	color: white;
+	background-color: var(--deep-orange);
+	color: var(--pale-peach);
 	font-family: 'Teko', sans-serif;
 	font-weight: 400;
 	font-size: 25pt;
@@ -145,20 +176,18 @@ body {
 }
 
 .navbar-nav > li  div {
-	padding: 10px 15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  line-height: 20px;
-  color: #bcdcfc;
+	padding: 15px;
+	line-height: 20px;
+  	color: var(--deep-orange);
 }
 
 a {
-	color:black;
+	color: var(--black);
 }
 
 .redirect {
-	background-color: white;
-	color: black;
+	background-color: var(--pale-peach);
+	color: var(--black);
 	font-family: sans-serif;
 	font-weight: 400;
 	font-size: 12pt;
@@ -170,13 +199,13 @@ a {
 }
 
 .redirect a {
-	color: #824d67;
+	color: var(--deep-orange);
 	font-family: sans-serif;
 	font-weight: bolder;
 }
 
 .navigation .nav li a {
-	color: #bcdcfc;
+	color: var(--deep-orange);
 	background: none;
 }
 
@@ -214,8 +243,8 @@ h3 {
 }
 
 .about {
-	color: white;
-	background-color: #824d67;
+	color: var(--pale-peach);
+	background-color: var(--deep-orange);
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-top: 40px;
@@ -224,7 +253,7 @@ h3 {
 }
 
 .about a {
-	color: #CCF
+	color: var(--leave-green)
 }
 
 .about span {
@@ -236,18 +265,18 @@ h3 {
 	margin-top: 50px;
 	margin-bottom: 25px;
 	text-align: center;
-	color: white;
+	color: var(--pale-peach);
 }
 
 
 .title h1 {
-	background-color: #824d67;
+	background-color: var(--deep-orange);
 	display: inline;
 	padding-left: 25px;
 	padding-right: 25px;
 }
 .title h2 {
-	background-color: #824d67;
+	background-color: var(--deep-orange);
 	display: inline;
 	padding-left: 25px;
 	padding-right: 25px;
@@ -261,7 +290,7 @@ h3 {
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	border: 1px solid #824d67;
+	border: 1px solid var(--deep-orange);
 }
 
 .speakers {
@@ -269,7 +298,7 @@ h3 {
 }
 
 .speaker {
-	background-color: white;
+	background-color: var(--pale-peach);
 	margin: 5px;
 	padding: 30px;
 }
@@ -279,8 +308,8 @@ h3 {
 	margin-right: 30px;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	background-color: white;
-	box-shadow: 15px 15px #bab4a8;
+	background-color: var(--pale-peach);
+	box-shadow: 15px 15px var(--leave-green);
 	padding-top: 25px;
 	padding-bottom: 25px;
 	padding-left: 15px;
@@ -293,8 +322,8 @@ h3 {
 	margin-right: 30px;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	background-color: white;
-	box-shadow: 15px 15px #bab4a8;
+	background-color: var(--pale-peach);
+	box-shadow: 15px 15px var(--leave-green);
 	padding-top: 25px;
 	padding-bottom: 25px;
 	padding-left: 15px;
@@ -353,14 +382,14 @@ h3 {
 	padding-left: 45px;
 	padding-right: 45px;
 	margin-right: 15px;
-	background-color: white;
-	color: black;
+	background-color: var(--pale-peach);
+	color: var(--black);
 	font-size: 12pt;
 	/* min-height: 42em; */
 }
 
 .team .member h2 {
-	color: black;
+	color: var(--black);
 	font-size: 42pt;
 	text-transform: none;
 }
@@ -388,8 +417,8 @@ h3 {
 	padding-bottom: 25px;
 	padding-left: 15px;
 	padding-right: 15px;
-	background-color: white;
-	color: black;
+	background-color: var(--pale-peach);
+	color: var(--black);
 	height: 24em;
 	line-height: 1.5em;
 }
@@ -405,7 +434,7 @@ h3 {
 pre {
 	font-family: 'Open Sans', sans-serif;
 	border: 0;
-	background-color: white;
+	background-color: var(--pale-peach);
 }
 
 /* sponsor table */
@@ -413,11 +442,11 @@ pre {
 .sponsoring-table {
 	margin: 1em auto;
 	table-layout: fixed;
-	background-color: #eee;
+	background-color: var(--pale-peach);
 }
 
 .sponsoring-table .price {
-	border-top: 1px solid #fff;
+	border-top: 1px solid var(--white);
 	font-weight: bold;
 }
 
@@ -425,7 +454,7 @@ pre {
 	font-weight:bold;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid var(--white);
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 }
@@ -439,8 +468,8 @@ pre {
 
 .about .button {
 	margin-top: 5em;
-    background-color: #bab4a8;
-    color: black;
+    background-color: var(--leave-green);
+    color: var(--black);
     padding: 8px 20px;
     text-decoration:none;
     font-weight:bold;
@@ -448,7 +477,7 @@ pre {
     cursor:pointer;
 }
 .about .button:hover {
-    color: white;
+    color: var(--pale-peach);
     text-decoration: none;
 }
 .dedoelen {
@@ -467,7 +496,7 @@ li .separator {
 }
 
 .dropdown-content {
-	background-color: #0aaaca;
+	background-color: var(--leave-green);
     display: none;
     position: absolute;
     min-width: 160px;
@@ -485,7 +514,7 @@ li .separator {
     list-style: none;
     padding-left: 0;
     font-size: 24pt;
-    background-color: #001b4a;
+    background-color: var(--dark-brown);;
 }
 
 .dropdown-content a, .dropdown-content-b a {
@@ -498,12 +527,12 @@ li .separator {
 }
 
 .dropbtn {
-  color: black;
+  color: var(--black);
   cursor: pointer;
 }
 
 .disabled {
-  color: #444;
+  color: var(--dark-brown);
 }
 
 .dropdown:hover .dropdown-content {display: block;}
@@ -524,12 +553,12 @@ li .separator {
 }
 
 .schedule .odd {
-	background-color: #bcdcfc;
+	background-color: var(--pale-peach);
 }
 
 .schedule .odder {
-	background-color: #001b4a;
-	color: #bcdcfc;
+	background-color: var(--dark-brown);;
+	color: var(--white);
 }
 
 .schedule A {
@@ -538,7 +567,7 @@ li .separator {
 
 .talk {
 	font-size: 12pt;
-	background-color: #FFF;
+	background-color: var(--white);
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
@@ -586,21 +615,21 @@ li .separator {
 }
 
 .fa .fa-envelope a {
-	color: #824d67;
+	color: var(--deep-orange);
 	font-family: sans-serif;
 	font-weight: bolder;
 }
 
-.mb-link {
-	color: #824d67;
+.ab-link {
+	color: var(--leave-green);
 	font-weight: bold;
 }
 
-.ab-link {
-	color: #33689d;
+.ab-link:hover {
+	color: var(--leave-green);
 	font-weight: bold;
 }
 
 .blacktext h2 {
-	color: black;
+	color: var(--black);
 }
