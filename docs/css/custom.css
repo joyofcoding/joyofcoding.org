@@ -13,7 +13,7 @@
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	line-height: 2em;
+	line-height: 1.7em;
 }
 
 .clear {
@@ -183,6 +183,11 @@ body {
 
 a {
 	color: var(--black);
+}
+
+.themed {
+	color: var(--deep-orange);
+	background: none;
 }
 
 .redirect {
