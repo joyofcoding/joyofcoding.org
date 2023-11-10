@@ -2,8 +2,8 @@
 	--deep-orange: #E57330;       /* Deep Orange */
 	--darker-orange: #D84315;     /* Darker Orange */
 	--plum-purple: #8E24AA;       /* Plum Purple */
-	--leave-green: #388E3CFF;
-	--leave-green-rgba: 56, 142, 60;
+	--leaf-green: #388E3CFF;
+	--leaf-green-rgba: 56, 142, 60;
 	--black: #000;
 	--white: #FFF;
 
@@ -98,7 +98,7 @@ body {
 }
 
 .subtitle {
-	background-color: rgba(var(--leave-green-rgba), 0.6);
+	background-color: rgba(var(--leaf-green-rgba), 0.6);
 	color: var(--white);
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
@@ -253,7 +253,7 @@ h3 {
 }
 
 .about a {
-	color: var(--leave-green)
+	color: var(--leaf-green)
 }
 
 .about span {
@@ -309,7 +309,7 @@ h3 {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	background-color: var(--pale-peach);
-	box-shadow: 15px 15px var(--leave-green);
+	box-shadow: 15px 15px var(--leaf-green);
 	padding-top: 25px;
 	padding-bottom: 25px;
 	padding-left: 15px;
@@ -323,7 +323,7 @@ h3 {
 	margin-top: 50px;
 	margin-bottom: 50px;
 	background-color: var(--pale-peach);
-	box-shadow: 15px 15px var(--leave-green);
+	box-shadow: 15px 15px var(--leaf-green);
 	padding-top: 25px;
 	padding-bottom: 25px;
 	padding-left: 15px;
@@ -468,7 +468,7 @@ pre {
 
 .about .button {
 	margin-top: 5em;
-    background-color: var(--leave-green);
+    background-color: var(--leaf-green);
     color: var(--black);
     padding: 8px 20px;
     text-decoration:none;
@@ -496,7 +496,7 @@ li .separator {
 }
 
 .dropdown-content {
-	background-color: var(--leave-green);
+	background-color: var(--leaf-green);
     display: none;
     position: absolute;
     min-width: 160px;
@@ -627,12 +627,12 @@ li .separator {
 }
 
 .ab-link {
-	color: var(--leave-green);
+	color: var(--leaf-green);
 	font-weight: bold;
 }
 
 .ab-link:hover {
-	color: var(--leave-green);
+	color: var(--leaf-green);
 	font-weight: bold;
 }
 
