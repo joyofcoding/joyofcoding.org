@@ -185,11 +185,6 @@ a {
 	color: var(--black);
 }
 
-.themed {
-	color: var(--deep-orange);
-	background: none;
-}
-
 .redirect {
 	background-color: var(--pale-peach);
 	color: var(--black);
@@ -623,6 +618,12 @@ li .separator {
 	color: var(--deep-orange);
 	font-family: sans-serif;
 	font-weight: bolder;
+}
+
+.ab-italic {
+	color: var(--deep-orange);
+	font-weight: bold;
+	font-style: italic;
 }
 
 .ab-link {
