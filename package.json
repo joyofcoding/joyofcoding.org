@@ -18,6 +18,9 @@
     "IE 9"
   ],
   "scripts": {
-    "serve": "browser-sync start --https --server docs"
+    "serve": "browser-sync start --https --server docs",
+    "jekyll:build": "jekyll build --source jekyll --destination jekyll/_site",
+    "jekyll:copy": "cp -a jekyll/_site/* docs"
+    
   }
 }
