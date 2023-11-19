@@ -122,6 +122,19 @@ body {
 	text-transform: uppercase;
 }
 
+.dayof-ticket {
+	background-color: var(--leaf-green);
+	color: var(--pale-peach);
+	font-family: 'Teko', sans-serif;
+	font-weight: 400;
+	font-size: 34pt;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+
 .small-title-row {
 	padding-top: 15px;
 	padding-bottom: 15px;
