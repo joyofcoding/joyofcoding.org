@@ -20,7 +20,7 @@
   "scripts": {
     "serve": "browser-sync start --https --server docs",
     "jekyll:build": "jekyll build --source jekyll --destination jekyll/_site",
-    "jekyll:copy": "cp -a jekyll/_site/* docs"
-    
+    "jekyll:copy": "cp -a jekyll/_site/* docs",
+    "jekyll:serve": "browser-sync start --https --server jekyll/_site"
   }
 }
