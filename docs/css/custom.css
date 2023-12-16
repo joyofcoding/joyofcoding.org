@@ -590,6 +590,17 @@ li .separator {
 	padding-bottom: 0.5em;
 }
 
+.speaker-name {
+	margin-left: 1em;
+}
+
+.speaker-photo {
+	width: 15em;
+	height: 15em;
+	margin-left: 5em;
+	margin-right: 5em;
+}
+
 .talk .speaker-photo {
 	width: 10em;
 	height: 10em;
