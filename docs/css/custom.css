@@ -199,7 +199,7 @@ a {
 }
 
 .redirect {
-	background-color: var(--pale-peach);
+	background-color: var(--white);
 	color: var(--black);
 	font-family: sans-serif;
 	font-weight: 400;
@@ -352,6 +352,15 @@ h3 {
 	display: inline-block;
 	max-width: 128px;
 	min-width: 96px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-bottom: 15px;
+}
+
+.image-container-medium {
+	display: inline-block;
+	max-width: 200px;
+	min-width: 200px;
 	margin-left: 15px;
 	margin-right: 15px;
 	padding-bottom: 15px;
