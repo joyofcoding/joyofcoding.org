@@ -222,6 +222,10 @@ a {
 	background: none;
 }
 
+.navigation .nav li .dropbtn {
+	color: var(--leaf-green);
+	background: none;
+}
 
 img {
 	max-width:100%;
@@ -513,6 +517,14 @@ pre {
   display: inline-block;
 }
 
+.dropdown ul a:hover {
+	text-decoration: underline;
+}
+
+.dropbtn:hover {
+	text-decoration: underline;
+}
+
 li .separator {
 	border: 1px solid black;
 }
@@ -531,7 +543,7 @@ li .separator {
 .dropdown-content-b {
     display: none;
     position: absolute;
-    min-width: 160px;
+    min-width: 180px;
     z-index: 1;
     list-style: none;
     padding-left: 0;
@@ -546,11 +558,6 @@ li .separator {
 
 .dropdown-content a:hover, .dropdown-content-b a:hover {
   text-decoration: none;
-}
-
-.dropbtn {
-  color: var(--black);
-  cursor: pointer;
 }
 
 .disabled {
