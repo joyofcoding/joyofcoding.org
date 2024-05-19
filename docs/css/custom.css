@@ -675,6 +675,11 @@ li .separator {
 	font-weight: bold;
 }
 
+.as-link:hover a {
+	color: var(--leaf-green);
+	font-weight: bold;
+}
+
 .blacktext h2 {
 	color: var(--black);
 }
