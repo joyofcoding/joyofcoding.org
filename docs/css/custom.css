@@ -21,13 +21,13 @@ body {
 }
 
 .erasmus {
-	background-image: url('../img/erasmus-night.png');
+	background-image: url('../img/erasmus-collage.jpg');
 	background-position: center;
 	background-size: cover;
 }
 
 .small-erasmus {
-	background-image: url('../img/erasmus-night.png');
+	background-image: url('../img/erasmus-collage.jpg');
 	background-position: center;
 	background-size: cover;
 }
@@ -57,8 +57,9 @@ body {
 	line-height: 1.0;
 	font-weight: 400;
 	font-size: 100px;
+	color: var(--pale-peach);
 	text-transform: uppercase;
-	text-shadow: 5px 5px var(--deep-orange);
+	text-shadow: 5px 5px var(--leaf-green);
 }
 
 .right-title {
@@ -66,8 +67,9 @@ body {
 	line-height: 1.0;
 	font-weight: 400;
 	font-size: 70px;
+	color: var(--pale-peach);
 	text-transform: uppercase;
-	text-shadow: 5px 5px var(--deep-orange);
+	text-shadow: 5px 5px var(--leaf-green);
 }
 
 .alt-background {

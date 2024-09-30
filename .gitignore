@@ -16,3 +16,9 @@ Thumbs.db
 _site
 
 node_modules/
+
+.project
+docs/assets/
+docs/feed.xml
+jekyll/.bundle/
+jekyll/vendor/
