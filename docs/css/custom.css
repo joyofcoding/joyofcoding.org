@@ -1,12 +1,10 @@
 :root {
 	--verdigris: #00b1b1ff;
 	--midnight-green: #114b5fff;
-	--midnight-green-rgba: 17, 75, 95;
 	--french-gray: #c8bfc7ff;
-	--french-gray-rgba: 200, 191, 199;
 	--battleship-gray: #764E05ff;
+	--battleship-gray-rgba: 118, 75, 5;
 	--hunyadi-yellow: #F6AE2Dff;
-	--hunyadi-yellow-rgba: 246, 174, 45;
 	--isabelline: #faf6f3ff;
 	--licorice: #251101ff;
 
@@ -109,7 +107,7 @@ main {
 }
 
 .subtitle {
-	background-color: rgba(var(--french-gray-rgba), 0.4);
+	background-color: rgba(var(--battleship-gray-rgba), 0.6);
 	color: var(--isabelline);
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
