@@ -638,6 +638,10 @@ li .separator {
 	font-size: 14pt;
 }
 
+.center {
+	text-align: center;
+}
+
 .fa .fa-envelope a {
 	color: var(--secondary);
 	font-family: sans-serif;
@@ -666,6 +670,7 @@ li .separator {
 }
 
 footer {
+	text-align: center;
 	background-color: var(--tertiary);
 	color: var(--secondary);
 }
