@@ -145,6 +145,18 @@ main {
 	text-transform: uppercase;
 }
 
+.dayof-ticket-small {
+	background-color: var(--primary);
+	color: var(--background);
+	font-family: 'Teko', sans-serif;
+	font-weight: 400;
+	font-size: 25pt;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+
 .small-title-row {
 	padding-top: 15px;
 	padding-bottom: 15px;
