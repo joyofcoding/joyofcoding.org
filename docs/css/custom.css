@@ -337,9 +337,29 @@ h3 {
 }
 
 .speaker {
-	background-color: var(--background);
+	background-color: var(--accentLight);
 	margin: 5px;
 	padding: 30px;
+}
+
+.speaker-name {
+	text-align: center;
+}
+
+.speaker-photo {
+	width: 15em;
+	height: 15em;
+	align-self: center;
+	/*margin-left: 5em;*/
+	/*margin-right: 5em;*/
+}
+
+.talk .speaker-photo {
+	width: 10em;
+	height: 10em;
+	float: right;
+	margin-left: 1em;
+	margin-bottom: 1em;
 }
 
 .partners, .sponsors, .lightningtalk {
@@ -601,25 +621,6 @@ li .separator {
 	padding-bottom: 0.5em;
 }
 
-.speaker-name {
-	text-align: center;
-}
-
-.speaker-photo {
-	width: 15em;
-	height: 15em;
-	margin-left: 5em;
-	margin-right: 5em;
-}
-
-.talk .speaker-photo {
-	width: 10em;
-	height: 10em;
-	float: right;
-	margin-left: 1em;
-	margin-bottom: 1em;
-}
-
 .introslide  .container {
 	width: 1800px;
 	overflow: hidden;
@@ -682,6 +683,8 @@ li .separator {
 }
 
 footer {
+	padding-top: 5rem;
+	padding-bottom: 2rem;
 	text-align: center;
 	background-color: var(--tertiary);
 	color: var(--secondary);
