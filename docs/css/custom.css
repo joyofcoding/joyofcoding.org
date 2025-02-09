@@ -236,9 +236,6 @@ a {
 	font-weight: 400;
 	font-size: 12pt;
 	text-align: center;
-	padding-top: 25px;
-	padding-bottom: 20px;
-	margin-bottom: 50px;
 	text-transform: uppercase;
 }
 
@@ -402,6 +399,15 @@ h3 {
 	display: inline-block;
 	max-width: 128px;
 	min-width: 96px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-bottom: 15px;
+}
+
+.image-container-large{
+	display: inline-block;
+	max-width: 300px;
+	min-width: 300px;
 	margin-left: 15px;
 	margin-right: 15px;
 	padding-bottom: 15px;
