@@ -5,7 +5,7 @@
   "author": "Devnology",
   "dependencies": {},
   "devDependencies": {
-    "browser-sync": "2.29.3",
+    "browser-sync": "3.0.2",
     "clean": "4.0.2",
     "parallelshell": "3.0.2",
     "watch": "1.0.2",
