@@ -602,22 +602,21 @@ li .separator {
 	padding-top: 0.25em;
 }
 
-.schedule .odd {
-	background-color: var(--background);
-}
-
 .schedule .odder {
-	background-color: var(--tertiary);;
-	color: var(--accentLight);
+	background-color: var(--accentLight);;
+	color: var(--accentDark);
 }
 
 .schedule A {
 	text-decoration: underline;
 }
 
+.talk-container .schedule {
+	font-size: 12pt;
+}
+
 .talk {
 	font-size: 12pt;
-	background-color: var(--accentLight);
 	padding-top: 1em;
 	padding-bottom: 1em;
 }
