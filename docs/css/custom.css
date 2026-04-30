@@ -132,6 +132,10 @@ main {
 	line-height: 28pt;
 }
 
+.dayof a {
+	color: var(--hunyadi-yellow);
+}
+
 .dayof-ticket {
 	background-color: var(--primary);
 	color: var(--background);
